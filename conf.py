@@ -21,12 +21,6 @@ sys.path.append(os.path.abspath('../oppia/'))
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-import django 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
-if django.VERSION < (1, 4):
-    from django.core.management import setup_environ
-    settings = __import__(os.environ["DJANGO_SETTINGS_MODULE"])
-    setup_environ(settings)
 
 # -- General configuration -----------------------------------------------------
 
@@ -75,7 +69,7 @@ release = '0.12.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = ['_build','env']
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
