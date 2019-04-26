@@ -22,6 +22,7 @@ Issue list:
 * 598: static/oppia/style.css file now redundant - https://github.com/DigitalCampus/django-oppia/issues/598
 * 572: Update/review docs for how the offline registration works - https://github.com/DigitalCampus/django-oppia/issues/572
 * 593: Make email and phone no optional on registration - https://github.com/DigitalCampus/django-oppia/issues/593
+* 602: Move the docs to their own repository - https://github.com/DigitalCampus/django-oppia/issues/602
 
 .. _serverv0.11.0:
 
