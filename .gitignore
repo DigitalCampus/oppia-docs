@@ -1,0 +1,16 @@
+*.pyc
+*~
+.project
+.pydevproject
+.scannerwork
+.settings/
+/build
+/dist
+/django_oppia.egg-info
+/src
+/.idea
+/.eggs
+/.scannerwork
+oppiamobile/settings_secret.py
+.coverage
+
