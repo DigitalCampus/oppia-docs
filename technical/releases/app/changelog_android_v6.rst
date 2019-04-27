@@ -24,6 +24,8 @@ Issues fixed in previous version/s - but recently updated on Github issue lists:
 * 679: Update and solve dependencies for Gradle v3.+ - https://github.com/DigitalCampus/oppia-mobile-android/issues/679
 * 524: Launch activity from an SMS message - https://github.com/DigitalCampus/oppia-mobile-android/issues/524
 * 252: In quizzes how to shuffle the response options - https://github.com/DigitalCampus/oppia-mobile-android/issues/252
+* 813: v6.8.0 does not send data to the server - https://github.com/DigitalCampus/oppia-mobile-android/issues/813
+* 814: Reconnecting Devices over Bluetooth - https://github.com/DigitalCampus/oppia-mobile-android/issues/814
 
 .. _appv67:
 
