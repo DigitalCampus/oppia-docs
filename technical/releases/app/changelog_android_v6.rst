@@ -20,6 +20,7 @@ Issue list:
 * 602: Numerical input type questions shows JSON text on feedback content - https://github.com/DigitalCampus/oppia-mobile-android/issues/602
 * 767: Pre-test pop up still appears after pre-test has been completed - https://github.com/DigitalCampus/oppia-mobile-android/issues/767
 * 805: Possible bug: android.os.FileUriExposedException: file exposed beyond app through Intent.getData() - https://github.com/DigitalCampus/oppia-mobile-android/issues/805
+* 824: com.github.fabioCollini:DaggerMock:0.6.2 in the app gradle file - https://github.com/DigitalCampus/oppia-mobile-android/issues/824
 
 Issues fixed in previous version/s - but recently updated on Github issue lists:
 

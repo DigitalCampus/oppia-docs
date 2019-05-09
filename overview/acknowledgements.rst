@@ -57,3 +57,5 @@ Contributors
 * `Last Mile Health <http://lastmilehealth.org/>`_ - Funding for additional development
 * David Gil de Gómez Pérez - technical development, performance improvements and bug fixes
 * `Lex Myers <https://github.com/lexm/>`_
+* `Kawesi Hakim <https://github.com/hakimks>`_
+
