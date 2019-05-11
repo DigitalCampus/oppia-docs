@@ -10,6 +10,9 @@ v0.11.1 - not yet released
 
 Key updates:
 
+* Documentation moved to its own repository: https://github.com/DigitalCampus/oppia-docs
+* Interface for customising the points for individual activities
+
 Issue list:
 
 * 600: On about page use download link from the server settings - https://github.com/DigitalCampus/django-oppia/issues/600
@@ -23,6 +26,10 @@ Issue list:
 * 572: Update/review docs for how the offline registration works - https://github.com/DigitalCampus/django-oppia/issues/572
 * 593: Make email and phone no optional on registration - https://github.com/DigitalCampus/django-oppia/issues/593
 * 602: Move the docs to their own repository - https://github.com/DigitalCampus/django-oppia/issues/602
+* 619: Gamification - for the course global point check it doesn't read from the baseline custom points - https://github.com/DigitalCampus/django-oppia/issues/619
+* 616: Add events/points to the Gamification db tables - https://github.com/DigitalCampus/django-oppia/issues/616
+* 615: Editing points for individual activities - https://github.com/DigitalCampus/django-oppia/issues/615
+* 614: Check that all gamification points are loaded from the defaults - https://github.com/DigitalCampus/django-oppia/issues/614
 
 .. _serverv0.11.0:
 
