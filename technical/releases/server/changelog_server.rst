@@ -31,6 +31,8 @@ Issue list:
 * 615: Editing points for individual activities - https://github.com/DigitalCampus/django-oppia/issues/615
 * 614: Check that all gamification points are loaded from the defaults - https://github.com/DigitalCampus/django-oppia/issues/614
 * 617: Update the course version no when the points are updated - https://github.com/DigitalCampus/django-oppia/issues/617
+* 619: Gamifcation - for the course global point check it doesn't read from the baseline custom points - https://github.com/DigitalCampus/django-oppia/issues/619
+* 613: course_xml_reader.py no longer used - https://github.com/DigitalCampus/django-oppia/issues/613
 
 .. _serverv0.11.0:
 
