@@ -58,4 +58,5 @@ Contributors
 * David Gil de Gómez Pérez - technical development, performance improvements and bug fixes
 * `Lex Myers <https://github.com/lexm/>`_
 * `Kawesi Hakim <https://github.com/hakimks>`_
+* `Ziirofan <https://github.com/Ziirofan>`_
 
