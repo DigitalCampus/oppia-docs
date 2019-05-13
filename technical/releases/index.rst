@@ -21,7 +21,7 @@ OppiaMobile Client App (Android)
 .. toctree::
    :maxdepth: 2
    
-   app/changelog_android
+   app/changelog_android_v6
    
 OppiaMobile export block for Moodle
 ------------------------------------- 

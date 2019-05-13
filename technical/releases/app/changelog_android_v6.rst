@@ -17,6 +17,10 @@ Issue list:
 * 802: Control when an offline-registered user gets internet access - https://github.com/DigitalCampus/oppia-mobile-android/issues/802
 * 806: Update links to digital-campus/oppiamobile - https://github.com/DigitalCampus/oppia-mobile-android/issues/806
 * 807: Update links to community site - https://github.com/DigitalCampus/oppia-mobile-android/issues/807
+* 602: Numerical input type questions shows JSON text on feedback content - https://github.com/DigitalCampus/oppia-mobile-android/issues/602
+* 767: Pre-test pop up still appears after pre-test has been completed - https://github.com/DigitalCampus/oppia-mobile-android/issues/767
+* 805: Possible bug: android.os.FileUriExposedException: file exposed beyond app through Intent.getData() - https://github.com/DigitalCampus/oppia-mobile-android/issues/805
+* 824: com.github.fabioCollini:DaggerMock:0.6.2 in the app gradle file - https://github.com/DigitalCampus/oppia-mobile-android/issues/824
 
 Issues fixed in previous version/s - but recently updated on Github issue lists:
 
@@ -24,6 +28,8 @@ Issues fixed in previous version/s - but recently updated on Github issue lists:
 * 679: Update and solve dependencies for Gradle v3.+ - https://github.com/DigitalCampus/oppia-mobile-android/issues/679
 * 524: Launch activity from an SMS message - https://github.com/DigitalCampus/oppia-mobile-android/issues/524
 * 252: In quizzes how to shuffle the response options - https://github.com/DigitalCampus/oppia-mobile-android/issues/252
+* 813: v6.8.0 does not send data to the server - https://github.com/DigitalCampus/oppia-mobile-android/issues/813
+* 814: Reconnecting Devices over Bluetooth - https://github.com/DigitalCampus/oppia-mobile-android/issues/814
 
 .. _appv67:
 
