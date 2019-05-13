@@ -30,6 +30,7 @@ Issue list:
 * 616: Add events/points to the Gamification db tables - https://github.com/DigitalCampus/django-oppia/issues/616
 * 615: Editing points for individual activities - https://github.com/DigitalCampus/django-oppia/issues/615
 * 614: Check that all gamification points are loaded from the defaults - https://github.com/DigitalCampus/django-oppia/issues/614
+* 617: Update the course version no when the points are updated - https://github.com/DigitalCampus/django-oppia/issues/617
 
 .. _serverv0.11.0:
 
