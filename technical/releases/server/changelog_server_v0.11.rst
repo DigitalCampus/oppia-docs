@@ -8,6 +8,11 @@ OppiaMobile Server Change Log
 v0.11.1 - not yet released
 --------------------------------
 
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_11_1
+
 Key updates:
 
 * Documentation moved to its own repository: https://github.com/DigitalCampus/oppia-docs
@@ -33,6 +38,7 @@ Issue list:
 * 617: Update the course version no when the points are updated - https://github.com/DigitalCampus/django-oppia/issues/617
 * 619: Gamifcation - for the course global point check it doesn't read from the baseline custom points - https://github.com/DigitalCampus/django-oppia/issues/619
 * 613: course_xml_reader.py no longer used - https://github.com/DigitalCampus/django-oppia/issues/613
+* 620: Add labels and helper text for the gamification elements - https://github.com/DigitalCampus/django-oppia/issues/620
 
 .. _serverv0.11.0:
 

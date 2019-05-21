@@ -21,6 +21,9 @@ Issue list:
 * 767: Pre-test pop up still appears after pre-test has been completed - https://github.com/DigitalCampus/oppia-mobile-android/issues/767
 * 805: Possible bug: android.os.FileUriExposedException: file exposed beyond app through Intent.getData() - https://github.com/DigitalCampus/oppia-mobile-android/issues/805
 * 824: com.github.fabioCollini:DaggerMock:0.6.2 in the app gradle file - https://github.com/DigitalCampus/oppia-mobile-android/issues/824
+* 828: Points activity graph - display points in reverse chronological order - https://github.com/DigitalCampus/oppia-mobile-android/issues/828
+* 829: Points activity graph page - not showing description correctly - https://github.com/DigitalCampus/oppia-mobile-android/issues/829
+* 830: Points activity graph - dates and times of points look unusual - https://github.com/DigitalCampus/oppia-mobile-android/issues/830
 
 Issues fixed in previous version/s - but recently updated on Github issue lists:
 
