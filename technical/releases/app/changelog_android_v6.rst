@@ -24,6 +24,9 @@ Issue list:
 * 828: Points activity graph - display points in reverse chronological order - https://github.com/DigitalCampus/oppia-mobile-android/issues/828
 * 829: Points activity graph page - not showing description correctly - https://github.com/DigitalCampus/oppia-mobile-android/issues/829
 * 830: Points activity graph - dates and times of points look unusual - https://github.com/DigitalCampus/oppia-mobile-android/issues/830
+* 832: Points activity graph - Showing points from all courses when in course scorecard view - https://github.com/DigitalCampus/oppia-mobile-android/issues/832
+* 752: Animate custom notifications - visualize points being awarded - https://github.com/DigitalCampus/oppia-mobile-android/issues/752
+* 818: Update points display page - https://github.com/DigitalCampus/oppia-mobile-android/issues/818
 
 Issues fixed in previous version/s - but recently updated on Github issue lists:
 
