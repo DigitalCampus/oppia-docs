@@ -27,6 +27,12 @@ Issue list:
 * 832: Points activity graph - Showing points from all courses when in course scorecard view - https://github.com/DigitalCampus/oppia-mobile-android/issues/832
 * 752: Animate custom notifications - visualize points being awarded - https://github.com/DigitalCampus/oppia-mobile-android/issues/752
 * 818: Update points display page - https://github.com/DigitalCampus/oppia-mobile-android/issues/818
+* 797: Full width tab when there is only one activity - https://github.com/DigitalCampus/oppia-mobile-android/issues/797
+* 800: Split preferences XML - https://github.com/DigitalCampus/oppia-mobile-android/issues/800
+* 171: When changing server setting, check that it's a valid OppiaMobile server it's pointing to - https://github.com/DigitalCampus/oppia-mobile-android/issues/171
+* 731: App awards points for course download when the download fails - https://github.com/DigitalCampus/oppia-mobile-android/issues/731
+* 837: Points graph shading - add theme colour - https://github.com/DigitalCampus/oppia-mobile-android/issues/837
+* 838: Activity graph y-axis labels - https://github.com/DigitalCampus/oppia-mobile-android/issues/838
 
 Issues fixed in previous version/s - but recently updated on Github issue lists:
 
