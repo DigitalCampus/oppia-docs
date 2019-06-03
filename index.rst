@@ -1,6 +1,7 @@
 .. image::  images/dc_logo.png
 	:align: center
 
+|
 
 Welcome to the OppiaMobile documentation
 ==============================================

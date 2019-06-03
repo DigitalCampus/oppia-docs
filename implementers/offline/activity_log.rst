@@ -27,16 +27,19 @@ This will get you to the Synchronize view, where there are two different tabs. T
 
 In this view, you have a summary of the activity logged in the device:
 
-* **To export**: Activity trackers registered in the device, that have not been exported nor submitted
-* **To submit**: Activity trackers that have been exported in the device, but not sent to the server yet
-* **Submitted**: Activity that is already registered in the server
+* **To export**: Activity trackers registered in the device (i.e., activity performed by one user logged in in the device), that have not been exported nor submitted to the server yet.
+* **To submit**: Activity trackers registered in the device that have been exported to an activity log in the device, but not sent to the server yet
+* **Submitted**: Activity registered in the device that is already registered in the server
 
 The action to ``submit to server`` is used to manually trigger the tracker uploading (of both exported activity logs saved
-in the device, and user activity pending to submit). This is also perform automatically by the app periodically.
+in the device, and user activity pending to submit). This is also performed automatically by the app periodically.
 
 The action to ``Export activity`` will fetch all the activity that is not yet exported nor submitted, and will create
 an activity log file, in the form of a JSON file containing all the activity trackers and basic user information, and will
-show the file (and any other remaining activity log file to transfer in the list below the actions.
+show the file (and any other remaining activity log files to transfer in the list below the actions.
+Once those activity trackers are exported, they get marked in the local register as "exported", so the figure in the
+"to export" summary will go back to zero, and the next time the user uses this functionality, they will not be included
+in the new activity log file.
 
 .. image:: images/activitylog-logs.png
     :align: center
@@ -58,6 +61,7 @@ some activity log file pending to transfer, a message will appear below the stat
     :align: center
 
 Pressing the `Send now` button will send the activity log files to the other device and remove them from the current one.
+
 
 Manual upload
 --------------

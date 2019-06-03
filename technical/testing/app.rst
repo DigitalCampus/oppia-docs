@@ -191,7 +191,7 @@ We have several ways to run tests:
 
  Right-click the class you want to test and click **Run**.
 
-* **Run all tests classes in a directory**:
+* **Run all test classes in a directory**:
 
  Right-click the directory you want to test and click **Run tests**.
 
@@ -210,3 +210,14 @@ We have several ways to run tests:
 
 
  If we run this suite, the tests inside in the classes listed in ``@Suite.SuiteClasses()`` will be executed.
+
+
+* **Run all instrumented tests**:
+
+We can create a new debug configuration to run all the instrumented tests within the project. To do so, select the
+"Edit configurations" dropdown option, and add a new configuration of type "Android Instrumented tests".
+In this new configuration, select to run all tests in Module and pick the `app` module.
+
+.. image:: images/instrumented_tests.png
+
+After this, we can select this configuration and run in it in our chosen device.
