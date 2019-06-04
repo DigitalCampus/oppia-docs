@@ -33,6 +33,7 @@ Issue list:
 * 731: App awards points for course download when the download fails - https://github.com/DigitalCampus/oppia-mobile-android/issues/731
 * 837: Points graph shading - add theme colour - https://github.com/DigitalCampus/oppia-mobile-android/issues/837
 * 838: Activity graph y-axis labels - https://github.com/DigitalCampus/oppia-mobile-android/issues/838
+* 817: Add activity graph screen/tab - https://github.com/DigitalCampus/oppia-mobile-android/issues/817
 
 Issues fixed in previous version/s - but recently updated on Github issue lists:
 
