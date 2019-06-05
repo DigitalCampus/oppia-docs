@@ -8,7 +8,7 @@ Welcome to the OppiaMobile documentation
 
 
 `OppiaMobile <https://oppia-mobile.org/>`_ is an open source mobile learning platform specifically designed for 
-delivering learning content, multimedia and quizzes in low-broadband settings and primarily used for health worker 
+delivering learning content, multimedia and quizzes in low-connectivity settings and primarily used for health worker 
 training.
 
 Overview
