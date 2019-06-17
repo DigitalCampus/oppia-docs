@@ -39,6 +39,10 @@ Issue list:
 * 619: Gamifcation - for the course global point check it doesn't read from the baseline custom points - https://github.com/DigitalCampus/django-oppia/issues/619
 * 613: course_xml_reader.py no longer used - https://github.com/DigitalCampus/django-oppia/issues/613
 * 620: Add labels and helper text for the gamification elements - https://github.com/DigitalCampus/django-oppia/issues/620
+* 621: Remove the QuizGamificationEvent table - doesn;t need to be used - https://github.com/DigitalCampus/django-oppia/issues/621
+* 626: Move default points to being in their own DB table - https://github.com/DigitalCampus/django-oppia/issues/626
+* 620: Add labels and helper text for the gamification elements - https://github.com/DigitalCampus/django-oppia/issues/620
+* 622: Rewrite custom gamification points when course is updated/republished - https://github.com/DigitalCampus/django-oppia/issues/622
 
 .. _serverv0.11.0:
 
