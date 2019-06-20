@@ -1,4 +1,8 @@
 Upgrading to OppiaMobile Server v0.11.1
 ===========================================
 
+Update Django version
+
+Update db
+
 Run ``manage.py loaddata default_gamification_events.json``
