@@ -13,6 +13,7 @@ OppiaMobile Server (Django)
    :maxdepth: 2
    
    server/changelog_server_v0.11
+   server/changelog_server_v0.12 (under development)
 
 
 OppiaMobile Client App (Android)
