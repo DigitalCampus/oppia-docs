@@ -38,6 +38,8 @@ Issue list:
 * 838: Activity graph y-axis labels - https://github.com/DigitalCampus/oppia-mobile-android/issues/838
 * 817: Add activity graph screen/tab - https://github.com/DigitalCampus/oppia-mobile-android/issues/817
 * 846: Activity graph - numbers on the y-axis don't seem to automatically adjust/space - https://github.com/DigitalCampus/oppia-mobile-android/issues/846
+* 845: Extend time that gamification bar is shown - https://github.com/DigitalCampus/oppia-mobile-android/issues/845
+* 842: Loading quizzes - No value for randomselect - https://github.com/DigitalCampus/oppia-mobile-android/issues/842
 
 Issues fixed in previous version/s - but recently updated on Github issue lists:
 
