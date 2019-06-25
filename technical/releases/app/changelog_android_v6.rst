@@ -40,6 +40,9 @@ Issue list:
 * 846: Activity graph - numbers on the y-axis don't seem to automatically adjust/space - https://github.com/DigitalCampus/oppia-mobile-android/issues/846
 * 845: Extend time that gamification bar is shown - https://github.com/DigitalCampus/oppia-mobile-android/issues/845
 * 842: Loading quizzes - No value for randomselect - https://github.com/DigitalCampus/oppia-mobile-android/issues/842
+* 611: Interface for customising the points for activities - https://github.com/DigitalCampus/django-oppia/issues/611
+* 618: Add option to edit the media gamification points - https://github.com/DigitalCampus/django-oppia/issues/618
+
 
 Issues fixed in previous version/s - but recently updated on Github issue lists:
 
