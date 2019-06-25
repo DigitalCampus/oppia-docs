@@ -72,3 +72,4 @@ Gamification
 	2. Full animation (circle rotation and vertical translation)
 	3. Full animation with sound
 
+- ``DURATION_GAMIFICATION_POINTS_VIEW`` in seconds (int): Duration of the points awarded text after the configured animation (if any). ``2 seconds`` by default
