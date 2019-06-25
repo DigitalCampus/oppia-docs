@@ -2,9 +2,21 @@ OppiaMobile Android App Change Log
 ====================================
 
 
+
+.. _appv69:
+
+v69 (6.9.0) - not yet released
+--------------------------------------
+
+Key updates:
+
+
+Issue list:
+
+
 .. _appv68:
 
-v68 (6.8.0) - not yet released
+v68 (6.8.0) - Released 25 Jun 2019
 --------------------------------------
 
 Key updates:
@@ -42,7 +54,7 @@ Issue list:
 * 842: Loading quizzes - No value for randomselect - https://github.com/DigitalCampus/oppia-mobile-android/issues/842
 * 611: Interface for customising the points for activities - https://github.com/DigitalCampus/django-oppia/issues/611
 * 618: Add option to edit the media gamification points - https://github.com/DigitalCampus/django-oppia/issues/618
-
+* 750: Parse course XML for custom media completion threshold criteria - https://github.com/DigitalCampus/oppia-mobile-android/issues/750
 
 Issues fixed in previous version/s - but recently updated on Github issue lists:
 
