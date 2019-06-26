@@ -1,13 +1,13 @@
-Migrating to Python 3 and Django 2
-=====================================
+Upgrading to OppiaMobile Server v0.12.0
+=======================================
 
-To migrate to using OppiaMobile v0.12.0, you will need to update the versions
-or Python and Django that you are using. The migration steps are described 
-below, running the commands from the root of your OppiaMobile server 
-installation (eg ``/home/oppia/``).
+OppiaMobile v0.12.0 has moved to using Python 3 and Django 2, so you will need 
+to update the versions of Python and Django that you are using. The migration 
+steps are described below, running the commands from the root of your 
+OppiaMobile server installation (eg ``/home/oppia/``).
 
-Update virtualenv
----------------------
+Update Virtual Environment
+---------------------------
 
 #. Remove the existing virtualenv: ``$ sudo rm -R env``
 #. Create a new virtualenv: ``$ virtualenv -p /usr/bin/python3 env``
@@ -38,13 +38,19 @@ same time, update the required packages:
 
 #. Run: ``(env)$ pip install -r ../django-oppia/requirements.txt``
 
+Update database and static files
+---------------------------------
+
+#. Run: ``(env)$ python manage.py migrate``
+#. Run: ``(env)$ python manage.py collectstatic``
 
 For live servers using mod_wsgi on Apache webserver
 ----------------------------------------------------
 
-If you are running
+If you are using Apache as the webserver, then you will need to update the 
+version of mod_wsgi: 
 
-sudo apt-get install libapache2-mod-wsgi-py3
+#. Run ``sudo apt-get install libapache2-mod-wsgi-py3``
 
 Also update the path in the apache config file to the python site packages
 
