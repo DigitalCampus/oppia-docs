@@ -51,7 +51,7 @@ Update database and static files
 
 .. note:
    If you get a message about stale .pyc files, then run ``find . -name "*.pyc" 
-   -type f -delete``. But use this carefully an make sure you only run it from 
+   -type f -delete``. But use this carefully and make sure you only run it from 
    the django-oppia directory.
 
 For live servers using mod_wsgi on Apache webserver
