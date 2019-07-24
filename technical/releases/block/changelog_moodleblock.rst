@@ -1,6 +1,13 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv2019xxxxxx:
+
+v2019xxxxxx - not yet released
+-------------------------------------
+
+* 192: In Moodle version 3.5+ (Build: 20180531), the DB installation XML causes an error with the PATH attribute - https://github.com/DigitalCampus/moodle-block_oppia_mobile_export/issues/192
+
 
 .. _blockv2018051800:
 

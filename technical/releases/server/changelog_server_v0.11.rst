@@ -44,6 +44,7 @@ Issue list:
 * 620: Add labels and helper text for the gamification elements - https://github.com/DigitalCampus/django-oppia/issues/620
 * 622: Rewrite custom gamification points when course is updated/republished - https://github.com/DigitalCampus/django-oppia/issues/622
 * 628: Customize gamification points in a single view - https://github.com/DigitalCampus/django-oppia/issues/628
+* 637: Error when publishing via API - https://github.com/DigitalCampus/django-oppia/issues/637
 
 .. _serverv0.11.0:
 
