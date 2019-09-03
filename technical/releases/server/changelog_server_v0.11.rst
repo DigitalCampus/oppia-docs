@@ -45,6 +45,7 @@ Issue list:
 * 622: Rewrite custom gamification points when course is updated/republished - https://github.com/DigitalCampus/django-oppia/issues/622
 * 628: Customize gamification points in a single view - https://github.com/DigitalCampus/django-oppia/issues/628
 * 637: Error when publishing via API - https://github.com/DigitalCampus/django-oppia/issues/637
+* 645: Emailing password reset not working - https://github.com/DigitalCampus/django-oppia/issues/645
 
 .. _serverv0.11.0:
 

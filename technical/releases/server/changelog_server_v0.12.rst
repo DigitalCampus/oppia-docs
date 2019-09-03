@@ -22,7 +22,11 @@ Issue list:
 * 571: For python 3 - replace __unicode__ with __str__ in models (`#571 <https://github.com/DigitalCampus/django-oppia/issues/571>`_)
 * 591: Update media_url_check to remove urllib2 dependency (`#591 <https://github.com/DigitalCampus/django-oppia/issues/591>`_)
 * 601: Python 3 - v0.12.0 branch - check usage of urllib/urllib2/urllib3 (`#601 <https://github.com/DigitalCampus/django-oppia/issues/601>`_)
-* 640: Error with Gamification db migrations on v0.12 branch - https://github.com/DigitalCampus/django-oppia/issues/640
+* 640: Error with Gamification db migrations on v0.12 branch (`#640 <https://github.com/DigitalCampus/django-oppia/issues/640>`_)
+* 577: Drawer menu for admin users (`#577 <https://github.com/DigitalCampus/django-oppia/issues/577>`_)
+* 625: Crispy-forms - move to using the BootStrap4 template pack (`#625 <https://github.com/DigitalCampus/django-oppia/issues/625>`_)
+* 639: Merge material design branch into latest dev branch (`#639 <https://github.com/DigitalCampus/django-oppia/issues/639>`_)
+* 635: Points/gamification not working on staging server with python 3/django 2 (`#635 <https://github.com/DigitalCampus/django-oppia/issues/635>`_)
 
 Previous Versions
 ------------------
