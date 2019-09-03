@@ -1,5 +1,5 @@
-OppiaMobile Android App Change Log
-====================================
+OppiaMobile Android App Change Log v6.x
+=========================================
 
 
 
@@ -13,6 +13,7 @@ Key updates:
 
 Issue list:
 
+* 858: AndroidX migration - https://github.com/DigitalCampus/oppia-mobile-android/issues/858
 
 .. _appv68:
 
