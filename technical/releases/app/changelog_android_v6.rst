@@ -10,10 +10,13 @@ v69 (6.9.0) - not yet released
 
 Key updates:
 
+* Android X migration
+* Bug fixes
 
 Issue list:
 
 * 858: AndroidX migration - https://github.com/DigitalCampus/oppia-mobile-android/issues/858
+* 854: "java.lang.RuntimeException: Unable to start receiver" error message - https://github.com/DigitalCampus/oppia-mobile-android/issues/854
 
 .. _appv68:
 
