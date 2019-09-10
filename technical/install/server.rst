@@ -63,11 +63,15 @@ if you're using something different.
    update at least the following settings:
    
    #. Database name, user, password (that you created in step 1 above)
-   #. SECRET_KEY. This can be anything you like, generally a long list of 
+   #. ``SECRET_KEY``: This can be anything you like, generally a long list of
       random characters.
-   #. ADMINS and SERVER_EMAIL - update these to your system admin details
-   
-   In this file you can override any of the settings in 
+   #. ``ADMINS`` and ``SERVER_EMAIL``: update these to your system admin details
+   #. ``ALLOWED_HOSTS``: to be able to access externally the Django app, you need to
+      add your hostname to the list of allowed hosts. You can also use the ``*``
+      wildcard in a debug server.
+
+
+   In this file you can also override any of the settings in
    ``/home/oppia/django-oppia/oppiamobile/settings.py``
    
 #. Save your ``settings_secret.py`` file
@@ -94,19 +98,31 @@ and install this to use.
   
     (env)$
 
+
 #. Install the required packages for the Oppia server by running::
 
     (env)$ pip install -r django-oppia/requirements.txt
     
    This may take some time as it downloads and sets up all the necessary
    python libraries that are required by the Oppia server
-   
+
+
 #. Install a database connector, since we use MySQL, the command below is 
    specifically for that database server. If you are using a different database 
    server, then use the appropriate one for your database server::
    
     (env)$ pip install mysqlclient
-    
+
+#. Some python packages are compiled against system libraries (for example,
+   the Pillow imaging library). If the previous command fails at some of
+   the installations, try installing the needed packages and then try again.
+
+    (env)$ sudo apt-get install build-essential checkinstall libreadline-gplv2-dev openssl libncursesw5-dev libgdbm-dev libc6-dev libbz2-dev python-dev libmysqlclient-dev
+
+   In some cases, it will be required to perform a system reboot for this
+   changes to be applied.
+
+
 #. You should now have all the required libraries set up and installed. 
 
 
