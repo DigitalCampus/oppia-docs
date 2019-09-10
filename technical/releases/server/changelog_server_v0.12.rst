@@ -14,6 +14,7 @@ v0.12.0 - not yet released
 Key updates:
 
 * Moving to Python 3 and Django 2
+* Use material design layout
 
 Issue list:
 
@@ -27,6 +28,8 @@ Issue list:
 * 625: Crispy-forms - move to using the BootStrap4 template pack (`#625 <https://github.com/DigitalCampus/django-oppia/issues/625>`_)
 * 639: Merge material design branch into latest dev branch (`#639 <https://github.com/DigitalCampus/django-oppia/issues/639>`_)
 * 635: Points/gamification not working on staging server with python 3/django 2 (`#635 <https://github.com/DigitalCampus/django-oppia/issues/635>`_)
+* 636: Deprecation warning for BaseException.message (`#636 <https://github.com/DigitalCampus/django-oppia/issues/636>`_)
+* 638: Fix tests for v0.12.0 branch (`#638 <https://github.com/DigitalCampus/django-oppia/issues/638>`_)
 
 Previous Versions
 ------------------
