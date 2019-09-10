@@ -115,7 +115,7 @@ and install this to use.
 
 #. Some python packages are compiled against system libraries (for example,
    the Pillow imaging library). If the previous command fails at some of
-   the installations, try installing the needed packages and then try again.
+   the installations, try installing the needed packages and then try again.::
 
     (env)$ sudo apt-get install build-essential checkinstall libreadline-gplv2-dev openssl libncursesw5-dev libgdbm-dev libc6-dev libbz2-dev python-dev libmysqlclient-dev
 
@@ -150,6 +150,11 @@ Now to create the database structure and an initial admin user.
 
 	(env)$ python manage.py migrate
 	
+#. Load initial data::
+
+	(env)$ python manage.py collectstatic oppia/fixtures/default_badges.json
+	(env)$ python manage.py collectstatic oppia/fixtures/default_gamification_events.json
+
 #. Copy the static files with::
 
 	(env)$ python manage.py collectstatic
