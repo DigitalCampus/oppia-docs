@@ -17,6 +17,7 @@ Issue list:
 
 * 858: AndroidX migration - https://github.com/DigitalCampus/oppia-mobile-android/issues/858
 * 854: "java.lang.RuntimeException: Unable to start receiver" error message - https://github.com/DigitalCampus/oppia-mobile-android/issues/854
+* 853: Points don't get restored when logging in on new install - https://github.com/DigitalCampus/oppia-mobile-android/issues/853
 
 .. _appv68:
 
