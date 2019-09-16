@@ -46,6 +46,8 @@ Issue list:
 * 628: Customize gamification points in a single view - https://github.com/DigitalCampus/django-oppia/issues/628
 * 637: Error when publishing via API - https://github.com/DigitalCampus/django-oppia/issues/637
 * 645: Emailing password reset not working - https://github.com/DigitalCampus/django-oppia/issues/645
+* 634: Fix issue with AYRH course on live server (`#634 <https://github.com/DigitalCampus/django-oppia/issues/634>`_)
+* 644: When publishing a course, get permissions error (`#644 <https://github.com/DigitalCampus/django-oppia/issues/644>`_)
 
 .. _serverv0.11.0:
 

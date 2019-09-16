@@ -31,6 +31,7 @@ Issue list:
 * 636: Deprecation warning for BaseException.message (`#636 <https://github.com/DigitalCampus/django-oppia/issues/636>`_)
 * 638: Fix tests for v0.12.0 branch (`#638 <https://github.com/DigitalCampus/django-oppia/issues/638>`_)
 
+
 Previous Versions
 ------------------
 
