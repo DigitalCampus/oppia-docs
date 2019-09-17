@@ -1,9 +1,26 @@
 OppiaMobile Server Change Log
 ================================
 
+
+.. _serverv0.12.1:
+
+v0.12.1 - not yet released
+--------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+
+Key updates:
+
+
+Issue list:
+
+
+
 .. _serverv0.12.0:
 
-v0.12.0 - not yet released
+v0.12.0 - Released 17 Sept 2019
 --------------------------------
 
 .. toctree::
@@ -33,6 +50,7 @@ Issue list:
 * 649: Date range selector with styles that match the customizable theme (`#649 <https://github.com/DigitalCampus/django-oppia/issues/649>`_)
 * 646: Upload view fails if user has no associated UserProfile (`#646 <https://github.com/DigitalCampus/django-oppia/issues/646>`_)
 * 650: Add tests for activitylog upload (`#650 <https://github.com/DigitalCampus/django-oppia/issues/650>`_)
+* 655: Updates from SonarQube recommendations (`#655 <https://github.com/DigitalCampus/django-oppia/issues/655>`_)
 
 Previous Versions
 ------------------
