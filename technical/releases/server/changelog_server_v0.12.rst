@@ -32,6 +32,7 @@ Issue list:
 * 638: Fix tests for v0.12.0 branch (`#638 <https://github.com/DigitalCampus/django-oppia/issues/638>`_)
 * 649: Date range selector with styles that match the customizable theme (`#649 <https://github.com/DigitalCampus/django-oppia/issues/649>`_)
 * 646: Upload view fails if user has no associated UserProfile (`#646 <https://github.com/DigitalCampus/django-oppia/issues/646>`_)
+* 650: Add tests for activitylog upload (`#650 <https://github.com/DigitalCampus/django-oppia/issues/650>`_)
 
 Previous Versions
 ------------------
