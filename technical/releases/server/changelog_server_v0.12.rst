@@ -30,7 +30,8 @@ Issue list:
 * 635: Points/gamification not working on staging server with python 3/django 2 (`#635 <https://github.com/DigitalCampus/django-oppia/issues/635>`_)
 * 636: Deprecation warning for BaseException.message (`#636 <https://github.com/DigitalCampus/django-oppia/issues/636>`_)
 * 638: Fix tests for v0.12.0 branch (`#638 <https://github.com/DigitalCampus/django-oppia/issues/638>`_)
-
+* 649: Date range selector with styles that match the customizable theme (`#649 <https://github.com/DigitalCampus/django-oppia/issues/649>`_)
+* 646: Upload view fails if user has no associated UserProfile (`#646 <https://github.com/DigitalCampus/django-oppia/issues/646>`_)
 
 Previous Versions
 ------------------
