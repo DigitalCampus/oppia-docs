@@ -43,16 +43,22 @@ same time, update the required packages:
 
 #. Run: ``(env)$ pip install -r ../django-oppia/requirements.txt``
 
-Update database and static files
----------------------------------
+Update database 
+-----------------
 
 #. Run: ``(env)$ python manage.py migrate``
-#. Run: ``(env)$ python manage.py collectstatic``
 
 .. note:
    If you get a message about stale .pyc files, then run ``find . -name "*.pyc" 
    -type f -delete``. But use this carefully and make sure you only run it from 
    the django-oppia directory.
+   
+Update static files
+--------------------
+
+#. Run: ``(env)$ python manage.py compilescss`` - don't worry about the 
+   unclosed files warning messages
+#. Run: ``(env)$ python manage.py collectstatic``
 
 For live servers using mod_wsgi on Apache webserver
 ----------------------------------------------------
