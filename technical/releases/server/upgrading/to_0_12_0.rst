@@ -13,10 +13,10 @@ Update Virtual Environment
 #. Create a new virtualenv: ``$ virtualenv -p /usr/bin/python3 env``
 #. Activate the new virtualenv: ``$ source env/bin/activate``
 
-.. note:
-   If you get an error at step 2 (eg ``virtualenv is not compatible with this 
-   system or executable``), you may need to update virtualenv first (with ``pip 
-   install --upgrade virtualenv``)
+.. note::
+    If you get an error at step 2 (eg ``virtualenv is not compatible with this 
+    system or executable``), you may need to update virtualenv first (with ``pip 
+    install --upgrade virtualenv``)
 
 Update MySQL connectors
 ------------------------
@@ -48,7 +48,7 @@ Update database
 
 #. Run: ``(env)$ python manage.py migrate``
 
-.. note:
+.. note::
    If you get a message about stale .pyc files, then run ``find . -name "*.pyc" 
    -type f -delete``. But use this carefully and make sure you only run it from 
    the django-oppia directory.
