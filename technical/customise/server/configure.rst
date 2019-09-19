@@ -15,7 +15,7 @@ For the basic customization of colors, you can edit the ``static/css/oppia.scss`
 the Oppia defined colors and the different color palettes.
 
 Compiling CSS custom styles
-************************
+***************************
 
 If you are in debug mode, the ``django-sass-processor`` will automatically re-compile the files that change,
 but for a production environment, you'll need to precompile your SCSS files. For doing so, invoke first in the

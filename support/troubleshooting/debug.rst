@@ -13,13 +13,8 @@ how to capture the Oppia debug log output to assist with bug fixing:
 #. On the command line on your laptop run one of the following commands (
    depending on which operating system your laptop has):
    
-   * Ubuntu/Linux on laptop and Android 7+ on phone: ``adb logcat --pid=`adb shell pidof -s org.digitalcampus.mobile.learning` | tee ~/oppia-output.txt``
-   * Ubuntu/Linux on laptop and Android pre-7 on phone:
-   * **Windows (untested)** ``adb logcat | findstr org.digitalcampus.mobile.learning >> C:\oppia-output.txt``
-
-   Replace ``org.digitalcampus.mobile.learning`` with the particular package 
-   name for your Oppia implementation and replace the ``oppia-output.txt`` 
-   and output path with wherever you would like the log file to be saved
+   * Ubuntu/Linux: ``adb logcat | tee ~/oppia-output.txt``
+   * Windows: ``adb logcat >> C:\oppia-output.txt``
 
 #. Go through the steps/process to recreate the error on your phone. 
 #. After you have caused the error, you can press Ctrl+C to stop the debug log 
