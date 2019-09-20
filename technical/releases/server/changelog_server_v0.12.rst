@@ -10,11 +10,15 @@ v0.12.1 - not yet released
 .. toctree::
    :maxdepth: 1
 
-
+   upgrading/to_0_12_1
+	
 Key updates:
 
+* Updated version of Django
 
 Issue list:
+
+* 648: Update to django 2.2.x (`#648 <https://github.com/DigitalCampus/django-oppia/issues/648>`_)
 
 
 
@@ -51,6 +55,7 @@ Issue list:
 * 646: Upload view fails if user has no associated UserProfile (`#646 <https://github.com/DigitalCampus/django-oppia/issues/646>`_)
 * 650: Add tests for activitylog upload (`#650 <https://github.com/DigitalCampus/django-oppia/issues/650>`_)
 * 655: Updates from SonarQube recommendations (`#655 <https://github.com/DigitalCampus/django-oppia/issues/655>`_)
+* 585: Add tests for recent updates to activity log (`#585 <https://github.com/DigitalCampus/django-oppia/issues/585>`_)
 
 Previous Versions
 ------------------
