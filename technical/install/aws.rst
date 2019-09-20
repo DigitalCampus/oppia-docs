@@ -92,9 +92,9 @@ The current version of the instance is running:
 * Ubuntu 18.04 LTS Server
 * Apache 2.4
 * Mysql 5.7
-* Django 1.11.21
-* TastyPie 0.14.0
-* OppiaServer 0.11.1
+* Django 2.1.12
+* TastyPie 0.14.2
+* OppiaServer 0.12.0
 
 
 Email configuration
