@@ -56,6 +56,7 @@ Issue list:
 * 650: Add tests for activitylog upload (`#650 <https://github.com/DigitalCampus/django-oppia/issues/650>`_)
 * 655: Updates from SonarQube recommendations (`#655 <https://github.com/DigitalCampus/django-oppia/issues/655>`_)
 * 585: Add tests for recent updates to activity log (`#585 <https://github.com/DigitalCampus/django-oppia/issues/585>`_)
+* 189: Remove CourseXML class as no longer used? (`#189 <https://github.com/DigitalCampus/django-oppia/issues/189>`_)
 
 Previous Versions
 ------------------

@@ -9,10 +9,16 @@ v70 (7.0.0) - not yet released
 
 Key updates:
 
+* Updated user interface
 
 Issue list:
 
-
+* 866: Implement updated course activity page - https://github.com/DigitalCampus/oppia-mobile-android/issues/866
+* 862: Implement redesigned home page - https://github.com/DigitalCampus/oppia-mobile-android/issues/862
+* 867: Review and check the new theme on all screens - https://github.com/DigitalCampus/oppia-mobile-android/issues/867
+* 864: Implement new drawer menu - https://github.com/DigitalCampus/oppia-mobile-android/issues/864
+* 863: Implement bottom menu bar - https://github.com/DigitalCampus/oppia-mobile-android/issues/863
+* 865: Implement new course index page - https://github.com/DigitalCampus/oppia-mobile-android/issues/865
 
 Previous Versions
 ------------------
