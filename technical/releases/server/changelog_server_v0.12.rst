@@ -19,7 +19,7 @@ Key updates:
 Issue list:
 
 * 648: Update to django 2.2.x (`#648 <https://github.com/DigitalCampus/django-oppia/issues/648>`_)
-
+* 664: Cohort leaderboard shows empty page (`#664 <https://github.com/DigitalCampus/django-oppia/issues/664>`_)
 
 
 .. _serverv0.12.0:
