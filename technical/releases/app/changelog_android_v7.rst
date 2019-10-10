@@ -19,6 +19,9 @@ Issue list:
 * 864: Implement new drawer menu - https://github.com/DigitalCampus/oppia-mobile-android/issues/864
 * 863: Implement bottom menu bar - https://github.com/DigitalCampus/oppia-mobile-android/issues/863
 * 865: Implement new course index page - https://github.com/DigitalCampus/oppia-mobile-android/issues/865
+* 885: Check gamification notifications working on new UI - https://github.com/DigitalCampus/oppia-mobile-android/issues/885
+* 884: Bluetooth sync - make list of devices scrollable - https://github.com/DigitalCampus/oppia-mobile-android/issues/884
+* 871: Tablet homepage design - https://github.com/DigitalCampus/oppia-mobile-android/issues/871
 
 Previous Versions
 ------------------
