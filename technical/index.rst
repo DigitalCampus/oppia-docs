@@ -12,3 +12,4 @@ OppiaMobile Technical Documentation
    customise/app/index
    releases/index
    testing/index
+   integration/index
