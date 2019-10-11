@@ -47,5 +47,5 @@ To run the analysis for the app, from the root of the app code directory, run::
   		-Dsonar.host.url=https://sonarcloud.io \
   		-Dsonar.login=<login id> 
   		
- .. note::
+.. note::
  	To be completed - adding the coverage report
