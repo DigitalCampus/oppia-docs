@@ -1,13 +1,10 @@
 Upgrading to OppiaMobile Server v0.12.1
 =======================================
 
-
-
 Update Django package
 ----------------------------
 
-Since we have removed the old virtualenv, we need to re-install, and at the 
-same time, update the required packages:
+There is an updated version of Django in this release:
 
 #. Run: ``(env)$ pip install -r requirements.txt``
 
@@ -16,10 +13,6 @@ Update database
 
 #. Run: ``(env)$ python manage.py migrate``
 
-.. note::
-   If you get a message about stale .pyc files, then run ``find . -name "*.pyc" 
-   -type f -delete``. But use this carefully and make sure you only run it from 
-   the django-oppia directory.
    
 
 
