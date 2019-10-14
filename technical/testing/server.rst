@@ -11,7 +11,7 @@ Run the tests on your Oppia server
 -----------------------------------
 
 #. Activate the virtual environment (eg: ``/home/oppia/$ source env/bin/activate``)
-#. Run all the tests with ``python manage.py test oppia.tests`` 
+#. Run all the tests with ``python manage.py test`` 
 
 
 Adding more tests

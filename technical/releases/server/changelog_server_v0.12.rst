@@ -15,12 +15,14 @@ v0.12.1 - not yet released
 Key updates:
 
 * Updated version of Django
+* Initial version of DHIS2 export
 
 Issue list:
 
 * 648: Update to django 2.2.x (`#648 <https://github.com/DigitalCampus/django-oppia/issues/648>`_)
 * 664: Cohort leaderboard shows empty page (`#664 <https://github.com/DigitalCampus/django-oppia/issues/664>`_)
 * 663: Initial version of DHIS2 export (`#663 <https://github.com/DigitalCampus/django-oppia/issues/663>`_)
+* 564: In management commands replace print() with self.stdout.write() (`#564 <https://github.com/DigitalCampus/django-oppia/issues/564>`_)
 
 .. _serverv0.12.0:
 
