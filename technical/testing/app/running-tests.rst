@@ -44,3 +44,8 @@ In this new configuration, select to run all tests in Module and pick the `app` 
 .. image:: ../images/instrumented_tests.png
 
 After this, we can select this configuration and run in it in our chosen device.
+
+
+.. note::
+
+ There is a test which checks the correct behaviour for a successful login so remember to set a valid username and password in the test called: *changeActivityWhenTheCredentialsAreCorrect()* (in LoginUITest.java file)
