@@ -1,10 +1,22 @@
 OppiaMobile Server Change Log
 ================================
 
+.. _serverv0.12.2:
+
+v0.12.2 - not yet released
+--------------------------------
+
+	
+Key updates:
+
+Issue list:
+
+
+
 
 .. _serverv0.12.1:
 
-v0.12.1 - not yet released
+v0.12.1 - Released 15 Oct 2019
 --------------------------------
 
 .. toctree::
