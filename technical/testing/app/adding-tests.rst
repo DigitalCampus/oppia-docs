@@ -14,7 +14,7 @@ The main path for these tests is ``src/test/java``. It is mandatory for this typ
 
 .. code-block:: text
 
-   testCompile 'junit:junit:4.12'
+   testImplementation 'junit:junit:4.12'
  
 The tests methods that we create must have the tag ``@Test`` right before the method declaration, and must end with an **assertion** to check whether the test passes or not. For example:
  
@@ -41,10 +41,10 @@ Optionally, the tests could provide a preconditions and post conditions blocks
 
 .. code-block:: text
 
- //Preconditions block
+ //Post-conditions block
 
- @Before
- public void setUp() throws Exception{…}
+ @After
+ public void tearDown() throws Exception{…}
 
 
 Instrumented Unit Tests
@@ -59,9 +59,9 @@ To create and run this test, first we need to install the **Android Support Repo
  
 .. code-block:: XML
 
-    androidTestCompile 'com.android.support:support-annotations:24.0.0'
-    androidTestCompile 'com.android.support.test:runner:0.5'
-    androidTestCompile 'com.android.support.test:rules:0.5'
+    androidTestImplementation 'com.android.support:support-annotations:24.0.0'
+    androidTestImplementation 'com.android.support.test:runner:0.5'
+    androidTestImplementation 'com.android.support.test:rules:0.5'
 
 In addition, we need to add the default test instrumentation runner to use JUnit 4 test classes:
 
@@ -99,7 +99,7 @@ To use the Espresso library, we need to make sure to follow the same steps descr
 
 .. code-block:: XML
  
- androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.1'
+ androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.1'
 
 .. note::
  It is recommended to turn off the animations on your test device (*Settings --> Developing Options*), as they might cause         unexpected results or may lead your test to fail.
@@ -137,7 +137,7 @@ First, we need to add the MockWebServer dependency to our app *build.gradle* fil
 
 .. code-block:: XML
  
-	 testCompile 'com.squareup.okhttp3:mockwebserver(insert latest version)’
+	 testImplementation 'com.squareup.okhttp3:mockwebserver(insert latest version)’
 
 
 After that, we are able to create MockWebServer objects. For example:

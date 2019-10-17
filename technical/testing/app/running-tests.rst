@@ -94,6 +94,6 @@ We have several ways to run tests:
 	
 	  public class UITestSuite {…}
 
-
  If we run this suite, the tests inside in the classes listed in 
  ``@Suite.SuiteClasses()`` will be executed.
+
