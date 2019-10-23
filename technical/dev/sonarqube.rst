@@ -38,7 +38,7 @@ If you are running with your own SonarCloud account, you'll need to use a differ
 OppiaMobile Android App
 ------------------------
 
-The Oppia app source code analysis can be found at: https://sonarcloud.io/dashboard?id=oppia-mobile-android%3Aapp
+The Oppia app source code analysis can be found at: https://sonarcloud.io/dashboard?id=org.digitalcampus.mobile.learning
 
 To run the analysis for the app, from the root of the app code directory, run::
 

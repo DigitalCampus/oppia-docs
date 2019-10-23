@@ -9,7 +9,11 @@ v0.12.2 - not yet released
 	
 Key updates:
 
+
+
 Issue list:
+
+* Updated version of Pillow - https://github.com/DigitalCampus/django-oppia/pull/669
 
 
 

@@ -25,6 +25,7 @@ Issue list:
 * 880: Update the tests for the new UI - https://github.com/DigitalCampus/oppia-mobile-android/issues/880
 * 779: SonarQube - fix input/output stream closure issues - https://github.com/DigitalCampus/oppia-mobile-android/issues/779
 * 773: Check that all the current tests run properly - https://github.com/DigitalCampus/oppia-mobile-android/issues/773
+* 889: Default view in Course List to expand and show all activities, with option to collapse - https://github.com/DigitalCampus/oppia-mobile-android/issues/889
 
 Previous Versions
 ------------------
