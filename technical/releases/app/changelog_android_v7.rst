@@ -26,6 +26,8 @@ Issue list:
 * 779: SonarQube - fix input/output stream closure issues - https://github.com/DigitalCampus/oppia-mobile-android/issues/779
 * 773: Check that all the current tests run properly - https://github.com/DigitalCampus/oppia-mobile-android/issues/773
 * 889: Default view in Course List to expand and show all activities, with option to collapse - https://github.com/DigitalCampus/oppia-mobile-android/issues/889
+* 896: Add new user preferences to save in DB - https://github.com/DigitalCampus/oppia-mobile-android/issues/896
+* 890: Default course description = false in settings menu - https://github.com/DigitalCampus/oppia-mobile-android/issues/890
 
 Previous Versions
 ------------------
