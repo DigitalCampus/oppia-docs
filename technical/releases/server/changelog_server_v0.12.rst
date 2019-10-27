@@ -6,15 +6,19 @@ OppiaMobile Server Change Log
 v0.12.2 - not yet released
 --------------------------------
 
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_2
 	
 Key updates:
 
-
+* Additional logging of course publishing
 
 Issue list:
 
 * Updated version of Pillow - https://github.com/DigitalCampus/django-oppia/pull/669
-
+* 441: Keep log of when a course is republished with the old/new activities (`#441 <https://github.com/DigitalCampus/django-oppia/issues/441>`_)
 
 
 
