@@ -6,26 +6,32 @@ OppiaMobile Moodle Block Change Log
 v2019xxxxxx - not yet released
 -------------------------------------
 
-* 192: In Moodle version 3.5+ (Build: 20180531), the DB installation XML causes an error with the PATH attribute - https://github.com/DigitalCampus/moodle-block_oppia_mobile_export/issues/192
 
+.. _blockv2019102800:
+
+v2019102800 - Released 28 Oct 2019
+-------------------------------------
+
+* 192: In Moodle version 3.5+ (Build: 20180531), the DB installation XML causes an error with the PATH attribute - https://github.com/DigitalCampus/moodle-block_oppia_mobile_export/issues/192
+* 204: Add logging for course publishing - https://github.com/DigitalCampus/moodle-block_oppia_mobile_export/issues/204
 
 .. _blockv2018051800:
 
-v2018051800 -  Released 18 May 2018
+v2018051800 - Released 18 May 2018
 -------------------------------------
 
 * 191: Add points data to the module.xml file - https://github.com/DigitalCampus/moodle-block_oppia_mobile_export/issues/191
 
 .. _blockv2018022600:
 
-v2018022600 -  Released 26 Feb 2018
+v2018022600 - Released 26 Feb 2018
 -------------------------------------
 
 * 189: Ensure the activity/course title and description is enslosed in CDATA - https://github.com/DigitalCampus/moodle-block_oppia_mobile_export/issues/189
 
 .. _blockv2018011800:
 
-v2018011800 -  Released 18 Jan 2018
+v2018011800 - Released 18 Jan 2018
 -------------------------------------
 
 * Hotfix: Remove HTML entities in quiz question titles
