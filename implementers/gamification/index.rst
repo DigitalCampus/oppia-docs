@@ -77,3 +77,8 @@ In the default settings:
   will not earn points or badges in the courses they upload.
 
 These defaults may be changed in the server settings.
+
+
+.. note::
+    The Points shown in the bottom bar are the total points users have earned (even if they have logged in on many devices). This points view could not match with the total points shown in the Points section which shows the list of activities and points of the local device. 
+
