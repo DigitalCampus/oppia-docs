@@ -19,17 +19,6 @@ In prior versions of OppiaMobile, it was needed to refactor all the references t
 Update the ``app/build.gradle`` changing the ``applicationId`` value to a new one, keeping with the 'reverse url' type notation, so
 for example, replace ``org.digitalcampus.mobile.learning`` with ``org.myorgname.myproject.oppia``.
 
-
-Google Cloud Messaging
----------------------------
-
-The app uses the Google Cloud Messaging platform to receive push messages. You need to configure your own API key from the Google developers console as explained in the :ref:`registering-gcm` section of the documentation.
-
-This is mandatory, as the ``google-services`` plugin checks that your package name and ``applicationId`` match with the one that appears in the configuration JSON file.
-
-If you are not going to use this functionalities, you can just edit the current ``google-services.json`` file in your project ``app`` folder, replacing the value of the ``"package_name"`` property with your own package name. The current configuration file is a dummy one, so no need to worry about it affecting your code.
-
-
 Automatic error reporting 
 --------------------------------------
 

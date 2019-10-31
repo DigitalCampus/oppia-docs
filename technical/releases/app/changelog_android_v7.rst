@@ -20,6 +20,9 @@ Issue list:
 * 890: Default course description = false in settings menu - https://github.com/DigitalCampus/oppia-mobile-android/issues/890
 * 879: UI minor updates - after review - https://github.com/DigitalCampus/oppia-mobile-android/issues/879
 * 893: Improve UI to make Bluetooth buttons more clear - https://github.com/DigitalCampus/oppia-mobile-android/issues/893
+* 892: Bluetooth - Automatically export activities when you open the sync menu - https://github.com/DigitalCampus/oppia-mobile-android/issues/892
+* 844: Add some test for new code and fix absolete ones (points animation, activities and points screen) - https://github.com/DigitalCampus/oppia-mobile-android/issues/844
+* 908: Improve points views explanations in the docs - https://github.com/DigitalCampus/oppia-mobile-android/issues/i908
 
 .. _appv70:
 

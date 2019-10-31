@@ -46,6 +46,7 @@ but by this values you can control which specific actions are controlled by the 
 * ``ADMIN_PROTECT_ACTIVITY_SYNC`` (boolean): protect synchronising activity by admin password
 * ``ADMIN_PROTECT_ACTIVITY_EXPORT`` (boolean): protect exporting activity by admin password
 * ``ADMIN_PASSWORD_OVERRIDE_VERSION`` (int): the ``versionCode`` number of the app in which the password should be overriden.
+
 A situation may arise where the admin password set in the currently installed version needs to be
 overriden by a new known one. Setting this value to the current version code number of the app will set the ``ADMIN_PROTECT_INITIAL_PASSWORD`` as
 the current admin password the first time the app is initialized (as with the initial password, it can be changed later in the settings screen again).
