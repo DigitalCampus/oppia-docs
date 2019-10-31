@@ -1,11 +1,12 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
-.. _blockv2019xxxxxx:
+.. _blockv2019103100:
 
-v2019xxxxxx - not yet released
+v2019103100 - Released 31 Oct 2019
 -------------------------------------
 
+* 205: Downloading course file directly should be much less prominent - https://github.com/DigitalCampus/moodle-block_oppia_mobile_export/issues/205
 
 .. _blockv2019102800:
 
