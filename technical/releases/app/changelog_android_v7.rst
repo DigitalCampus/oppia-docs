@@ -19,6 +19,7 @@ Issue list:
 * 896: Add new user preferences to save in DB - https://github.com/DigitalCampus/oppia-mobile-android/issues/896
 * 890: Default course description = false in settings menu - https://github.com/DigitalCampus/oppia-mobile-android/issues/890
 * 879: UI minor updates - after review - https://github.com/DigitalCampus/oppia-mobile-android/issues/879
+* 893: Improve UI to make Bluetooth buttons more clear - https://github.com/DigitalCampus/oppia-mobile-android/issues/893
 
 .. _appv70:
 
