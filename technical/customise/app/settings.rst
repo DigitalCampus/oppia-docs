@@ -24,7 +24,6 @@ General settings
 * ``OPPIA_SERVER_DEFAULT`` (string): the initial Oppia server URL. By default, the demo server https://demo.oppia-mobile.org/
 * ``SESSION_EXPIRATION_ENABLED`` (boolean): enable that the session of the current user expires after a certain inactivity time. False by default
 * ``SESSION_EXPIRATION_TIMEOUT`` (int): seconds of inactivity to expire a user's session (only works if the previous one is set to true)
-* ``DEVICEADMIN_ENABLED`` (boolean): enable the remote admin functionality. False by default
 * ``OFFLINE_REGISTER_ENABLED`` (boolean): enable user to register an account even if offline. True by default
 
 Local admin settings (all false by default)

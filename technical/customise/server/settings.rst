@@ -200,31 +200,7 @@ Default: ``0``
 Defines how many results will be returned per page in the API. When set to 0, all results will be returned.
 
 
-DEVICE_ADMIN_ENABLED
------------------------
-
-Default: ``False``
-
-Defines if the Google Device Admin functionality is enabled. Note that if it is enabled here and in the Oppia app, then 
-extra information is required in the app to ensure users are aware of these permissions. If this info is not provided in 
-the app, then it may get removed from Google Play.
-
-GCM_DEVICE_MODEL
------------------
-
-Default: ``deviceadmin.models.UserDevice``
-
-Only used if DEVICE_ADMIN_ENABLED is ``True``
-
-GCM_APIKEY
------------------
-
-Default: ``OPPIA_GOOGLEAPIKEY``
-
-Only used if DEVICE_ADMIN_ENABLED is ``True``
-
-
-OPPIA_ANDROID_PACKAGEID 
+OPPIA_ANDROID_PACKAGEID
 ------------------------
 
 Default:  ``'org.digitalcampus.mobile.learning'``
