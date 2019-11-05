@@ -3,13 +3,15 @@
 Upgrading OppiaMobile Server
 =============================
 
-To ensure you get all the latest features, bug fixes and patches, it's important to keep your OppiaMobile server up to 
-date.
+To ensure you get all the latest features, bug fixes and patches, it's 
+important to keep your OppiaMobile server up to date.
 
-The upgrade process is described below, with the paths/directories described as OppiaMobile server is set up on both the 
-AWS and VirtualBox machine images. If you have installed OppiaMobile server to different location, then amend the 
-paths/directories as required. Or, if you have your own clone of the OppiaMobile server code, you will need to merge the 
-core version into your clone and resolve any conflicts, before updating your server.
+The upgrade process is described below, with the paths/directories described as 
+OppiaMobile server is set up on the AWS image. If you have installed 
+OppiaMobile server to different location, then amend the paths/directories as 
+required. Or, if you have your own clone of the OppiaMobile server code, 
+you will need to merge the core version into your clone and resolve any 
+conflicts, before updating your server.
 
 Your server must be connected to the internet for the upgrade process.
 
@@ -43,8 +45,7 @@ Any updated or new packages will now be installed
 Migrate the database
 -----------------------
 
-#. Move to oppia_web directory: ``(env)$ cd /home/oppiamobile/oppia_web``
-#. Migrate database with: ``(env)$ python manage.py migrate``
+#. Migrate database with: ``(env)$ python django-oppia/manage.py migrate``
 
 Copy static files
 ------------------

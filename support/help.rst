@@ -1,6 +1,7 @@
-Getting Help
-================
+Support and Help
+==================
 
-To get help using OppiaMobile, please post a message in the 
+The best place to get help and support is to post a message on the 
 `OppiaMobile Community site <https://community.oppia-mobile.org/>`_ 
+
 

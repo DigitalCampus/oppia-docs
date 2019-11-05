@@ -19,7 +19,7 @@ Issue list:
 
 * Updated version of Pillow - https://github.com/DigitalCampus/django-oppia/pull/669
 * 441: Keep log of when a course is republished with the old/new activities (`#441 <https://github.com/DigitalCampus/django-oppia/issues/441>`_)
-
+* 542: Remove OPPIA_EXPORT_LOCAL_MINVERSION setting - (`#542 <https://github.com/DigitalCampus/django-oppia/issues/542>`_)
 
 
 .. _serverv0.12.1:

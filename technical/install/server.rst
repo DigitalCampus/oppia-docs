@@ -76,8 +76,19 @@ if you're using something different.
    
 #. Save your ``settings_secret.py`` file
     
+    
+3. Install Ubuntu packages
+---------------------------
+
+Some additional packages are required that are not included on a default 
+installation of Ubuntu, so you'll need to install these:
+
+#. ``sudo apt-get install python3-mysqldb python3-dev libpython3-dev`` - 
+   extra python3 packages
+#. ``sudo apt-get install libjpeg-dev zlib1g-dev`` - extra packages for images
+#. ``sudo apt-get install ffmpeg`` - for analysing uploaded media files
    
-3. Set up virtualenv and packages
+4. Set up virtualenv and packages
 -----------------------------------
 
 `VirtualEnv <https://pypi.python.org/pypi/virtualenv/>`_  is a way to sandbox
@@ -104,8 +115,7 @@ and install this to use.
     (env)$ pip install -r django-oppia/requirements.txt
     
    This may take some time as it downloads and sets up all the necessary
-   python libraries that are required by the Oppia server
-
+   python libraries that are required by the Oppia server.
 
 #. Install a database connector, since we use MySQL, the command below is 
    specifically for that database server. If you are using a different database 
@@ -117,7 +127,9 @@ and install this to use.
    the Pillow imaging library). If the previous command fails at some of
    the installations, try installing the needed packages and then try again.::
 
-    (env)$ sudo apt-get install build-essential checkinstall libreadline-gplv2-dev openssl libncursesw5-dev libgdbm-dev libc6-dev libbz2-dev python-dev libmysqlclient-dev
+    (env)$ sudo apt-get install build-essential checkinstall 
+    libreadline-gplv2-dev openssl libncursesw5-dev libgdbm-dev 
+    libc6-dev libbz2-dev python-dev libmysqlclient-dev
 
    In some cases, it will be required to perform a system reboot for this
    changes to be applied.
@@ -126,7 +138,7 @@ and install this to use.
 #. You should now have all the required libraries set up and installed. 
 
 
-4. Set up other directories and permissions
+5. Set up other directories and permissions
 ---------------------------------------------
 
 Create directories for media, static and uploads by running (from 
@@ -140,7 +152,7 @@ If you are going to run this Oppia server as a live server, you should make
 sure that your webserver user (eg www-data) had read and write access to all
 these directories.
 
-5. Initialise the database and add admin user
+6. Initialise the database and add admin user
 -----------------------------------------------
 
 Now to create the database structure and an initial admin user.
@@ -155,6 +167,10 @@ Now to create the database structure and an initial admin user.
 	(env)$ python manage.py collectstatic oppia/fixtures/default_badges.json
 	(env)$ python manage.py collectstatic oppia/fixtures/default_gamification_events.json
 
+#. Compile the SCSS file::
+
+	(env)$ python manage.py compilescss
+	
 #. Copy the static files with::
 
 	(env)$ python manage.py collectstatic
@@ -165,7 +181,7 @@ Now to create the database structure and an initial admin user.
 
    and follow the instructions.
 
-6. Run the tests (optional but recommended)
+7. Run the tests (optional but recommended)
 ---------------------------------------------
 
 To check that everything has been set up and installed correctly, you can run 
@@ -173,7 +189,7 @@ the automated tests using::
 
 	(env)$ python manage.py test
 
-7. Test running the server locally
+8. Test running the server locally
 -------------------------------------
 
 Check that the server will run properly on the local machine, by running::
@@ -185,7 +201,7 @@ Then, in the web browser on the same machine, open::
 	http://localhost:8000 
 
 
-8. Configure web server (for live servers)
+9. Configure web server (for live servers)
 --------------------------------------------
 
 If the Oppia server you are setting up is to run as a live server, then you 
@@ -202,7 +218,7 @@ Here is an example Apache config file that you can use and adapt::
 	<VirtualHost *:80>
 	
 		ServerName localhost.oppia
-		WSGIDaemonProcess localhost.oppia python-path=/home/oppia/django-oppia:/home/oppia/env/lib/python2.7/site-packages
+		WSGIDaemonProcess localhost.oppia python-path=/home/oppia/django-oppia:/home/oppia/env/lib/python3.6/site-packages
 		WSGIProcessGroup localhost.oppia
 		WSGIScriptAlias / /home/oppia/django-oppia/oppiamobile/wsgi.py
 		WSGIPassAuthorization On
@@ -230,8 +246,8 @@ Here is an example Apache config file that you can use and adapt::
 		
 	
 		LogLevel warn
-		ErrorLog /var/log/apache2/oppia-core-error.log
-		CustomLog /var/log/apache2/oppia-core-access.log combined
+		ErrorLog /var/log/apache2/oppia-error.log
+		CustomLog /var/log/apache2/oppia-access.log combined
 	
 	</VirtualHost>
 
@@ -239,9 +255,32 @@ Replace the ``ServerName`` ``localhost.oppia`` with your site's domain name and
 adjust any instances of ``/home/oppia/`` with the directory you used for 
 installing.
 
+
+10. Configure SSL (recommended)
+-----------------------------------------------
+
+It is recommended to set up SSL (HTTPS) certificates for the connection 
+between users devices and the server.
+
+You can use `LetsEncrypt <https://letsencrypt.org/>`_ to set up free SSL 
+certificates.
+
+11. Configure email (recommended)
+------------------------------------
+
+
+In your ``settings_secret.py`` file, edit the ``EMAIL_BACKEND`` and 
+``SERVER_EMAIL`` to configure sending emails from Oppia. 
+
+Exactly how these need to be configured and set up will depend on your email
+backend (see: 
+https://docs.djangoproject.com/en/2.2/topics/email/#email-backends). For live
+servers you are most likley to want to use the `SMTP backend
+<https://docs.djangoproject.com/en/2.2/topics/email/#smtp-backend>`_
+
 .. _installcron:
 
-9. Set up cron tasks
+12. Set up cron tasks
 ---------------------
 
 There are 2 cron tasks, one does the processing for awarding badges and general 
@@ -268,8 +307,10 @@ recommend putting these files in your ``/home/oppia/`` directory.
 	source env/bin/activate
 	
 	python django-oppia/manage.py update_summaries
+	
+Edit your ``crontab`` to run these scripts regularly - at least once per hour.
 
-10. Contribute!
+13. Contribute!
 ----------------
 
 If you find issues and have fixed them or have added extra features/
