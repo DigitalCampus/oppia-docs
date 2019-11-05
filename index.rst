@@ -77,4 +77,4 @@ Training & Support
    
    support/training/index
    support/troubleshooting/index
-   support/help
+   support/index
