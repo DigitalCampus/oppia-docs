@@ -1,9 +1,21 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+.. _appv72:
+
+v72 (7.0.2) - not yet released 
+---------------------------------
+
+Key updates:
+
+
+Issue list:
+
+
+
 .. _appv71:
 
-v71 (7.0.1) - not yet released
+v71 (7.0.1) - beta version
 --------------------------------------
 
 Key updates:
