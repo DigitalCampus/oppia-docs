@@ -68,6 +68,7 @@ Implementers/Users Guide
    implementers/integration/index
    implementers/viz/index
    implementers/offline/index
+   implementers/evaluation/index
 
 Training & Support
 -------------------

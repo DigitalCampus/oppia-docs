@@ -11,6 +11,7 @@ Key updates:
 
 Issue list:
 
+* 901: Course layout issue when switching between landscape and portrait - https://github.com/DigitalCampus/oppia-mobile-android/issues/901
 
 
 .. _appv71:
