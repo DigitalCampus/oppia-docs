@@ -21,10 +21,13 @@ General settings
 ^^^^^^^^^^^^^^^^^
 
 * ``MINT_API_KEY`` (string): the Splunk Mint API key to use for the crash reports
-* ``OPPIA_SERVER_DEFAULT`` (string): the initial Oppia server URL. By default, the demo server https://demo.oppia-mobile.org/
+* ``OPPIA_SERVER_DEFAULT`` (string): the initial Oppia server URL. By default, the demo server ``https://demo.oppia-mobile.org/``
+* ``OPPIA_SERVER_HOST`` (string): the server hostname, for the intent filter functionality (to be able to open links from external apps directly in the app). For example, if our server is ``https://demo.oppia-mobile.org/`` this config should be set to ``demo.oppia-mobile.org``
 * ``SESSION_EXPIRATION_ENABLED`` (boolean): enable that the session of the current user expires after a certain inactivity time. False by default
 * ``SESSION_EXPIRATION_TIMEOUT`` (int): seconds of inactivity to expire a user's session (only works if the previous one is set to true)
-* ``OFFLINE_REGISTER_ENABLED`` (boolean): enable user to register an account even if offline. True by default
+* ``OFFLINE_REGISTER_ENABLED`` (boolean): enable user to register an account even if offline. True by default.
+* ``START_COURSEINDEX_COLLAPSED`` (boolean): show the course index with each section collapsed. False by default.
+
 
 Local admin settings (all false by default)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
