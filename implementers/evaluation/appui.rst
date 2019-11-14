@@ -26,8 +26,8 @@ An overview of the process is:
 * Introduce the project and what you are doing and why. Specifically emphasise
   that this is about you testing the product, not the users ability to complete
   the task
-* Ask the user the `think out loud 
-  <https://en.wikipedia.org/wiki/Think_aloud_protocol>` as they are going 
+* Ask the user to `think out loud 
+  <https://en.wikipedia.org/wiki/Think_aloud_protocol>`_ as they are going 
   through each task - this gives an idea about users thought processes 
 * Reset the device back to either the Android main screen, or the app homepage, 
   before each task
