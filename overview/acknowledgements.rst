@@ -46,10 +46,12 @@ Contributors
 * Safdar Ali & Durba Gogia - Hindi translation
 * Roman Blanco - Spanish translation
 * Marijs Carrin - for testing and development
-* Joseba and Adrián - technical development, performance improvements and bug 
+* `Joseba <https://github.com/jjoseba>`_ - technical development, performance 
+  improvements and bug fixes 
+* Adrián Domínguez - technical development, performance improvements and bug 
   fixes
-* `Julio <https://github.com/jbc25>`_ - technical development, performance 
-  improvements and bug fixes
+* `Julio Berzal <https://github.com/jbc25>`_ - technical development, 
+  performance improvements and bug fixes
 * Laila Hussain - Urdu translation
 * `Lebanese Alternative Learning <http://lal.ngo>`_ - Arabic (Lebanese) 
   translation and funding for drag and drop quizzes

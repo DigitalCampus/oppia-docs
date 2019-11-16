@@ -11,9 +11,17 @@ Key updates:
 
 Issue list:
 
-* 901: Course layout issue when switching between landscape and portrait - https://github.com/DigitalCampus/oppia-mobile-android/issues/901
-* 918: Tracker meta-data not always being recorded - https://github.com/DigitalCampus/oppia-mobile-android/issues/918
-
+* 901: Course layout issue when switching between landscape and portrait
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/901
+* 918: Tracker meta-data not always being recorded
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/918
+* 919: Fix "Unselect all" button visibility
+  -https://github.com/DigitalCampus/oppia-mobile-android/issues/919
+* 860: Review Google Messaging GCM
+  -https://github.com/DigitalCampus/oppia-mobile-android/issues/860 
+* 917: Search tracker recording blank searches
+  -https://github.com/DigitalCampus/oppia-mobile-android/issues/917
+  
 .. _appv71:
 
 v71 (7.0.1) - beta version
