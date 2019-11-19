@@ -17,12 +17,18 @@ Key updates:
 
 Issue list:
 
-* Updated version of Pillow - https://github.com/DigitalCampus/django-oppia/pull/669
-* 441: Keep log of when a course is republished with the old/new activities (`#441 <https://github.com/DigitalCampus/django-oppia/issues/441>`_)
-* 542: Remove OPPIA_EXPORT_LOCAL_MINVERSION setting - (`#542 <https://github.com/DigitalCampus/django-oppia/issues/542>`_)
-* 676: Add tests for quiz attempts in activity log upload - (`#676 <https://github.com/DigitalCampus/django-oppia/issues/676>`_)
+* Updated version of Pillow -
+  https://github.com/DigitalCampus/django-oppia/pull/669
+* 441: Keep log of when a course is republished with the old/new activities -
+  (`#441 <https://github.com/DigitalCampus/django-oppia/issues/441>`_)
+* 542: Remove OPPIA_EXPORT_LOCAL_MINVERSION setting -
+  (`#542 <https://github.com/DigitalCampus/django-oppia/issues/542>`_)
+* 676: Add tests for quiz attempts in activity log upload -
+  (`#676 <https://github.com/DigitalCampus/django-oppia/issues/676>`_)
 * 680: Check that the server can be set up with SQLite as the db - 
   (`#680 <https://github.com/DigitalCampus/django-oppia/issues/680>`_)
+* 512: Remove GCM push/device admin functionality
+  (`#512 <https://github.com/DigitalCampus/django-oppia/issues/512>`_)
 
 .. _serverv0.12.1:
 
