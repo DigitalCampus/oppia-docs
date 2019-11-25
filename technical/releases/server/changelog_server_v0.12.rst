@@ -14,6 +14,7 @@ v0.12.2 - not yet released
 Key updates:
 
 * Additional logging of course publishing
+* Updates for PEP8 formatting of code
 
 Issue list:
 
