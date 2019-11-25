@@ -30,6 +30,11 @@ Issue list:
   (`#680 <https://github.com/DigitalCampus/django-oppia/issues/680>`_)
 * 512: Remove GCM push/device admin functionality
   (`#512 <https://github.com/DigitalCampus/django-oppia/issues/512>`_)
+* 685: Add pycodestyle to requirements
+  (`#685 <https://github.com/DigitalCampus/django-oppia/issues/685>`_)
+* 672: Find out why media views showing as 0
+  (`#672 <https://github.com/DigitalCampus/django-oppia/issues/672>`_)
+  
 
 .. _serverv0.12.1:
 

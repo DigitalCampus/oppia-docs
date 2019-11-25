@@ -16,11 +16,13 @@ Issue list:
 * 918: Tracker meta-data not always being recorded
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/918
 * 919: Fix "Unselect all" button visibility
-  -https://github.com/DigitalCampus/oppia-mobile-android/issues/919
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/919
 * 860: Review Google Messaging GCM
-  -https://github.com/DigitalCampus/oppia-mobile-android/issues/860 
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/860 
 * 917: Search tracker recording blank searches
-  -https://github.com/DigitalCampus/oppia-mobile-android/issues/917
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/917
+* 886: ListPreference requires an entries array and an entryValues array
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/886
   
 .. _appv71:
 

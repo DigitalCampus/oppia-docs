@@ -20,6 +20,11 @@ Update database
 
 #. Run: ``(env)$ python manage.py migrate``
 
+Rebuild summary data
+-------------------------
+
+#. Run: ``(env)$ python manage.py update_summaries --fromstart``
+
    
 
 
