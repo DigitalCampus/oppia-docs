@@ -34,6 +34,8 @@ Issue list:
   (`#685 <https://github.com/DigitalCampus/django-oppia/issues/685>`_)
 * 672: Find out why media views showing as 0
   (`#672 <https://github.com/DigitalCampus/django-oppia/issues/672>`_)
+* 683: Replace raw_input() with input()
+  (`#683 <https://github.com/DigitalCampus/django-oppia/issues/683>`_)
   
 
 .. _serverv0.12.1:
