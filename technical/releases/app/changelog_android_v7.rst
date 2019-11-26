@@ -23,6 +23,8 @@ Issue list:
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/917
 * 886: ListPreference requires an entries array and an entryValues array
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/886
+* 913: Offline registration - create tests to check it's not case sensitive
+  -https://github.com/DigitalCampus/oppia-mobile-android/issues/913
   
 .. _appv71:
 

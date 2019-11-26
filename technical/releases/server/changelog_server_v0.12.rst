@@ -14,7 +14,8 @@ v0.12.2 - not yet released
 Key updates:
 
 * Additional logging of course publishing
-* Updates for PEP8 formatting of code
+* Updates for PEP8/Flake8 formatting of code
+* Add pytest integration with Github workflows
 
 Issue list:
 
@@ -36,6 +37,8 @@ Issue list:
   (`#672 <https://github.com/DigitalCampus/django-oppia/issues/672>`_)
 * 683: Replace raw_input() with input()
   (`#683 <https://github.com/DigitalCampus/django-oppia/issues/683>`_)
+* 688: Configure github workflow yml file
+  (`#688 <https://github.com/DigitalCampus/django-oppia/issues/688>`_)  
   
 
 .. _serverv0.12.1:
