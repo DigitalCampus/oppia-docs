@@ -19,7 +19,7 @@ Issue list:
 
 .. _serverv0.12.2:
 
-v0.12.2 - not yet released
+v0.12.2 - Released 27 Nov 2019
 --------------------------------
 
 .. toctree::
@@ -60,6 +60,8 @@ Issue list:
   (`#666 <https://github.com/DigitalCampus/django-oppia/issues/666>`_)
 * 692: Add specific test for implementation
   (`#692 <https://github.com/DigitalCampus/django-oppia/issues/692>`_)
+* 667: test_quiz_attempt_points_included test failing
+  (`#667 <https://github.com/DigitalCampus/django-oppia/issues/667>`_)
   
 
 .. _serverv0.12.1:
