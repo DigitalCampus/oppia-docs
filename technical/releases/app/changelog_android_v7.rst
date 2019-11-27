@@ -1,6 +1,17 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+.. _appv73:
+
+v73 (7.0.3) - not yet released 
+---------------------------------
+
+Key updates:
+
+
+Issue list:
+
+
 .. _appv72:
 
 v72 (7.0.2) - not yet released 
@@ -8,6 +19,9 @@ v72 (7.0.2) - not yet released
 
 Key updates:
 
+* UI fixes/updates
+* Review and updates for tracker data recording
+* Additional automated tests
 
 Issue list:
 
@@ -29,7 +43,20 @@ Issue list:
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/922
 * 904: Update activity log export for media/quiz
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/904
+* 895: Allow exported activity logs to be directly uploaded to the server
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/895
+* 915: Tracker logs - confirm that completing page activities is working
+  correctly
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/915
+* 929: Test failure -  showsWelcomeActivityOnLogoutClickYes(
+  UI.MainActivityUITest)
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/929
+* 918: Tracker meta-data not always being recorded
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/918
+* 940: Add specific test for implementation
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/940
   
+
 .. _appv71:
 
 v71 (7.0.1) - beta version

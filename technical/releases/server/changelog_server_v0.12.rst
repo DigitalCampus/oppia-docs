@@ -1,6 +1,22 @@
 OppiaMobile Server Change Log
 ================================
 
+.. _serverv0.12.3:
+
+v0.12.3 - not yet released
+--------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_3
+	
+Key updates:
+
+
+Issue list:
+
+
 .. _serverv0.12.2:
 
 v0.12.2 - not yet released
@@ -16,6 +32,7 @@ Key updates:
 * Additional logging of course publishing
 * Updates for PEP8/Flake8 formatting of code
 * Add pytest integration with Github workflows
+* Remove old/redundant code
 
 Issue list:
 

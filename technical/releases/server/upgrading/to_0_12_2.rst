@@ -25,13 +25,3 @@ Rebuild summary data
 
 #. Run: ``(env)$ python manage.py update_summaries --fromstart``
 
-   
-
-
-
-
-
-
-
-
-
