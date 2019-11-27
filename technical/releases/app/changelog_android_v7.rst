@@ -24,7 +24,11 @@ Issue list:
 * 886: ListPreference requires an entries array and an entryValues array
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/886
 * 913: Offline registration - create tests to check it's not case sensitive
-  -https://github.com/DigitalCampus/oppia-mobile-android/issues/913
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/913
+* 922: Quiz attempts being recorded multiple times in the tracker log
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/922
+* 904: Update activity log export for media/quiz
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/904
   
 .. _appv71:
 

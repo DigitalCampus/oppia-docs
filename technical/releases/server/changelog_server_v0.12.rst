@@ -38,7 +38,11 @@ Issue list:
 * 683: Replace raw_input() with input()
   (`#683 <https://github.com/DigitalCampus/django-oppia/issues/683>`_)
 * 688: Configure github workflow yml file
-  (`#688 <https://github.com/DigitalCampus/django-oppia/issues/688>`_)  
+  (`#688 <https://github.com/DigitalCampus/django-oppia/issues/688>`_)
+* 666: Make left hand side bar collapsible
+  (`#666 <https://github.com/DigitalCampus/django-oppia/issues/666>`_)
+* 692: Add specific test for implementation
+  (`#692 <https://github.com/DigitalCampus/django-oppia/issues/692>`_)
   
 
 .. _serverv0.12.1:
