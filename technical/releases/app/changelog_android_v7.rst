@@ -11,11 +11,14 @@ Key updates:
 
 Issue list:
 
-
+* 931: Check text colour on some interface elements
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/931
+  
+  
 .. _appv72:
 
-v72 (7.0.2) - not yet released 
----------------------------------
+v72 (7.0.2) - Released 28 Nov 2019 
+-------------------------------------
 
 Key updates:
 
