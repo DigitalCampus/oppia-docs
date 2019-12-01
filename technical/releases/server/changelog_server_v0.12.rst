@@ -16,6 +16,14 @@ Key updates:
 
 Issue list:
 
+* 697: Fix email sending
+  - (`#697 <https://github.com/DigitalCampus/django-oppia/issues/697>`_)
+* 692: Add specific test for implementation
+  - (`#692 <https://github.com/DigitalCampus/django-oppia/issues/692>`_)
+* 645: Emailing password reset not working
+  - (`#645 <https://github.com/DigitalCampus/django-oppia/issues/645>`_)
+* 682: Update user profile to include custom fields
+  - (`#682 <https://github.com/DigitalCampus/django-oppia/issues/682>`_)
 
 .. _serverv0.12.2:
 

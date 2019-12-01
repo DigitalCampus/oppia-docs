@@ -1,6 +1,21 @@
 Configuring your own version of the server
 ===========================================
 
+Additional Profile/Registration Fields
+-----------------------------------------
+
+You can add additional fields to the registration and profile forms by adding
+entries in the Django Admin ``profile.CustomField`` table.
+
+However you will also need to update the registration form in your app to make
+sure the fields on this app form match those you have added on the server side.
+
+.. note::
+	If you set a CustomField to be required, before the app registration form
+	has been updated and deployed, you will find that users will be unable to
+	register an account. An approach to avoid this issue is to allow the new 
+	CusomtField to be optional, until your app has been updated and deployed.
+
 Overriding SCSS styles
 ----------------------
 
