@@ -13,6 +13,10 @@ v0.12.3 - not yet released
 	
 Key updates:
 
+* Allow custom fields for profile form
+* API for profile updating
+* Refactoring of API code
+* Lint and SonarCloud fixes
 
 Issue list:
 
@@ -28,6 +32,10 @@ Issue list:
   - (`#687 <https://github.com/DigitalCampus/django-oppia/issues/687>`_)
 * 699: Split out api/resources.py into separate files
   - (`#699 <https://github.com/DigitalCampus/django-oppia/issues/699>`_)
+* 605: Remove signup_callback function
+  - (`#605 <https://github.com/DigitalCampus/django-oppia/issues/605>`_)
+* 660: In tests for file opening use `with ... as ...` instead of file=
+  - (`#660 <https://github.com/DigitalCampus/django-oppia/issues/660>`_)
 
 .. _serverv0.12.2:
 
