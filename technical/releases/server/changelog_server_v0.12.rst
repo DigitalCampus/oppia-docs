@@ -24,6 +24,10 @@ Issue list:
   - (`#645 <https://github.com/DigitalCampus/django-oppia/issues/645>`_)
 * 682: Update user profile to include custom fields
   - (`#682 <https://github.com/DigitalCampus/django-oppia/issues/682>`_)
+* 687: Add API endpoint for user to update their profile info
+  - (`#687 <https://github.com/DigitalCampus/django-oppia/issues/687>`_)
+* 699: Split out api/resources.py into separate files
+  - (`#699 <https://github.com/DigitalCampus/django-oppia/issues/699>`_)
 
 .. _serverv0.12.2:
 

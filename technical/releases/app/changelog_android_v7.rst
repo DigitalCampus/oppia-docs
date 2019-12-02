@@ -13,6 +13,8 @@ Issue list:
 
 * 931: Check text colour on some interface elements
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/931
+* 930: Add admin setting option to prevent changing of the server address
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/930
   
   
 .. _appv72:
