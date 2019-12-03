@@ -36,6 +36,8 @@ Issue list:
   - (`#605 <https://github.com/DigitalCampus/django-oppia/issues/605>`_)
 * 660: In tests for file opening use `with ... as ...` instead of file=
   - (`#660 <https://github.com/DigitalCampus/django-oppia/issues/660>`_)
+* 700: Course_download_views allows anyone to download any course
+  - (`#700 <https://github.com/DigitalCampus/django-oppia/issues/700>`_)
 
 .. _serverv0.12.2:
 
