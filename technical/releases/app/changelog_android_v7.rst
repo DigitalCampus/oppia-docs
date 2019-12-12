@@ -15,8 +15,18 @@ Issue list:
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/931
 * 930: Add admin setting option to prevent changing of the server address
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/930
-  
-  
+* 937: Scorecard activity graph - show "all activities" only by default
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/937  
+* 948: Test `Services.TrackerWorkerTest` hangs
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/948
+* 907: TrackerService generates error messages when no-one logged in
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/907 
+* 950: On points list display make the scrolling for the whole page
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/950
+* 856: Change (or remove) the publisher info on course download page
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/856
+
+
 .. _appv72:
 
 v72 (7.0.2) - Released 28 Nov 2019 
@@ -60,7 +70,6 @@ Issue list:
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/918
 * 940: Add specific test for implementation
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/940
-  
 
 .. _appv71:
 
