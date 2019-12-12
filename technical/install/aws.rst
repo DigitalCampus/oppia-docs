@@ -106,7 +106,18 @@ saved as plain text files in the ``/tmp`` directory.
 To enable sending email you will need to:
 
 * configure your AWS account to enable email sending (using SES service)
-* add ``EMAIL_BACKEND`` and ``EMAIL_FILE_PATH`` directives 
-  in the ``/home/oppiamobile/django-oppia/oppiamobile/settings_secret.py`` file. 
-* update the ``SERVER_EMAIL`` directive in ``settings_secret.py`` to use an email 
-  address that is authorised to send via your SES.
+* create/download your AWS IAM Access Key
+* update the ``/home/oppiamobile/django-oppia/oppiamobile/settings_secret.py``
+  file to configure for using ``django-ses`` (see: 
+  https://github.com/django-ses/django-ses)
+  
+Your setting_secret.py file should have a block of code like this (just add in
+your access key and secret access key)::
+
+	# Email setup
+	EMAIL_BACKEND = 'django_ses.SESBackend'
+	AWS_ACCESS_KEY_ID = 'xxxxxxxxxxx'
+	AWS_SECRET_ACCESS_KEY = 'xxxxxxxxxxxxxxxx'
+	AWS_SES_REGION_NAME = 'eu-west-1'
+	AWS_SES_REGION_ENDPOINT = 'email.eu-west-1.amazonaws.com'
+
