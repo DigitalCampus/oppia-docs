@@ -38,6 +38,11 @@ Issue list:
   - (`#660 <https://github.com/DigitalCampus/django-oppia/issues/660>`_)
 * 700: Course_download_views allows anyone to download any course
   - (`#700 <https://github.com/DigitalCampus/django-oppia/issues/700>`_)
+* 684: Remove OPPIA_*_EARN_POINTS settings
+  - (`#684 <https://github.com/DigitalCampus/django-oppia/issues/684>`_)
+* 709: Upload users function does not work
+  - (`#709 <https://github.com/DigitalCampus/django-oppia/issues/709>`_)
+
 
 .. _serverv0.12.2:
 
