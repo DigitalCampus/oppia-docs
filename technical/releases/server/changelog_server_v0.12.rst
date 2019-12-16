@@ -16,33 +16,46 @@ Key updates:
 * Allow custom fields for profile form
 * API for profile updating
 * Refactoring of API code
-* Lint and SonarCloud fixes
+* SonarCloud fixes for duplicate code, code smells and test coverage
+* Remove deprecated quiz API endpoints
 
 Issue list:
 
 * 697: Fix email sending
-  - (`#697 <https://github.com/DigitalCampus/django-oppia/issues/697>`_)
+  (`#697 <https://github.com/DigitalCampus/django-oppia/issues/697>`_)
 * 692: Add specific test for implementation
-  - (`#692 <https://github.com/DigitalCampus/django-oppia/issues/692>`_)
+  (`#692 <https://github.com/DigitalCampus/django-oppia/issues/692>`_)
 * 645: Emailing password reset not working
-  - (`#645 <https://github.com/DigitalCampus/django-oppia/issues/645>`_)
+  (`#645 <https://github.com/DigitalCampus/django-oppia/issues/645>`_)
 * 682: Update user profile to include custom fields
-  - (`#682 <https://github.com/DigitalCampus/django-oppia/issues/682>`_)
+  (`#682 <https://github.com/DigitalCampus/django-oppia/issues/682>`_)
 * 687: Add API endpoint for user to update their profile info
-  - (`#687 <https://github.com/DigitalCampus/django-oppia/issues/687>`_)
+  (`#687 <https://github.com/DigitalCampus/django-oppia/issues/687>`_)
 * 699: Split out api/resources.py into separate files
-  - (`#699 <https://github.com/DigitalCampus/django-oppia/issues/699>`_)
+  (`#699 <https://github.com/DigitalCampus/django-oppia/issues/699>`_)
 * 605: Remove signup_callback function
-  - (`#605 <https://github.com/DigitalCampus/django-oppia/issues/605>`_)
+  (`#605 <https://github.com/DigitalCampus/django-oppia/issues/605>`_)
 * 660: In tests for file opening use `with ... as ...` instead of file=
-  - (`#660 <https://github.com/DigitalCampus/django-oppia/issues/660>`_)
+  (`#660 <https://github.com/DigitalCampus/django-oppia/issues/660>`_)
 * 700: Course_download_views allows anyone to download any course
-  - (`#700 <https://github.com/DigitalCampus/django-oppia/issues/700>`_)
+  (`#700 <https://github.com/DigitalCampus/django-oppia/issues/700>`_)
 * 684: Remove OPPIA_*_EARN_POINTS settings
-  - (`#684 <https://github.com/DigitalCampus/django-oppia/issues/684>`_)
+  (`#684 <https://github.com/DigitalCampus/django-oppia/issues/684>`_)
 * 709: Upload users function does not work
-  - (`#709 <https://github.com/DigitalCampus/django-oppia/issues/709>`_)
-
+  (`#709 <https://github.com/DigitalCampus/django-oppia/issues/709>`_)
+* 552: SonarQube - complexity of 
+  quiz/management/commands/update_short_answer_scores.py handle function
+  (`#552 <https://github.com/DigitalCampus/django-oppia/issues/552>`_)
+* 587: Duplicate code blocks in quiz management commands
+  (`#587 <https://github.com/DigitalCampus/django-oppia/issues/587>`_)
+* 548: SonarQube - complexity of oppia/uploader.py - several functions
+  (`#548 <https://github.com/DigitalCampus/django-oppia/issues/548>`_)
+* 551: SonarQube - complexity of quiz/api/serializers.py format_quiz function
+  (`#551 <https://github.com/DigitalCampus/django-oppia/issues/551>`_)
+* 547: SonarQube - complexity of oppia/signals.py tracker_callback function
+  (`#547 <https://github.com/DigitalCampus/django-oppia/issues/547>`_)
+* 712: Quiz API... mainly deprecated?
+  (`#712 <https://github.com/DigitalCampus/django-oppia/issues/712>`_)
 
 .. _serverv0.12.2:
 
@@ -108,10 +121,14 @@ Key updates:
 
 Issue list:
 
-* 648: Update to django 2.2.x (`#648 <https://github.com/DigitalCampus/django-oppia/issues/648>`_)
-* 664: Cohort leaderboard shows empty page (`#664 <https://github.com/DigitalCampus/django-oppia/issues/664>`_)
-* 663: Initial version of DHIS2 export (`#663 <https://github.com/DigitalCampus/django-oppia/issues/663>`_)
-* 564: In management commands replace print() with self.stdout.write() (`#564 <https://github.com/DigitalCampus/django-oppia/issues/564>`_)
+* 648: Update to django 2.2.x 
+  (`#648 <https://github.com/DigitalCampus/django-oppia/issues/648>`_)
+* 664: Cohort leaderboard shows empty page
+  (`#664 <https://github.com/DigitalCampus/django-oppia/issues/664>`_)
+* 663: Initial version of DHIS2 export
+  (`#663 <https://github.com/DigitalCampus/django-oppia/issues/663>`_)
+* 564: In management commands replace print() with self.stdout.write()
+  (`#564 <https://github.com/DigitalCampus/django-oppia/issues/564>`_)
 
 .. _serverv0.12.0:
 
@@ -130,24 +147,42 @@ Key updates:
 
 Issue list:
 
-* 539: Moving to python 3 and django 2 (`#539 <https://github.com/DigitalCampus/django-oppia/issues/539>`_)
-* 468: RemovedInDjango20Warning - update for deprecation/changes (`#468 <https://github.com/DigitalCampus/django-oppia/issues/468>`_)
-* 571: For python 3 - replace __unicode__ with __str__ in models (`#571 <https://github.com/DigitalCampus/django-oppia/issues/571>`_)
-* 591: Update media_url_check to remove urllib2 dependency (`#591 <https://github.com/DigitalCampus/django-oppia/issues/591>`_)
-* 601: Python 3 - v0.12.0 branch - check usage of urllib/urllib2/urllib3 (`#601 <https://github.com/DigitalCampus/django-oppia/issues/601>`_)
-* 640: Error with Gamification db migrations on v0.12 branch (`#640 <https://github.com/DigitalCampus/django-oppia/issues/640>`_)
-* 577: Drawer menu for admin users (`#577 <https://github.com/DigitalCampus/django-oppia/issues/577>`_)
-* 625: Crispy-forms - move to using the BootStrap4 template pack (`#625 <https://github.com/DigitalCampus/django-oppia/issues/625>`_)
-* 639: Merge material design branch into latest dev branch (`#639 <https://github.com/DigitalCampus/django-oppia/issues/639>`_)
-* 635: Points/gamification not working on staging server with python 3/django 2 (`#635 <https://github.com/DigitalCampus/django-oppia/issues/635>`_)
-* 636: Deprecation warning for BaseException.message (`#636 <https://github.com/DigitalCampus/django-oppia/issues/636>`_)
-* 638: Fix tests for v0.12.0 branch (`#638 <https://github.com/DigitalCampus/django-oppia/issues/638>`_)
-* 649: Date range selector with styles that match the customizable theme (`#649 <https://github.com/DigitalCampus/django-oppia/issues/649>`_)
-* 646: Upload view fails if user has no associated UserProfile (`#646 <https://github.com/DigitalCampus/django-oppia/issues/646>`_)
-* 650: Add tests for activitylog upload (`#650 <https://github.com/DigitalCampus/django-oppia/issues/650>`_)
-* 655: Updates from SonarQube recommendations (`#655 <https://github.com/DigitalCampus/django-oppia/issues/655>`_)
-* 585: Add tests for recent updates to activity log (`#585 <https://github.com/DigitalCampus/django-oppia/issues/585>`_)
-* 189: Remove CourseXML class as no longer used? (`#189 <https://github.com/DigitalCampus/django-oppia/issues/189>`_)
+* 539: Moving to python 3 and django 2
+  (`#539 <https://github.com/DigitalCampus/django-oppia/issues/539>`_)
+* 468: RemovedInDjango20Warning - update for deprecation/changes
+  (`#468 <https://github.com/DigitalCampus/django-oppia/issues/468>`_)
+* 571: For python 3 - replace __unicode__ with __str__ in models
+  (`#571 <https://github.com/DigitalCampus/django-oppia/issues/571>`_)
+* 591: Update media_url_check to remove urllib2 dependency
+  (`#591 <https://github.com/DigitalCampus/django-oppia/issues/591>`_)
+* 601: Python 3 - v0.12.0 branch - check usage of urllib/urllib2/urllib3
+  (`#601 <https://github.com/DigitalCampus/django-oppia/issues/601>`_)
+* 640: Error with Gamification db migrations on v0.12 branch
+  (`#640 <https://github.com/DigitalCampus/django-oppia/issues/640>`_)
+* 577: Drawer menu for admin users
+  (`#577 <https://github.com/DigitalCampus/django-oppia/issues/577>`_)
+* 625: Crispy-forms - move to using the BootStrap4 template pack
+  (`#625 <https://github.com/DigitalCampus/django-oppia/issues/625>`_)
+* 639: Merge material design branch into latest dev branch
+  (`#639 <https://github.com/DigitalCampus/django-oppia/issues/639>`_)
+* 635: Points/gamification not working on staging server with python 3/django 2
+  (`#635 <https://github.com/DigitalCampus/django-oppia/issues/635>`_)
+* 636: Deprecation warning for BaseException.message
+  (`#636 <https://github.com/DigitalCampus/django-oppia/issues/636>`_)
+* 638: Fix tests for v0.12.0 branch
+  (`#638 <https://github.com/DigitalCampus/django-oppia/issues/638>`_)
+* 649: Date range selector with styles that match the customizable theme
+  (`#649 <https://github.com/DigitalCampus/django-oppia/issues/649>`_)
+* 646: Upload view fails if user has no associated UserProfile
+  (`#646 <https://github.com/DigitalCampus/django-oppia/issues/646>`_)
+* 650: Add tests for activitylog upload
+  (`#650 <https://github.com/DigitalCampus/django-oppia/issues/650>`_)
+* 655: Updates from SonarQube recommendations
+  (`#655 <https://github.com/DigitalCampus/django-oppia/issues/655>`_)
+* 585: Add tests for recent updates to activity log
+  (`#585 <https://github.com/DigitalCampus/django-oppia/issues/585>`_)
+* 189: Remove CourseXML class as no longer used?
+  (`#189 <https://github.com/DigitalCampus/django-oppia/issues/189>`_)
 
 Previous Versions
 ------------------
