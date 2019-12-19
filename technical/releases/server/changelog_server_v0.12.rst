@@ -56,6 +56,10 @@ Issue list:
   (`#547 <https://github.com/DigitalCampus/django-oppia/issues/547>`_)
 * 712: Quiz API... mainly deprecated?
   (`#712 <https://github.com/DigitalCampus/django-oppia/issues/712>`_)
+* 678: Display user full quiz attempts and responses
+  (`#678 <https://github.com/DigitalCampus/django-oppia/issues/678>`_)
+* 711: Split out oppia/view.py and profile/view.py into separate files?
+  (`#711 <https://github.com/DigitalCampus/django-oppia/issues/711>`_)
 
 .. _serverv0.12.2:
 

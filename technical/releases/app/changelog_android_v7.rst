@@ -25,7 +25,12 @@ Issue list:
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/950
 * 856: Change (or remove) the publisher info on course download page
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/856
-
+* 812: Replace ListView+ArrayAdapters with RecyclerView+RecyclerView.Adapters
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/812
+* 936: Collapse all option on course index page
+  https://github.com/DigitalCampus/oppia-mobile-android/issues/936
+* 962: Fix all tests related with RecyclerView refactor
+  https://github.com/DigitalCampus/oppia-mobile-android/issues/962
 
 .. _appv72:
 
