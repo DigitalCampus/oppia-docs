@@ -1,13 +1,29 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
-.. _appv73:
 
-v73 (7.0.3) - not yet released 
----------------------------------
+.. _appv74:
+
+v74 (7.0.4) - not yet released 
+------------------------------------
 
 Key updates:
 
+
+Issue list:
+
+
+
+.. _appv73:
+
+v73 (7.0.3) - Released 20 Dec 2019 
+-----------------------------------
+
+Key updates:
+
+* Interface updates
+* Additional tests
+* Code refactoring
 
 Issue list:
 
@@ -28,10 +44,14 @@ Issue list:
 * 812: Replace ListView+ArrayAdapters with RecyclerView+RecyclerView.Adapters
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/812
 * 936: Collapse all option on course index page
-  https://github.com/DigitalCampus/oppia-mobile-android/issues/936
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/936
 * 962: Fix all tests related with RecyclerView refactor
-  https://github.com/DigitalCampus/oppia-mobile-android/issues/962
-
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/962
+* 939: Test for ensuring question is answered before moving to the next
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/939
+* 932: Add tests for the different options when admin password is set
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/932
+ 
 .. _appv72:
 
 v72 (7.0.2) - Released 28 Nov 2019 
