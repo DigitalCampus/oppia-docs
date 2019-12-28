@@ -16,6 +16,17 @@ Key updates:
 
 Issue list:
 
+* 717: Create OppiaTestCase class to be used in tests
+  (`#717 <https://github.com/DigitalCampus/django-oppia/issues/717>`_)
+* 586: Add tests for quiz/management/commands/check_duplicate_quizzes.py
+  (`#586 <https://github.com/DigitalCampus/django-oppia/issues/586>`_)
+* 721: Add permissions and tests for the new QuizAttempt/detail views
+  (`#721 <https://github.com/DigitalCampus/django-oppia/issues/721>`_)
+* 566: Add tests for profile password reset
+  (`#566 <https://github.com/DigitalCampus/django-oppia/issues/566>`_)
+* 550: SonarQube - complexity of profile/views.py - several functions
+  (`#550 <https://github.com/DigitalCampus/django-oppia/issues/550>`_)
+
 
 .. _serverv0.12.3:
 
