@@ -12,7 +12,10 @@ Key updates:
 
 Issue list:
 
-
+* 968: Update course scorecard to display quizzes as list
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/968
+* 958: Default icon not showing with new interface
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/958
 
 .. _appv73:
 
