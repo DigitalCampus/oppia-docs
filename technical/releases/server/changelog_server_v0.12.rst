@@ -13,6 +13,7 @@ v0.12.4 - not yet released
 	
 Key updates:
 
+* update to Django 2.2.9
 
 Issue list:
 
