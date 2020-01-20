@@ -9,6 +9,7 @@ v74 (7.0.4) - not yet released
 
 Key updates:
 
+* Showing full detail of previous quiz attempts
 
 Issue list:
 
@@ -16,7 +17,18 @@ Issue list:
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/968
 * 958: Default icon not showing with new interface
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/958
-
+* 973: Several AdminProtection tests fail and hangs rest of test suite
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/973
+* 969: From course scorecard, allow drilling down to specific quiz attempts
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/969
+* 970: From global scorecard, show list of quizzes recently attempted, 
+  plus full detail
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/970
+* 982: App crashing when using back icon in course page
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/982
+* 965: Fragment not attached error when checking endpoint in settings screen
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/965  
+ 
 .. _appv73:
 
 v73 (7.0.3) - Released 20 Dec 2019 
