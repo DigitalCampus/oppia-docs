@@ -1,9 +1,25 @@
 OppiaMobile Server Change Log
 ================================
 
+.. _serverv0.12.5:
+
+v0.12.5 - not yet released
+--------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_5
+	
+Key updates:
 
 
-v0.12.4 - not yet released
+Issue list:
+
+
+.. _serverv0.12.4:
+
+v0.12.4 - released 29 Jan 2020
 --------------------------------
 
 .. toctree::
@@ -14,6 +30,7 @@ v0.12.4 - not yet released
 Key updates:
 
 * update to Django 2.2.9
+* additional tests and improved code coverage (85%+)
 
 Issue list:
 
@@ -27,7 +44,10 @@ Issue list:
   (`#566 <https://github.com/DigitalCampus/django-oppia/issues/566>`_)
 * 550: SonarQube - complexity of profile/views.py - several functions
   (`#550 <https://github.com/DigitalCampus/django-oppia/issues/550>`_)
-
+* 713: Quiz language dictionaries not being saved correctly
+  (`#713 <https://github.com/DigitalCampus/django-oppia/issues/713>`_)
+* 710: Add tests for gamification/forms.py
+  (`#710 <https://github.com/DigitalCampus/django-oppia/issues/710>`_)
 
 .. _serverv0.12.3:
 
