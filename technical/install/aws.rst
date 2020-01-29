@@ -92,9 +92,9 @@ The current version of the instance is running:
 * Ubuntu 18.04 LTS Server
 * Apache 2.4
 * Mysql 5.7
-* Django 2.2.5
+* Django 2.2.9
 * TastyPie 0.14.2
-* OppiaServer 0.12.0
+* OppiaServer 0.12.4
 
 
 Email configuration
@@ -111,8 +111,8 @@ To enable sending email you will need to:
   file to configure for using ``django-ses`` (see: 
   https://github.com/django-ses/django-ses)
   
-Your setting_secret.py file should have a block of code like this (just add in
-your access key and secret access key)::
+Your ``settings_secret.py`` file should have a block of code like this (just 
+add in your access key and secret access key)::
 
 	# Email setup
 	EMAIL_BACKEND = 'django_ses.SESBackend'
