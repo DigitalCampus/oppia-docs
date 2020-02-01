@@ -1,6 +1,17 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv2020020101:
+
+v2020020101 - Released 1 Feb 2020
+-------------------------------------
+
+* [OPPIA-201] Fix issue with deleted activities still getting exported 
+* [OPPIA-147] Remove quiz 'availability' option
+* [OPPIA-148] Remove quiz 'allow try-again' option
+* [OPPIA-149] Rename 'tags' to be 'categories' to match app and server
+* [OPPIA-159] Rename 'stylesheet' to 'course design profile' or similar
+
 .. _blockv2019103100:
 
 v2019103100 - Released 31 Oct 2019
