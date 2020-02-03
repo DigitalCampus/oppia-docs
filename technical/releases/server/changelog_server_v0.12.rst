@@ -16,6 +16,8 @@ Key updates:
 
 Issue list:
 
+* OPPIA-32 - Move some other settings from settings.py/settings_secret.py to
+  SettingProperties
 
 .. _serverv0.12.4:
 

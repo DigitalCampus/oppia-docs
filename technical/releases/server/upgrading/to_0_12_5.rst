@@ -13,3 +13,20 @@ Update database
 
 #. Run: ``(env)$ python manage.py migrate``
 
+Moved settings
+----------------
+
+Once the migration has been run, several settings can be removed from the
+``settings_secret.py`` file, as these settings can now be edited directly in 
+the Django admin:
+
+* OPPIA_SHOW_GRAVATARS
+* OPPIA_POINTS_ENABLED
+* OPPIA_BADGES_ENABLED
+* OPPIA_GOOGLE_ANALYTICS_ENABLED
+* OPPIA_ANDROID_ON_GOOGLE_PLAY
+
+* OPPIA_GOOGLE_ANALYTICS_CODE
+* OPPIA_GOOGLE_ANALYTICS_DOMAIN
+* OPPIA_ANDROID_PACKAGEID
+
