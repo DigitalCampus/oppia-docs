@@ -10,6 +10,7 @@ v74 (7.0.4) - not yet released
 Key updates:
 
 * Showing full detail of previous quiz attempts
+* Improved Bluetooth sync interface
 
 Issue list:
 
@@ -28,7 +29,16 @@ Issue list:
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/982
 * 965: Fragment not attached error when checking endpoint in settings screen
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/965  
- 
+* 978: Bluetooth transfer - archive rather than delete activity logs that have
+  been transferred
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/978
+* 976: Bluetooth transfer - clarify the user messages
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/976  
+* 975: Bluetooth transfer - combine the transfer and activity tabs
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/975 
+* 979: Bluetooth transfer - larger icons for activity logs
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/979 
+
 .. _appv73:
 
 v73 (7.0.3) - Released 20 Dec 2019 
