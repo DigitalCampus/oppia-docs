@@ -13,6 +13,7 @@ Update database
 
 #. Run: ``(env)$ python manage.py migrate``
 
+
 Moved settings
 ----------------
 

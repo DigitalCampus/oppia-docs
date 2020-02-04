@@ -16,8 +16,7 @@ Key updates:
 
 Issue list:
 
-* OPPIA-32 - Move some other settings from settings.py/settings_secret.py to
-  SettingProperties
+
 
 .. _serverv0.12.4:
 
@@ -50,6 +49,8 @@ Issue list:
   (`#713 <https://github.com/DigitalCampus/django-oppia/issues/713>`_)
 * 710: Add tests for gamification/forms.py
   (`#710 <https://github.com/DigitalCampus/django-oppia/issues/710>`_)
+* OPPIA-32 - Move some other settings from settings.py/settings_secret.py to
+  SettingProperties
 
 .. _serverv0.12.3:
 
