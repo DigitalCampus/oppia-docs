@@ -1,10 +1,28 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+.. _appv75:
+
+v75 (7.0.5) - not yet released 
+------------------------------------
+
+Key updates:
+
+
+Issue list:
+
+* OPPIA-87 Rename layout "row" files for readability
+* OPPIA-210 Decouple API endpoint in login screen
+* OPPIA-213 Delete Admin remote control code
+* OPPIA-211 Remove unused files and resources
+* OPPIA-92 Github actions/workflows - add expected fail for tests that need
+  internet connection
+* OPPIA-208 Create test for installing course after backup course file has been
+  created
 
 .. _appv74:
 
-v74 (7.0.4) - not yet released 
+v74 (7.0.4) - Released 4 Feb 2020 
 ------------------------------------
 
 Key updates:
@@ -37,7 +55,8 @@ Issue list:
 * 975: Bluetooth transfer - combine the transfer and activity tabs
   - https://github.com/DigitalCampus/oppia-mobile-android/issues/975 
 * 979: Bluetooth transfer - larger icons for activity logs
-  - https://github.com/DigitalCampus/oppia-mobile-android/issues/979 
+  - https://github.com/DigitalCampus/oppia-mobile-android/issues/979
+* OPPIA-183 Better labels for activity logs on bluetooth transfer/sync screen
 
 .. _appv73:
 
