@@ -19,6 +19,9 @@ Issue list:
 * OPPIA-193 Django-GCM package no longer required
 * OPPIA-206 Move OPPIA_ALLOW_SELF_REGISTRATION to be bool instead of int
 * OPPIA-28 Activity map page configuration
+* OPPIA-16 Github actions: new migration
+* OPPIA-17 Github actions: static files
+
 
 .. _serverv0.12.4:
 

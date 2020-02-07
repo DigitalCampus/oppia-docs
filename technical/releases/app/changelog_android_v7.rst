@@ -8,6 +8,7 @@ v75 (7.0.5) - not yet released
 
 Key updates:
 
+* Revised settings screen layout
 
 Issue list:
 
@@ -19,6 +20,9 @@ Issue list:
   internet connection
 * OPPIA-208 Create test for installing course after backup course file has been
   created
+* OPPIA-119 Initial Room migration for database
+* OPPIA-123 Re-organise settings screen
+
 
 .. _appv74:
 
