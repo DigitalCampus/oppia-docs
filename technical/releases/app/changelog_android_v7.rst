@@ -22,6 +22,7 @@ Issue list:
   created
 * OPPIA-119 Initial Room migration for database
 * OPPIA-123 Re-organise settings screen
+* OPPIA-220 Change Register Toolbar size
 
 
 .. _appv74:
