@@ -22,6 +22,7 @@ Issue list:
 * OPPIA-28 Activity map page configuration
 * OPPIA-16 Github actions: new migration
 * OPPIA-17 Github actions: static files
+* OPPIA-197 Fix the sonarcloud code smells for oppia server
 
 
 .. _serverv0.12.4:

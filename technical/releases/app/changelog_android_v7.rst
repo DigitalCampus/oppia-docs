@@ -1,6 +1,18 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+.. _appv76:
+
+v76 (7.1.0) - not yet released 
+------------------------------------
+
+Key updates:
+
+* Minimum Android supported is v6+ (Marshmallow)
+
+Issue list:
+
+
 .. _appv75:
 
 v75 (7.0.5) - not yet released 
@@ -9,6 +21,8 @@ v75 (7.0.5) - not yet released
 Key updates:
 
 * Revised settings screen layout
+* SonarCloud coverage integration
+* Increased test coverage, and many SonarCloud recommendations fixed
 
 Issue list:
 
@@ -23,6 +37,10 @@ Issue list:
 * OPPIA-119 Initial Room migration for database
 * OPPIA-123 Re-organise settings screen
 * OPPIA-220 Change Register Toolbar size
+* OPPIA-231 Fix vulnerability in HTTPClient Utils
+* OPPIA-233 Rename ViewHolder classes that extend RecyclerView.ViewHolder
+* OPPIA-109 SonarQube & Testing: Disable XML external entity (XXE) processing
+
 
 
 .. _appv74:
