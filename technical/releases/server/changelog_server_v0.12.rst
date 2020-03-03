@@ -23,6 +23,15 @@ Issue list:
 * OPPIA-16 Github actions: new migration
 * OPPIA-17 Github actions: static files
 * OPPIA-197 Fix the sonarcloud code smells for oppia server
+* OPPIA-258 Fix next redirection vulnerability
+* OPPIA-241 When downloading a course from the server interface, it doesn't 
+  increase the "downloads by users"
+* OPPIA-191 Use get_or_created in uploader.py
+* OPPIA-262 Class based views for reports
+* OPPIA-249 Class based views for av
+* OPPIA-13 Remove management command to update short answer scores
+* OPPIA-197 Fix the sonarcloud code smells for oppia server
+* OPPIA-276 Migrate to using django.urls.path()
 
 
 .. _serverv0.12.4:
