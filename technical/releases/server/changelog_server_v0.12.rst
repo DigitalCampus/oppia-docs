@@ -32,6 +32,7 @@ Issue list:
 * OPPIA-13 Remove management command to update short answer scores
 * OPPIA-197 Fix the sonarcloud code smells for oppia server
 * OPPIA-276 Migrate to using django.urls.path()
+* OPPIA-277 Add email field in the LOGIN response
 
 
 .. _serverv0.12.4:
