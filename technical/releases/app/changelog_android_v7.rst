@@ -23,6 +23,7 @@ Key updates:
 * Revised settings screen layout
 * SonarCloud coverage integration
 * Increased test coverage, and many SonarCloud recommendations fixed
+* Option to edit profile when online
 
 Issue list:
 
@@ -40,6 +41,7 @@ Issue list:
 * OPPIA-231 Fix vulnerability in HTTPClient Utils
 * OPPIA-233 Rename ViewHolder classes that extend RecyclerView.ViewHolder
 * OPPIA-109 SonarQube & Testing: Disable XML external entity (XXE) processing
+* OPPIA-95 Add option for user to edit their profile - online only
 
 
 

@@ -33,6 +33,7 @@ Issue list:
 * OPPIA-197 Fix the sonarcloud code smells for oppia server
 * OPPIA-276 Migrate to using django.urls.path()
 * OPPIA-277 Add email field in the LOGIN response
+* OPPIA-95 Add option for user to edit their profile - online only
 
 
 .. _serverv0.12.4:
