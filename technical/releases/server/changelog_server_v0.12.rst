@@ -1,6 +1,23 @@
 OppiaMobile Server Change Log
 ================================
 
+.. _serverv0.12.6:
+
+v0.12.6 - not yet released
+--------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_6
+	
+Key updates:
+
+
+Issue list:
+
+* OPPIA-281 Add v2 of the API on the server
+
 .. _serverv0.12.5:
 
 v0.12.5 - not yet released
@@ -34,6 +51,7 @@ Issue list:
 * OPPIA-276 Migrate to using django.urls.path()
 * OPPIA-277 Add email field in the LOGIN response
 * OPPIA-95 Add option for user to edit their profile - online only
+
 
 
 .. _serverv0.12.4:

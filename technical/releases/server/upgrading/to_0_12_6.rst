@@ -1,4 +1,4 @@
-Upgrading to OppiaMobile Server v0.12.5
+Upgrading to OppiaMobile Server v0.12.6
 =========================================
 
 Update packages
@@ -14,7 +14,3 @@ Update database
 #. Run: ``(env)$ python manage.py migrate``
 
 
-Update static files
---------------------
-
-#. Run: ``(env)$ python manage.py collectstatic``
