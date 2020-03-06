@@ -10,6 +10,7 @@ OppiaMobile Technical Documentation
    manage/index
    customise/server/index
    customise/app/index
+   customise/customfields
    releases/index
    testing/index
    integration/index
