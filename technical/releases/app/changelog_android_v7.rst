@@ -43,6 +43,8 @@ Issue list:
 * OPPIA-109 SonarQube & Testing: Disable XML external entity (XXE) processing
 * OPPIA-95 Add option for user to edit their profile - online only
 * OPPIA-261 Replace deprecated PreferenceManager
+* OPPIA-188 Saving time taken for each quiz attempt
+
 
 
 .. _appv74:
