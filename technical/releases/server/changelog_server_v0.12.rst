@@ -17,10 +17,16 @@ Key updates:
 Issue list:
 
 * OPPIA-281 Add v2 of the API on the server
+* OPPIA-285 Store time taken for quiz attempts
+* OPPIA-275 Class based views for activitylog
+* OPPIA-273 Class based views for content
+* OPPIA-18 Cursor error when running summary cron on SQLite db
+* OPPIA-200 Graphs on summary page aren't formatted correctly
+* OPPIA-264 Class based views for profile/manage
 
 .. _serverv0.12.5:
 
-v0.12.5 - not yet released
+v0.12.5 - released 18 Mar 2020
 --------------------------------
 
 .. toctree::
@@ -31,6 +37,9 @@ v0.12.5 - not yet released
 Key updates:
 
 * Update to Django 2.2.10
+* Option to update profile
+* Improved configuration options
+* Sonarcloud and Django code improvements implemented
 
 Issue list:
 

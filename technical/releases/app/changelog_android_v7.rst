@@ -15,7 +15,7 @@ Issue list:
 
 .. _appv75:
 
-v75 (7.0.5) - not yet released 
+v75 (7.0.5) - released 18 Mar 2020 
 ------------------------------------
 
 Key updates:
