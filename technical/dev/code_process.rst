@@ -46,6 +46,8 @@ Before making pull request from issue branch to release branch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Add/update unit/automated tests
+#. Merge the release branch into the issue branch - so any potential conflicts
+   can be dealt with in the issue branch
 #. Run Django tests framework and confirm all tests are passing 
    [:doc:`../testing/index`]
 #. Run Sonar test framework [:doc:`./sonarqube`]
@@ -85,6 +87,8 @@ Before making pull request from issue branch to release branch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Add/update unit/automated tests
+#. Merge the release branch into the issue branch - so any potential conflicts
+   can be dealt with in the issue branch
 #. Run tests framework and confirm all tests are passing 
    [:doc:`../testing/index`]
 #. Add/Update documentation for any new or changed functionality/processes/

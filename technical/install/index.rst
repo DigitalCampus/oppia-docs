@@ -13,4 +13,3 @@ instructions.
    aws
    server
    block
-   ssl

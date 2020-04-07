@@ -1,0 +1,22 @@
+Upgrading to OppiaMobile Server v0.12.3
+=========================================
+
+Update packages
+----------------------------
+
+There are updated packages in this release:
+
+#. Run: ``(env)$ pip install -r requirements.txt``
+
+
+Update database 
+-----------------
+
+#. Run: ``(env)$ python manage.py migrate``
+
+
+settings_secret.py changes
+-----------------------------
+
+If you are hosting on Amazon Web Services, you can configure django-ses for
+sending emails. See: https://github.com/django-ses/django-ses

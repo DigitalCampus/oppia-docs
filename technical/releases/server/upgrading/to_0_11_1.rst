@@ -5,5 +5,5 @@ Upgrading to OppiaMobile Server v0.11.1
 To upgrade to this version, you should first:
 
 * Update Django version, with: ``pip install -r requirements.txt``
-* Update database models, with: ``manage.py migrate``
-* Load the default gamification events with: ``manage.py loaddata default_gamification_events.json``
+* Update database models, with: ``python manage.py migrate``
+* Load the default gamification events with: ``python manage.py loaddata default_gamification_events.json``

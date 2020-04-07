@@ -8,5 +8,4 @@ Managing an OppiaMobile Implementation
    upgrade
    management-commands
    utilities
-   deviceadmin/index
    

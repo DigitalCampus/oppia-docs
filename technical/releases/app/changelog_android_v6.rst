@@ -1,18 +1,25 @@
-OppiaMobile Android App Change Log
-====================================
+OppiaMobile Android App Change Log v6.x
+=========================================
 
 
 
 .. _appv69:
 
-v69 (6.9.0) - not yet released
+v69 (6.9.0) - Released 17 Sept 2019
 --------------------------------------
 
 Key updates:
 
+* Android X migration
+* Bug fixes
 
 Issue list:
 
+* 858: AndroidX migration - https://github.com/DigitalCampus/oppia-mobile-android/issues/858
+* 854: "java.lang.RuntimeException: Unable to start receiver" error message - https://github.com/DigitalCampus/oppia-mobile-android/issues/854
+* 853: Points don't get restored when logging in on new install - https://github.com/DigitalCampus/oppia-mobile-android/issues/853
+* 859: Update NotificationCompat to adapt it to newer versions - https://github.com/DigitalCampus/oppia-mobile-android/issues/859
+* 857: Add in extra debug/logging info for the bluetooth transfer - https://github.com/DigitalCampus/oppia-mobile-android/issues/857
 
 .. _appv68:
 

@@ -21,16 +21,18 @@ General settings
 ^^^^^^^^^^^^^^^^^
 
 * ``MINT_API_KEY`` (string): the Splunk Mint API key to use for the crash reports
-* ``OPPIA_SERVER_DEFAULT`` (string): the initial Oppia server URL. By default, the demo server https://demo.oppia-mobile.org/
+* ``OPPIA_SERVER_DEFAULT`` (string): the initial Oppia server URL. By default, the demo server ``https://demo.oppia-mobile.org/``
+* ``OPPIA_SERVER_HOST`` (string): the server hostname, for the intent filter functionality (to be able to open links from external apps directly in the app). For example, if our server is ``https://demo.oppia-mobile.org/`` this config should be set to ``demo.oppia-mobile.org``
 * ``SESSION_EXPIRATION_ENABLED`` (boolean): enable that the session of the current user expires after a certain inactivity time. False by default
 * ``SESSION_EXPIRATION_TIMEOUT`` (int): seconds of inactivity to expire a user's session (only works if the previous one is set to true)
-* ``DEVICEADMIN_ENABLED`` (boolean): enable the remote admin functionality. False by default
-* ``OFFLINE_REGISTER_ENABLED`` (boolean): enable user to register an account even if offline. True by default
+* ``OFFLINE_REGISTER_ENABLED`` (boolean): enable user to register an account even if offline. True by default.
+* ``START_COURSEINDEX_COLLAPSED`` (boolean): show the course index with each section collapsed. False by default.
+
 
 Local admin settings (all false by default)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This settings control the functionality of protecting different app actions by a local admin password, to control which
+These settings control the functionality of protecting different app actions by a local admin password, to control which
 actions are allowed to a normal user without this password. Is an option available in the preferences screen of the app (disabled by default),
 but by this values you can control which specific actions are controlled by the admin password.
 
@@ -45,6 +47,11 @@ but by this values you can control which specific actions are controlled by the 
 * ``ADMIN_PROTECT_COURSE_UPDATE`` (boolean): protect course update by admin password
 * ``ADMIN_PROTECT_ACTIVITY_SYNC`` (boolean): protect synchronising activity by admin password
 * ``ADMIN_PROTECT_ACTIVITY_EXPORT`` (boolean): protect exporting activity by admin password
+* ``ADMIN_PASSWORD_OVERRIDE_VERSION`` (int): the ``versionCode`` number of the app in which the password should be overriden.
+
+A situation may arise where the admin password set in the currently installed version needs to be
+overriden by a new known one. Setting this value to the current version code number of the app will set the ``ADMIN_PROTECT_INITIAL_PASSWORD`` as
+the current admin password the first time the app is initialized (as with the initial password, it can be changed later in the settings screen again).
 
 Main menu configurations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -57,6 +64,27 @@ Main menu configurations
 * ``MENU_ALLOW_DOWNLOAD`` (boolean): show the "Download" option in the main menu
 * ``MENU_ALLOW_LANGUAGE`` (boolean): show the "Language" option in the main menu
 * ``DOWNLOAD_COURSES_DISPLAY`` (int): max number of courses installed in which the "download more courses" button still appears in the main activity. By default, just one.
+
+
+Metadata collection
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The app saves a set of metadata additional information for every activity tracker log. The metadata to include in
+each tracker can be configured in the server, so the first time a user logs in or register this configuration is fetched
+and the app only saves the expected metadata for that specific server.
+
+There can be cases where this configuration is not fetched from the server, for example in the case of a preloaded account
+in the device or an offline registered user. With the following settings we can control which metadata values should be
+included by default in the tracker logs:
+
+* ``METADATA_INCLUDE_NETWORK`` (boolean): Include in the tracker metadata the current network operator name
+* ``METADATA_INCLUDE_DEVICE_ID`` (boolean): Include in the tracker metadata the unique device identifier
+* ``METADATA_INCLUDE_SIM_SERIAL`` (boolean): Include in the tracker metadata the SIM serial number
+* ``METADATA_INCLUDE_WIFI_ON`` (boolean): Include in the tracker metadata if the device is currently connected to a WiFi network
+* ``METADATA_INCLUDE_NETWORK_CONNECTED`` (boolean): Include in the tracker if the device has internet access
+* ``METADATA_INCLUDE_BATTERY_LEVEL`` (boolean): Include in the tracker the device battery level
+* ``METADATA_INCLUDE_GPS`` (boolean): Include in the tracker the GPS location of the device
+
 
 Gamification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

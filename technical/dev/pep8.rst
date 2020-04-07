@@ -5,5 +5,5 @@ PEP8
 ensure that the code is readable and conforms to some basic/common principles.
 
 To check your Python code meets the PEP8 style guide, you can use the 
-`Pep8ify <http://pep8ify.com/>`_ tool to review and automatically modify your 
-code.
+`pycodestyle <http://pycodestyle.pycqa.org/>`_ script to review your updates
+against the PEP8 style guidelines.

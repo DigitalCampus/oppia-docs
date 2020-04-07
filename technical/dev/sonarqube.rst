@@ -16,7 +16,7 @@ First we create the test coverage report, using the `Coverage <https://coverage.
 tool, using::
 
 	$ coverage erase
-	$ coverage run --branch --source=activitylog,api,av,content,gamification,oppia,profile,quiz,reports,summary,viz manage.py test
+	$ coverage run --branch --source=activitylog,api,av,content,gamification,integration,oppia,profile,quiz,reports,summary,viz manage.py test
 	$ coverage xml -i
 	
 Then copy the generated ``django-oppia/coverage.xml`` file into the 
@@ -32,8 +32,20 @@ Then we run the sonar-scanner using::
 	  -Dsonar.login=<login id> \
 	  -Dsonar.exclusions=docs/_build/**/*,tests/**/*,oppiamobile/settings_secret.py \
 	  -Dsonar.python.coverage.reportPath=./tests/coverage.xml
+
+If you are running with your own SonarCloud account, you'll need to use a different projectKey and organisation.
 	  
 OppiaMobile Android App
 ------------------------
 
-TODO: To be completed.
+The Oppia app source code analysis can be found at: https://sonarcloud.io/dashboard?id=org.digitalcampus.mobile.learning
+
+To run the analysis for the app, from the root of the app code directory, run::
+
+	./gradlew sonarqube \
+  		-Dsonar.organization=alexlittle-github \
+  		-Dsonar.host.url=https://sonarcloud.io \
+  		-Dsonar.login=<login id> 
+  		
+.. note::
+ 	To be completed - adding the coverage report

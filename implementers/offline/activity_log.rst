@@ -13,7 +13,7 @@ Basic Workflow
 #. A supervisor or project staff member transfers the exported activity logs onto their device via Bluetooth
 #. When they are in an area with internet connection, the activity trackers are
    automatically sent to the server.
-#. Alternatively, the staff member can download this activity log files and upload them manually in the server.
+#. Alternatively, the staff member can download these activity log files and upload them manually in the server.
 
 
 The Sync > Activity view

@@ -1,3 +1,5 @@
+.. _introtraining
+
 Initial Workshop for Users new to Android & Oppia
 ===================================================
 

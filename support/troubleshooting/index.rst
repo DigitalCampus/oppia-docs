@@ -7,6 +7,4 @@ Troubleshooting an Oppia Implementation
    app
    server
    translations
-
-
-
+   debug

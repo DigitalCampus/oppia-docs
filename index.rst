@@ -68,6 +68,7 @@ Implementers/Users Guide
    implementers/integration/index
    implementers/viz/index
    implementers/offline/index
+   implementers/evaluation/index
 
 Training & Support
 -------------------
@@ -75,6 +76,7 @@ Training & Support
 .. toctree::
    :maxdepth: 1
    
+   support/sops/index
    support/training/index
    support/troubleshooting/index
-   support/help
+   support/index

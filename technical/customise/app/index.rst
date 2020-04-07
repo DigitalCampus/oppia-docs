@@ -1,7 +1,7 @@
 .. _custom_app:
 
-OppiaMobile Android App
-========================
+OppiaMobile Android App Customisation
+=======================================
 
 This section describes some of the basic customisations you may want to make when
 implementing your own version of the OppiaMobile learning platform. Here we 
@@ -39,7 +39,8 @@ Getting Started
 Please ensure that you are able to compile and run the core version of the app
 before you start to make any changes to the code.
 
-
+Configuring your own version of the app
+----------------------------------------
 
 .. toctree::
    	:maxdepth: 1

@@ -1,0 +1,15 @@
+Upgrading to OppiaMobile Server v0.12.4
+=========================================
+
+Update packages
+----------------------------
+
+
+#. Run: ``(env)$ pip install -r requirements.txt``
+
+
+Update database 
+-----------------
+
+#. Run: ``(env)$ python manage.py migrate``
+

@@ -1,0 +1,25 @@
+Upgrading to OppiaMobile Server v0.12.1
+=======================================
+
+Update Django package
+----------------------------
+
+There is an updated version of Django in this release:
+
+#. Run: ``(env)$ pip install -r requirements.txt``
+
+Update database 
+-----------------
+
+#. Run: ``(env)$ python manage.py migrate``
+
+   
+
+
+
+
+
+
+
+
+

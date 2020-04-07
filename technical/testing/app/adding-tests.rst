@@ -1,5 +1,5 @@
-Testing Process for OppiaMobile App
-=====================================
+Creating new tests for OppiaMobile App
+========================================
 
 *OppiaMobile* incorporates several types of tests to make the app stronger.
 
@@ -14,7 +14,7 @@ The main path for these tests is ``src/test/java``. It is mandatory for this typ
 
 .. code-block:: text
 
-   testCompile 'junit:junit:4.12'
+   testImplementation 'junit:junit:4.12'
  
 The tests methods that we create must have the tag ``@Test`` right before the method declaration, and must end with an **assertion** to check whether the test passes or not. For example:
  
@@ -41,10 +41,10 @@ Optionally, the tests could provide a preconditions and post conditions blocks
 
 .. code-block:: text
 
- //Preconditions block
+ //Post-conditions block
 
- @Before
- public void setUp() throws Exception{…}
+ @After
+ public void tearDown() throws Exception{…}
 
 
 Instrumented Unit Tests
@@ -59,9 +59,9 @@ To create and run this test, first we need to install the **Android Support Repo
  
 .. code-block:: XML
 
-    androidTestCompile 'com.android.support:support-annotations:24.0.0'
-    androidTestCompile 'com.android.support.test:runner:0.5'
-    androidTestCompile 'com.android.support.test:rules:0.5'
+    androidTestImplementation 'com.android.support:support-annotations:24.0.0'
+    androidTestImplementation 'com.android.support.test:runner:0.5'
+    androidTestImplementation 'com.android.support.test:rules:0.5'
 
 In addition, we need to add the default test instrumentation runner to use JUnit 4 test classes:
 
@@ -99,7 +99,7 @@ To use the Espresso library, we need to make sure to follow the same steps descr
 
 .. code-block:: XML
  
- androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.1'
+ androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.1'
 
 .. note::
  It is recommended to turn off the animations on your test device (*Settings --> Developing Options*), as they might cause         unexpected results or may lead your test to fail.
@@ -137,7 +137,7 @@ First, we need to add the MockWebServer dependency to our app *build.gradle* fil
 
 .. code-block:: XML
  
-	 testCompile 'com.squareup.okhttp3:mockwebserver(insert latest version)’
+	 testImplementation 'com.squareup.okhttp3:mockwebserver(insert latest version)’
 
 
 After that, we are able to create MockWebServer objects. For example:
@@ -176,48 +176,3 @@ The ``TemporaryFolder`` object must be created using the ``@Rule`` tag.
 	 //Use
 	 File tempFolder = folder.newFolder(“tempFolder”);
 	 File tempFile = folder.newFile(“tempFile.txt”);
-
-
-Running Tests
----------------
-
-We have several ways to run tests:
-
-* **Run a single test**:
- 
- First, open the class where the test is located, and then right-click the test and click **Run**.
-
-* **Run all tests in a class**:
-
- Right-click the class you want to test and click **Run**.
-
-* **Run all test classes in a directory**:
-
- Right-click the directory you want to test and click **Run tests**.
-
-* **Run tests using a test suite**:
-
- A test suite allows us to run a collection of test that we want. 
-
- To create a test suite, we need to create a new class and add these tags to the beginning of it:
-
- .. code-block:: text
-  
-	  @RunWith(Suite.class)
-	  @Suite.SuiteClasses({WelcomeUITest.class, LoginUITest.class, RegisterUITest.class, ResetUITest.class})
-	
-	  public class UITestSuite {…}
-
-
- If we run this suite, the tests inside in the classes listed in ``@Suite.SuiteClasses()`` will be executed.
-
-
-* **Run all instrumented tests**:
-
-We can create a new debug configuration to run all the instrumented tests within the project. To do so, select the
-"Edit configurations" dropdown option, and add a new configuration of type "Android Instrumented tests".
-In this new configuration, select to run all tests in Module and pick the `app` module.
-
-.. image:: images/instrumented_tests.png
-
-After this, we can select this configuration and run in it in our chosen device.
