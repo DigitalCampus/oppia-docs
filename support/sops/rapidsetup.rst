@@ -20,7 +20,7 @@ Oppia Server
   https://github.com/DigitalCampus/django-oppia)
 * Either:
 
-  #. set up a new local server for Oppia (see: :ref:`_manualinstall`)
+  #. set up a new local server for Oppia (see: :ref:`manualinstall`)
   #. launch and instance of the Oppia AWS server (see: :ref:`aws`)
 
 * Set up a domain name to point to this servers IP address
