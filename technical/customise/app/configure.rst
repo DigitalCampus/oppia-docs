@@ -58,7 +58,7 @@ folder and update the following:
 
 * In ``AndroidManifest.xml`` update ``android:icon="@drawable/dc_logo"`` 
   to point to your logo (eg @drawable/my_logo)
-* In ``org.digitalcampus.mobile.learning.application.MobileLearning`` class 
+* In ``org.digitalcampus.mobile.learning.application.App`` class 
   update ``public static final int APP_LOGO = R.drawable.dc_logo;`` 
   to point to your logo (eg R.drawable.my_logo)
 

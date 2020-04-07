@@ -6,11 +6,19 @@ OppiaMobile Android App Change Log v7.x
 v76 (7.1.0) - not yet released 
 ------------------------------------
 
+
+.. warning::
+	This app version requires an OppiaMobile server of v0.12.6 or above
+
 Key updates:
 
 * Minimum Android supported is v6+ (Marshmallow)
 
 Issue list:
+
+* OPPIA-248 Update the minSDKversion
+* OPPIA-282 Change app to use v2 of the API
+* OPPIA-178 Initial fixes for feedback activity support
 
 
 .. _appv75:
@@ -44,6 +52,7 @@ Issue list:
 * OPPIA-95 Add option for user to edit their profile - online only
 * OPPIA-261 Replace deprecated PreferenceManager
 * OPPIA-188 Saving time taken for each quiz attempt
+* HOTFIX OPPIA-228 Errors when building normalRelease variant
 
 
 

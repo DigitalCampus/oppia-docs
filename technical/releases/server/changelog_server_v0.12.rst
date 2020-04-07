@@ -23,6 +23,11 @@ Issue list:
 * OPPIA-18 Cursor error when running summary cron on SQLite db
 * OPPIA-200 Graphs on summary page aren't formatted correctly
 * OPPIA-264 Class based views for profile/manage
+* add django admin search options for some models
+* Updated Pillow package
+* OPPIA-228 Add API endpoint to return the media embed variables
+* OPPIA-260 Show full list of activities and digests for a course
+
 
 .. _serverv0.12.5:
 

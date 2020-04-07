@@ -1,7 +1,7 @@
 .. _custom_app:
 
-OppiaMobile Android App
-========================
+OppiaMobile Android App Customisation
+=======================================
 
 This section describes some of the basic customisations you may want to make when
 implementing your own version of the OppiaMobile learning platform. Here we 

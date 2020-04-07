@@ -1,3 +1,5 @@
+.. _manualinstall:
+
 Server - Manual Installation
 ==============================
 

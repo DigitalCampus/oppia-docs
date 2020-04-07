@@ -1,6 +1,16 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+
+.. _blockv2020040401:
+
+v2020040401 - Released 4 Apr 2020
+-------------------------------------
+
+* OPPIA-178 Fix issue with exporting feedback activities
+* Remove redundant code for processing/submitting quizzes directly to the
+  server
+
 .. _blockv2020020101:
 
 v2020020101 - Released 1 Feb 2020
