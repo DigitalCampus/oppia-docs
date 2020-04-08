@@ -181,7 +181,9 @@ Now to create the database structure and an initial admin user.
 
 	(env)$ python manage.py createsuperuser
 
-   and follow the instructions.
+   and follow the instructions. After you have create an admin on the command
+   line, you will also need to create a user profile for them. To do this go to
+   the Django admin at <your-site>/admin, log in and add a user profile record.
 
 7. Run the tests (optional but recommended)
 ---------------------------------------------

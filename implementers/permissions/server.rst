@@ -6,10 +6,10 @@ on the default Django users system and others based on extra permissions the use
 has been specifically given.
 
 * Admin User - this is the standard Django superuser 
-  (https://docs.djangoproject.com/en/1.8/topics/auth/default/) - a typical user 
+  (https://docs.djangoproject.com/en/2.2/topics/auth/default/ - a typical user 
   with this role would be a system/server administrator
 * Staff - this is the standard Django staff user 
-  (https://docs.djangoproject.com/en/1.8/topics/auth/default/) - a typical user 
+  (https://docs.djangoproject.com/en/2.2/topics/auth/default/) - a typical user 
   would be a project manager/officer, college or ministry staff, essentially 
   users who need to access all the data/reports within the server, but not 
   necessarily responsible for the technical maintenance or server level admin.
