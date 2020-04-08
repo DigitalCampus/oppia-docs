@@ -166,8 +166,8 @@ Now to create the database structure and an initial admin user.
 	
 #. Load initial data::
 
-	(env)$ python manage.py collectstatic oppia/fixtures/default_badges.json
-	(env)$ python manage.py collectstatic oppia/fixtures/default_gamification_events.json
+	(env)$ python manage.py loaddata oppia/fixtures/default_badges.json
+	(env)$ python manage.py loaddata oppia/fixtures/default_gamification_events.json
 
 #. Compile the SCSS file::
 
