@@ -217,6 +217,10 @@ webserver, and we use the
 package for serving python applications via Apache, so before proceeding, 
 ensure that you have mod_wsgi installed and enabled for your Apache server.
 
+To install and enable WSGI for Python 3 and Apache, run::
+
+	$ sudo apt-get install libapache2-mod-wsgi-py3
+
 Here is an example Apache config file that you can use and adapt::
 
 	<VirtualHost *:80>
