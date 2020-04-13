@@ -27,6 +27,7 @@ Issue list:
 * Updated Pillow package
 * OPPIA-228 Add API endpoint to return the media embed variables
 * OPPIA-260 Show full list of activities and digests for a course
+* OPPIA-310 Deleting a user deletes the current account, not the intended one
 
 
 .. _serverv0.12.5:
