@@ -6,10 +6,6 @@ OppiaMobile Android App Change Log v7.x
 v76 (7.1.0) - not yet released 
 ------------------------------------
 
-
-.. warning::
-	This app version requires an OppiaMobile server of v0.12.6 or above
-
 Key updates:
 
 * Minimum Android supported is v6+ (Marshmallow)
@@ -17,8 +13,9 @@ Key updates:
 Issue list:
 
 * OPPIA-248 Update the minSDKversion
-* OPPIA-282 Change app to use v2 of the API
 * OPPIA-178 Initial fixes for feedback activity support
+* Improvements for colour/theme customisation
+* OPPIA-311 TTS stops if screen is not flagged to stay on
 
 
 .. _appv75:
