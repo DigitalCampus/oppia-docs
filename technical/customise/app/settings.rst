@@ -27,7 +27,7 @@ General settings
 * ``SESSION_EXPIRATION_TIMEOUT`` (int): seconds of inactivity to expire a user's session (only works if the previous one is set to true)
 * ``OFFLINE_REGISTER_ENABLED`` (boolean): enable user to register an account even if offline. True by default.
 * ``START_COURSEINDEX_COLLAPSED`` (boolean): show the course index with each section collapsed. False by default.
-
+* ``SHOW_COURSE_DESCRIPTION`` (boolean): show the course index description in courses list. False by default.
 
 Local admin settings (all false by default)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -89,15 +89,15 @@ included by default in the tracker logs:
 Gamification
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- ``GAMIFICATION_MEDIA_CRITERIA`` (string): the criteria that should be used for determining if a media activity has been completed and how to award points. Possible values:
+* ``GAMIFICATION_MEDIA_CRITERIA`` (string): the criteria that should be used for determining if a media activity has been completed and how to award points. Possible values:
     - ``threshold``: Default value. The media will be completed if the user watches the video for above a certain threshold (see next setting)
     - ``intervals``: Only mark the video as completed if it was watched for its full length. Points are awarded in intervals based in the percentage of video watched.
 
-- ``GAMIFICATION_DEFAULT_MEDIA_THRESHOLD`` (int): if ``GAMIFICATION_MEDIA_CRITERIA`` is ``threshold``, then the minimum percent to consider if completed. ``80`` by default
+* ``GAMIFICATION_DEFAULT_MEDIA_THRESHOLD`` (int): if ``GAMIFICATION_MEDIA_CRITERIA`` is ``threshold``, then the minimum percent to consider if completed. ``80`` by default
 
-- ``GAMIFICATION_POINTS_ANIMATION`` (int): Defines the animation type if the previous setting ``Show gamification events`` is enabled. These are the different types of animation (default is number 3):
+* ``GAMIFICATION_POINTS_ANIMATION`` (int): Defines the animation type if the previous setting ``Show gamification events`` is enabled. These are the different types of animation (default is number 3):
 	1. Simple animation (circle rotation)
 	2. Full animation (circle rotation and vertical translation)
 	3. Full animation with sound
 
-- ``DURATION_GAMIFICATION_POINTS_VIEW`` in seconds (int): Duration of the points awarded text after the configured animation (if any). ``2 seconds`` by default
+* ``DURATION_GAMIFICATION_POINTS_VIEW`` in seconds (int): Duration of the points awarded text after the configured animation (if any). ``2 seconds`` by default

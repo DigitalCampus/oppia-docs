@@ -53,12 +53,10 @@ For updating the welcome message, you'll need to update the strings for:
 App logo
 ---------------
 
-To use a different logo for your app, place your app logo in the drawable 
-folder and update the following:
+To use a different logo for your app, place your app logo in the drawables 
+folder and update the ``app_icon`` reference in the ``res/values/theme.xml`` file.
 
-* In ``AndroidManifest.xml`` update ``android:icon="@drawable/dc_logo"`` 
-  to point to your logo (eg @drawable/my_logo)
-* In ``org.digitalcampus.mobile.learning.application.App`` class 
-  update ``public static final int APP_LOGO = R.drawable.dc_logo;`` 
-  to point to your logo (eg R.drawable.my_logo)
-
+To create the drawable for the app icon, you can rely on the Image Asset Studio tool that comes bundled with Android Studio to generate all 
+the necessary images in its density-specific folder. To use it, just select right-click in the `res` folder of your project 
+and select **New** > **Image Asset**. It will help you to create a Material design style icon based on your own 
+image, and to generate the drawable in all the needed resolutions.
