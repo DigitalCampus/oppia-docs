@@ -16,6 +16,7 @@ Issue list:
 * OPPIA-178 Initial fixes for feedback activity support
 * Improvements for colour/theme customisation
 * OPPIA-311 TTS stops if screen is not flagged to stay on
+* OPPIA-312 Update theming so more flexible to restyle
 
 
 .. _appv75:
