@@ -18,7 +18,8 @@ Issue list:
 * OPPIA-311 TTS stops if screen is not flagged to stay on
 * OPPIA-312 Update theming so more flexible to restyle
 * OPPIA-299 Customising the app icon - use App.APP_LOGO
-* OPPIA-327 Bluetooth menu icons don't appear on some branding
+* OPPIA-327 Bluetooth menu icons don't appear on some branding - use vector 
+  icons instead
 
 
 .. _appv75:

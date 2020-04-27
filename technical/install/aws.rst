@@ -62,9 +62,6 @@ the following structure:
   Apache)
 * upload (dir): stores the course uploads
 
-Please note that on this machine the django-oppia server is installed as a clone 
-from GitHub (rather than using the pip install method described in the :doc:`./server`). 
-
 .. warning:: 
 	In the main django settings, the server is set to run in debug mode. This will be fine when you are testing, but 
 	once you are ready to start providing the server live, you should change this setting to `DEBUG=False`
