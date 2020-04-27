@@ -284,9 +284,7 @@ Exactly how these need to be configured and set up will depend on your email
 backend (see: 
 https://docs.djangoproject.com/en/2.2/topics/email/#email-backends). For live
 servers you are most likely to want to use the `SMTP backend
-<https://docs.djangoproject.com/en/2.2/topics/email/#smtp-backend>`_, though on
-AWS machines you can also use the ``django-ses`` package (see: 
-https://github.com/django-ses/django-ses)
+<https://docs.djangoproject.com/en/2.2/topics/email/#smtp-backend>`_.
 
 .. _installcron:
 

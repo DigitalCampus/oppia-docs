@@ -9,14 +9,16 @@ v76 (7.1.0) - not yet released
 Key updates:
 
 * Minimum Android supported is v6+ (Marshmallow)
+* Improvements for colour/theme customisation
 
 Issue list:
 
 * OPPIA-248 Update the minSDKversion
 * OPPIA-178 Initial fixes for feedback activity support
-* Improvements for colour/theme customisation
 * OPPIA-311 TTS stops if screen is not flagged to stay on
 * OPPIA-312 Update theming so more flexible to restyle
+* OPPIA-299 Customising the app icon - use App.APP_LOGO
+* OPPIA-327 Bluetooth menu icons don't appear on some branding
 
 
 .. _appv75:

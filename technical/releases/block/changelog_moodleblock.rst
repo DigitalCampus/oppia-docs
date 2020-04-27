@@ -10,6 +10,7 @@ v2020040401 - Released 4 Apr 2020
 * OPPIA-178 Fix issue with exporting feedback activities
 * Remove redundant code for processing/submitting quizzes directly to the
   server
+* OPPIA-321 Stylesheet for nested lists
 
 .. _blockv2020020101:
 
