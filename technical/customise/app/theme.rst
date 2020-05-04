@@ -14,14 +14,14 @@ The Android project for OppiaMobile provides a mechanism to substitute the main 
 file, so instead of having to change all the ocurrences of an image or replacing it, you can add a new drawable and just update the reference.
 The app has basically two images that include the Oppia logo, that you might want to change: the app icon and the course placeholder.
 
+
 * **App icon**: this is used as the icon for the app in the Android system, and in some of the welcome screens of the app. To change it,
-replace the ``app_icon`` definition in the ``theme.xml`` file.
-
-
+  replace the ``app_icon`` definition in the ``theme.xml`` file.
 * **Course placeholder icon**: Another image that contains the OppiaMobile logo is the one representing the default course icon for the courses that 
-don't include a custom one. If you want to change this, you have to replace the ``course_icon_placeholder`` definition in the ``theme.xml`` with the 
-reference of a new drawable you want. To avoid possible deformations, make sure that you use a square image. Be aware that the course images are
-cropped to a circle in various places of the app, so don't put important parts of your logo in the square borders.
+  don't include a custom one. If you want to change this, you have to replace the ``course_icon_placeholder`` definition in the ``theme.xml`` with the 
+  reference of a new drawable you want. To avoid possible deformations, make sure that you use a square image. Be aware that the course images are
+  cropped to a circle in various places of the app, so don't put important parts of your logo in the square borders.
+
 
 If you want to go further with this customization, you can also change the default activity images with custom ones, for 
 example to make them tinted to your brand color. This images are inside the drawables folder, named 
