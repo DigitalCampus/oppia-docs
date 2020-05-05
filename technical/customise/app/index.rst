@@ -34,7 +34,14 @@ Getting Started
 * Clone your new GitHub repository to your machine
 * Create a project in Android Studio connected to this repository
 * Ensure that you are able to compile and run (either on your physical Android 
-  phone or on an Android Virtual Device) 
+  phone or on an Android Virtual Device)
+
+.. note::
+    If you are running an Android Virtual Device (AVD) connected with a local server,
+    the IP provided by it will not work directly in your app because this means it is pointing to the
+    localhost of the AVD itself and not to your PC hosting the server.
+    To solve that, `Android provides a special IP address <https://developer.android.com/studio/run/emulator-networking>`_ which points to your PC localhost
+    in the corresponding port. This is the address you should configure in your app: ``http://10.0.2.2:<port>``
   
 Please ensure that you are able to compile and run the core version of the app
 before you start to make any changes to the code.
