@@ -12,6 +12,9 @@ Key updates:
 
 Issue list:
 
+* OPPIA-282: Replace API endpoint with v2
+* OPPIA-329: Use vector drawable for options menu icon
+* OPPIA-330: Fix design of TagSelectActivity when empty
 
 
 .. _appv76:
