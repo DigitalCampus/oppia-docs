@@ -17,6 +17,10 @@ Key updates:
 
 Issue list:
 
+* OPPIA-331 Crash when Admin logs in the first time in a brand new server
+  installation
+* OPPIA-319 In the download courses, make the course listing appear in the same
+  order with the course priority value
 
 .. _serverv0.12.6:
 
