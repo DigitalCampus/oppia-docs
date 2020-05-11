@@ -14,3 +14,11 @@ Update database
 #. Run: ``(env)$ python manage.py migrate``
 
 
+Update static files
+--------------------
+
+#. Run: ``(env)$ python manage.py compilescss`` - don't worry about the 
+   unclosed files warning messages
+#. Run: ``(env)$ python manage.py collectstatic``
+
+
