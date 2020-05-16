@@ -2,6 +2,15 @@ OppiaMobile Moodle Block Change Log
 =====================================
 
 
+.. _blockv2020051600:
+
+v2020051600 - Released 16 May 2020
+-------------------------------------
+
+* OPPIA-290 Finalise option to support Feedback activities
+
+
+
 .. _blockv2020040401:
 
 v2020040401 - Released 4 Apr 2020

@@ -15,7 +15,9 @@ Issue list:
 * OPPIA-282: Replace API endpoint with v2
 * OPPIA-329: Use vector drawable for options menu icon
 * OPPIA-330: Fix design of TagSelectActivity when empty
-
+* OPPIA-332 Unable to install a course that has large embedded files
+* OPPIA-290 Fix feedback activity
+* OPPIA-345 Update Spanish translations
 
 .. _appv76:
 
