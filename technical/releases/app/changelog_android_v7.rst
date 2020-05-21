@@ -18,6 +18,8 @@ Issue list:
 * OPPIA-332 Unable to install a course that has large embedded files
 * OPPIA-290 Fix feedback activity
 * OPPIA-345 Update Spanish translations
+* OPPIA-184 Improve how custom registration form fields can be specified
+
 
 .. _appv76:
 
