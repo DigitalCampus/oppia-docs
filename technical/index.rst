@@ -14,3 +14,4 @@ OppiaMobile Technical Documentation
    releases/index
    testing/index
    integration/index
+   data-structure/index
