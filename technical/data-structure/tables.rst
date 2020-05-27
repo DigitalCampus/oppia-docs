@@ -7,9 +7,14 @@ The tables are shown below in alphabetical order:
 auth_user
 ----------
 
+Stores the basic user information, such as username, password, email, name etc.
+This is a core Django framework table.
 
 oppia_activity
 -----------------
+
+Stores the detail of the activities (pages/quizzes etc) associated with each
+section in a course.
 
 oppia_award
 --------------

@@ -1,12 +1,11 @@
 OppiaMobile Server Data Structure
 =====================================
 
-The basic data structure (entity relationshop diagram) of the OppiaMobile
-server database is shown in the diagram below (click to view a larger version):
+The basic data structure (entity relationship diagram) of the OppiaMobile
+server database is shown in the diagram below:
 
 
 .. image::  images/oppia-erd-basic-2020-05-26.png
-   :target: images/oppia-erd-basic-2020-05-26.png
 
 
 .. note::
