@@ -53,8 +53,9 @@ cases where the app will work mostly offline.
 The custom fields are defined in a file named `custom_fields.json` under the
 `assets` folder. You have to update this dictionary with the proper syntax.
 Here is an example of how that JSON would look like (reading the description of
-server custom fields the example itself is pretty much self-explanatory)::
+server custom fields the example itself is pretty much self-explanatory):
 
+::
 	{
 		"fields": [
 			{
@@ -104,12 +105,19 @@ for the local users of the app, only the definition of what fields appear in
 the UI, so those values would be kept in the local database.
 
 
-###Choices field
+Choices field
+^^^^^^^^^^^^^^^^^^
 
-Additionally to the fields definition, you can configure a special kind of field where you only let the user select the value from a dropdown list of choices. Currently this is definition is not included in the server, so server-side it will be saved as a normal string value of the selected option. To do so, you need to set the field type to `choices`, and associate it with a collection defined in the `collections` section of the JSON dictionary.
+Additionally to the fields definition, you can configure a special kind of 
+field where you only let the user select the value from a dropdown list of 
+choices. Currently this is definition is not included in the server, so 
+server-side it will be saved as a normal string value of the selected option. 
+To do so, you need to set the field type to `choices`, and associate it with a 
+collection defined in the `collections` section of the JSON dictionary.
 
-Here is an example of how that JSON would look like:
+Here is an example of how that JSON would look like: 
 
+::
 	{
 		"fields": [
 			{
@@ -139,16 +147,26 @@ Here is an example of how that JSON would look like:
 
 
 
-###Conditional fields
+Conditional fields
+^^^^^^^^^^^^^^^^^^
 
-You can also configure the visibility of a field to be dependant of another field in the registration form. This is done adding a property named `visible_byfield` in the field definition under the JSON, setting the as the name of the other field (`name` property in the field definition).
+You can also configure the visibility of a field to be dependant of another 
+field in the registration form. This is done adding a property named 
+`visible_byfield` in the field definition under the JSON, setting the as the
+ name of the other field (`name` property in the field definition).
 
 This will apply the following logic:
 
-* If the field you have the condition by is a boolean field, the visibility will be directly controlled by the checked status of that field
-* If the dependant field is a choices field, the field will be visible whenever an option is selected. If you want to configure the field so that it only gets visible by a single value of the field's dropdown, you can add the `visible_byvalue` property in the field definition, referencing the `id` of that collection item. Let's see it with an example:
+* If the field you have the condition by is a boolean field, the visibility 
+  will be directly controlled by the checked status of that field
 
+* If the dependant field is a choices field, the field will be visible whenever
+  an option is selected. If you want to configure the field so that it only gets
+  visible by a single value of the field's dropdown, you can add the 
+  `visible_byvalue` property in the field definition, referencing the `id` of 
+  that collection item. Let's see it with an example: 
 
+::
 	{
 		"fields": [
 			{
@@ -187,7 +205,11 @@ This will apply the following logic:
 	}
 
 
-With this definition, the registration form will show a custom dropdown field to select the profession, and only in the case where the user selects the "Other" option the second field will become visible. Also, regarding the "required" property of the field, this is only checked if the field is currently visible.
+With this definition, the registration form will show a custom dropdown field 
+to select the profession, and only in the case where the user selects the 
+"Other" option the second field will become visible. Also, regarding the 
+"required" property of the field, this is only checked if the field is 
+currently visible.
 
 .. image:: images/customfield-choices.png
     :align: center
