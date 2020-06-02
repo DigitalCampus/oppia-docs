@@ -18,11 +18,6 @@ server database is shown in the diagram below:
 .. toctree::
    :maxdepth: 2
    
-   tables
-   
- 
-.. toctree::
-   :maxdepth: 2
-   
+   tables   
    queries
  

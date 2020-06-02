@@ -19,6 +19,9 @@ Issue list:
 * OPPIA-290 Fix feedback activity
 * OPPIA-345 Update Spanish translations
 * OPPIA-184 Improve how custom registration form fields can be specified
+* OPPIA-370 Min SDK set to 21
+* OPPIA-354 On the custom fields, if a choices collection is changed, it 
+  doesn't get updated in the app
 
 
 .. _appv76:
