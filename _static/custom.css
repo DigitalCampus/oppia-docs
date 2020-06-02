@@ -1,6 +1,9 @@
 .wy-side-nav-search {
     background-color: #689e3a;
 }
+.wy-nav-top {
+    background-color: #74B042;
+}
 a{
     color: #9bc540;
 }
@@ -12,6 +15,9 @@ a:hover{
 }
 .wy-side-nav-search>div.version{
     color: rgba(255,255,255,0.7);
+}
+.wy-side-nav-search input[type=text]{
+    border-color: #597725;
 }
 a.icon-home{
     color:#fff !important;
@@ -39,11 +45,12 @@ a.icon-home{
     -webkit-box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
     box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
 }
-
 .btn[rel="next"] .fa{
     margin-left:10px;
 }
-
 .btn[rel="prev"] .fa{
     margin-right:10px;
+}
+.rst-versions small a{
+    color: #029440;
 }
