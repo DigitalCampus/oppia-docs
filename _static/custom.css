@@ -13,6 +13,7 @@ a:visited{
 a:hover{
     color:#9aca3c;
 }
+.wy-nav-top a, .wy-nav-top a:visited{ color:#fff; }
 .wy-side-nav-search>div.version{
     color: rgba(255,255,255,0.7);
 }
