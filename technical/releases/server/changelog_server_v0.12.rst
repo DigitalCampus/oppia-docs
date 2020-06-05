@@ -23,8 +23,8 @@ Issue list:
   order with the course priority value
 * OPPIA-56 UploadMedia - ability to download all media for a course
 * OPPIA-342 Search users gives a server error
-* OPPIA-334 If no email is entered when a user registers, it shows ('',) as 
-  the email address in the Django admin
+* OPPIA-369 Course download stats on the course detail page don't match the
+  course list
 
 .. _serverv0.12.6:
 

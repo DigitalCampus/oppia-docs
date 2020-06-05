@@ -22,6 +22,8 @@ Issue list:
 * OPPIA-370 Min SDK set to 21
 * OPPIA-354 On the custom fields, if a choices collection is changed, it 
   doesn't get updated in the app
+* OPPIA-355 Only ask for the location access if a user tries to use the
+  bluetooth option
 
 
 .. _appv76:
