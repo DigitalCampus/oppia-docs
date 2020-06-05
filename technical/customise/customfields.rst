@@ -53,9 +53,8 @@ cases where the app will work mostly offline.
 The custom fields are defined in a file named `custom_fields.json` under the
 `assets` folder. You have to update this dictionary with the proper syntax.
 Here is an example of how that JSON would look like (reading the description of
-server custom fields the example itself is pretty much self-explanatory):
+server custom fields the example itself is pretty much self-explanatory): ::
 
-::
 	{
 		"fields": [
 			{
@@ -115,9 +114,7 @@ server-side it will be saved as a normal string value of the selected option.
 To do so, you need to set the field type to `choices`, and associate it with a 
 collection defined in the `collections` section of the JSON dictionary.
 
-Here is an example of how that JSON would look like: 
-
-::
+Here is an example of how that JSON would look like: ::
 	{
 		"fields": [
 			{
@@ -164,9 +161,7 @@ This will apply the following logic:
   an option is selected. If you want to configure the field so that it only gets
   visible by a single value of the field's dropdown, you can add the 
   `visible_byvalue` property in the field definition, referencing the `id` of 
-  that collection item. Let's see it with an example: 
-
-::
+  that collection item. Let's see it with an example: ::
 	{
 		"fields": [
 			{
