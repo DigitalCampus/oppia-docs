@@ -14,6 +14,7 @@ v0.12.7 - not yet released
 	
 Key updates:
 
+* Upgrade to Django 2.2.13
 
 Issue list:
 
