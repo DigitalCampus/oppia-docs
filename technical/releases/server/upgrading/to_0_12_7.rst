@@ -4,7 +4,7 @@ Upgrading to OppiaMobile Server v0.12.7
 Update packages
 ----------------------------
 
-
+#. Run: ``(env)$ pip uninstall django-tablib``
 #. Run: ``(env)$ pip install -r requirements.txt``
 
 

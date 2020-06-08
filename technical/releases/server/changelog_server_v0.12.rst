@@ -26,6 +26,8 @@ Issue list:
 * OPPIA-342 Search users gives a server error
 * OPPIA-369 Course download stats on the course detail page don't match the
   course list
+* OPPIA-368 Export of detailed activity to Excel causes error
+* OPPIA-5 Set up IPstack for users country locations
 
 .. _serverv0.12.6:
 
