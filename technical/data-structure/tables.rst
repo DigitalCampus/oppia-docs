@@ -73,7 +73,7 @@ Stores the detail of the user registration form responses for the
 quiz_quizattempt
 ------------------
 
-Stores the detail of the quizzes (and feedback) a user has completed.
+Stores the detail of the quizzes and feedback a user has completed.
 
 quiz_quizattemptresponse
 ---------------------------

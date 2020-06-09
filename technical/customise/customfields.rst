@@ -115,6 +115,7 @@ To do so, you need to set the field type to `choices`, and associate it with a
 collection defined in the `collections` section of the JSON dictionary.
 
 Here is an example of how that JSON would look like: ::
+
 	{
 		"fields": [
 			{
@@ -150,18 +151,19 @@ Conditional fields
 You can also configure the visibility of a field to be dependant of another 
 field in the registration form. This is done adding a property named 
 `visible_byfield` in the field definition under the JSON, setting the as the
- name of the other field (`name` property in the field definition).
+name of the other field (`name` property in the field definition).
 
 This will apply the following logic:
 
 * If the field you have the condition by is a boolean field, the visibility 
   will be directly controlled by the checked status of that field
 
-* If the dependant field is a choices field, the field will be visible whenever
+* If the dependent field is a choices field, the field will be visible whenever
   an option is selected. If you want to configure the field so that it only gets
   visible by a single value of the field's dropdown, you can add the 
   `visible_byvalue` property in the field definition, referencing the `id` of 
   that collection item. Let's see it with an example: ::
+  
 	{
 		"fields": [
 			{
