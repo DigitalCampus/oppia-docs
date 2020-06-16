@@ -55,6 +55,7 @@ Content Creation
    content/publish_to_oppia
    content/style/index
    content/adapt/index
+   content/updating
 
 Implementers/Users Guide
 --------------------------
