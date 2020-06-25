@@ -24,6 +24,7 @@ Issue list:
   doesn't get updated in the app
 * OPPIA-355 Only ask for the location access if a user tries to use the
   bluetooth option
+* OPPIA-293 Save the time taken and the event type for feedback activities
 
 
 .. _appv76:
