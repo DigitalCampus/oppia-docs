@@ -2,9 +2,26 @@ OppiaMobile Server Change Log
 ================================
 
 
+.. _serverv0.12.8:
+
+v0.12.8 - not yet released 
+--------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_8
+	
+Key updates:
+
+
+
+Issue list:
+
+
 .. _serverv0.12.7:
 
-v0.12.7 - not yet released
+v0.12.7 - released 1 July 2020
 --------------------------------
 
 .. toctree::
@@ -28,6 +45,7 @@ Issue list:
   course list
 * OPPIA-368 Export of detailed activity to Excel causes error
 * OPPIA-5 Set up IPstack for users country locations
+
 
 .. _serverv0.12.6:
 
