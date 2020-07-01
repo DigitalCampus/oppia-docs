@@ -144,14 +144,13 @@ Here is an example of how that JSON would look like: ::
 
 
 
-
 Conditional fields
 ^^^^^^^^^^^^^^^^^^
 
 You can also configure the visibility of a field to be dependant of another 
 field in the registration form. This is done adding a property named 
-`visible_byfield` in the field definition under the JSON, setting the as the
-name of the other field (`name` property in the field definition).
+`visible_byfield` in the field definition under the JSON, setting the value as the
+name of the field it has the dependency on (`name` property in the field definition).
 
 This will apply the following logic:
 
@@ -182,7 +181,7 @@ This will apply the following logic:
 				"order":2,
 				"required":true,
 				"visible_byfield":"profession",
-      			"visible_byvalue":"other",
+				"visible_byvalue":"other",
 				"type":"str"
 			}
 		],
@@ -210,3 +209,80 @@ currently visible.
 
 .. image:: images/customfield-choices.png
     :align: center
+
+
+Nested choice fields
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Regarding the choice fields, there are some use cases where there is the need 
+to be able to show a different subset of choices depending on the value of
+another field, for example, a county-district hierarchy. This is done adding 
+a property named `collection_byfield` in the field definition under the JSON, 
+setting the value as the name of the field it has the dependency on. 
+
+Make sure that the field you reference is a `choices` type field, and then, 
+for every option of that field's collection, there should be another collection
+defined with the `collection_name` set as the `id` of that field.
+
+Let's see it with an example: ::
+  
+	{
+		"fields": [
+			{
+				"name":"parent",
+				"label":"Parent field",
+				"order":1,
+				"required":true,
+				"type":"choices",
+				"collection":"parent"
+			},
+	
+			{
+				"name":"nested",
+				"label":"Child field",
+				"order":2,
+				"required":true,
+				"visible_byfield":"parent",
+				"collection_byfield":"parent",
+				"type":"choices"
+			}
+		],
+
+		"collections": [
+		    {
+		      "collection_name": "parent",
+		      "items":[
+		        {"id": "first_child", "value":"Parent #1"},
+		        {"id": "second_child", "value":"Parent #2"},
+		        {"id": "third_child", "value":"Parent #3"}
+		      ]
+		    },
+
+		    {
+		      "collection_name": "first_child",
+		      "items":[
+		        {"id": "01", "value":"Parent #1 - Child #1"},
+		        {"id": "02", "value":"Parent #1 - Child #2"},
+		        {"id": "03", "value":"Parent #1 - Child #3"}
+		      ]
+		    },
+
+		    {
+		      "collection_name": "second_child",
+		      "items":[
+		        {"id": "01", "value":"Parent #2 - Child #1"},
+		        {"id": "02", "value":"Parent #2 - Child #2"},
+		        {"id": "03", "value":"Parent #2 - Child #3"}
+		      ]
+		    },
+
+		    {
+		      "collection_name": "third_child",
+		      "items":[
+		        {"id": "01", "value":"Parent #3 - Child #1"},
+		        {"id": "02", "value":"Parent #3 - Child #2"},
+		        {"id": "03", "value":"Parent #3 - Child #3"}
+		      ]
+		    }
+		]
+	}
