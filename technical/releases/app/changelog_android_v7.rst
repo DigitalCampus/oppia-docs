@@ -11,6 +11,9 @@ Key updates:
 
 Issue list:
 
+* OPPIA-250 Fix code smells as result of updating min SDK version to 21 and
+  other updates
+* Bugfix for Android Intent
 
 .. _appv77:
 

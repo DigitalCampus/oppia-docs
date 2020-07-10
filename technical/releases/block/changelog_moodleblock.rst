@@ -8,7 +8,7 @@ v2020051600 - Released 16 May 2020
 -------------------------------------
 
 * OPPIA-290 Finalise option to support Feedback activities
-
+* OPPIA-377 Update other moodle/oppia css styles for the other 2 options
 
 
 .. _blockv2020040401:

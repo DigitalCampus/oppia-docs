@@ -18,6 +18,9 @@ Key updates:
 
 Issue list:
 
+* OPPIA-334 If no email is entered when a user registers, it shows ('',) as the
+  email address in the Django admin
+* Bugfix for Android Intent
 
 .. _serverv0.12.7:
 
