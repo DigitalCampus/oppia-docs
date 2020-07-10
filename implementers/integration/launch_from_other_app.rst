@@ -17,7 +17,7 @@ Using a link, rather than an Android intent, helps to direct the user to the act
 
 The links used should be in the following format:
 
-http://demo.oppia-mobile.org/view?digest=XXXXXXXXX
+https://demo.oppia-mobile.org/view?digest=XXXXXXXXX
 
 The digest is a unique identifier for the specific activity in OppiaMobile - these can be found in the module.xml of the 
 course zip package.
@@ -26,15 +26,9 @@ Here is an example of a link appearing in a text message (of course this link co
 
 .. image:: images/launch-link.png
 
-As the app is registered to open these kinds of links, when you clink on a URL like that, Android will prompt you for 
-which app to open the link with. If you select the OppiaMobile app, it shows you a page informing you of the 
-functionality, and allows you to continue to that concrete activity:
-	
-.. image:: images/app-open.png
-	
-From here, you can either open the activity or close this window. The tick in the bottom right indicates if the current 
-logged in user has already completed this activity. If the user is not logged in right now, it will also show the info 
-of the activity, but won't let you navigate to it:
+As the app is registered to open these kinds of links, when the user click on digest URL, Android will prompt her for 
+which app to open the link with. If the user select the OppiaMobile app it will directly load the activity, independently of
+whether the user has an active internet connection or not. If there is no logged in user right now, it will show that information instead:
 
 .. image:: images/not-logged-in.png
 
@@ -43,6 +37,11 @@ and it will show the message:
 
 .. image:: images/activity-not-found.png
 
-This is the main functionality developed so far, but we still have yet to develop the part when the user selects the 
-browser as the app with which to open the link (or the OppiaMobile app is not installed) - and will then redirect to the 
-activity on the web.
+If the user selects to open the digest link with the Chrome browser, the activity info will be shown. If the user clicks the "open in app"
+button, the browser will try to open the app passing the activity digest info. If the user doesn't have the app installed, it will
+redirect him to the Google Play store page for the app.
+
+.. image:: images/digest-browser.png
+
+For the browser option, the user needs an active internet connection on the device. Without it, the browser will just show a "No connection"
+error as with any other web page.
