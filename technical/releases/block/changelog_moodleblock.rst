@@ -2,6 +2,14 @@ OppiaMobile Moodle Block Change Log
 =====================================
 
 
+.. _blockv2020072800:
+
+v2020072800 - Released 28 July 2020
+-------------------------------------
+
+* OPPIA-366 On export from Moodle hidden activities are still being exported
+
+
 .. _blockv2020051600:
 
 v2020051600 - Released 16 May 2020
