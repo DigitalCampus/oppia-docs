@@ -14,6 +14,9 @@ Issue list:
 * OPPIA-250 Fix code smells as result of updating min SDK version to 21 and
   other updates
 * Bugfix for Android Intent
+* OPPIA-350 Add app tests for the Feedback activity
+* OPPIA-112 When quiz loading fails then give a proper error message
+* OPPIA-348 Add tests for the new options of the custom fields
 
 .. _appv77:
 

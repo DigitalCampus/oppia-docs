@@ -21,6 +21,9 @@ Issue list:
 * OPPIA-334 If no email is entered when a user registers, it shows ('',) as the
   email address in the Django admin
 * Bugfix for Android Intent
+* Update Pillow library version
+* OPPIA-344 Display the feedback activity responses
+* OPPIA-349 Allow course owners to access draft courses
 
 .. _serverv0.12.7:
 
