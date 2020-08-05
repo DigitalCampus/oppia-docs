@@ -1,13 +1,21 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
-.. _appv78:
+.. _appv79:
 
-v78 (7.1.2) - not yet released
+v79 (7.1.3) - not yet released
 ------------------------------------
 
 Key updates:
 
+
+Issue list:
+
+
+.. _appv78:
+
+v78 (7.1.2) - released 31 July 2020
+------------------------------------
 
 Issue list:
 
