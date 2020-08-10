@@ -60,9 +60,37 @@ Wherever you see a users name, you can click on their name to go directly to vie
 
 .. image:: images/activity-user-all.png
 
+
 View activity for specific user on a particular course
 --------------------------------------------------------
  
 From the user homepage, you can select which course to view the full detail from.
 
 .. image:: images/activity-user-course.png
+
+
+Download activity detail for a course
+---------------------------------------
+
+#. From the menu bar, select 'Courses'
+#. Browse to the course and click on its title
+#. Select 'Course Data Exports'
+#. Then you can download the course activity to a CSV/Excel file
+
+
+Download quiz responses for a quiz in a course
+-------------------------------------------------
+
+#. From the menu bar, select 'Courses'
+#. Browse to the course and click on its title
+#. Select 'Course Data Exports'
+#. Then you can select the quiz responses to download to a CSV/Excel file
+
+
+Download feedback responses in a course
+-------------------------------------------------
+
+#. From the menu bar, select 'Courses'
+#. Browse to the course and click on its title
+#. Select 'Course Data Exports'
+#. Then you can select the feedback responses to download to a CSV/Excel file

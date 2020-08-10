@@ -13,6 +13,8 @@ v0.12.9 - not yet released
 
 Issue list:
 
+* OPPIA-389 Allow downloading of Quiz data in similar way to the feedback
+  responses
 
 .. _serverv0.12.8:
 
