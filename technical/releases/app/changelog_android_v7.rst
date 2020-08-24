@@ -11,6 +11,10 @@ Key updates:
 
 Issue list:
 
+* OPPIA-322 Update the badges screen in the app
+* OPPIA-323 Add a select and download all option to course downloading
+* OPPIA-388 Allow the stepper registration form to be defined in the custom
+  fields json
 
 .. _appv78:
 

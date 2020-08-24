@@ -1,6 +1,13 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv2020082400:
+
+v2020082400 - Released 24 Aug 2020
+-------------------------------------
+
+* OPPIA-320 Image export can fail if image has been overwritten in Moodle
+
 
 .. _blockv2020072800:
 
