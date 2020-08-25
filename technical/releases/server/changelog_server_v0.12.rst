@@ -15,6 +15,9 @@ Issue list:
 
 * OPPIA-389 Allow downloading of Quiz data in similar way to the feedback
   responses
+* OPPIA-381 Badges awarded not always getting added into the UserCourseSummary
+  table
+* OPPIA-346 Error message when trying to use the makemessages command
 
 .. _serverv0.12.8:
 
