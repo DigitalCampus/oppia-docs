@@ -210,6 +210,38 @@ currently visible.
 .. image:: images/customfield-choices.png
     :align: center
 
+You can also negate a condition, so that a field is visible not when a specific
+value is selected, but when the value selected is any other value except from
+that one. To do so, add an exclamation mark to the field name in the 
+`visible_byvalue` property. For example: ::
+
+	{
+		"fields": [
+			{
+				"name":"profession",
+				"label":"Profession",
+				"order":1,
+				"required":true,
+				"helper_text":"Select from the options your current position",
+				"type":"choices",
+				"collection":"professions"
+			},
+	
+			{
+				"name":"job_experience",
+				"label":"Work experience",
+				"order":2,
+				"required":true,
+				"visible_byfield":"profession",
+				"visible_byvalue":"!other",
+				"type":"str"
+			}
+		],
+		...
+
+
+In this case, the field for "Work experience" will appear when the selected 
+value for the position field is different than "Other".
 
 Nested choice fields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -286,3 +318,28 @@ Let's see it with an example: ::
 		    }
 		]
 	}
+
+
+
+Stepped registration form
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To provide a better user experience, the registration screen can be split in
+different steps with a single explanation. This will allow you also to create
+different registration paths based on the values the user has filled so far.
+
+This is configured also in the `custom_fields.json` file, under a property
+named `"register_steps"`. It is an array where you need to configure for 
+each step the following values:
+* `order`: integer. The order of this step. If there is more than one path
+there can be more than one step defined with the same order, but be aware of
+making the conditional definitions so that they are 
+* `helper_text`: the description that will appear at the top of the screen
+* `conditional_byfield`: if this step is conditional, the field it depends
+upon. The same rules as the basic conditional fields apply.
+* `conditional_byvalue`: the specific value for the condition
+* `fields`: an array with the field's identifiers to show in this step. To
+include the default fields in the registration form, this are their 
+identifiers (they are self explanatory): `username`, `email`, `password`,
+`passwordagain`, `first_name`, `last_name`, `job_title`, `organisation`,
+`phoneno`.
