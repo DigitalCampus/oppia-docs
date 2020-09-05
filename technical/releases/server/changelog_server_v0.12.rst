@@ -13,6 +13,7 @@ v0.12.10 - not yet released
 
 Issue list:
 
+* OPPIA-378 Graphs on summary page showing beginning of month
 
 
 .. _serverv0.12.9:
