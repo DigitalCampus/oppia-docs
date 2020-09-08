@@ -7,6 +7,7 @@ v1.1.1 - not yet released
 ------------------------------------
 
 * OPPIA-384 Server connections in Moodle export block - API key no longer necessary
+* OPPIA-383 Improve how draft courses are handled
 
 .. _blockv2020082400:
 
