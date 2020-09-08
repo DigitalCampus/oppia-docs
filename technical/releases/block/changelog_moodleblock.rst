@@ -1,7 +1,9 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
-.. _blockv1.1.1 - not yet released
+.. _blockv1.1.1:
+
+v1.1.1 - not yet released
 ------------------------------------
 
 * OPPIA-384 Server connections in Moodle export block - API key no longer necessary
