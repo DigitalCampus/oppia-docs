@@ -1,19 +1,41 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
-.. _appv78:
 
-v78 (7.1.2) - not yet released
+.. _appv80:
+
+v80 (7.1.4) - not yet released
 ------------------------------------
 
-Key updates:
+Issue list:
 
+
+
+.. _appv79:
+
+v79 (7.1.3) - Released 26 Aug 2020
+------------------------------------
+
+Issue list:
+
+* OPPIA-322 Update the badges screen in the app
+* OPPIA-323 Add a select and download all option to course downloading
+* OPPIA-388 Allow the stepper registration form to be defined in the custom
+  fields json
+
+.. _appv78:
+
+v78 (7.1.2) - released 31 July 2020
+------------------------------------
 
 Issue list:
 
 * OPPIA-250 Fix code smells as result of updating min SDK version to 21 and
   other updates
 * Bugfix for Android Intent
+* OPPIA-350 Add app tests for the Feedback activity
+* OPPIA-112 When quiz loading fails then give a proper error message
+* OPPIA-348 Add tests for the new options of the custom fields
 
 .. _appv77:
 

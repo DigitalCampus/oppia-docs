@@ -1,26 +1,57 @@
 OppiaMobile Server Change Log
 ================================
 
+.. _serverv0.12.10:
+
+v0.12.10 - not yet released
+--------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_10
+
+Issue list:
+
+* OPPIA-378 Graphs on summary page showing beginning of month
+
+
+.. _serverv0.12.9:
+
+v0.12.9 - Released 26 Aug 2020
+--------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_9
+
+Issue list:
+
+* OPPIA-389 Allow downloading of Quiz data in similar way to the feedback
+  responses
+* OPPIA-381 Badges awarded not always getting added into the UserCourseSummary
+  table
+* OPPIA-346 Error message when trying to use the makemessages command
 
 .. _serverv0.12.8:
 
-v0.12.8 - not yet released 
+v0.12.8 - released 31 July 2020
 --------------------------------
 
 .. toctree::
    :maxdepth: 1
 
    upgrading/to_0_12_8
-	
-Key updates:
-
-
 
 Issue list:
 
 * OPPIA-334 If no email is entered when a user registers, it shows ('',) as the
   email address in the Django admin
 * Bugfix for Android Intent
+* Update Pillow library version
+* OPPIA-344 Display the feedback activity responses
+* OPPIA-349 Allow course owners to access draft courses
 
 .. _serverv0.12.7:
 

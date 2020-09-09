@@ -52,6 +52,15 @@ Permissions on the OppiaMobile Server dashboard:
 | View course activity   | Yes           | Yes           | Yes (6)       | No (7)        |
 | detail                 |               |               |               |               |
 +------------------------+---------------+---------------+---------------+---------------+
+| Download course        | Yes           | Yes           | No            | No            |
+| activity detail        |               |               |               |               |
++------------------------+---------------+---------------+---------------+---------------+
+| Download quiz          | Yes           | Yes           | No            | No            |
+| responses detail       |               |               |               |               |
++------------------------+---------------+---------------+---------------+---------------+
+| Download feedback      | Yes           | Yes           | No            | No            |
+| responses detail       |               |               |               |               |
++------------------------+---------------+---------------+---------------+---------------+
 | View course quizzes    | Yes           | Yes           | Yes (6)       | No (7)        |
 +------------------------+---------------+---------------+---------------+---------------+
 | View student activity  | Yes           | Yes           | No (6)        | No (7)        |
