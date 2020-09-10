@@ -14,6 +14,9 @@ v0.12.10 - not yet released
 Issue list:
 
 * OPPIA-378 Graphs on summary page showing beginning of month
+* OPPIA-412 Publish API can raise `MultiValueDictKeyError`
+* OPPIA-413 Summary cron lock doesn't always get removed
+* OPPIA-397 Weblink/Intent for opening/downloading a specific course
 
 
 .. _serverv0.12.9:
