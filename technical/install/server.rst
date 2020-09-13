@@ -288,17 +288,17 @@ servers you are most likely to want to use the `SMTP backend
 
 .. _installcron:
 
-12. Set up cron tasks
+12. Set up cron task
 ---------------------
 
-There are 2 cron tasks, one does the processing for awarding badges and general 
-maintenance (eg clearing old user sessions and temporary files), and the other 
-to generate the cached data for displaying the dashboard data.
+There are 2 scheduled tasks, one does the processing for awarding badges and 
+general maintenance (eg clearing old user sessions and temporary files), and the
+other to generate the cached data for displaying the dashboard data.
 
-Here are 2 example files that you can use, for each of these cron tasks. We 
-recommend putting these files in your ``/home/oppia/`` directory.
+These can be run as a single cron task. We recommend putting this files in your
+``/home/oppia/`` directory.
 
-``cron.sh``::
+``oppia-cron.sh``::
  
 	#!/bin/bash
 
@@ -306,17 +306,10 @@ recommend putting these files in your ``/home/oppia/`` directory.
 	source env/bin/activate
 	
 	python django-oppia/manage.py oppiacron --hours=48
-	
-``cron-summary.sh``::
- 
-	#!/bin/bash
-
-	cd /home/oppia/
-	source env/bin/activate
-	
 	python django-oppia/manage.py update_summaries
+
 	
-Edit your ``crontab`` to run these scripts regularly - at least once per hour.
+Edit your ``crontab`` to run this script regularly - at least once per hour.
 
 13. Contribute!
 ----------------

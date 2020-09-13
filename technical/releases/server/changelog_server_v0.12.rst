@@ -17,7 +17,7 @@ Issue list:
 * OPPIA-412 Publish API can raise `MultiValueDictKeyError`
 * OPPIA-413 Summary cron lock doesn't always get removed
 * OPPIA-397 Weblink/Intent for opening/downloading a specific course
-
+* OPPIA-414 Create script to anonymise database
 
 .. _serverv0.12.9:
 
