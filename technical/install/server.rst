@@ -295,7 +295,7 @@ There are 2 scheduled tasks, one does the processing for awarding badges and
 general maintenance (eg clearing old user sessions and temporary files), and the
 other to generate the cached data for displaying the dashboard data.
 
-These can be run as a single cron task. We recommend putting this files in your
+These can be run as a single cron task. We recommend putting this file in your
 ``/home/oppia/`` directory.
 
 ``oppia-cron.sh``::
