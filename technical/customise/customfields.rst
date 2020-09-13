@@ -28,7 +28,7 @@ ection. There you can edit the current ones, remove them or add new fields.
 
 * The **Id** field is the dictionary identifier for that field. Name it using
   the `snake_case` style, so for example, if you want to add a "Twitter
-  username" field, you would name it `twitter_profile`. 
+  username" field, you would name it ``twitter_profile``. 
 * The **"helper text"** field is used to define a explanatory text for that
   field that will be displayed on the form below the input.
 * The **order** value is used to control how the custom fields are ordered
@@ -50,7 +50,7 @@ ersions of the app, the custom fields definition will be directly fetched from
 the server, but this process is needed anyway for a first definition and in
 cases where the app will work mostly offline.
 
-The custom fields are defined in a file named `custom_fields.json` under the
+The custom fields are defined in a file named ``custom_fields.json`` under the
 `assets` folder. You have to update this dictionary with the proper syntax.
 Here is an example of how that JSON would look like (reading the description of
 server custom fields the example itself is pretty much self-explanatory): ::
@@ -92,7 +92,7 @@ server custom fields the example itself is pretty much self-explanatory): ::
 
 The custom fields are loaded once per app version, so if you want to update the
 custom fields definition of a previously installed app, you'll have to update
-the `LOAD_CUSTOMFIELDS_VERSION` build setting (see :doc:`./app/settings`) to a
+the ``LOAD_CUSTOMFIELDS_VERSION`` build setting (see :doc:`./app/settings`) to a
 higher value. If the value is the same of the current app version, you'll need
 to update also your app `versionCode` in Gradle for this changes to be
 reflected.
@@ -111,8 +111,8 @@ Additionally to the fields definition, you can configure a special kind of
 field where you only let the user select the value from a dropdown list of 
 choices. Currently this is definition is not included in the server, so 
 server-side it will be saved as a normal string value of the selected option. 
-To do so, you need to set the field type to `choices`, and associate it with a 
-collection defined in the `collections` section of the JSON dictionary.
+To do so, you need to set the field type to ``choices``, and associate it with a 
+collection defined in the ``collections`` section of the JSON dictionary.
 
 Here is an example of how that JSON would look like: ::
 
@@ -149,7 +149,7 @@ Conditional fields
 
 You can also configure the visibility of a field to be dependant of another 
 field in the registration form. This is done adding a property named 
-`visible_byfield` in the field definition under the JSON, setting the value as the
+``visible_byfield`` in the field definition under the JSON, setting the value as the
 name of the field it has the dependency on (`name` property in the field definition).
 
 This will apply the following logic:
@@ -160,7 +160,7 @@ This will apply the following logic:
 * If the dependent field is a choices field, the field will be visible whenever
   an option is selected. If you want to configure the field so that it only gets
   visible by a single value of the field's dropdown, you can add the 
-  `visible_byvalue` property in the field definition, referencing the `id` of 
+  ``visible_byvalue`` property in the field definition, referencing the `id` of 
   that collection item. Let's see it with an example: ::
   
 	{
@@ -204,7 +204,7 @@ This will apply the following logic:
 With this definition, the registration form will show a custom dropdown field 
 to select the profession, and only in the case where the user selects the 
 "Other" option the second field will become visible. Also, regarding the 
-"required" property of the field, this is only checked if the field is 
+``"required"`` property of the field, this is only checked if the field is 
 currently visible.
 
 .. image:: images/customfield-choices.png
@@ -213,7 +213,7 @@ currently visible.
 You can also negate a condition, so that a field is visible not when a specific
 value is selected, but when the value selected is any other value except from
 that one. To do so, add an exclamation mark to the field name in the 
-`visible_byvalue` property. For example: ::
+``visible_byvalue`` property. For example: ::
 
 	{
 		"fields": [
@@ -249,12 +249,12 @@ Nested choice fields
 Regarding the choice fields, there are some use cases where there is the need 
 to be able to show a different subset of choices depending on the value of
 another field, for example, a county-district hierarchy. This is done adding 
-a property named `collection_byfield` in the field definition under the JSON, 
+a property named ``collection_byfield`` in the field definition under the JSON,
 setting the value as the name of the field it has the dependency on. 
 
-Make sure that the field you reference is a `choices` type field, and then, 
+Make sure that the field you reference is a ``choices`` type field, and then, 
 for every option of that field's collection, there should be another collection
-defined with the `collection_name` set as the `id` of that field.
+defined with the ``collection_name`` set as the ``id`` of that field.
 
 Let's see it with an example: ::
   
@@ -328,18 +328,23 @@ To provide a better user experience, the registration screen can be split in
 different steps with a single explanation. This will allow you also to create
 different registration paths based on the values the user has filled so far.
 
-This is configured also in the `custom_fields.json` file, under a property
-named `"register_steps"`. It is an array where you need to configure for 
+This is configured also in the ``custom_fields.json`` file, under a property
+named ``"register_steps"``. It is an array where you need to configure for 
 each step the following values:
-* `order`: integer. The order of this step. If there is more than one path
+
+* ``order``: integer. The order of this step. If there is more than one path
 there can be more than one step defined with the same order, but be aware of
 making the conditional definitions so that they are 
-* `helper_text`: the description that will appear at the top of the screen
-* `conditional_byfield`: if this step is conditional, the field it depends
+
+* ``helper_text``: the description that will appear at the top of the screen
+
+* ``conditional_byfield``: if this step is conditional, the field it depends
 upon. The same rules as the basic conditional fields apply.
-* `conditional_byvalue`: the specific value for the condition
-* `fields`: an array with the field's identifiers to show in this step. To
+
+* ``conditional_byvalue``: the specific value for the condition
+
+* ``fields``: an array with the field's identifiers to show in this step. To
 include the default fields in the registration form, this are their 
-identifiers (they are self explanatory): `username`, `email`, `password`,
-`passwordagain`, `first_name`, `last_name`, `job_title`, `organisation`,
-`phoneno`.
+identifiers (they are self explanatory): ``username``, ``email``, 
+``password``, ``passwordagain``, ``first_name``, ``last_name``, ``job_title``,
+``organisation``, ``phoneno``.
