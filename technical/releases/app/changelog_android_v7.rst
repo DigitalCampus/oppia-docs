@@ -9,7 +9,9 @@ v80 (7.1.4) - not yet released
 
 Issue list:
 
-
+* OPPIA-415 Version number checking fails when version name has alphanumeric 
+  suffix
+* OPPIA-387 Weblink/Intent for downloading a specific course
 
 .. _appv79:
 
@@ -46,6 +48,7 @@ Key updates:
 
 * Improved options for custom registration fields
 * Bug fixes
+* Minimum Android supported is v5+
 
 Issue list:
 
