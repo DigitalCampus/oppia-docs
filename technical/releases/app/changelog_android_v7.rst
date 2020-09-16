@@ -11,7 +11,7 @@ Issue list:
 
 * OPPIA-415 Version number checking fails when version name has alphanumeric 
   suffix
-* OPPIA-387 Weblink/Intent for downloading a specific course
+* OPPIA-387 Weblink/Intent for opening/downloading a specific course
 
 .. _appv79:
 
