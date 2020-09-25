@@ -56,10 +56,10 @@ There are two options for getting the media content onto users phones:
    files by allowing downloading using cellular network.
    
    
-Manually creating the embed code
-----------------------------------
+Manually creating the embed code (deprecated)
+------------------------------------------------
 
-Should you really want to, you can also create the media embed code by hand:
+Should you really want to, you can create the media embed code by hand:
 
 #. Generate the md5 checksum for your media. All operating systems will allow 
    you to generate an md5 checksum of a file. The md5 is essentially a unique 

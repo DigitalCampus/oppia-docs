@@ -18,9 +18,7 @@ Activities
 * Review of previous session, any questions/queries
 * Describe how OppiaMobile handles video content (and why)
 * Considerations for video formats and file sizes
-* Adding a page for embedding video in Moodle
-* Generating the embed code (using https://demo.oppia-mobile.org/content/video-embed-helper/)
-* Inserting the embed code into Moodle
+* Embedding video in Moodle
 * Adding a video image
 
 
