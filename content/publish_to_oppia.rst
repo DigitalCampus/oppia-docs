@@ -36,9 +36,7 @@ need to ``Add a new server connection``, providing:
 
 #. Server name - this is just your reference 
 #. The url to the OppiaMobile server
-#. Username - your username for the OppiaMobile server
-#. API Key - your API Key for the OppiaMobile server, you can obtain this by 
-   logging into the OppiaMobile server and going to 'My Oppia' > 'Edit Profile'   
+ 
 
 .. _export_options_explained:
 

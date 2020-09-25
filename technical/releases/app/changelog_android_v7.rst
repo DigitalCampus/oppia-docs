@@ -12,6 +12,7 @@ Issue list:
 * OPPIA-415 Version number checking fails when version name has alphanumeric 
   suffix
 * OPPIA-387 Weblink/Intent for opening/downloading a specific course
+* OPPIA-234 AboutUI tests
 
 .. _appv79:
 

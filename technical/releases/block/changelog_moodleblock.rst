@@ -1,6 +1,16 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+
+.. _blockv1.2.0:
+
+v1.2.0 - not yet released
+------------------------------------
+
+* OPPIA-286 Initial development for extracting Moodle embedded media from page
+  activities
+
+
 .. _blockv1.1.1:
 
 v1.1.1 - not yet released
