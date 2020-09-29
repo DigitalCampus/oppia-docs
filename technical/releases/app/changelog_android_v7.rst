@@ -2,10 +2,18 @@ OppiaMobile Android App Change Log v7.x
 =========================================
 
 
+.. _appv81:
+
+v81 (7.1.5) - not yet released - due 1 Nov 2020
+-----------------------------------------------
+
+Issue list:
+
+
 .. _appv80:
 
-v80 (7.1.4) - not yet released
-------------------------------------
+v80 (7.1.4) - not yet released - Due 1 Oct 2020
+------------------------------------------------
 
 Issue list:
 
@@ -13,6 +21,8 @@ Issue list:
   suffix
 * OPPIA-387 Weblink/Intent for opening/downloading a specific course
 * OPPIA-234 AboutUI tests
+* OPPIA-393 Add tests for no courses installed notification
+
 
 .. _appv79:
 
