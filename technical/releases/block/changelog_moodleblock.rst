@@ -13,7 +13,7 @@ v1.2.0 - not yet released
 
 .. _blockv1.1.1:
 
-v1.1.1 - not yet released
+v1.1.1 - Released 29 Sept 2020
 ------------------------------------
 
 * OPPIA-384 Server connections in Moodle export block - API key no longer necessary
