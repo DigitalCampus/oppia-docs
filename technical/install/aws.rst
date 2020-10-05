@@ -91,7 +91,7 @@ The current version of the instance is running:
 * Mysql 5.7
 * Django 2.2.10
 * TastyPie 0.14.2
-* OppiaServer 0.12.6
+* OppiaServer 0.12.10
 
 
 Email configuration

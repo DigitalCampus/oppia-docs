@@ -7,8 +7,9 @@ The OppiaMobile server web interface allows you to:
 * manage users and permissions
 * manage courses and cohorts
 
-Any user with an OppiaMobile account can log into the dashboard, but what they are able 
-to view will depend on their permissions (see :doc:`../permissions/server`).
+Any user with an OppiaMobile account can log into the dashboard, but what they
+are able to view and the actions they can perform will depend on their
+permissions (see :doc:`../permissions/server`).
 
 
 .. toctree::

@@ -34,6 +34,8 @@ Permissions on the OppiaMobile Server dashboard:
 +------------------------+---------------+---------------+---------------+---------------+
 | Upload Course          | Yes           | Yes           | No (2)        | No (2)        |
 +------------------------+---------------+---------------+---------------+---------------+
+| Update a Course        | Yes           | Yes           | No (9)        | No (9)        |
++------------------------+---------------+---------------+---------------+---------------+
 | Bulk Upload Users      | Yes           | No            | No            | No            |
 +------------------------+---------------+---------------+---------------+---------------+
 | View Cohorts           | Yes           | Yes           | Yes (3)       | No (4)        |
@@ -44,7 +46,7 @@ Permissions on the OppiaMobile Server dashboard:
 +------------------------+---------------+---------------+---------------+---------------+
 | View course list       | Yes           | Yes           | Yes (5)       | Yes (5)       |
 +------------------------+---------------+---------------+---------------+---------------+
-| View draft courses     | Yes           | Yes           | No            | No            |
+| View draft courses     | Yes           | Yes           | No (8)        | No (8)        |
 +------------------------+---------------+---------------+---------------+---------------+
 | View course recent     | Yes           | Yes           | Yes (6)       | No (7)        |
 | activity               |               |               |               |               |
@@ -105,6 +107,9 @@ Notes:
    in.
 7. Students may see their own activity within a course or cohort - but not 
    anyone elses
-
+8. Any user may be given Course viewer permissions to be able to view a specific 
+   course that is currently draft
+9. Any user may be given Course manager permissions to be able to update
+   (republish) a course
 
 

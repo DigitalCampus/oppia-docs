@@ -52,8 +52,10 @@ If a different user needs to publish the course, then the course ownership will 
 Publish a draft course
 -----------------------
 
-To publish a course that's currently listed as 'draft', you can either republish the course from Moodle, unticking the 
-'is draft' option, or follow these steps:
+To publish a course that's currently 'draft', republish the course from Moodle, 
+selecting the "Live" option on export.
+
+Alternatively (though deprecated):
 
 #. From the menu bar, select 'Admin' > 'Django Admin'
 #. Select 'Courses' under the 'Oppia' section
@@ -61,7 +63,6 @@ To publish a course that's currently listed as 'draft', you can either republish
 #. Untick the 'is draft' checkbox
 #. Click save
 
-Similarly you move a course back to being a draft by ticking the 'is draft' option.
 
 Download course package
 -------------------------

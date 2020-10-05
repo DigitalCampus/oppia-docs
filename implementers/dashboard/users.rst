@@ -92,3 +92,50 @@ Add/remove permission to upload courses
 #. Browse or search for the user and select
 #. Tick/untick the 'Can upload' checkbox
 #. Click on the save button (bottom right)
+
+.. _permission-user-add-view-draft:
+
+Add permission to view draft course
+---------------------------------------------
+
+#. From the menu bar, select 'Admin' > 'Django Admin'
+#. Select 'Course Permissions' under the 'Oppia' section
+#. Select 'Add course permission' from the top right
+#. Select the user you wish to give permission to, and the specific course
+#. Select 'Viewer' as the role
+#. Click on the save button (bottom right)
+
+.. _permission-user-remove-view-draft:
+
+Remove permission to view draft course
+---------------------------------------------
+
+#. From the menu bar, select 'Admin' > 'Django Admin'
+#. Select 'Course Permissions' under the 'Oppia' section
+#. Browse/Search to find the user and course you'd like to remove the permission
+   for and select this row, so you see the entry edit field
+#. Click on the delete button (bottom left) and confirm
+
+
+.. _permission-user-add-republish:
+
+Add permission to republish a course
+---------------------------------------------
+
+#. From the menu bar, select 'Admin' > 'Django Admin'
+#. Select 'Course Permissions' under the 'Oppia' section
+#. Select 'Add course permission' from the top right
+#. Select the user you wish to give permission to, and the specific course
+#. Select 'Manager' as the role
+#. Click on the save button (bottom right)
+
+.. _permission-user-remove-republish:
+
+Remove permission to republish a course
+---------------------------------------------
+
+#. From the menu bar, select 'Admin' > 'Django Admin'
+#. Select 'Course Permissions' under the 'Oppia' section
+#. Browse/Search to find the user and course you'd like to remove the permission
+   for and select this row, so you see the entry edit field
+#. Click on the delete button (bottom left) and confirm

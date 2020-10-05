@@ -9,6 +9,8 @@ v81 (7.1.5) - not yet released - due 1 Nov 2020
 
 Issue list:
 
+* OPPIA-441 Remove option to download via PC
+* OPPIA-257 DbListener redundant
 
 .. _appv80:
 

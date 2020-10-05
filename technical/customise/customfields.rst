@@ -333,18 +333,18 @@ named ``"register_steps"``. It is an array where you need to configure for
 each step the following values:
 
 * ``order``: integer. The order of this step. If there is more than one path
-there can be more than one step defined with the same order, but be aware of
-making the conditional definitions so that they are 
+  there can be more than one step defined with the same order, but be aware of
+  making the conditional definitions so that they are 
 
 * ``helper_text``: the description that will appear at the top of the screen
 
 * ``conditional_byfield``: if this step is conditional, the field it depends
-upon. The same rules as the basic conditional fields apply.
+  upon. The same rules as the basic conditional fields apply.
 
 * ``conditional_byvalue``: the specific value for the condition
 
 * ``fields``: an array with the field's identifiers to show in this step. To
-include the default fields in the registration form, this are their 
-identifiers (they are self explanatory): ``username``, ``email``, 
-``password``, ``passwordagain``, ``first_name``, ``last_name``, ``job_title``,
-``organisation``, ``phoneno``.
+  include the default fields in the registration form, this are their 
+  identifiers (they are self explanatory): ``username``, ``email``, 
+  ``password``, ``passwordagain``, ``first_name``, ``last_name``, ``job_title``,
+  ``organisation``, ``phoneno``.
