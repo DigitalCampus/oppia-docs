@@ -11,10 +11,12 @@ Issue list:
 
 * OPPIA-441 Remove option to download via PC
 * OPPIA-257 DbListener redundant
+* OPPIA-409 Error when doing release build
+* OPPIA-421 Enable making password visible
 
 .. _appv80:
 
-v80 (7.1.4) - not yet released - Due 1 Oct 2020
+v80 (7.1.4) - Released - 30 Sept 2020
 ------------------------------------------------
 
 Issue list:

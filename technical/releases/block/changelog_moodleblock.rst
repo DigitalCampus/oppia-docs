@@ -9,6 +9,8 @@ v1.2.0 - not yet released
 
 * OPPIA-286 Initial development for extracting Moodle embedded media from page
   activities
+* OPPIA-417 Retain the default server connection, even after a user adds their
+  own
 
 
 .. _blockv1.1.1:
@@ -16,7 +18,8 @@ v1.2.0 - not yet released
 v1.1.1 - Released 29 Sept 2020
 ------------------------------------
 
-* OPPIA-384 Server connections in Moodle export block - API key no longer necessary
+* OPPIA-384 Server connections in Moodle export block - API key no longer
+  necessary
 * OPPIA-383 Improve how draft courses are handled
 
 .. _blockv2020082400:
