@@ -11,6 +11,7 @@ v1.2.0 - not yet released
   activities
 * OPPIA-417 Retain the default server connection, even after a user adds their
   own
+* OPPIA-446 Begin to set up unittests for the Moodle Oppia export block
 
 
 .. _blockv1.1.1:
