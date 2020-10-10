@@ -13,6 +13,9 @@ Issue list:
 * OPPIA-257 DbListener redundant
 * OPPIA-409 Error when doing release build
 * OPPIA-421 Enable making password visible
+* OPPIA-448 Drag and Drop quiz questions no longer work, so removed
+* OPPIA-445 Update gradle libraries to most recent one
+* Additional automated tests
 
 .. _appv80:
 

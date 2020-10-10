@@ -12,7 +12,7 @@ v1.2.0 - not yet released
 * OPPIA-417 Retain the default server connection, even after a user adds their
   own
 * OPPIA-446 Begin to set up unittests for the Moodle Oppia export block
-
+* OPPIA-448 Drag and Drop quiz questions no longer work, so removed
 
 .. _blockv1.1.1:
 
