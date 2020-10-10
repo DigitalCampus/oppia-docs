@@ -14,6 +14,7 @@ v0.12.11 - not yet released - due end Oct 2020
 Issue list:
 
 * OPPIA-437 New export block not including media length
+* OPPIA-451 Add basic Oppia branding to the Django Admin pages
 
 
 .. _serverv0.12.10:
