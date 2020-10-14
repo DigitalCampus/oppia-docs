@@ -36,6 +36,18 @@ Oppia Export Block v1.2.0 and above
    Moodle page text editor:
    
    .. image:: images/moodle-media-embed.png
+   
+   From the pop-up window, select the 'Video' tab, then click the 'Browse
+   repositories' button:
+   
+   .. image:: images/insert-media.png
+   
+   Then select 'Upload a file':
+   
+	.. image:: images/upload-file.png
+	
+   Choose the file to upload and click 'Upload this file', fianlly click 
+   'Insert media'
 
 #. The export process will automatically handle uploading the media to the Oppia
    server
@@ -56,8 +68,8 @@ There are two options for getting the media content onto users phones:
    files by allowing downloading using cellular network.
    
    
-Manually creating the embed code (deprecated)
-------------------------------------------------
+Manually creating the embed code (deprecated from v1.2.0 onwards)
+-------------------------------------------------------------------
 
 Should you really want to, you can create the media embed code by hand:
 
