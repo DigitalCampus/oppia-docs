@@ -46,12 +46,25 @@ Oppia Export Block v1.2.0 and above
    
 	.. image:: images/upload-file.png
 	
-   Choose the file to upload and click 'Upload this file', fianlly click 
-   'Insert media'
-
+	Choose the file to upload and click 'Upload this file'
+	
+	To add a ``poster/thumbnail`` image to your video (this is the image that 
+	users will see in the Oppia app and will click on to start the video),
+	select 'Display Options' and upload a poster/thumbnail of the video:
+	
+	.. image:: images/add-poster.png
+	
+	Then click on the 'Insert Media' button
+	
 #. The export process will automatically handle uploading the media to the Oppia
    server
 
+.. note::
+	
+	If you don't add a ``poster/thumbnail`` when you upload the video, on 
+	exporting to Oppia you will see a warning message and in the app just a text
+	link to 'Play video' will appear, rather than an image.
+	
 How can users get the media files
 ----------------------------------
 
