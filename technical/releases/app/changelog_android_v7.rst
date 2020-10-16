@@ -15,6 +15,7 @@ Issue list:
 * OPPIA-421 Enable making password visible
 * OPPIA-448 Drag and Drop quiz questions no longer work, so removed
 * OPPIA-445 Update gradle libraries to most recent one
+* OPPIA-416 Weblink/intent - allow using wildcards
 * Additional automated tests
 
 .. _appv80:

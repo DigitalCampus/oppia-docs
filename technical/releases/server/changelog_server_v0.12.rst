@@ -15,7 +15,8 @@ Issue list:
 
 * OPPIA-437 New export block not including media length
 * OPPIA-451 Add basic Oppia branding to the Django Admin pages
-
+* OPPIA-455 Add data retention script
+* OPPIA-458 Management command to remove unused tags
 
 .. _serverv0.12.10:
 
