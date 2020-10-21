@@ -77,6 +77,7 @@ Training & Support
 .. toctree::
    :maxdepth: 1
    
+   support/userguide/index
    support/sops/index
    support/training/index
    support/troubleshooting/index

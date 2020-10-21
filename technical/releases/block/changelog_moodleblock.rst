@@ -14,6 +14,14 @@ v1.2.0 - not yet released
 * OPPIA-446 Begin to set up unittests for the Moodle Oppia export block
 * OPPIA-448 Drag and Drop quiz questions no longer work, so removed
 
+.. _blockv1.1.2:
+
+v1.1.2 - Released 20 Oct 2020
+------------------------------------
+
+* OPPIA-459 Course icon fixes
+
+
 .. _blockv1.1.1:
 
 v1.1.1 - Released 29 Sept 2020
