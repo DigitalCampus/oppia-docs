@@ -5,10 +5,6 @@ Are your quizzes useful?
 This approach is likely to be best for end of course assessment, rather than 
 general self-assessment quizzes.
 
-.. note::
-   
-   The information below needs referencing...
-
 
 Difficulty Index
 --------------------
