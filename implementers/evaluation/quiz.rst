@@ -51,13 +51,13 @@ include in lower group (L).
 
 Item Discriminating index is calculated by the following formula:
 
-Discriminating index (D-score) = (HT-LT / T) ×2
+Discriminating index (D-score) = (HT-LT / T) × 2
 
 where:
 
 * HT = Number of correct responses in Upper Group,
 * LT = Number of correct responses in Lower Group
-* T= Total number of responses in both group.
+* T = Total number of responses in both group.
 
 Accessing the D-score:
 
@@ -70,4 +70,5 @@ The maximum item discrimination difference is 100 percent. This would occur if
 all those in the upper group answered correctly and all those in the lower 
 group answered incorrectly. Zero discrimination occurs when equal numbers in 
 both groups answer correctly. Negative discrimination occurs when more students 
-in the lower group then the upper group answer correctly.
+in the lower group than the upper group answer correctly (indicating an error in
+the analysis).

@@ -57,7 +57,7 @@ Content Creation
    content/adapt/index
    content/updating
 
-Implementers/Users Guide
+Implementers Guide
 --------------------------
 
 .. toctree::
@@ -70,6 +70,15 @@ Implementers/Users Guide
    implementers/viz/index
    implementers/offline/index
    implementers/evaluation/index
+   
+User Guide
+--------------------------
+
+.. toctree::
+   :maxdepth: 2
+   
+   support/userguide/index
+
 
 Training & Support
 -------------------

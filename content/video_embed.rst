@@ -23,7 +23,7 @@ How to embed media files in OppiaMobile courses
 The method you can use to embed media in your course depends on the version of
 the Moodle Oppia Export Block that you are using. 
    
-Oppia Export Block v1.1.1 and below
+Oppia Export Block below  v1.2.0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Upload the converted media to the OppiaMobile server (under the menu Upload -> Media), 
