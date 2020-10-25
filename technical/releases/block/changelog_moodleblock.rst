@@ -14,6 +14,22 @@ v1.2.0 - not yet released
 * OPPIA-446 Begin to set up unittests for the Moodle Oppia export block
 * OPPIA-448 Drag and Drop quiz questions no longer work, so removed
 
+
+.. _blockv1.1.3:
+
+
+v1.1.3 - Released 25 Oct 2020
+------------------------------------
+
+.. warning::
+	Important Note: This release changes the digests for all activities, so any
+	courses published with this version of the block, will have the activities
+	set as new. This is a one-off change for future proofing if the Moodle
+	activity object definition changes.
+
+* OPPIA-434 Change the content that the md5 digest is based on
+
+
 .. _blockv1.1.2:
 
 v1.1.2 - Released 20 Oct 2020

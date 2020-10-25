@@ -17,6 +17,8 @@ Issue list:
 * OPPIA-451 Add basic Oppia branding to the Django Admin pages
 * OPPIA-455 Add data retention script
 * OPPIA-458 Management command to remove unused tags
+* OPPIA-460 Add quiz management command for quiz difficulty/discrimination
+  indices
 
 .. _serverv0.12.10:
 
