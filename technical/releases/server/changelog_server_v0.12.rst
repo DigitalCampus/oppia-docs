@@ -19,6 +19,7 @@ Issue list:
 * OPPIA-458 Management command to remove unused tags
 * OPPIA-460 Add quiz management command for quiz difficulty/discrimination
   indices
+* OPPIA-461 Update quiz cleanup command
 
 .. _serverv0.12.10:
 
