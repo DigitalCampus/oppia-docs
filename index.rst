@@ -31,8 +31,8 @@ Governance
    governance/model
    governance/prioritisation
 
-Technical
-----------
+Technical Guide
+----------------
 
 .. toctree::
    :maxdepth: 1
@@ -45,8 +45,8 @@ Technical
    technical/manage/index
 
 
-Content Creation
--------------------
+Content Creation Guide
+-----------------------
 
 .. toctree::
    :maxdepth: 1
@@ -86,7 +86,6 @@ Training & Support
 .. toctree::
    :maxdepth: 1
    
-   support/userguide/index
    support/sops/index
    support/training/index
    support/troubleshooting/index

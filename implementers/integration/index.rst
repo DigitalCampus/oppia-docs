@@ -6,3 +6,5 @@ Integration
    :maxdepth: 1
    
    launch_from_other_app
+   xapi
+   dhis2

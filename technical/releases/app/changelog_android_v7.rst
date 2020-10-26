@@ -17,6 +17,7 @@ Issue list:
 * OPPIA-445 Update gradle libraries to most recent one
 * OPPIA-416 Weblink/intent - allow using wildcards
 * OPPIA-435 Add tests for CourseActivity class
+* OPPIA-428 Possibility to login/register when opening the app via Intent/Link
 * Additional automated tests
 
 .. _appv80:
