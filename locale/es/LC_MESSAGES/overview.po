@@ -1,0 +1,317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Campus
+# This file is distributed under the same license as the OppiaMobile
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OppiaMobile 0.12.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-26 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../overview/acknowledgements.rst:2
+msgid "Acknowledgements"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:5
+msgid "Partners"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:7
+msgid ""
+"The development of OppiaMobile is made possible with the support and "
+"collaboration of our partners:"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:26
+msgid "Previous funders"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:44
+msgid "Contributors"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:46
+msgid "Safdar Ali & Durba Gogia - Hindi translation"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:47
+msgid "Roman Blanco - Spanish translation"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:48
+msgid "Marijs Carrin - for testing and development"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:49
+msgid ""
+"`Joseba <https://github.com/jjoseba>`_ - technical development, "
+"performance improvements and bug fixes"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:51
+msgid ""
+"Adrián Domínguez - technical development, performance improvements and "
+"bug fixes"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:53
+msgid ""
+"`Julio Berzal <https://github.com/jbc25>`_ - technical development, "
+"performance improvements and bug fixes"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:55
+msgid "Laila Hussain - Urdu translation"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:56
+msgid ""
+"`Lebanese Alternative Learning <http://lal.ngo>`_ - Arabic (Lebanese) "
+"translation and funding for drag and drop quizzes"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:58
+msgid ""
+"`Last Mile Health <http://lastmilehealth.org/>`_ - Funding for additional"
+" development"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:60
+msgid ""
+"David Gil de Gómez Pérez - technical development, performance "
+"improvements and bug fixes"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:62
+msgid "`Lex Myers <https://github.com/lexm/>`_"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:63
+msgid "`Kawesi Hakim <https://github.com/hakimks>`_"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:64
+msgid "`Ziirofan <https://github.com/Ziirofan>`_"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:67
+msgid "Code Libraries"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:69
+msgid ""
+"`Brightec <http://www.brightec.co.uk/blog/custom-android-media-"
+"controller>`_ - video controller"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:71
+msgid "`AndroidPlot <http://androidplot.com/>`_ - for graphing library"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:72
+msgid "`OkHttp <http://square.github.io/okhttp/>`_ - HTTP library"
+msgstr ""
+
+#: ../../overview/acknowledgements.rst:73
+msgid ""
+"`Picasso (by SquareUp) <https://github.com/square/picasso>`_ - image "
+"caching library"
+msgstr ""
+
+#: ../../overview/architecture.rst:2
+msgid "OppiaMobile Platform Architecture and Workflow"
+msgstr ""
+
+#: ../../overview/architecture.rst:6
+msgid "Courses are authored in Moodle."
+msgstr ""
+
+#: ../../overview/architecture.rst:7
+msgid "Courses are then exported to the OppiaMobile Server"
+msgstr ""
+
+#: ../../overview/architecture.rst:8
+msgid ""
+"The OppiaMobile server hosts all the courses, user accounts, media and "
+"analytics data"
+msgstr ""
+
+#: ../../overview/architecture.rst:10
+msgid ""
+"When a user installs the app and creates an account, they can download "
+"courses from the OppiaMobile server for running offline on their device"
+msgstr ""
+
+#: ../../overview/architecture.rst:12
+msgid ""
+"When the user accesses courses and completes activities (e.g. watching "
+"videos,taking quizzes), this data is sent back to the OppiaMobile server "
+"whenever there is an internet connection available."
+msgstr ""
+
+#: ../../overview/architecture.rst:15
+msgid ""
+"Implementation owners, project managers etc can view the activity (e.g. "
+"quiz results, time spent watching videos) for their users via the "
+"OppiaMobile server dashboard."
+msgstr ""
+
+#: ../../overview/features.rst:2
+msgid "OppiaMobile Key Features"
+msgstr ""
+
+#: ../../overview/features.rst:5
+msgid "For Learners"
+msgstr ""
+
+#: ../../overview/features.rst:7
+msgid ""
+"Access learning activities, videos and quizzes all offline on Android "
+"smartphones"
+msgstr ""
+
+#: ../../overview/features.rst:8
+msgid "Activities designed to support face-to-face training sessions"
+msgstr ""
+
+#: ../../overview/features.rst:9
+msgid "Earn points and badges for completing activities and courses"
+msgstr ""
+
+#: ../../overview/features.rst:10
+msgid "Automatic notification when course updates are available"
+msgstr ""
+
+#: ../../overview/features.rst:11
+msgid "Multilingual content is supported"
+msgstr ""
+
+#: ../../overview/features.rst:12
+msgid "Text to speech function – so activities can be read out loud"
+msgstr ""
+
+#: ../../overview/features.rst:13
+msgid "Search course and activity content"
+msgstr ""
+
+#: ../../overview/features.rst:16
+msgid "For Tutors/Trainers/Supervisors"
+msgstr ""
+
+#: ../../overview/features.rst:18 ../../overview/features.rst:31
+msgid ""
+"Designed to support existing training and teaching programmes in all "
+"professional areas"
+msgstr ""
+
+#: ../../overview/features.rst:19
+msgid ""
+"Track the activity and progress of your students – for example which "
+"activities they have completed, quiz scores and videos watched"
+msgstr ""
+
+#: ../../overview/features.rst:22
+msgid "For Course Authors"
+msgstr ""
+
+#: ../../overview/features.rst:24
+msgid "Supports learning/training content for any professional area"
+msgstr ""
+
+#: ../../overview/features.rst:25
+msgid ""
+"Course content can be collaboratively edited and produced in Moodle – no "
+"need for programmers to maintain and update learning content"
+msgstr ""
+
+#: ../../overview/features.rst:26
+msgid "Updates to courses can be automatically pushed out to users"
+msgstr ""
+
+#: ../../overview/features.rst:29
+msgid "For Administrators/Project Managers"
+msgstr ""
+
+#: ../../overview/features.rst:32
+msgid "Online dashboard to get a quick and easy overview of activities"
+msgstr ""
+
+#: ../../overview/features.rst:33
+msgid ""
+"All code for both phone client app and server is open source – so you can"
+" customize to fit your needs"
+msgstr ""
+
+#: ../../overview/roadmap.rst:2
+msgid "OppiaMobile Development Roadmap"
+msgstr ""
+
+#: ../../overview/roadmap.rst:6
+msgid "Short term"
+msgstr ""
+
+#: ../../overview/roadmap.rst:8
+msgid "Improved integration for DHIS2"
+msgstr ""
+
+#: ../../overview/roadmap.rst:9
+msgid "Code refactoring"
+msgstr ""
+
+#: ../../overview/roadmap.rst:12
+msgid "Medium term"
+msgstr ""
+
+#: ../../overview/roadmap.rst:14
+msgid "Implementing the OpenBadges spec"
+msgstr ""
+
+#: ../../overview/roadmap.rst:15
+msgid "Export activity & experiences using xAPI to a learning record store"
+msgstr ""
+
+#: ../../overview/roadmap.rst:16
+msgid ""
+"Integration with data collection platforms (eg OpenSRP) - being able to "
+"launch particular learning activities within the data platform, then also"
+" being able to match up data/accounts from Oppia and external platforms."
+msgstr ""
+
+#: ../../overview/roadmap.rst:19
+msgid ""
+"Improved and more intuitive way to embed video/audio content. Requires "
+"updates to Moodle block and Oppia server."
+msgstr ""
+
+#: ../../overview/roadmap.rst:21
+msgid ""
+"Restricting course access to particular users - for example where Oppia "
+"may be used for paid courses"
+msgstr ""
+
+#: ../../overview/roadmap.rst:25
+msgid "Long term"
+msgstr ""
+
+#: ../../overview/roadmap.rst:27
+msgid "Adaptive learning content and quizzes"
+msgstr ""
+
+#: ../../overview/roadmap.rst:28
+msgid "Improved teacher/supervisor tools"
+msgstr ""
+
+#: ../../overview/roadmap.rst:29
+msgid "Integration with messaging platforms (e.g. WhatsApp, Telegram)"
+msgstr ""
+

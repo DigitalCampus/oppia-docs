@@ -1,0 +1,2290 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Campus
+# This file is distributed under the same license as the OppiaMobile
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OppiaMobile 0.12.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-26 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../implementers/dashboard/activity.rst:2
+msgid "Activity and Progress Monitoring"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:6
+msgid "View recent daily activity on server"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:8
+msgid ""
+"The server dashboard homepage shows a graph of the daily activity for the"
+" last month:"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:13
+msgid "View daily/monthly activity on server between specific dates"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:15
+msgid ""
+"Under the daily activity graph on the server homepage, you can select a "
+"date range and interval (days or months) to update the graph:"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:20
+msgid ""
+"If you select the interval as 'days' and a long date range, it may take a"
+" long time to generate the graph - especially if there has been a lot of "
+"activity on the server."
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:23
+msgid "View server summary activity"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:25
+msgid "From the menu bar, select 'Analytics' > 'Summary Overview'"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:26
+msgid ""
+"You will see a series of graphs and charts for the data from the last "
+"year (grouped by month), such as:"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:28
+msgid "monthly activity"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:29
+msgid "user registrations, both monthly and cumulative"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:30
+msgid "activity by country and language"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:31
+msgid "course downloads, both monthly and cumulative"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:32
+msgid "most active courses, in the last month"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:36
+msgid "View activity for specific course"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:38
+#: ../../implementers/dashboard/activity.rst:75
+#: ../../implementers/dashboard/activity.rst:84
+#: ../../implementers/dashboard/activity.rst:93
+#: ../../implementers/dashboard/courses.rst:22
+#: ../../implementers/dashboard/courses.rst:27
+#: ../../implementers/dashboard/courses.rst:70
+msgid "From the menu bar, select 'Courses'"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:39
+#: ../../implementers/dashboard/activity.rst:76
+#: ../../implementers/dashboard/activity.rst:85
+#: ../../implementers/dashboard/activity.rst:94
+msgid "Browse to the course and click on its title"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:40
+msgid ""
+"You will see the daily activity for the last month, and the option to "
+"select a date range and interval to view by."
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:45
+msgid "View activity for specific cohort (group)"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:47
+#: ../../implementers/dashboard/cohorts.rst:8
+#: ../../implementers/dashboard/cohorts.rst:16
+#: ../../implementers/dashboard/cohorts.rst:25
+#: ../../implementers/dashboard/cohorts.rst:34
+msgid "From the menu bar, select 'Cohorts'"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:48
+msgid "Browse to the relevant cohort."
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:49
+msgid ""
+"You can either select to view the activity for the whole cohort (click on"
+" the cohort title), or you can view the activity for a specific course "
+"within a cohort (click on the course title)"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:57
+msgid "View activity for specific user"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:59
+msgid ""
+"Wherever you see a users name, you can click on their name to go directly"
+" to view their activity."
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:65
+msgid "View activity for specific user on a particular course"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:67
+msgid ""
+"From the user homepage, you can select which course to view the full "
+"detail from."
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:73
+msgid "Download activity detail for a course"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:77
+#: ../../implementers/dashboard/activity.rst:86
+#: ../../implementers/dashboard/activity.rst:95
+msgid "Select 'Course Data Exports'"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:78
+msgid "Then you can download the course activity to a CSV/Excel file"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:82
+msgid "Download quiz responses for a quiz in a course"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:87
+msgid "Then you can select the quiz responses to download to a CSV/Excel file"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:91
+msgid "Download feedback responses in a course"
+msgstr ""
+
+#: ../../implementers/dashboard/activity.rst:96
+msgid "Then you can select the feedback responses to download to a CSV/Excel file"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:2
+msgid "Cohort (Group) Management"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:6
+msgid "Create a new cohort"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:9
+msgid "Click on 'Add a cohort' button"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:10
+msgid "Complete the form and click 'Save'"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:14
+msgid "Add/remove a course from a cohort"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:17
+#: ../../implementers/dashboard/cohorts.rst:26
+#: ../../implementers/dashboard/cohorts.rst:35
+msgid "Browse to the row of the cohort you'd like to update"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:18
+#: ../../implementers/dashboard/cohorts.rst:27
+#: ../../implementers/dashboard/cohorts.rst:36
+msgid "Select 'Edit'"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:19
+msgid "In the courses field, add or remove the relevant course shortname"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:20
+#: ../../implementers/dashboard/cohorts.rst:29
+#: ../../implementers/dashboard/cohorts.rst:38
+msgid "Click 'Save'"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:23
+msgid "Add/remove a student from a cohort"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:28
+msgid "In the students field, add or remove the relevant username"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:32
+msgid "Add/remove a teacher from a cohort"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:37
+msgid "In the teachers field, add or remove the relevant username"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:41
+msgid "Delete a new cohort"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:43
+#: ../../implementers/dashboard/courses.rst:44
+#: ../../implementers/dashboard/courses.rst:60
+#: ../../implementers/dashboard/courses.rst:81
+#: ../../implementers/dashboard/courses.rst:99
+#: ../../implementers/dashboard/users.rst:13
+#: ../../implementers/dashboard/users.rst:34
+#: ../../implementers/dashboard/users.rst:43
+#: ../../implementers/dashboard/users.rst:57
+#: ../../implementers/dashboard/users.rst:70
+#: ../../implementers/dashboard/users.rst:79
+#: ../../implementers/dashboard/users.rst:90
+#: ../../implementers/dashboard/users.rst:101
+#: ../../implementers/dashboard/users.rst:113
+#: ../../implementers/dashboard/users.rst:125
+#: ../../implementers/dashboard/users.rst:137
+msgid "From the menu bar, select 'Admin' > 'Django Admin'"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:44
+msgid "Select 'Cohorts' under the 'Oppia' section"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:45
+msgid "Browse or search for the cohort and select it"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:46
+#: ../../implementers/dashboard/courses.rst:102
+#: ../../implementers/dashboard/users.rst:37
+msgid "In the bottom left, click on 'Delete'"
+msgstr ""
+
+#: ../../implementers/dashboard/cohorts.rst:47
+msgid "You will be asked to confirm deletion of the cohort"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:2
+msgid "Course Management"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:6
+msgid "Add a new course"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:9
+msgid ""
+"Usually courses would be added directly from Moodle during the export "
+"process"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:12
+msgid "From the menu bar, select 'Upload'"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:13
+msgid "Select the course zip file that you exported from Moodle"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:14
+msgid "Click on upload"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:15
+msgid "Add or update the course tags and other information"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:16
+#: ../../implementers/dashboard/courses.rst:48
+#: ../../implementers/dashboard/courses.rst:64
+#: ../../implementers/dashboard/courses.rst:85
+msgid "Click save"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:20
+msgid "View all courses"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:25
+msgid "View courses for specific tag"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:28
+msgid ""
+"From the drop down list of tags at the top of the page, select the "
+"relevant tag"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:29
+msgid "The page will refresh and show just the courses for the selected tag"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:32
+msgid "Update course information (tags etc)"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:34
+msgid "Currently this should be done during the course export process in Moodle."
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:39
+msgid "Change the ownership of a course"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:41
+msgid ""
+"When a course is first published, the user publishing the course is the "
+"owner of this course, and only they can re-publish the course. If a "
+"different user needs to publish the course, then the course ownership "
+"will need to be changed."
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:45
+#: ../../implementers/dashboard/courses.rst:61
+#: ../../implementers/dashboard/courses.rst:82
+#: ../../implementers/dashboard/courses.rst:100
+msgid "Select 'Courses' under the 'Oppia' section"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:46
+#: ../../implementers/dashboard/courses.rst:62
+#: ../../implementers/dashboard/courses.rst:83
+#: ../../implementers/dashboard/courses.rst:101
+msgid "Browse or search for the course and select it"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:47
+msgid "Change the `user` to the new owner"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:53
+msgid "Publish a draft course"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:55
+msgid ""
+"To publish a course that's currently 'draft', republish the course from "
+"Moodle, selecting the \"Live\" option on export."
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:58
+msgid "Alternatively (though deprecated):"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:63
+msgid "Untick the 'is draft' checkbox"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:68
+msgid "Download course package"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:71
+msgid "Browse to the relevant course row"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:72
+msgid "On the right hand side of the row, click 'download course'"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:75
+msgid "Archive a course"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:78
+msgid ""
+"Archived courses are no longer available for anyone to download, though "
+"users with the course installed in their Oppia app will still be able to "
+"use the course as normal."
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:84
+msgid "Tick the 'is archived' checkbox"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:88
+msgid "Delete a course"
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:91
+msgid ""
+"Deleting a course will remove all its activity logs, learner progress and"
+" quiz scores. If you just want to make a course unavailable for download,"
+" then use 'Archive a course' instead."
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:95
+msgid ""
+"Deleted courses will (obviously) no longer be available for download. "
+"Though users with the course installed in their Oppia app will still be "
+"able to use the course, however no points, activity, quiz scores will be "
+"recorded by the server."
+msgstr ""
+
+#: ../../implementers/dashboard/courses.rst:103
+msgid "You will be asked to confirm deletion of the course"
+msgstr ""
+
+#: ../../implementers/dashboard/index.rst:2
+msgid "Dashboard Guide"
+msgstr ""
+
+#: ../../implementers/dashboard/index.rst:4
+msgid "The OppiaMobile server web interface allows you to:"
+msgstr ""
+
+#: ../../implementers/dashboard/index.rst:6
+msgid "monitor the activity and progress of your learners."
+msgstr ""
+
+#: ../../implementers/dashboard/index.rst:7
+msgid "manage users and permissions"
+msgstr ""
+
+#: ../../implementers/dashboard/index.rst:8
+msgid "manage courses and cohorts"
+msgstr ""
+
+#: ../../implementers/dashboard/index.rst:10
+msgid ""
+"Any user with an OppiaMobile account can log into the dashboard, but what"
+" they are able to view and the actions they can perform will depend on "
+"their permissions (see :doc:`../permissions/server`)."
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:2
+msgid "User and Permissions Management"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:5
+msgid "Add a new user"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:7
+msgid "Either:"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:9
+msgid "Just register a new user (using the 'Register' link in the menu bar)"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:11
+msgid "Or:"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:14
+#: ../../implementers/dashboard/users.rst:35
+#: ../../implementers/dashboard/users.rst:44
+#: ../../implementers/dashboard/users.rst:58
+#: ../../implementers/dashboard/users.rst:71
+#: ../../implementers/dashboard/users.rst:80
+msgid "Select 'Users' under the 'Authentication and Authorization' section"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:15
+msgid "Select 'Add a new user' and complete the form"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:18
+msgid "Bulk upload users"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:20
+msgid "From the menu bar, select 'Admin' > 'Upload users'"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:21
+msgid ""
+"Prepare a CSV file with all the user info. You can create a CSV file in "
+"Excel. Note that the column names are case sensitive and must be written "
+"exactly."
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:23
+msgid "Upload the file"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:24
+msgid "After processing you'll receive a report detailing the results"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:27
+msgid "Remove a user"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:30
+msgid ""
+"Removing a user will delete all their activity logs and course progress. "
+"If you would like to stop a user from accessing Oppia, but without "
+"deleting all their activity logs, then use 'Block a user account' "
+"instead."
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:36
+#: ../../implementers/dashboard/users.rst:45
+#: ../../implementers/dashboard/users.rst:59
+#: ../../implementers/dashboard/users.rst:72
+#: ../../implementers/dashboard/users.rst:81
+#: ../../implementers/dashboard/users.rst:92
+msgid "Browse or search for the user and select"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:38
+msgid "You will be asked to confirm deletion of the user account"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:41
+msgid "Block a user account"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:46
+msgid "Untick the 'active' checkbox"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:47
+#: ../../implementers/dashboard/users.rst:74
+#: ../../implementers/dashboard/users.rst:83
+#: ../../implementers/dashboard/users.rst:94
+#: ../../implementers/dashboard/users.rst:106
+#: ../../implementers/dashboard/users.rst:130
+msgid "Click on the save button (bottom right)"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:49
+msgid ""
+"You can unblock a user account in a similar way - just tick the 'active' "
+"checkbox instead."
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:52
+msgid "Reset user password"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:55
+msgid ""
+"There is no way to find out what the original password was, as the "
+"passwords are stored in an encrypted format."
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:60
+msgid ""
+"Under the password field, follow the link and instructions to reset the "
+"password"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:63
+msgid "Add/remove admin access permission"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:66
+msgid ""
+"Admin accounts have permissions to add, edit and delete any or all of the"
+" data stored, as well as create other Admin user accounts. Admin "
+"permissions should only be given to users who really need it, and "
+"consider giving staff status instead."
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:73
+msgid "Tick/untick the 'superuser status' checkbox"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:77
+msgid "Add/remove staff access permission"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:82
+msgid "Tick/untick the 'staff status' checkbox"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:88
+msgid "Add/remove permission to upload courses"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:91
+msgid "Select 'User Profiles' under the 'Oppia' section"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:93
+msgid "Tick/untick the 'Can upload' checkbox"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:99
+msgid "Add permission to view draft course"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:102
+#: ../../implementers/dashboard/users.rst:114
+#: ../../implementers/dashboard/users.rst:126
+#: ../../implementers/dashboard/users.rst:138
+msgid "Select 'Course Permissions' under the 'Oppia' section"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:103
+#: ../../implementers/dashboard/users.rst:127
+msgid "Select 'Add course permission' from the top right"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:104
+#: ../../implementers/dashboard/users.rst:128
+msgid "Select the user you wish to give permission to, and the specific course"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:105
+msgid "Select 'Viewer' as the role"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:111
+msgid "Remove permission to view draft course"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:115
+#: ../../implementers/dashboard/users.rst:139
+msgid ""
+"Browse/Search to find the user and course you'd like to remove the "
+"permission for and select this row, so you see the entry edit field"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:117
+#: ../../implementers/dashboard/users.rst:141
+msgid "Click on the delete button (bottom left) and confirm"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:123
+msgid "Add permission to republish a course"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:129
+msgid "Select 'Manager' as the role"
+msgstr ""
+
+#: ../../implementers/dashboard/users.rst:135
+msgid "Remove permission to republish a course"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:2
+msgid "Gathering user feedback"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:4
+msgid ""
+"As well as the quantitative data gathered by users activity in the Oppia "
+"app, most implementations will also want to gather qualitative data on "
+"how users manage to use the Oppia app and content."
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:8
+msgid ""
+"Most approaches to this would use surveys, interviews and/or focus groups"
+" to ask users about how they manage to use the app and ask questions such"
+" as what you like/dislike about the app, or to get information about "
+"specific difficulties users may be having."
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:13
+msgid ""
+"However, some users may be hesitant to admit they are having difficulties"
+" in using the app and content, so the qualitative data might not be "
+"representative."
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:16
+msgid ""
+"An alternative approach to asking specific questions is to give users a "
+"set of short tasks to perform in the app and with the content, watching "
+"the users doing the task and noting any particular issues they are "
+"having."
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:20
+msgid ""
+"This approach is modeled on the concept of `'guerilla' usability testing "
+"<https://www.slideshare.net/andybudd/guerilla-usability-testing/>`_."
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:23
+msgid "An overview of the process is:"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:25
+msgid "Design the tasks - each task should be specific and discrete"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:26
+msgid ""
+"Introduce the project and what you are doing and why. Specifically "
+"emphasise that this is about you testing the product, not the users "
+"ability to complete the task"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:29
+msgid ""
+"Ask the user to `think out loud "
+"<https://en.wikipedia.org/wiki/Think_aloud_protocol>`_ as they are going "
+"through each task - this gives an idea about users thought processes"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:32
+msgid ""
+"Reset the device back to either the Android main screen, or the app "
+"homepage, before each task"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:34
+msgid ""
+"If possible video the user whilst they are doing the task, as this is a "
+"useful reference for later"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:36
+msgid ""
+"The facilitator should take notes as the user is doing each task, "
+"especially noting where users have difficulties, or get confused"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:39
+msgid ""
+"In terms of the number of users needed for this type of usability "
+"testing, even a small number of users (5-10), providing they are "
+"representative users, can give an idea of priority areas to update in the"
+" app and/or content."
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:44
+msgid "Some suggested specific tasks for Oppia might be:"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:46
+msgid "For end users:"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:48
+msgid "Register in the app and download course X"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:49
+msgid "Download the media files for course X"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:50
+msgid "Find how many points you have earned for course X"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:51
+msgid "Complete quiz X and tell us your score and the number of points you earned"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:52
+msgid "Play media file X"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:53
+msgid "Find out how many activities you have completed in course X"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:54
+msgid "Find out how many points you earned on course X in the last month"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:56
+msgid "For supervisors:"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:58
+msgid ""
+"Find out how many activities has the user completed in the last week on "
+"course X"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:60
+msgid "Transfer new courses and media files from your device to another device"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:61
+msgid ""
+"Download the activity logs from a users device and submit them to the "
+"server"
+msgstr ""
+
+#: ../../implementers/evaluation/appui.rst:64
+msgid ""
+"A very similar approach can be applied for testing the Oppia server "
+"dashboard."
+msgstr ""
+
+#: ../../implementers/evaluation/index.rst:2
+msgid "Evaluation and User Testing"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:2
+msgid "Are your quizzes useful?"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:5
+msgid ""
+"This approach is likely to be best for end of course assessment, rather "
+"than general self-assessment quizzes."
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:10
+msgid "Difficulty Index"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:12
+msgid ""
+"The item difficulty index is one of the most useful, and most frequently "
+"reported, item analysis statistics. It is a measure of the proportion of "
+"examinees who answered the item correctly; for this reason it is "
+"frequently called the p-value. As the proportion of examinees who got the"
+" item right, the p-value might more properly be called the item easiness "
+"index, rather than the item difficulty. It can range between 0.0 and 1.0,"
+" with a higher value indicating that a greater proportion of examinees "
+"responded to the item correctly, and it was thus an easier item."
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:21
+msgid ""
+"Difficulty index (P score) = (Total true response of the item / Total "
+"responses) × 100"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:23
+msgid "Where Total responses= (True response + Wrong response + Not responded)"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:25
+msgid ""
+"For a maximum discrimination between high and low achievers, the optimal "
+"levels (adjusting for guessing) are:"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:28
+msgid "2 alternatives true and false = .75"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:29
+msgid "3 alternatives multiple-choice = .67"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:30
+msgid "4 alternatives multiple-choice = .63"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:31
+msgid "5 alternatives multiple-choice = .60"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:33
+msgid ""
+"Items with difficulties less than 30 percent or more than 90 percent "
+"definitely need attention. Such items should either be revised or "
+"replaced."
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:37
+msgid "Discriminating index"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:39
+msgid ""
+"The item discrimination index is a measure of how well an item is able to"
+" distinguish between examinees who are knowledgeable and those who are "
+"not, or between masters and non-masters."
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:43
+msgid ""
+"Total score for each individual student is calculated and arranged in "
+"descending order from highest score to lowest score. Upper 1/3 students "
+"are selected to include in higher group (H) and lower 1/3 students are "
+"selected to include in lower group (L)."
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:48
+msgid "Item Discriminating index is calculated by the following formula:"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:50
+msgid "Discriminating index (D-score) = (HT-LT / T) × 2"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:52
+msgid "where:"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:54
+msgid "HT = Number of correct responses in Upper Group,"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:55
+msgid "LT = Number of correct responses in Lower Group"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:56
+msgid "T = Total number of responses in both group."
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:58
+msgid "Accessing the D-score:"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:60
+msgid "Negative D-score - Unacceptable - check item for error"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:61
+msgid "0% - 24% - Usually unacceptable - might be approved"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:62
+msgid "25% - 39% - Good item"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:63
+msgid "40% - 100% - Excellent item"
+msgstr ""
+
+#: ../../implementers/evaluation/quiz.rst:65
+msgid ""
+"The maximum item discrimination difference is 100 percent. This would "
+"occur if all those in the upper group answered correctly and all those in"
+" the lower group answered incorrectly. Zero discrimination occurs when "
+"equal numbers in both groups answer correctly. Negative discrimination "
+"occurs when more students in the lower group than the upper group answer "
+"correctly (indicating an error in the analysis)."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:2
+msgid "Points and Badges"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:4
+msgid ""
+"OppiaMobile awards points and badges to users based on their usage of the"
+" app and content."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:6
+msgid ""
+"The points system is essentially a measure of engagement with the content"
+" - however it doesn't really give a picture of how much was understood. "
+"The badging provides confirmation that all the activities have been "
+"completed and that the user has met at least the pass threshold for each "
+"quiz included in the course."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:12
+msgid "Points System"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:14
+msgid ""
+"Points can be customised down to individual activity level, there are 3 "
+"levels of points:"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:17
+msgid ""
+"Activity Level Points - points which are defined for a particular "
+"activity."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:18
+msgid ""
+"Course Level Points - points which are defined for a particular course. "
+"Each activity will use these points, unless an activity has had custom "
+"points set up."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:21
+msgid ""
+"Global/Default Level Points - if neither course nor activity level points"
+" have been defined, then the global/default points will be used."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:26
+msgid "Global/Default Points"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:28
+msgid "By default, points are awarded as follows:"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:30
+msgid "100 – creating an account"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:31
+msgid "50 – downloading a course"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:32
+msgid "20 – first time a quiz is attempted"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:33
+#, python-format
+msgid ""
+"? – depends on percentage score for a first attempt at a quiz. E.g. if "
+"the score is 75% on the first attempt, 75 points will be awarded"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:35
+#, python-format
+msgid "50 – bonus for getting 100% on first attempt at a quiz"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:36
+msgid "10 – each subsequent attempt at a quiz (max. once per day per quiz)"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:37
+msgid "10 – completing an activity (max. once per day per activity)"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:38
+msgid ""
+"? – video views – points are awarded for how long the video has been have"
+" watched, 5 points for every 30 seconds watch, up to a maximum of 200 "
+"points. A bonus 20 points are given for the first time in a day a "
+"particular video is watched"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:42
+msgid ""
+"The points system is designed to encourage users to return to the courses"
+" regularly and engage in the activities."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:46
+msgid "Changing the Global/Default Points"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:48
+msgid "You can edit the global/default points by:"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:50
+msgid "Go to the Django Admin pages"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:51
+msgid "Go to the `Gamification` > `Default Gamification Events`"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:52
+msgid "Select the event to change the points for and save"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:56
+msgid "Customising Course and Activity Level Points"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:58
+msgid "To customise the points for a particular course and its activities:"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:60
+msgid "Go to the courses list in the Oppia server dashboard"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:61
+msgid ""
+"Click on the `gamification` icon for the course to update (the icon on "
+"the far right of the row)"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:63
+msgid ""
+"Edit the course level points and/or the points for a specific activity, "
+"then press save"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:67
+msgid ""
+"The updated points will not be applied on the users devices until they "
+"download the updated version of the course onto their device."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:71
+msgid "Badges and Completing Courses"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:73
+msgid ""
+"Every activity has the concept of 'completedness' and to be awarded a "
+"badge the user must complete every activity in the course. The "
+"definitions of activities being completed of each activity type are given"
+" below:"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:77
+msgid ""
+"quiz - a quiz is completed if the user has obtained at least the pass "
+"threshold for the quiz."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:79
+msgid ""
+"text/webpage - the page must be open for at least 3 seconds. Clearly this"
+" is not a very effective measure of testing whether the user has fully "
+"read and understood the page content, however, currently it is the only "
+"way of measuring that we currently have. We advise ensuring that the quiz"
+" questions provide an effective measure of understanding the content."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:84
+msgid ""
+"video - video/media files are embedded within text/web pages. The user "
+"must have the video running for at least the length of the video. This "
+"may not correspond exactly to saying they have watched the whole video - "
+"for example they may pause, fast-forward/rewind, and so have the video "
+"open for the required time, but not actually have watched the video from "
+"start to finish."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:89
+msgid "feedback - the user needs to answer all the questions"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:90
+msgid "file - the user simply needs to have opened the file"
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:92
+msgid ""
+"To change the criteria for assessing completedness of the activities, the"
+" getActivityCompleted() function for the relevant activity widget class "
+"in the app code will need to be updated."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:98
+msgid ""
+"The badge awarding is performed by the :ref:`Oppia cron task "
+"<installcron>`, so for badges to be awarded, please ensure that the cron "
+"task is set up to run regularly."
+msgstr ""
+
+#: ../../implementers/gamification/index.rst:103
+msgid ""
+"The Points shown in the bottom bar are the total points users have earned"
+" (even if they have logged in on many devices). This points view might "
+"not match with the total points shown in the Points section which shows "
+"the list of activities and points on the local device."
+msgstr ""
+
+#: ../../implementers/integration/dhis2.rst:2
+msgid "DHIS2 Integration"
+msgstr ""
+
+#: ../../implementers/integration/dhis2.rst:5
+#: ../../implementers/integration/xapi.rst:5
+msgid ""
+"This development is a work in progress, so not everything may be "
+"completed and tested well. We'd welcome any feedback and suggestions on "
+"how we can improve on what has already been done."
+msgstr ""
+
+#: ../../implementers/integration/index.rst:2
+msgid "Integration"
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:2
+msgid "Launching OppiaMobile from other applications"
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:6
+msgid ""
+"In order to allow other applications to launch specific activities in the"
+" OppiaMobile app, this can be done by using a standard weblink."
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:9
+msgid "The main use-cases for this functionality are:"
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:11
+msgid ""
+"data collection or other support tools needing to link directly to "
+"refresher information/activities"
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:13
+msgid ""
+"being able to send via SMS, WhatsApp or similar a direct link to a "
+"specific activity"
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:16
+msgid ""
+"Using a link, rather than an Android intent, helps to direct the user to "
+"the activity online if the app is not installed."
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:19
+msgid "The links used should be in the following format:"
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:21
+msgid "https://demo.oppia-mobile.org/view?digest=XXXXXXXXX"
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:23
+msgid ""
+"The digest is a unique identifier for the specific activity in "
+"OppiaMobile - these can be found in the module.xml of the course zip "
+"package."
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:26
+msgid ""
+"Here is an example of a link appearing in a text message (of course this "
+"link could also be in other apps):"
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:33
+msgid ""
+"As the app is registered to open these kinds of links, when the user "
+"click on digest URL, Android will prompt her for which app to open the "
+"link with. If the user select the OppiaMobile app it will directly load "
+"the activity, independently of whether the user has an active internet "
+"connection or not. If there is no logged in user right now, it will show "
+"that information instead:"
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:41
+msgid ""
+"​If the course that contains the activity is not installed in the device,"
+" the app won't find the activity by its digest, and it will show the "
+"message:"
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:48
+msgid ""
+"If the user selects to open the digest link with the Chrome browser, the "
+"activity info will be shown. If the user clicks the \"open in app\" "
+"button, the browser will try to open the app passing the activity digest "
+"info. If the user doesn't have the app installed, it will redirect him to"
+" the Google Play store page for the app."
+msgstr ""
+
+#: ../../implementers/integration/launch_from_other_app.rst:56
+msgid ""
+"For the browser option, the user needs an active internet connection on "
+"the device. Without it, the browser will just show a \"No connection\" "
+"error as with any other web page."
+msgstr ""
+
+#: ../../implementers/integration/xapi.rst:2
+msgid "xAPI Integration"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:2
+msgid "Downloading Activity Logs"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:4
+msgid ""
+"During the normal functioning of the app in a setting where there is a "
+"chance that internet connection is available, the app sends student "
+"activity trackers to the server automatically. But in a no-internet "
+"access environment, this data cannot be uploaded to the server that way, "
+"so there is the need for a different mechanism to fulfill this need."
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:9
+#: ../../implementers/offline/register.rst:9
+msgid "Basic Workflow"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:11
+msgid ""
+"The user completes course activities, quizzes and media as normal, and "
+"her activity is tracked."
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:12
+msgid ""
+"Under the ``Sync`` menu, the trackers are exported into an activity log "
+"file"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:13
+msgid ""
+"A supervisor or project staff member transfers the exported activity logs"
+" onto their device via Bluetooth"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:14
+msgid ""
+"When they are in an area with internet connection, the activity trackers "
+"are automatically sent to the server."
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:16
+msgid ""
+"Alternatively, the staff member can download these activity log files and"
+" upload them manually in the server."
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:20
+msgid "The Sync > Activity view"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:22
+msgid ""
+"To access the Activity logs functionality, select the \"Sync\" option "
+"from the main menu. This will get you to the Synchronize view, where "
+"there are two different tabs. There, you have to select the `Activity` "
+"tab."
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:28
+msgid "In this view, you have a summary of the activity logged in the device:"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:30
+msgid ""
+"**To export**: Activity trackers registered in the device (i.e., activity"
+" performed by one user logged in in the device), that have not been "
+"exported nor submitted to the server yet."
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:31
+msgid ""
+"**To submit**: Activity trackers registered in the device that have been "
+"exported to an activity log in the device, but not sent to the server yet"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:32
+msgid ""
+"**Submitted**: Activity registered in the device that is already "
+"registered in the server"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:34
+msgid ""
+"The action to ``submit to server`` is used to manually trigger the "
+"tracker uploading (of both exported activity logs saved in the device, "
+"and user activity pending to submit). This is also performed "
+"automatically by the app periodically."
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:37
+msgid ""
+"The action to ``Export activity`` will fetch all the activity that is not"
+" yet exported nor submitted, and will create an activity log file, in the"
+" form of a JSON file containing all the activity trackers and basic user "
+"information, and will show the file (and any other remaining activity log"
+" files to transfer in the list below the actions. Once those activity "
+"trackers are exported, they get marked in the local register as "
+"\"exported\", so the figure in the \"to export\" summary will go back to "
+"zero, and the next time the user uses this functionality, they will not "
+"be included in the new activity log file."
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:47
+msgid ""
+"Using the share icon that appears to the side of each log file will open "
+"the share dialog, prompting you to select an app to share the file with. "
+"**Note that this will transfer the file out of the realm of the app, so "
+"the user will have to upload it manually later**."
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:53
+msgid "Sharing log activity files"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:55
+msgid ""
+"Instead of using the share option, we can transfer the activity log files"
+" between devices using the app. This will keep the file inside the app "
+"storage, making it possible to be automatically upload to the server once"
+" an internet connection becomes available. For this, once two devices are"
+" connected via Bluetooth (see the \"Bluetooth\" section), if a device has"
+" some activity log file pending to transfer, a message will appear below "
+"the status bar:"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:63
+msgid ""
+"Pressing the `Send now` button will send the activity log files to the "
+"other device and remove them from the current one."
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:67
+msgid "Manual upload"
+msgstr ""
+
+#: ../../implementers/offline/activity_log.rst:68
+msgid ""
+"If the file was not transfer from within the app, the activity log file "
+"will be outside of the realm of action of the app, and has to be manually"
+" uploaded to the server. To do so, the user has to log in the server, "
+"select the option to upload an activity log, and attach the file to the "
+"Upload activity log form."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:2
+msgid "Using Bluetooth to transfer between devices"
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:4
+msgid ""
+"Bluetooth can be used to share course content and media files directly "
+"between devices, so users without an internet connection can still get "
+"updates."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:7
+msgid ""
+"For this to be possible, when a course is installed or updated in the "
+"device, a backup copy of the installation package is saved under the "
+"``backup/`` folder of the app."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:11
+msgid ""
+"If you had the app installed prior to the update in which this "
+"functionality was added, the courses that were previously installed will "
+"not appear in the transfer section, as the backup files are not "
+"available."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:15
+msgid "General Workflow"
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:17
+msgid ""
+"Course content is updated or new courses are added, with new/updated "
+"media files."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:19
+msgid ""
+"A supervisor or project staff member downloads the updated course/media "
+"content onto their device, when they are in an area with internet "
+"connection, or by sideloading the updated content."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:22
+msgid ""
+"When the supervisor visits their health workers in an area where no "
+"internet connectivity is available, they can synchronise the updated "
+"course/media content from the supervisors device onto the health workers "
+"device, using the bluetooth ``Sync`` option in the main OppiaMobile menu."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:26
+msgid ""
+"This will move all the selected content and media onto the health workers"
+" device."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:28
+msgid ""
+"The health worker could then also share these updates in the same way "
+"with her colleagues."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:33
+msgid "The Sync transfer view"
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:35
+msgid ""
+"To access the Bluetooth sharing functionality, select the \"Sync\" option"
+" from the main menu. This will get you to the Synchronize view, where "
+"there are two different tabs: the \"Transfer\" tab to connect and "
+"transfer course contents between devices, and the \"Activity\" tab, "
+"related to the student activity tracking and how it gets synchronized in "
+"the server. We will focus in the first one, where you have the following "
+"components"
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:42
+msgid "The status title shows the current state of the Bluetooth connection"
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:43
+msgid "Under the status, you can see the information of the connected device"
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:44
+msgid "A button to set your device in Discovery mode"
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:45
+msgid "A button to connect to another device"
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:51
+msgid "Pairing Devices"
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:53
+msgid ""
+"To start transferring courses between two devices using Bluetooth, we "
+"need to make the Bluetooth connection them first. For this, you have to "
+"choose on of the devices to be the one that starts the connection."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:56
+msgid ""
+"If its the first time those two devices are establishing a connection, we"
+" need to **pair them** first. The pairing process is only needed the "
+"first time as a security measure to ensure that both devices recognize "
+"each other and grant the communication. The next time, this process can "
+"be done automatically."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:61
+msgid ""
+"Bluetooth pairing is generally initiated manually by a device user. The "
+"Bluetooth pairing process is typically triggered automatically the first "
+"time a device receives a connection request from a device with which it "
+"is not yet paired. In order that Bluetooth pairing may occur, a password "
+"has will be exchanged between the two devices. This password or "
+"\"Passkey\" as it is more correctly termed is a code shared by both "
+"Bluetooth devices, used to ensure that both users have agreed to pair "
+"with each other."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:67
+msgid ""
+"Even if you have a Bluetooth-enabled accessory near a Bluetooth-enabled "
+"device, they won’t be able to see each other until you put them into "
+"*discovery mode*. In this state, the device will be “discoverable” by "
+"other devices for 5 minutes. Note that is not need to make a device "
+"discoverable if you’ll be connecting **from it**. You only need to make a"
+" device discoverable if you’re connecting **to it**."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:72
+msgid ""
+"To make the device discoverable from within the app, press the "
+"\"Discovery mode\" button. A permission request dialog will appear, "
+"asking you for permissions to make the device visible. Once you press "
+"this, you can start making the connection from the other device, using "
+"the connect button in the status bar."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:79
+msgid ""
+"If both devices were previously paired, the device name should appear "
+"under the \"Paired devices\" list. If not, you can press the `SCAN` "
+"button to start scanning for Bluetooth devices:"
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:85
+msgid ""
+"After selecting the device, since it is the first time they are making a "
+"connection, a dialog will appear in both screens requesting you to allow "
+"the pairing process. Once this is granted in both devices, the connection"
+" will be made and the the status bar will show the name of the device it "
+"is connected to."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:93
+msgid "Transferring courses"
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:95
+msgid ""
+"Once the connection has been established, a list of the available courses"
+" will show up. Under each course title, you can see the total transfer "
+"size for this course, that includes the course package and the related "
+"media files. Pressing the send action to the right of a course will start"
+" the transfer process to the other device."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:101
+msgid ""
+"While a transfer is in progress, the number of files and the total size "
+"pending to transfer are shown in the status bar of the sender device. The"
+" user can select more courses to transfer, that will get queued to "
+"transfer under the current pending files. In the receiver side, the "
+"screen will show a loading message until the last transfer finishes."
+msgstr ""
+
+#: ../../implementers/offline/bluetooth.rst:105
+msgid ""
+"After all the files are successfully transferred, the courses will be "
+"automatically installed in the receiver device"
+msgstr ""
+
+#: ../../implementers/offline/index.rst:2
+msgid "Supporting fully offline users"
+msgstr ""
+
+#: ../../implementers/offline/index.rst:4
+msgid ""
+"The section describes the features in Oppia for implementations where "
+"users devices will almost always offline, so there is a need for users to"
+" be able to register, get course/media content and have their activity "
+"logged, even if their devices may never be connected to the internet."
+msgstr ""
+
+#: ../../implementers/offline/register.rst:2
+msgid "Offline Registration"
+msgstr ""
+
+#: ../../implementers/offline/register.rst:4
+msgid ""
+"If enabled in the Oppia app (a configuration setting when the app is "
+"compiled, see :ref:`general_settings`), users will be able to register an"
+" account in the app even when no connection is available."
+msgstr ""
+
+#: ../../implementers/offline/register.rst:11
+msgid ""
+"The user tries to register, but no internet connection is available at "
+"the moment."
+msgstr ""
+
+#: ../../implementers/offline/register.rst:12
+msgid "The app prompts the user if he wants to be registered offline"
+msgstr ""
+
+#: ../../implementers/offline/register.rst:17
+msgid ""
+"If the user accepts, all his user data is saved locally and flagged as an"
+" offline user. He is then logged in, ready to start using the app as "
+"normal"
+msgstr ""
+
+#: ../../implementers/offline/register.rst:18
+msgid ""
+"Once a connection becomes available, the app will upload the user "
+"registration in the background with the related activity trackers."
+msgstr ""
+
+#: ../../implementers/offline/register.rst:19
+msgid ""
+"Alternatively, the user activity can be exported into an activity log "
+"file (see :doc:`./activity_log` for more info in this topic), that in "
+"this case will include the registration data."
+msgstr ""
+
+#: ../../implementers/offline/register.rst:20
+msgid ""
+"Once this activity log is tranferred to the server, the user will be "
+"created if it did not exist yet."
+msgstr ""
+
+#: ../../implementers/offline/register.rst:24
+msgid "Activity log"
+msgstr ""
+
+#: ../../implementers/offline/register.rst:26
+msgid ""
+"If the offline registered user is in an environment where there is no "
+"chances of having an internet connection, the option to track the user "
+"activity is to export it into an activity log file. Since the user is not"
+" registered in the server yet, this activity logs will include also all "
+"the information introduced in the registration form. The password is "
+"hashed using a SHA-1 algorithm, so it is safe to be transferred."
+msgstr ""
+
+#: ../../implementers/offline/register.rst:33
+msgid "Username collisions"
+msgstr ""
+
+#: ../../implementers/offline/register.rst:35
+msgid ""
+"Currently, the system does not take into account the possible (although "
+"unlikely) scenario where two users are registered offline using the same "
+"username and the data is exported and the updated to the server from an "
+"intermediate user that got the activity logs transferred."
+msgstr ""
+
+#: ../../implementers/offline/register.rst:38
+msgid ""
+"So as of this moment, when activity data arrives at the server not posted"
+" by its original user (that includes ApiKey authentication), i.e. "
+"activity that has been transferred from an offline device, the server "
+"implies that if there is already a registered user with the username "
+"included in the activity log file, the activity trackers belong to that "
+"user."
+msgstr ""
+
+#: ../../implementers/offline/register.rst:42
+msgid ""
+"A recommended approach is to set some criteria for the usernames to "
+"reduce the probability of collision, like using as username a combination"
+" of the user last name and some unique identifier (e.g. health worker "
+"ID)."
+msgstr ""
+
+#: ../../implementers/permissions/app.rst:2
+msgid "OppiaMobile App Permissions"
+msgstr ""
+
+#: ../../implementers/permissions/app.rst:5
+msgid ""
+"In the OppiaMobile client (phone) app generally all users have the same "
+"functionality and permissions."
+msgstr ""
+
+#: ../../implementers/permissions/app.rst:8
+msgid "Restricting app permissions"
+msgstr ""
+
+#: ../../implementers/permissions/app.rst:10
+msgid ""
+"There may be some cases (for example when using shared devices), where "
+"you may want to prevent app users from installing or removing courses, or"
+" change the particular app settings. The app has the option to set an "
+"admin password, which will then restrict access to options such as "
+"installing/removing courses. To enable this, go to the settings in the "
+"app, check the box to \"protect admin actions with password\" and enter "
+"an admin password."
+msgstr ""
+
+#: ../../implementers/permissions/index.rst:2
+msgid "Permissions"
+msgstr ""
+
+#: ../../implementers/permissions/index.rst:4
+msgid ""
+"This documentation details the permissions for the various components of "
+"OppiaMobile."
+msgstr ""
+
+#: ../../implementers/permissions/publishing.rst:2
+msgid "Course Development and Publishing Permissions"
+msgstr ""
+
+#: ../../implementers/permissions/publishing.rst:6
+msgid "Course development"
+msgstr ""
+
+#: ../../implementers/permissions/publishing.rst:8
+msgid ""
+"Since courses for OppiaMobile are developed in Moodle, the permissions "
+"for creating courses in Moodle and which users are able to collaborate on"
+" and edit courses are determined by Moodle's permission system (see: "
+"http://docs.moodle.org/en/Permissions)"
+msgstr ""
+
+#: ../../implementers/permissions/publishing.rst:13
+msgid "Publishing courses for OppiaMobile"
+msgstr ""
+
+#: ../../implementers/permissions/publishing.rst:16
+msgid "Exporting for testing"
+msgstr ""
+
+#: ../../implementers/permissions/publishing.rst:18
+msgid ""
+"Any user in Moodle may export a course to the OppiaMobile .zip format - "
+"which can then be copied directly onto the phone for testing."
+msgstr ""
+
+#: ../../implementers/permissions/publishing.rst:22
+msgid "Course Publishing - Initial"
+msgstr ""
+
+#: ../../implementers/permissions/publishing.rst:24
+msgid ""
+"Once a course has been developed and is ready for publishing onto an "
+"OppiaMobile server, only those users with permission to upload courses to"
+" the OppiaMobile server may publish (see the server permissions page)."
+msgstr ""
+
+#: ../../implementers/permissions/publishing.rst:28
+msgid "Course Publishing - Updating"
+msgstr ""
+
+#: ../../implementers/permissions/publishing.rst:30
+msgid ""
+"If a course has already been published and it is then updated and "
+"requires re-publishing to the OppiaMobile server, only the user who "
+"originally published the app may update it (the original course owner). "
+"If necessary, in the OppiaMobile server, you can change the course owner "
+"from the Django admin pages."
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:2
+msgid "OppiaMobile Server Permissions"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:4
+msgid ""
+"There are various permissions associated with users in OppiaMobile, some "
+"based on the default Django users system and others based on extra "
+"permissions the user has been specifically given."
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:8
+msgid ""
+"Admin User - this is the standard Django superuser "
+"(https://docs.djangoproject.com/en/2.2/topics/auth/default/ - a typical "
+"user with this role would be a system/server administrator"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:11
+msgid ""
+"Staff - this is the standard Django staff user "
+"(https://docs.djangoproject.com/en/2.2/topics/auth/default/) - a typical "
+"user would be a project manager/officer, college or ministry staff, "
+"essentially users who need to access all the data/reports within the "
+"server, but not necessarily responsible for the technical maintenance or "
+"server level admin."
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:16
+msgid ""
+"Teachers/Students - in Django permissions terms, both teachers and "
+"students are standard users. The only difference between them is that a "
+"teacher has been assigned the teacher status to a particular cohort of "
+"students. A cohort is just a group of teachers and students assigned to a"
+" particular set of courses. A user may have the role of teacher on one "
+"set of courses, but then be a student on other courses."
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:26
+msgid "Permissions on the OppiaMobile Server dashboard:"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:29
+msgid "Activity/Action"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:29
+msgid "Admin User"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:29
+msgid "Staff"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:29
+msgid "Teacher"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:29
+msgid "Student"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:31
+msgid "Login"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:31
+#: ../../implementers/permissions/server.rst:33
+#: ../../implementers/permissions/server.rst:35
+#: ../../implementers/permissions/server.rst:37
+#: ../../implementers/permissions/server.rst:39
+#: ../../implementers/permissions/server.rst:41
+#: ../../implementers/permissions/server.rst:43
+#: ../../implementers/permissions/server.rst:45
+#: ../../implementers/permissions/server.rst:47
+#: ../../implementers/permissions/server.rst:49
+#: ../../implementers/permissions/server.rst:51
+#: ../../implementers/permissions/server.rst:54
+#: ../../implementers/permissions/server.rst:57
+#: ../../implementers/permissions/server.rst:60
+#: ../../implementers/permissions/server.rst:63
+#: ../../implementers/permissions/server.rst:66
+#: ../../implementers/permissions/server.rst:68
+#: ../../implementers/permissions/server.rst:71
+#: ../../implementers/permissions/server.rst:74
+#: ../../implementers/permissions/server.rst:77
+#: ../../implementers/permissions/server.rst:80
+#: ../../implementers/permissions/server.rst:82
+msgid "Yes"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:33
+msgid "Access Django Admin"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:33
+msgid "No (1)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:33
+#: ../../implementers/permissions/server.rst:39
+#: ../../implementers/permissions/server.rst:43
+#: ../../implementers/permissions/server.rst:45
+#: ../../implementers/permissions/server.rst:57
+#: ../../implementers/permissions/server.rst:60
+#: ../../implementers/permissions/server.rst:63
+#: ../../implementers/permissions/server.rst:77
+#: ../../implementers/permissions/server.rst:80
+#: ../../implementers/permissions/server.rst:82
+#: ../../implementers/permissions/server.rst:87
+msgid "No"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:35
+msgid "Upload Course"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:35
+msgid "No (2)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:37
+msgid "Update a Course"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:37
+msgid "No (9)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:39
+msgid "Bulk Upload Users"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:41
+msgid "View Cohorts"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:41
+msgid "Yes (3)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:41
+msgid "No (4)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:43
+msgid "Add New Cohort"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:45
+msgid "Edit Existing Cohort"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:47
+msgid "View course list"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:47
+msgid "Yes (5)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:49
+msgid "View draft courses"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:49
+msgid "No (8)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:51
+msgid "View course recent activity"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:51
+#: ../../implementers/permissions/server.rst:54
+#: ../../implementers/permissions/server.rst:66
+#: ../../implementers/permissions/server.rst:71
+#: ../../implementers/permissions/server.rst:74
+msgid "Yes (6)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:51
+#: ../../implementers/permissions/server.rst:54
+#: ../../implementers/permissions/server.rst:66
+#: ../../implementers/permissions/server.rst:68
+#: ../../implementers/permissions/server.rst:71
+#: ../../implementers/permissions/server.rst:74
+msgid "No (7)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:54
+msgid "View course activity detail"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:57
+msgid "Download course activity detail"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:60
+msgid "Download quiz responses detail"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:63
+msgid "Download feedback responses detail"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:66
+msgid "View course quizzes"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:68
+msgid "View student activity (all activity)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:68
+msgid "No (6)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:71
+msgid "View student activity (for specific course)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:74
+msgid "View student activity (for specific cohort)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:77
+msgid "View server level analytics"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:80
+msgid "Upload media files"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:82
+msgid "Upload activity logs"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:84
+msgid "Change password and update user info"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:84
+msgid "Yes (any user)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:84
+#: ../../implementers/permissions/server.rst:87
+#: ../../implementers/permissions/server.rst:90
+msgid "Yes (own only)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:87
+msgid "Delete user account"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:87
+msgid "Yes (from admin pages)"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:90
+msgid "Export user data"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:95
+msgid "Notes:"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:97
+msgid ""
+"Staff are able to access the Django admin URL, however they do not have "
+"permissions to view any of the data models or actual data through this"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:99
+msgid ""
+"Any user (teacher or student) may be given permissions to upload courses "
+"by changing the 'can upload' field in their UserProfile to be true."
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:101
+msgid "Teachers may only view cohorts that they are teachers in."
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:102
+msgid "Students may view their own activity within a cohort"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:103
+msgid ""
+"Students and Teachers may view all the courses available on the server, "
+"except those that are still in draft stage"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:105
+msgid ""
+"A teacher may only view the activity for courses they are assigned to be "
+"teachers on, and then only for the students in the cohorts they are "
+"teachers in."
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:108
+msgid ""
+"Students may see their own activity within a course or cohort - but not "
+"anyone elses"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:110
+msgid ""
+"Any user may be given Course viewer permissions to be able to view a "
+"specific course that is currently draft"
+msgstr ""
+
+#: ../../implementers/permissions/server.rst:112
+msgid ""
+"Any user may be given Course manager permissions to be able to update "
+"(republish) a course"
+msgstr ""
+
+#: ../../implementers/viz/index.rst:4
+msgid "Visualizations"
+msgstr ""
+
+#: ../../implementers/viz/index.rst:11
+msgid ""
+"Creating visualisations of the data in OppiaMobile is a work-in-progress,"
+" currently there are 2 main visualisations available:"
+msgstr ""
+
+#: ../../implementers/viz/index.rst:15
+msgid "Summary Overview"
+msgstr ""
+
+#: ../../implementers/viz/index.rst:16
+msgid ""
+"This gives a one-page overview of the activity on your OppiaMobile server"
+" and can only be access by users with the is_staff status. The summary "
+"overview page gives graphical representations of:"
+msgstr ""
+
+#: ../../implementers/viz/index.rst:20
+msgid "User Registrations"
+msgstr ""
+
+#: ../../implementers/viz/index.rst:21
+msgid "Activity by Country"
+msgstr ""
+
+#: ../../implementers/viz/index.rst:22
+msgid "Course Downloads"
+msgstr ""
+
+#: ../../implementers/viz/index.rst:23
+msgid "Course Activity"
+msgstr ""
+
+#: ../../implementers/viz/index.rst:26
+msgid ""
+"All the statistics in the summary overview and map will exclude any "
+"activity made by users who have the is_staff status."
+msgstr ""
+
+#: ../../implementers/viz/index.rst:30
+msgid "User Map"
+msgstr ""
+
+#: ../../implementers/viz/index.rst:31
+msgid ""
+"This shows a map of the locations of the users and activity on your "
+"OppiaMobile server."
+msgstr ""
+
+#: ../../implementers/viz/index.rst:35
+msgid ""
+"By default this map shows the users from the http://demo.oppia-mobile.org"
+" server. To see a map of the users on your server, you will need to "
+"configure this, see the :ref:`user map setup instructions<usermap>`."
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:4
+msgid "Setting up the User Map Visualization"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:6
+msgid ""
+"To set up the user map visualization to reflect the your users' location "
+"on your server:"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:9
+msgid "Create accounts on:"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:11
+msgid "`ipstack <https://ipstack.com/>`_"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:12
+msgid "`cartodb <https://cartodb.com/>`_"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:14
+msgid ""
+"Set up a public map/table called `oppiamobile_users` in your CartoDB "
+"account with the following field names/types:"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:17
+msgid "lat (number)"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:18
+msgid "lng (number)"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:19
+msgid "country_code (string)"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:20
+msgid "source_site (string)"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:21
+msgid "total_hits (number)"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:23
+msgid ""
+"In the Django admin pages, go to the Settings > Setting Properties model,"
+" and update the string values for the following settings, to enter your "
+"specific API keys etc:"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:27
+msgid "`OPPIA_CARBODB_ACCOUNT`"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:28
+msgid "`OPPIA_CARBODB_KEY`"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:29
+msgid "`OPPIA_IPSTACK_APIKEY`"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:31
+msgid ""
+"Again, in the Settings, change the `OPPIA_MAP_VISUALISATION_ENABLED` "
+"boolean value to be `true`"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:34
+msgid ""
+"Create a cron script to run the Django management commands `ip2location` "
+"and `cartodb_update`. For example::"
+msgstr ""
+
+#: ../../implementers/viz/user_map.rst:45
+msgid ""
+"Set up this cron task to run regularly, for example once per day. After "
+"the cron task has been run at least once, you should start to see the "
+"user locations appearing on the map."
+msgstr ""
+

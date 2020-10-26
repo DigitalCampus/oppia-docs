@@ -1,0 +1,2496 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Campus
+# This file is distributed under the same license as the OppiaMobile
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OppiaMobile 0.12.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-26 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../support/index.rst:2
+msgid "Support and Help"
+msgstr ""
+
+#: ../../support/index.rst:4
+msgid ""
+"The best place to get help and support is to post a message on the "
+"`OppiaMobile Community site <https://community.oppia-mobile.org/>`_"
+msgstr ""
+
+#: ../../support/index.rst:7
+msgid ""
+"When posting a message about any difficulties you might be having, the "
+"more information you're able to give about the problem and how to "
+"recreate it, the quicker it will be for us to help resolve the issue."
+msgstr ""
+
+#: ../../support/index.rst:11
+msgid ""
+"As a guide, this is usually the basic information we would need, though "
+"it will depend on the specific problem/issue:"
+msgstr ""
+
+#: ../../support/index.rst:14
+msgid "Expected vs actual outcome"
+msgstr ""
+
+#: ../../support/index.rst:15
+msgid "Steps to reproduce"
+msgstr ""
+
+#: ../../support/index.rst:16
+msgid "Full text of any error messages shown"
+msgstr ""
+
+#: ../../support/index.rst:17
+msgid "Screenshots/images"
+msgstr ""
+
+#: ../../support/index.rst:18
+msgid "App or server version number you are using"
+msgstr ""
+
+#: ../../support/index.rst:19
+msgid "Links to Oppia server dashboard (especially for server issues)"
+msgstr ""
+
+#: ../../support/index.rst:20
+msgid "Links to Moodle (especially for content issues)"
+msgstr ""
+
+#: ../../support/sops/index.rst:2
+msgid "Standard Operating Procedures for OppiaMobile"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:2
+msgid "Rapid Deployment of OppiaMobile Implementation"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:4
+msgid ""
+"This page describes the processes for a rapid set up and deployment of "
+"OppiaMobile"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:8 ../../support/training/tech/index.rst:8
+msgid "Prerequisites"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:10
+msgid "A technical person/team with experience in deploying OppiaMobile"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:11
+msgid "An AWS account, or admin (root) access to a locally hosted server"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:12
+msgid ""
+"A Google Play developer account, preferably a Ministry or government "
+"account"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:17
+msgid "Oppia Server"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:19
+msgid ""
+"Create a clone/fork of the OppiaMobile core server code (from: "
+"https://github.com/DigitalCampus/django-oppia)"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:21
+msgid "Either:"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:23
+msgid "set up a new local server for Oppia (see: :ref:`manualinstall`)"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:24
+msgid "launch and instance of the Oppia AWS server (see: :ref:`aws`)"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:26
+msgid "Set up a domain name to point to this servers IP address"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:27
+msgid "The server theme can be updated, but likely this can be dealt with later."
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:31
+msgid "Oppia App"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:33
+msgid ""
+"Create a clone/fork of the OppiaMobile core app code (from: "
+"https://github.com/DigitalCampus/oppia-mobile-android)"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:35
+msgid "Import into Android Studio"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:36
+msgid "Follow the instructions here to update the app - :ref:`custom_app`"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:37
+msgid "Submit the app to the Google Play store"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:41
+msgid "Content"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:43
+msgid ""
+"Preferably any new content should be written and developed with mobile "
+"adaptation in mind from the start. Otherwise the content adaptation will "
+"take much longer."
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:46
+msgid "Ensure a full review of the content takes place on an actual device"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:49
+msgid "Deployment to users"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:51
+msgid ""
+"For quickest deployment, the users can be pregistered in the app, and the"
+" content pre-loaded, although this is not possibel for users who might be"
+" remotely installing the app themselves"
+msgstr ""
+
+#: ../../support/sops/rapidsetup.rst:54
+msgid "Adapt or re-use the :ref:`introtraining`"
+msgstr ""
+
+#: ../../support/training/content_dev/00_setup.rst:2
+msgid "Preparation and Set Up"
+msgstr ""
+
+#: ../../support/training/content_dev/00_setup.rst:4
+msgid "Ensure everyone has a Moodle account with necessary permissions."
+msgstr ""
+
+#: ../../support/training/content_dev/00_setup.rst:5
+msgid ""
+"Create a test course area for each participant on Moodle and with "
+"permissions to export to an OppiaMobile server."
+msgstr ""
+
+#: ../../support/training/content_dev/00_setup.rst:6
+msgid ""
+"Ensure everyone has an Android phone with the OppiaMobile app installed "
+"for testing."
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:2
+msgid "Session 1: Overview of OppiaMobile and Creating First Learning Activity"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:4
+#: ../../support/training/content_dev/02_quiz.rst:4
+#: ../../support/training/content_dev/03_video.rst:4
+#: ../../support/training/content_dev/04_server.rst:4
+#: ../../support/training/content_dev/05_review.rst:4
+#: ../../support/training/intro/01_intro.rst:4
+#: ../../support/training/intro/02_mhealth.rst:4
+#: ../../support/training/intro/03_barriers.rst:4
+#: ../../support/training/intro/04_day.rst:4
+#: ../../support/training/intro/05_phones.rst:4
+#: ../../support/training/intro/07_care.rst:4
+#: ../../support/training/intro/10_apps.rst:4
+#: ../../support/training/intro/11a_health_workers.rst:4
+#: ../../support/training/intro/12_close.rst:4
+#: ../../support/training/tech/01_intro.rst:4
+#: ../../support/training/tech/03_moodle.rst:4
+#: ../../support/training/tech/05_review.rst:4
+msgid "Time: 1 hour"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:7
+#: ../../support/training/content_dev/02_quiz.rst:7
+#: ../../support/training/content_dev/03_video.rst:7
+#: ../../support/training/content_dev/04_server.rst:7
+#: ../../support/training/content_dev/05_review.rst:7
+#: ../../support/training/intro/01_intro.rst:7
+#: ../../support/training/intro/02_mhealth.rst:7
+#: ../../support/training/intro/03_barriers.rst:7
+#: ../../support/training/intro/04_day.rst:7
+#: ../../support/training/intro/05_phones.rst:7
+#: ../../support/training/intro/06_android.rst:7
+#: ../../support/training/intro/07_care.rst:7
+#: ../../support/training/intro/08_oppia.rst:7
+#: ../../support/training/intro/09_oppia_courses.rst:7
+#: ../../support/training/intro/10_apps.rst:7
+#: ../../support/training/intro/11a_health_workers.rst:7
+#: ../../support/training/intro/11b_tutors.rst:7
+#: ../../support/training/intro/12_close.rst:7
+#: ../../support/training/tech/01_intro.rst:7
+#: ../../support/training/tech/02_aws.rst:7
+#: ../../support/training/tech/03_moodle.rst:7
+#: ../../support/training/tech/04_oppia_app.rst:7
+#: ../../support/training/tech/05_review.rst:7
+msgid "Objectives"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:9
+#: ../../support/training/content_dev/02_quiz.rst:9
+#: ../../support/training/content_dev/03_video.rst:9
+#: ../../support/training/content_dev/04_server.rst:9
+#: ../../support/training/content_dev/05_review.rst:9
+#: ../../support/training/tech/01_intro.rst:9
+#: ../../support/training/tech/02_aws.rst:9
+#: ../../support/training/tech/03_moodle.rst:9
+#: ../../support/training/tech/04_oppia_app.rst:9
+#: ../../support/training/tech/05_review.rst:9
+msgid "At the end of this session, participants will be able to:"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:11
+msgid "Describe the components of OppiaMobile platform and functions of each"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:12
+msgid "Describe the function of Moodle within the OppiaMobile platform"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:13
+msgid "Create a learning activity in Moodle and export to Oppia"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:14
+msgid "Add an image to the learning activity"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:18
+#: ../../support/training/content_dev/02_quiz.rst:15
+#: ../../support/training/content_dev/03_video.rst:16
+#: ../../support/training/content_dev/04_server.rst:17
+#: ../../support/training/content_dev/05_review.rst:16
+#: ../../support/training/intro/01_intro.rst:13
+#: ../../support/training/intro/02_mhealth.rst:14
+#: ../../support/training/intro/03_barriers.rst:14
+#: ../../support/training/intro/04_day.rst:12
+#: ../../support/training/intro/05_phones.rst:12
+#: ../../support/training/intro/06_android.rst:23
+#: ../../support/training/intro/07_care.rst:19
+#: ../../support/training/intro/08_oppia.rst:18
+#: ../../support/training/intro/09_oppia_courses.rst:16
+#: ../../support/training/intro/10_apps.rst:14
+#: ../../support/training/intro/11a_health_workers.rst:13
+#: ../../support/training/intro/11b_tutors.rst:14
+#: ../../support/training/intro/12_close.rst:15
+#: ../../support/training/tech/01_intro.rst:16
+#: ../../support/training/tech/02_aws.rst:18
+#: ../../support/training/tech/03_moodle.rst:16
+#: ../../support/training/tech/04_oppia_app.rst:17
+#: ../../support/training/tech/05_review.rst:18
+msgid "Activities"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:20
+#: ../../support/training/tech/01_intro.rst:18
+msgid "Introductions"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:21
+msgid ""
+"Describe key features of OppiaMobile (see: "
+":doc:`../../../overview/features`)"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:22
+msgid ""
+"Describe architecture and components of OppiaMobile, especially Moodle "
+"for course authoring"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:23
+msgid "Access a Moodle course and turn editing on"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:24
+msgid ""
+"Basic course structure, levels of activities and how they get represented"
+" when exported to OppiaMobile"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:25
+msgid ""
+"Activity types supporting in OppiaMobile (see: "
+":doc:`../../../content/activitytypes`)"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:26
+msgid "Adding a section/topic title"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:27
+msgid "Adding an HTML page activity"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:28
+msgid "Adding an image to the page"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:29
+msgid "Exporting to OppiaMobile server - options available on export"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:30
+msgid "Test viewing the course on the device"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:34
+#: ../../support/training/content_dev/02_quiz.rst:27
+#: ../../support/training/content_dev/03_video.rst:26
+#: ../../support/training/content_dev/04_server.rst:30
+#: ../../support/training/tech/01_intro.rst:34
+#: ../../support/training/tech/02_aws.rst:35
+#: ../../support/training/tech/03_moodle.rst:25
+#: ../../support/training/tech/04_oppia_app.rst:28
+msgid "Follow up and preparation for next session"
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:36
+msgid ""
+"Review full documentation for course development (see: "
+":doc:`../../../content/author`)."
+msgstr ""
+
+#: ../../support/training/content_dev/01_overview.rst:37
+msgid ""
+"Add some more pages to their course and review how it appears in the "
+"OppiaMobile app."
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:2
+msgid "Session 2: Adding a Quiz to a Course in OppiaMobile"
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:11
+msgid "Create a quiz for OppiaMobile"
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:12
+msgid "Create a baseline/pre-test"
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:17
+#: ../../support/training/content_dev/03_video.rst:18
+#: ../../support/training/content_dev/04_server.rst:19
+#: ../../support/training/content_dev/05_review.rst:18
+#: ../../support/training/tech/02_aws.rst:20
+#: ../../support/training/tech/03_moodle.rst:18
+#: ../../support/training/tech/04_oppia_app.rst:19
+#: ../../support/training/tech/05_review.rst:20
+msgid "Review of previous session, any questions/queries"
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:18
+msgid "Using Moodle quizzes and question bank"
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:19
+msgid "Creating a true/false question"
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:20
+msgid "Creating multiple choice question"
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:21
+msgid "Creating other types of questions - and review of question types supported"
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:22
+msgid "Exporting the course to OppiaMobile server and the export options"
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:23
+msgid ""
+"How to add a baseline/pre-test so the user must complete before accessing"
+" the rest of the course"
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:29
+msgid "Create more types of quiz questions"
+msgstr ""
+
+#: ../../support/training/content_dev/02_quiz.rst:30
+msgid "Create a baseline/pre-test quiz for your course"
+msgstr ""
+
+#: ../../support/training/content_dev/03_video.rst:2
+msgid "Session 3: Embedding Video Content"
+msgstr ""
+
+#: ../../support/training/content_dev/03_video.rst:11
+msgid "Describe how OppiaMobile handles video content"
+msgstr ""
+
+#: ../../support/training/content_dev/03_video.rst:12
+msgid ""
+"Describe the factors that affect video content delivery in low-bandwidth "
+"environments"
+msgstr ""
+
+#: ../../support/training/content_dev/03_video.rst:13
+msgid "Include a video in their OppiaMobile course"
+msgstr ""
+
+#: ../../support/training/content_dev/03_video.rst:19
+msgid "Describe how OppiaMobile handles video content (and why)"
+msgstr ""
+
+#: ../../support/training/content_dev/03_video.rst:20
+msgid "Considerations for video formats and file sizes"
+msgstr ""
+
+#: ../../support/training/content_dev/03_video.rst:21
+msgid "Embedding video in Moodle"
+msgstr ""
+
+#: ../../support/training/content_dev/03_video.rst:22
+msgid "Adding a video image"
+msgstr ""
+
+#: ../../support/training/content_dev/03_video.rst:28
+msgid ""
+"Practice adding other videos, exporting the course and running on your "
+"device"
+msgstr ""
+
+#: ../../support/training/content_dev/03_video.rst:29
+msgid ""
+"Review the OppiaMobile dashboard guide "
+"(:doc:`../../../implementers/dashboard/index`)"
+msgstr ""
+
+#: ../../support/training/content_dev/03_video.rst:30
+msgid ""
+"Review the OppiaMobile permissions documentation "
+"(:doc:`../../../implementers/permissions/index`)"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:2
+msgid "Session 4: Activity Monitoring and Reporting"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:11
+msgid "Access the OppiaMobile dashboard"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:12
+msgid "Create new user accounts"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:13
+msgid "Create cohorts of teachers and students"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:14
+msgid "Review course and user progress in courses"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:20
+msgid "Explanation of the function of the dashboard"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:21
+msgid "Walk through of the dashboard structure and navigation"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:22
+msgid "How to create new user accounts"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:23
+msgid ""
+"Permissions levels and how to assign them to users (refer to "
+":doc:`../../../implementers/permissions/index`)"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:24
+msgid "Finding specific activity for a user and/or course"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:25
+msgid "Pre-defined reports"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:26
+msgid "Custom reporting"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:32
+msgid "Test creating new users on both the mobile device and server"
+msgstr ""
+
+#: ../../support/training/content_dev/04_server.rst:33
+msgid ""
+"Test activity on their device and check the user/course progress in the "
+"dashboard"
+msgstr ""
+
+#: ../../support/training/content_dev/05_review.rst:2
+msgid "Session 5: Putting it all together & review"
+msgstr ""
+
+#: ../../support/training/content_dev/05_review.rst:11
+msgid "Publish their course to make available for students"
+msgstr ""
+
+#: ../../support/training/content_dev/05_review.rst:12
+msgid "Update courses once they have already been made live"
+msgstr ""
+
+#: ../../support/training/content_dev/05_review.rst:13
+msgid "Prepare the next steps in their implementation"
+msgstr ""
+
+#: ../../support/training/content_dev/05_review.rst:19
+msgid "How to publish and make available to your students"
+msgstr ""
+
+#: ../../support/training/content_dev/05_review.rst:20
+msgid "Updating courses once already been made live"
+msgstr ""
+
+#: ../../support/training/content_dev/05_review.rst:21
+msgid "Phone set up and initial user training"
+msgstr ""
+
+#: ../../support/training/content_dev/05_review.rst:25
+msgid "Advanced topics"
+msgstr ""
+
+#: ../../support/training/content_dev/05_review.rst:27
+msgid ""
+"There are several features that we haven't covered during this training, "
+"these may be useful if you have specific requirements in your "
+"implementation, for example adding multilingual content, using "
+"stylesheets and javascript within your course pages, specific server "
+"settings for the criteria for awarding points and badges and generating "
+"custom reports. Please discuss with us if you have any particular "
+"requirements in these areas."
+msgstr ""
+
+#: ../../support/training/content_dev/index.rst:2
+msgid "Content Development"
+msgstr ""
+
+#: ../../support/training/content_dev/index.rst:4
+msgid ""
+"This is designed to train content developers in how to create courses for"
+" OppiaMobile."
+msgstr ""
+
+#: ../../support/training/content_dev/index.rst:6
+msgid ""
+"The training is designed to be run remotely (via skype/teleconference) "
+"with a small group of participants (max 5). There should be a break of at"
+" least 2-3 days between each session, to allow participants time to "
+"complete the follow up activities, practice what has been learned so far "
+"and review any recommended documentation."
+msgstr ""
+
+#: ../../support/training/content_dev/index.rst:10
+msgid ""
+"Participants will require a good internet connection during the actual "
+"sessions."
+msgstr ""
+
+#: ../../support/training/index.rst:2
+msgid "OppiaMobile Training"
+msgstr ""
+
+#: ../../support/training/index.rst:4
+msgid ""
+"This set of documentation describes the various training sessions and "
+"workshops that Digital Campus has used on a variety of projects to "
+"support the implementation of OppiaMobile."
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:2
+msgid "Workshop Preparation and Set-up"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:4
+msgid "Documents to prepare and print out:"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:6
+msgid "Participant workshop attendance sheet"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:7
+msgid ""
+"List of phones - to include IMEI no, serial no, phone no, Google account "
+"and Oppia account"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:8
+msgid ""
+"Smartphone and solar lamp/chargers user agreement and receipt forms (2 "
+"for each attendee - 1 for us and 1 for them to keep)"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:9
+msgid ""
+"Participant consent form (2 for each attendee - 1 for us and 1 for them "
+"to keep)"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:10
+msgid ""
+"Contact sheet of all project members (name, role, phone no, email, "
+"location) (1 for each attendee)"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:11
+msgid ""
+"Training evaluation form (1 for each attendee to complete). To contain "
+"basic feedback questions/comments about the training (what they liked, "
+"didn’t like, what they learnt, general feedback etc)."
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:12
+msgid "Participant Surveys (Mobile phone usage and PNC & ANC skills / attitudes)"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:13
+msgid "Competency checklists"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:15
+msgid ""
+"Many of these (those that don’t need signatures etc) can be completed in "
+"Excel - instead of printing out and completing (and then needing to write"
+" everything up after)."
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:18
+msgid "Resources"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:20
+msgid "Laptop & projector"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:21
+msgid "Flipchart paper"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:22
+msgid "Post it notes"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:23
+msgid "Pens and notebooks (for each attendee)"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:24
+msgid "Digital/phone camera"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:25
+msgid ""
+"Ideally a wifi connection (if not available then need to use data "
+"connection - if neither available then training can still proceed, but "
+"some activities may need to be rescheduled for another time)"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:28
+msgid "Setting up the Smartphones"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:30
+msgid ""
+"Setting up the phones is likely to be time consuming (approx half hour "
+"per phone), so best to have this done as far in advance as possible - "
+"especially if there may be any issues (eg in connection to install apps "
+"etc)."
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:32
+msgid "Create an OppiaMobile account for each user"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:33
+msgid "Charge up phone"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:34
+msgid ""
+"When starting phone either create an new Google account or use an "
+"existing one"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:37
+msgid "From Google Play install:"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:36
+msgid ""
+"OppiaMobile - "
+"https://play.google.com/store/apps/details?id=org.digitalcampus.mobile.learning"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:37
+msgid "WhatsApp - https://play.google.com/store/apps/details?id=com.whatsapp"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:38
+msgid ""
+"ES file explorer - "
+"https://play.google.com/store/apps/details?id=com.estrongs.android.pop"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:39
+msgid ""
+"Start Oppia, log in with the user account and download all the required "
+"courses (or copy as zip files)"
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:40
+msgid "Copy any required video resources onto the phone SD card."
+msgstr ""
+
+#: ../../support/training/intro/00_setup.rst:41
+msgid ""
+"Record all the details of the user accounts used etc in the list of "
+"phones. Also mark inside the phone (using permanent marker or similar) a "
+"unique identifier for the phone."
+msgstr ""
+
+#: ../../support/training/intro/01_intro.rst:2
+msgid "Session 1: Course Introduction"
+msgstr ""
+
+#: ../../support/training/intro/01_intro.rst:9
+msgid "To introduce the project (what/why/how)"
+msgstr ""
+
+#: ../../support/training/intro/01_intro.rst:10
+msgid ""
+"To get to know the participants and for them to get to know the project "
+"team"
+msgstr ""
+
+#: ../../support/training/intro/01_intro.rst:15
+msgid "Ice breaker activity"
+msgstr ""
+
+#: ../../support/training/intro/01_intro.rst:16
+msgid ""
+"Presentation/description of the project and explain the roles of each "
+"member of the project team - hand out the contact sheet"
+msgstr ""
+
+#: ../../support/training/intro/01_intro.rst:17
+msgid ""
+"Overview of the training sessions and what we’ll do (the "
+"sessions/activities below)"
+msgstr ""
+
+#: ../../support/training/intro/01_intro.rst:18
+msgid ""
+"Explain the participants role in the project and our expectations of them"
+" (active participation and attendance at workshop sessions, giving us "
+"honest and open feedback)"
+msgstr ""
+
+#: ../../support/training/intro/01_intro.rst:19
+msgid ""
+"Stress that we’re also looking to learn how to develop the system and "
+"content to help support them better, and we’re open to "
+"feedback/suggestions etc (so don’t be shy!)"
+msgstr ""
+
+#: ../../support/training/intro/01_intro.rst:22
+#: ../../support/training/intro/02_mhealth.rst:22
+#: ../../support/training/intro/03_barriers.rst:22
+#: ../../support/training/intro/04_day.rst:18
+#: ../../support/training/intro/05_phones.rst:20
+#: ../../support/training/intro/06_android.rst:30
+#: ../../support/training/intro/07_care.rst:28
+#: ../../support/training/intro/08_oppia.rst:26
+#: ../../support/training/intro/09_oppia_courses.rst:24
+#: ../../support/training/intro/10_apps.rst:23
+#: ../../support/training/intro/11a_health_workers.rst:20
+#: ../../support/training/intro/11b_tutors.rst:23
+#: ../../support/training/intro/12_close.rst:22
+msgid "M&E"
+msgstr ""
+
+#: ../../support/training/intro/01_intro.rst:23
+msgid "Complete participants attendance sheet"
+msgstr ""
+
+#: ../../support/training/intro/01_intro.rst:24
+msgid "Sign consent forms"
+msgstr ""
+
+#: ../../support/training/intro/02_mhealth.rst:2
+msgid "Session 2: A Primer on Mobile Health"
+msgstr ""
+
+#: ../../support/training/intro/02_mhealth.rst:9
+msgid "To understand what is mobile health (mHealth)"
+msgstr ""
+
+#: ../../support/training/intro/02_mhealth.rst:10
+msgid "To introduce the local (e.g. Ministry of Health) strategy for mHealth"
+msgstr ""
+
+#: ../../support/training/intro/02_mhealth.rst:11
+msgid ""
+"To understand what is mobile learning and how can it be helpful to "
+"improve their teaching and learning"
+msgstr ""
+
+#: ../../support/training/intro/02_mhealth.rst:16
+msgid ""
+"Participants will fill-out a survey about their use of mobile phones and "
+"Internet."
+msgstr ""
+
+#: ../../support/training/intro/02_mhealth.rst:17
+msgid ""
+"The facilitator will do an introduction to basic concepts of mhealth, the"
+" local strategy for mHealth and mobile learning concepts."
+msgstr ""
+
+#: ../../support/training/intro/02_mhealth.rst:18
+msgid ""
+"Group activity (3-4 people in each group). 15 minutes. Write down and "
+"discuss among them what they think are the main challenges of HEWs "
+"training and their professional career development."
+msgstr ""
+
+#: ../../support/training/intro/02_mhealth.rst:19
+msgid ""
+"Ask each group to share back to the whole group. Facilitators to identify"
+" common themes and ask questions"
+msgstr ""
+
+#: ../../support/training/intro/02_mhealth.rst:23
+#: ../../support/training/intro/03_barriers.rst:23
+#: ../../support/training/intro/04_day.rst:20
+#: ../../support/training/intro/05_phones.rst:22
+#: ../../support/training/intro/06_android.rst:32
+#: ../../support/training/intro/07_care.rst:30
+#: ../../support/training/intro/08_oppia.rst:28
+#: ../../support/training/intro/09_oppia_courses.rst:26
+#: ../../support/training/intro/10_apps.rst:25
+#: ../../support/training/intro/11a_health_workers.rst:22
+#: ../../support/training/intro/11b_tutors.rst:25
+#: ../../support/training/intro/12_close.rst:24
+msgid ""
+"Complete attendance sheet (if being run on different day to the other "
+"sessions)"
+msgstr ""
+
+#: ../../support/training/intro/02_mhealth.rst:24
+msgid "Analyse participants mobile phone and internet survey responses"
+msgstr ""
+
+#: ../../support/training/intro/02_mhealth.rst:25
+#: ../../support/training/intro/03_barriers.rst:25
+msgid "Complete a summary of the session discussions"
+msgstr ""
+
+#: ../../support/training/intro/03_barriers.rst:2
+msgid "Session 3: PNC & ANC challenges and barriers"
+msgstr ""
+
+#: ../../support/training/intro/03_barriers.rst:9
+msgid ""
+"To get to know the current postnatal (PNC) and antenatal (ANC) coverage, "
+"challenges and barriers in Tigray and Ethiopia"
+msgstr ""
+
+#: ../../support/training/intro/03_barriers.rst:10
+msgid "To understand how HEWs can effectively contribute to improve PNC & ANC."
+msgstr ""
+
+#: ../../support/training/intro/03_barriers.rst:11
+msgid "To understand how MHealth can help improving maternal and child health"
+msgstr ""
+
+#: ../../support/training/intro/03_barriers.rst:16
+msgid ""
+"Participants will fill-out a survey on their PNC & ANC skills and "
+"attitudes"
+msgstr ""
+
+#: ../../support/training/intro/03_barriers.rst:17
+msgid ""
+"The facilitator will introduce the latest research and data on PNC & ANC "
+"in Ethiopia"
+msgstr ""
+
+#: ../../support/training/intro/03_barriers.rst:18
+msgid ""
+"Group activity (3-4 people in each group). 15 minutes. Write down what "
+"are the main PNC challenges and barriers in their districts and give "
+"ideas how they could improve it."
+msgstr ""
+
+#: ../../support/training/intro/03_barriers.rst:19
+#: ../../support/training/intro/09_oppia_courses.rst:21
+msgid ""
+"At the end of the previous activity, ask each group to share back to the "
+"whole group. Facilitators to identify common themes and ask questions"
+msgstr ""
+
+#: ../../support/training/intro/03_barriers.rst:24
+msgid "Analyse participants survey responses."
+msgstr ""
+
+#: ../../support/training/intro/04_day.rst:2
+msgid "Session 4: A typical working day"
+msgstr ""
+
+#: ../../support/training/intro/04_day.rst:8
+msgid "To understand the typical workflow during their working day"
+msgstr ""
+
+#: ../../support/training/intro/04_day.rst:9
+msgid ""
+"To understand how their day is broken down (how much time spent doing "
+"different activities)"
+msgstr ""
+
+#: ../../support/training/intro/04_day.rst:13
+msgid ""
+"Group activity (3-4 people in each group). 15 minutes. Using a clock face"
+" drawn on flipchart paper, ask the participants to write on what they "
+"usually do on a normal working day. Will include start/finish work times,"
+" breaks etc. For tutors may include amount of time spent in the "
+"classroom, preparation time, doing marking/assessment activities and "
+"general admin work, etc. For HEWs may include time spent seeing patients "
+"at health post, time spent visiting patients at their homes, time spent "
+"doing admin work, time spent on training activities, etc"
+msgstr ""
+
+#: ../../support/training/intro/04_day.rst:14
+msgid "Can give an example first by one of the facilitators"
+msgstr ""
+
+#: ../../support/training/intro/04_day.rst:15
+msgid ""
+"At the end of the activity, ask each group to share back to the whole "
+"group. Facilitators to identify common themes and ask questions"
+msgstr ""
+
+#: ../../support/training/intro/04_day.rst:21
+msgid "Take a photo of each of the flipcharts created"
+msgstr ""
+
+#: ../../support/training/intro/04_day.rst:22
+#: ../../support/training/intro/11a_health_workers.rst:23
+msgid "Complete a summary of the session discussions / main ideas."
+msgstr ""
+
+#: ../../support/training/intro/05_phones.rst:2
+msgid "Session 5: Distribution of Phones"
+msgstr ""
+
+#: ../../support/training/intro/05_phones.rst:9
+msgid "To assign phones to each participant"
+msgstr ""
+
+#: ../../support/training/intro/05_phones.rst:14
+msgid ""
+"Give overview of the phones - how do they differ from the basic phones "
+"they may be used to"
+msgstr ""
+
+#: ../../support/training/intro/05_phones.rst:15
+msgid ""
+"Explain our expectations of them - taking care of the phones, reporting "
+"and problems (including loss/breakage/theft of phone), return of phones "
+"to the project if they leave/change job/role"
+msgstr ""
+
+#: ../../support/training/intro/05_phones.rst:16
+msgid ""
+"Explain what they can expect from us - prompt response to any issues "
+"raised, providing regular top-up (50 ETB per month)"
+msgstr ""
+
+#: ../../support/training/intro/05_phones.rst:17
+msgid "Hand out phones and show participants how to turn them on"
+msgstr ""
+
+#: ../../support/training/intro/05_phones.rst:23
+msgid "Complete the list of phones (if not already done)"
+msgstr ""
+
+#: ../../support/training/intro/05_phones.rst:24
+msgid "Sign the phone receipt form"
+msgstr ""
+
+#: ../../support/training/intro/05_phones.rst:25
+msgid "Complete a summary of the session main ideas."
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:2
+msgid "Session 6: General Android Functions"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:4
+#: ../../support/training/intro/08_oppia.rst:4
+#: ../../support/training/intro/09_oppia_courses.rst:4
+#: ../../support/training/tech/02_aws.rst:4
+#: ../../support/training/tech/04_oppia_app.rst:4
+msgid "Time: 2 hours"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:9
+msgid "To perform the following basic functions of the phone:"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:11
+#: ../../support/training/intro/competency_checklist.rst:6
+msgid "Turning the phone on and off"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:12
+#: ../../support/training/intro/competency_checklist.rst:7
+msgid "Plugging in the charger"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:13
+#: ../../support/training/intro/competency_checklist.rst:8
+msgid "Replacing/adding sim card"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:14
+#: ../../support/training/intro/competency_checklist.rst:9
+msgid "Switching between sim cards (assuming a dual sim phone)"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:15
+#: ../../support/training/intro/competency_checklist.rst:10
+msgid "Make a phone call"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:16
+#: ../../support/training/intro/competency_checklist.rst:11
+msgid "Receive a phone call"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:17
+#: ../../support/training/intro/competency_checklist.rst:12
+msgid "Adjust volume"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:18
+#: ../../support/training/intro/competency_checklist.rst:13
+msgid "Send an SMS message"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:19
+#: ../../support/training/intro/competency_checklist.rst:14
+msgid "Reply to an SMS message"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:20
+#: ../../support/training/intro/competency_checklist.rst:15
+msgid "Add a contact (suggest they try adding the facilitators contact details)"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:25
+msgid ""
+"Follow up any questions/queries after their play/experimentation with the"
+" phones following session 5."
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:26
+#: ../../support/training/intro/07_care.rst:24
+#: ../../support/training/intro/08_oppia.rst:20
+msgid ""
+"Facilitators to demonstrate each of the above functions in turn and allow"
+" participants time to practice"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:27
+#: ../../support/training/intro/07_care.rst:25
+#: ../../support/training/intro/08_oppia.rst:21
+#: ../../support/training/intro/10_apps.rst:19
+msgid ""
+"Encourage peer support - if there are strong participants who pick up the"
+" functions quickly - ask them to help any participants who may be "
+"struggling."
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:33
+#: ../../support/training/intro/07_care.rst:31
+msgid ""
+"Complete the competency checklist for each of the functions listed in the"
+" objectives. Facilitators to verify with each participant that they can "
+"perform each function"
+msgstr ""
+
+#: ../../support/training/intro/06_android.rst:34
+msgid "Complete a summary of the session issues/difficulties participants had."
+msgstr ""
+
+#: ../../support/training/intro/07_care.rst:2
+msgid "Session 7: Care of phone and battery/file management"
+msgstr ""
+
+#: ../../support/training/intro/07_care.rst:8
+msgid "Understand how to take care of the phone"
+msgstr ""
+
+#: ../../support/training/intro/07_care.rst:9
+msgid "How to manage battery life/charging"
+msgstr ""
+
+#: ../../support/training/intro/07_care.rst:10
+msgid "How to manage files on the phone"
+msgstr ""
+
+#: ../../support/training/intro/07_care.rst:11
+msgid ""
+"To perform the following functions of the phone: * Turn on /off wifi * "
+"Turn on/off data connection * Turn on/off GPS * Turn on/off airplane mode"
+" * Manage camera images"
+msgstr ""
+
+#: ../../support/training/intro/07_care.rst:21
+msgid ""
+"Explain the differences in smartphones vs basic phones, esp regarding "
+"battery life"
+msgstr ""
+
+#: ../../support/training/intro/07_care.rst:22
+msgid ""
+"Explain that smartphones are more sensitive to dust/water/dropping than "
+"basic phones"
+msgstr ""
+
+#: ../../support/training/intro/07_care.rst:23
+msgid "Explain the factors that can affect battery life"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:2
+msgid "Session 8: Introduction to OppiaMobile"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:9
+msgid "To open and navigate the courses in the app"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:13
+msgid "To use the following functions in the app:"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:11
+#: ../../support/training/intro/competency_checklist.rst:27
+msgid "complete a quiz"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:12
+#: ../../support/training/intro/competency_checklist.rst:28
+msgid "play a video"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:13
+#: ../../support/training/intro/competency_checklist.rst:29
+msgid "logging in/out of the app"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:14
+msgid "viewing progress using the scorecard"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:15
+msgid "Understand what the points/badges mean"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:22
+msgid ""
+"Facilitators to give overview of the points system - essentially that the"
+" more regularly they complete/access activities, the more points they’ll "
+"get"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:23
+msgid ""
+"Explain the tracking information - so they’re aware that we get "
+"information about their activity"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:29
+msgid ""
+"Complete the competency checklist for each of the functions listed in the"
+" objective 2"
+msgstr ""
+
+#: ../../support/training/intro/08_oppia.rst:30
+msgid ""
+"Facilitators to verify with each participant that they can perform each "
+"function."
+msgstr ""
+
+#: ../../support/training/intro/09_oppia_courses.rst:2
+msgid "Session 9: How to install and use the courses in OppiaMobile"
+msgstr ""
+
+#: ../../support/training/intro/09_oppia_courses.rst:9
+msgid ""
+"To check that all participants have the relevant courses and video/media "
+"content installed"
+msgstr ""
+
+#: ../../support/training/intro/09_oppia_courses.rst:10
+msgid "To be able to install new courses"
+msgstr ""
+
+#: ../../support/training/intro/09_oppia_courses.rst:11
+msgid "To be able to navigate courses in OppiaMobile"
+msgstr ""
+
+#: ../../support/training/intro/09_oppia_courses.rst:12
+msgid "To be able to complete quizzes in OppiaMobile"
+msgstr ""
+
+#: ../../support/training/intro/09_oppia_courses.rst:13
+msgid ""
+"To understand how to use the additional content during their upgrade "
+"training course and afterwards"
+msgstr ""
+
+#: ../../support/training/intro/09_oppia_courses.rst:18
+msgid ""
+"Facilitators to verify that all participants have all 21 courses "
+"installed and all necessary media/videos"
+msgstr ""
+
+#: ../../support/training/intro/09_oppia_courses.rst:19
+msgid "Demonstrate how to install a new course"
+msgstr ""
+
+#: ../../support/training/intro/09_oppia_courses.rst:20
+msgid ""
+"Group activity (4-5 people in each group). 15 minutes. Discuss and write "
+"down what/ how could be the most useful way of using the additional "
+"content during their training and afterwards."
+msgstr ""
+
+#: ../../support/training/intro/09_oppia_courses.rst:27
+msgid "Facilitators to verify that all the HEAT courses are installed"
+msgstr ""
+
+#: ../../support/training/intro/09_oppia_courses.rst:28
+msgid "Facilitators to check that all participants have installed another course"
+msgstr ""
+
+#: ../../support/training/intro/10_apps.rst:2
+msgid "Session 10 : How to use other mobile applications (Apps)"
+msgstr ""
+
+#: ../../support/training/intro/10_apps.rst:9
+msgid "To understand the idea of ‘apps’"
+msgstr ""
+
+#: ../../support/training/intro/10_apps.rst:10
+msgid "How new apps can be installed (using Google Play)"
+msgstr ""
+
+#: ../../support/training/intro/10_apps.rst:11
+msgid "How to use the internet on the phone (perform a search)"
+msgstr ""
+
+#: ../../support/training/intro/10_apps.rst:16
+msgid ""
+"Explain what apps are, and that there are many apps available. Note "
+"differences between paid for vs free"
+msgstr ""
+
+#: ../../support/training/intro/10_apps.rst:17
+msgid ""
+"Demonstrate a practice using Google Play store to search for apps and "
+"install a new one"
+msgstr ""
+
+#: ../../support/training/intro/10_apps.rst:18
+msgid "Demonstrate using the phone browser to do a search of the internet"
+msgstr ""
+
+#: ../../support/training/intro/10_apps.rst:20
+msgid "Explain that some apps will use their data connection/wifi"
+msgstr ""
+
+#: ../../support/training/intro/10_apps.rst:26
+msgid ""
+"Complete the competency checklist for each of the functions listed in the"
+" objective"
+msgstr ""
+
+#: ../../support/training/intro/10_apps.rst:27
+msgid ""
+"Facilitators to verify with each participant that they can perform each "
+"function"
+msgstr ""
+
+#: ../../support/training/intro/11a_health_workers.rst:2
+msgid ""
+"Session 11-A (Health workers): Oppia student scorecard and learning "
+"progress monitoring"
+msgstr ""
+
+#: ../../support/training/intro/11a_health_workers.rst:9
+msgid ""
+"To teach HEWs on how to use the Oppia learning scorecard/ dashboard for "
+"their study progress monitoring."
+msgstr ""
+
+#: ../../support/training/intro/11a_health_workers.rst:10
+msgid ""
+"To get feedback from HEWs on what progress monitoring may be useful to "
+"them to help improving their learning"
+msgstr ""
+
+#: ../../support/training/intro/11a_health_workers.rst:15
+msgid ""
+"Facilitators to demonstrate the Oppia learning scorecard / dashboard "
+"function  and allow students time to practice."
+msgstr ""
+
+#: ../../support/training/intro/11a_health_workers.rst:16
+msgid ""
+"Facilitators to give overview of the points system - essentially that the"
+" more regularly they complete/access activities, the more points they’ll "
+"get."
+msgstr ""
+
+#: ../../support/training/intro/11a_health_workers.rst:17
+msgid ""
+"Encourage peer support - if there are strong participants who pick up the"
+" function quickly - ask them to help any participants who may be "
+"struggling."
+msgstr ""
+
+#: ../../support/training/intro/11b_tutors.rst:2
+msgid ""
+"Session 11-B (Tutors): How to use the Oppia scorecard for learning "
+"progress monitoring"
+msgstr ""
+
+#: ../../support/training/intro/11b_tutors.rst:4
+msgid "Time: 1.5 hours"
+msgstr ""
+
+#: ../../support/training/intro/11b_tutors.rst:9
+msgid ""
+"To teach Tutors / trainers on how to use the Oppia scorecard/ dashboard "
+"for their students progress monitoring."
+msgstr ""
+
+#: ../../support/training/intro/11b_tutors.rst:10
+msgid ""
+"To get feedback from Tutors on what additional progress monitoring tools "
+"may be useful to them."
+msgstr ""
+
+#: ../../support/training/intro/11b_tutors.rst:11
+msgid ""
+"To understand the different monitoring strategies to improve students "
+"learning process."
+msgstr ""
+
+#: ../../support/training/intro/11b_tutors.rst:16
+msgid ""
+"Open discussion on what tutors currently do to monitor their students "
+"learning progress. Identify students learning monitoring challenges and "
+"barriers."
+msgstr ""
+
+#: ../../support/training/intro/11b_tutors.rst:17
+msgid ""
+"Facilitators to demonstrate the Oppia scorecard / dashboard function and "
+"allow tutors time to practice."
+msgstr ""
+
+#: ../../support/training/intro/11b_tutors.rst:18
+msgid ""
+"Facilitator to explain different monitoring methods tutors may use to "
+"improve students knowledge and skills retention over time."
+msgstr ""
+
+#: ../../support/training/intro/11b_tutors.rst:19
+msgid ""
+"Group activity (4-5 people in each group). Brain-storm and write down "
+"what / how could be the most useful ways of monitoring students learning "
+"during their current training and afterwards."
+msgstr ""
+
+#: ../../support/training/intro/11b_tutors.rst:20
+msgid ""
+"At the end of the previous activity, ask each group to share back to the "
+"whole group. Facilitators to identify common ideas and ask questions"
+msgstr ""
+
+#: ../../support/training/intro/11b_tutors.rst:26
+msgid "Complete a summary of the session main ideas/ topics."
+msgstr ""
+
+#: ../../support/training/intro/12_close.rst:2
+msgid "Session 12: Closing/wrap-up"
+msgstr ""
+
+#: ../../support/training/intro/12_close.rst:9
+msgid "To summarise what we’ve covered during all the workshop sessions"
+msgstr ""
+
+#: ../../support/training/intro/12_close.rst:10
+msgid "To respond to any outstanding questions/queries"
+msgstr ""
+
+#: ../../support/training/intro/12_close.rst:11
+msgid ""
+"To explain / re-iterate the project process (and next follow-up workshop "
+"date)"
+msgstr ""
+
+#: ../../support/training/intro/12_close.rst:12
+msgid "Give per-diems and mobile top-up cards"
+msgstr ""
+
+#: ../../support/training/intro/12_close.rst:17
+msgid ""
+"Facilitators to explain and summarise the main topics discussed during "
+"this workshop"
+msgstr ""
+
+#: ../../support/training/intro/12_close.rst:18
+msgid "General Q & A"
+msgstr ""
+
+#: ../../support/training/intro/12_close.rst:19
+msgid "Fill-out and sign per-diems and mobile top-up cards receipt forms"
+msgstr ""
+
+#: ../../support/training/intro/12_close.rst:25
+msgid "Complete per-diems and mobile top-up card receipt forms"
+msgstr ""
+
+#: ../../support/training/intro/12_close.rst:26
+msgid "Complete a summary of the workshop main action points."
+msgstr ""
+
+#: ../../support/training/intro/competency_checklist.rst:2
+msgid "Competency Checklist"
+msgstr ""
+
+#: ../../support/training/intro/competency_checklist.rst:4
+msgid ":doc:`06_android`"
+msgstr ""
+
+#: ../../support/training/intro/competency_checklist.rst:17
+msgid ":doc:`07_care`"
+msgstr ""
+
+#: ../../support/training/intro/competency_checklist.rst:19
+msgid "Turn on /off wifi"
+msgstr ""
+
+#: ../../support/training/intro/competency_checklist.rst:20
+msgid "Turn on/off data connection"
+msgstr ""
+
+#: ../../support/training/intro/competency_checklist.rst:21
+msgid "Turn on/off GPS"
+msgstr ""
+
+#: ../../support/training/intro/competency_checklist.rst:22
+msgid "Turn on/off airplane mode"
+msgstr ""
+
+#: ../../support/training/intro/competency_checklist.rst:23
+msgid "Manage camera images"
+msgstr ""
+
+#: ../../support/training/intro/competency_checklist.rst:25
+msgid ":doc:`08_oppia`"
+msgstr ""
+
+#: ../../support/training/intro/competency_checklist.rst:30
+msgid "how to see their progress using the scorecard"
+msgstr ""
+
+#: ../../support/training/intro/index.rst:4
+msgid "Initial Workshop for Users new to Android & Oppia"
+msgstr ""
+
+#: ../../support/training/intro/index.rst:6
+msgid ""
+"This is the initial workshop we use when introducing users to Android and"
+" OppiaMobile. We usually run this over 2 days, much will depend on the "
+"previous knowledge your users may have of Android and also how much "
+"specific information is needed to introduce them to your "
+"project/implementation."
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:2
+msgid "Session 1: Overview of components and technical tools"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:11
+msgid "Describe the architecture and components of OppiaMobile"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:12
+msgid "Describe the frameworks and developer tools used for OppiaMobile"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:19
+msgid ""
+"Overview of the OppiaPlatform components - "
+":doc:`../../../overview/architecture`"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:20
+msgid ""
+"Overview of developer tools used in supporting and maintaining "
+"OppiaMobile:"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:22
+msgid "Developer environments - Eclipse, PyCharm and Android Studio"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:23
+msgid "Git and GitHub"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:25
+msgid "Overview of frameworks used:"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:27
+msgid "Android"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:28
+msgid "Django"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:29
+msgid "Moodle"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:36
+msgid ""
+"Read up on OppiaMobile developer documentation - "
+":doc:`../../../technical/index`"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:37
+msgid "Install Git and read overview documentation - https://git-scm.com/"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:38
+msgid "Create account on GitHub - https://github.com/"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:39
+msgid ""
+"Check Github training (https://training.github.com/classes/) and help "
+"(https://help.github.com/)"
+msgstr ""
+
+#: ../../support/training/tech/01_intro.rst:40
+msgid ""
+"Create account on Amazon Web Services - http://aws.amazon.com/ - creating"
+" an account is free, although you will need to give credit card details"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:2
+msgid "Session 2: Installing an OppiaMobile AWS machine"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:11
+msgid "Set up an AWS machine with default core version of OppiaMobile server"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:12
+msgid "Change the default passwords on the AWS machine image"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:13
+msgid "Set up a static IP address for the machine"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:14
+msgid "Upgrade the server code from the core OppiaMobile server codebase"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:15
+msgid "Describe the regular server admin/maintenance tasks"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:21
+msgid ""
+"Set up an OppiaMobile AWS machine image (see: "
+":doc:`../../../technical/install/aws`)"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:22
+msgid "Update passwords"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:23
+msgid "Create an elastic (static) IP address for the machine"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:24
+msgid "Update the server code from the core OppiaMobile server repository"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:25
+msgid "Keeping the server up to date (apt-get, backup)"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:28
+msgid "Advanced"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:30
+msgid "Configure domain name to point to the server"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:31
+msgid "Configure the server code to point to clone of core OppiaMobile server"
+msgstr ""
+
+#: ../../support/training/tech/02_aws.rst:37
+msgid "Download and install Moodle - https://moodle.org"
+msgstr ""
+
+#: ../../support/training/tech/03_moodle.rst:2
+msgid "Session 3: Installing and configuring Moodle and OppiaMobile export block"
+msgstr ""
+
+#: ../../support/training/tech/03_moodle.rst:11
+msgid "Install the OppiaMobile Moodle Export Block"
+msgstr ""
+
+#: ../../support/training/tech/03_moodle.rst:12
+msgid "Configure server connection to their OppiaMobile server instance on AWS"
+msgstr ""
+
+#: ../../support/training/tech/03_moodle.rst:13
+msgid "Publish a course from Moodle directly to their OppiaMobile server"
+msgstr ""
+
+#: ../../support/training/tech/03_moodle.rst:19
+msgid "Installing the Moodle block (see: :doc:`../../../technical/install/block`)"
+msgstr ""
+
+#: ../../support/training/tech/03_moodle.rst:20
+msgid "Setting up the server connection to new instance on AWS"
+msgstr ""
+
+#: ../../support/training/tech/03_moodle.rst:21
+msgid "Creating a test course and export"
+msgstr ""
+
+#: ../../support/training/tech/03_moodle.rst:27
+msgid "Create an account on https://mint.splunk.com/"
+msgstr ""
+
+#: ../../support/training/tech/03_moodle.rst:28
+msgid ""
+"Create a Google Play Developer account (Google charges for this - "
+"currently 25 USD, but it's a one-off cost for as many apps as you like)"
+msgstr ""
+
+#: ../../support/training/tech/03_moodle.rst:29
+msgid "Install Android Studio: https://developer.android.com/sdk/index.html"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:2
+msgid "Session 4: Creating own version of OppiaMobile app"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:11
+msgid "Create, compile and run their own version of the app"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:12
+msgid "Publish the app on the Google Play Store"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:13
+msgid "Describe how to set their own app name/logo and default settings"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:20
+msgid "Clone the OppiaMobile Android app into their own repository"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:21
+msgid "Set up project in Android Studio"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:22
+msgid ""
+"Make the necessary (required) changes to the code (see: "
+":doc:`../../../technical/customise/app/configure`)"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:23
+msgid "Review of the optional changes and settings"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:24
+msgid "Export a signed application package"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:25
+msgid "Submit to Google Play Store"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:30
+msgid "Test out the various optional settings in the app"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:31
+msgid "Add your own logo and name to the app"
+msgstr ""
+
+#: ../../support/training/tech/04_oppia_app.rst:32
+msgid "Complete Google Play Store app listing"
+msgstr ""
+
+#: ../../support/training/tech/05_review.rst:2
+msgid "Session 5: Final review and next steps"
+msgstr ""
+
+#: ../../support/training/tech/05_review.rst:11
+msgid "Keep their app and server up to date with the core version"
+msgstr ""
+
+#: ../../support/training/tech/05_review.rst:12
+msgid "Describe options for hosting multiple instances of OppiaMobile server"
+msgstr ""
+
+#: ../../support/training/tech/05_review.rst:13
+msgid "Submit bug/issue reports"
+msgstr ""
+
+#: ../../support/training/tech/05_review.rst:14
+msgid "Know where to go to get ongoing help and support"
+msgstr ""
+
+#: ../../support/training/tech/05_review.rst:21
+msgid ""
+"Recap process for updating from the core version (both app and server), "
+"and why this is important"
+msgstr ""
+
+#: ../../support/training/tech/05_review.rst:22
+msgid ""
+"Explain options for hosting multiple instances of server - and pros/cons "
+"of each approach"
+msgstr ""
+
+#: ../../support/training/tech/05_review.rst:23
+msgid "How/where to submit bugs/issues/feature requests"
+msgstr ""
+
+#: ../../support/training/tech/05_review.rst:24
+msgid "Help and support forum"
+msgstr ""
+
+#: ../../support/training/tech/05_review.rst:28
+msgid "Follow up"
+msgstr ""
+
+#: ../../support/training/tech/05_review.rst:30
+msgid ""
+"Sign up to `OppiaMobile Community site <https://community.oppia-"
+"mobile.org/>`_"
+msgstr ""
+
+#: ../../support/training/tech/index.rst:2
+msgid "Technical Training and Support (course under development)"
+msgstr ""
+
+#: ../../support/training/tech/index.rst:4
+msgid ""
+"This course is designed for local IT teams, to equip them with the skills"
+" needed to support and maintain an OppiaMobile implementation."
+msgstr ""
+
+#: ../../support/training/tech/index.rst:10
+msgid "Background/qualification in IT"
+msgstr ""
+
+#: ../../support/training/tech/index.rst:11
+msgid "Active internet connection"
+msgstr ""
+
+#: ../../support/training/tech/index.rst:14
+msgid "Learning Outcomes"
+msgstr ""
+
+#: ../../support/training/tech/index.rst:16
+msgid "At the end of this course, participants will be able to:"
+msgstr ""
+
+#: ../../support/training/tech/index.rst:18
+msgid "Describe the platform components of OppiaMobile and the functions of each"
+msgstr ""
+
+#: ../../support/training/tech/index.rst:19
+msgid "Install and set up the technical tools required for supporting Oppia"
+msgstr ""
+
+#: ../../support/training/tech/index.rst:20
+msgid ""
+"Install and configure an OppiaMobile server instance on Amazon Web "
+"Services"
+msgstr ""
+
+#: ../../support/training/tech/index.rst:21
+msgid "Install and configure Moodle with the OppiaMobile Export block"
+msgstr ""
+
+#: ../../support/training/tech/index.rst:22
+msgid "Create a clone of the OppiaMobile app and submit to Google Play Store"
+msgstr ""
+
+#: ../../support/training/tech/index.rst:26
+msgid "Sessions"
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:2
+msgid "Troubleshooting OppiaMobile App"
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:6
+msgid "Course doesn't show up in the app course download list"
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:8
+msgid ""
+"The course is marked as archived on the Oppia server. If a course is "
+"marked as archived, then it will not appear for any user in the app. "
+"Check that the course is not marked as archived on the server."
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:10
+msgid ""
+"The course is marked as draft on the Oppia server. If a course is marked "
+"as draft then only admin/staff users will be able to view it in the app. "
+"Either log in to the app as an admin/staff user, or remove the draft "
+"status from the course in the server."
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:13
+msgid ""
+"The course has not been given any tags when being published. To view the "
+"course in the download courses part of the app, each course must be given"
+" at least one tag when it has been published. If a course is updated and "
+"re-published, then the tags must be given again (the original tags should"
+" be pre-filled in the course publishing form)."
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:19
+msgid "Cannot install app - check for system updates"
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:21
+msgid ""
+"First item to check is that the phone has all the available system "
+"updates installed. It is good practice to keep the phones up to date with"
+" system updates, for bugs and security issues. To check if any updates "
+"are available, go to (from the main Android settings): Settings -> About "
+"Phone -> System Updates. The exact sequence to check for updates may vary"
+" slightly on different versions of Android."
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:27
+msgid "Cannot connect to server - Longer Connection and Response Timeout"
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:29
+msgid ""
+"If you are on a particularly slow connection (for example when trying to "
+"register or log in the OppiaMobile app), the connection may timeout "
+"before a response has been received."
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:32
+msgid ""
+"In the Oppia app settings, you can increase the 'connection timeout' and "
+"'response timeout'. The default is 60000 (milliseconds, so one minute), "
+"so try to increase to 120000 (two minutes)."
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:36
+msgid "Cannot connect to server - Check Phone Date Setting"
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:38
+msgid ""
+"Check that the phone system date is set to the correct date. When "
+"connecting to an Oppia server using a secure connection (SSL, https), the"
+" server certificates are valid for a particular date range. If the phone "
+"date is incorrect, and falls outside the security certificate validity "
+"period, then the phone will refuse the connection."
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:43
+msgid "Cannot connect to server - Check Server Name"
+msgstr ""
+
+#: ../../support/troubleshooting/app.rst:45
+msgid ""
+"Check that the server name (under the Oppia settings) is correct. The app"
+" should automatically add a trailing '/' to the server name if one hasn't"
+" been entered already. By default most OppiaMobile implementations will "
+"try to use an SSL connection, however some older versions of Android may "
+"not have the trusted certificate authority certificates installed, in "
+"which case you may need to fall back to using a non-SSL connection, so "
+"replace 'https://...' with 'http://...' at the beginning of the server "
+"name."
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:2
+msgid "Capturing Oppia app Debug Log Output"
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:4
+msgid ""
+"To help with fixing bugs, there may be some times when having access to "
+"the full app debug log from the phone can be very useful. The steps below"
+" describe how to capture the Oppia debug log output to assist with bug "
+"fixing:"
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:9
+msgid ""
+"Install adb on your laptop (see: https://www.howtogeek.com/125769/how-to-"
+"install-and-use-abd-the-android-debug-bridge-utility/)"
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:10
+msgid ""
+"Enable USB debugging on your phone/device (under Settings > System > "
+"Developer Options,  you may need to enable developer options first - see:"
+" https://android.tutorials.how/enable-developer-options/)"
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:11
+msgid "Connect your phone to the laptop"
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:12
+msgid "Open the Oppia app on your phone"
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:13
+msgid ""
+"On the command line on your laptop run one of the following commands ( "
+"depending on which operating system your laptop has):"
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:16
+msgid "Ubuntu/Linux: ``adb logcat | tee ~/oppia-output.txt``"
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:17
+msgid "Windows: ``adb logcat >> C:\\oppia-output.txt``"
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:19
+msgid "Go through the steps/process to recreate the error on your phone."
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:20
+msgid ""
+"After you have caused the error, you can press Ctrl+C to stop the debug "
+"log capturing."
+msgstr ""
+
+#: ../../support/troubleshooting/debug.rst:25
+msgid ""
+"If the developer options have been enabled on a users phone/device, it "
+"would be best to disable the developer options after the log output has "
+"been saved (again, see: https://android.tutorials.how/enable-developer-"
+"options/)"
+msgstr ""
+
+#: ../../support/troubleshooting/index.rst:2
+msgid "Troubleshooting an Oppia Implementation"
+msgstr ""
+
+#: ../../support/troubleshooting/server.rst:2
+msgid "Troubleshooting OppiaMobile Server"
+msgstr ""
+
+#: ../../support/troubleshooting/server.rst:6
+msgid "Activity for a user doesn't appear in the server"
+msgstr ""
+
+#: ../../support/troubleshooting/server.rst:8
+msgid ""
+"The course has been updated. When a course is updated the unique "
+"references to the activities may change and if the user has the old "
+"version of the course on their device, their version may not match the "
+"course version on the server. Check that the users device has the most "
+"recent version of the course."
+msgstr ""
+
+#: ../../support/troubleshooting/server.rst:11
+msgid ""
+"For server performance reasons, the data used to generate the dashboard "
+"activity graphs are cached, and are only updated when the server cron "
+"task is run. On installations based on the Oppia AWS machine the cron "
+"task is pre-configured to run every 15 mins, so check that this is "
+"running correctly."
+msgstr ""
+
+#: ../../support/troubleshooting/server.rst:14
+msgid ""
+"If the users device is not connected to the internet (or it is pointing "
+"at the wrong OppiaMobile server) then the users activity will not be "
+"reaching the Oppia server. In the app check that the server is set "
+"correctly (in menu > settings > server) and that all the users activity "
+"has been sent to the server (menu > about > activity)."
+msgstr ""
+
+#: ../../support/troubleshooting/server.rst:17
+msgid ""
+"If the user is an admin or staff user, then the activity is not shown in "
+"the dashboard graphs. Similarly, if the user is set up as a teacher for "
+"the course, then their course activity is not reflected in the dashboard "
+"activity graphs either."
+msgstr ""
+
+#: ../../support/troubleshooting/server.rst:22
+msgid "Unable to publish a course due to permissions issue"
+msgstr ""
+
+#: ../../support/troubleshooting/server.rst:24
+msgid "There are three potential issues:"
+msgstr ""
+
+#: ../../support/troubleshooting/server.rst:26
+msgid ""
+"The username/password used is incorrect. Check the user can log in using "
+"the same username/password into the Oppia server dashboard."
+msgstr ""
+
+#: ../../support/troubleshooting/server.rst:27
+msgid ""
+"The user does not have permissions to upload courses on the server, see: "
+":ref:`permission-user-upload`"
+msgstr ""
+
+#: ../../support/troubleshooting/server.rst:28
+msgid ""
+"The course was originally published by a different user, see: :ref"
+":`permission-course-ownership`"
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:2
+msgid "Troubleshooting Multilingual Content"
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:4
+msgid ""
+"OppiaMobile uses the in-built Moodle functionality for authoring courses "
+"in multiple languages."
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:6
+msgid ""
+"For troubleshooting translations it is best to start trying to fix a "
+"single page, and ensuring that when the page is displayed in Moodle, the "
+"language switching is working correctly. If the language switching is not"
+" working in Moodle, then it will not work when the course is exported to "
+"Oppia either."
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:10
+msgid ""
+"The `Moodle documentation "
+"<http://docs.moodle.org/en/Multi_language_content>`_ has some information"
+" on how to fix common problems."
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:13
+msgid "Additional problems we have noticed:"
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:17
+msgid "Using mismatching single or double quotes"
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:19
+msgid ""
+"Be careful to check that the single or double quotes in the HTML tags are"
+" of matching types. In the examples below (shown as large image as well "
+"as plain text), the first example uses a different type of double quotes."
+" The multilanguage filter in Moodle then cannot understand what is meant "
+"by the HTML code, and so fails to recognise that we are trying to enter "
+"multilingual content."
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:24
+msgid "Example 1 (incorrect):"
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:32
+msgid "Example 2 (correct):"
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:40
+msgid ""
+"In the Moodle inline HTML editor, it is very difficult to see that "
+"different types of quotes have been used. It is much easier to notice if "
+"the page HTML is cut and pasted into a plain text editor (eg Notepad or "
+"similar) with a large font size selected. Here is an example of "
+"mismatching quotes in the Moodle inline HTML editor:"
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:46
+msgid ""
+"The likely cause of having different types of quotes is from cutting and "
+"pasting from different sources."
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:50
+msgid "Additional style attribute used in page and topic titles"
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:52
+msgid ""
+"For page and topic/section titles, when the multilang span tags include "
+"additional attributes, this seems to stop the Moodle multilang filter "
+"functioning correctly, but applies to the titles only, not the page "
+"content."
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:55
+msgid "Example 1 (does not work):"
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:61
+msgid "Example 2 (does work):"
+msgstr ""
+
+#: ../../support/troubleshooting/translations.rst:67
+msgid ""
+"The difference being that the ``style=\"font-size: 1rem;\"`` attribute "
+"has been removed."
+msgstr ""
+
+#: ../../support/userguide/index.rst:2
+msgid "OppiaMobile App User Guide"
+msgstr ""
+
+#: ../../support/userguide/index.rst:4
+msgid ""
+"This is a template user guide, based on the core Oppia app, which can be "
+"adapted/edited to fit a particular implementation."
+msgstr ""
+
+#: ../../support/userguide/index.rst:9
+msgid "Introduction"
+msgstr ""
+
+#: ../../support/userguide/index.rst:11
+msgid ""
+"OppiaMobile is a mobile learning platform specifically designed for "
+"learners in low connectivity environments. Course content can be accessed"
+" even when you are offline, although initially you will need an internet "
+"connection to install the app, register and get the courses."
+msgstr ""
+
+#: ../../support/userguide/index.rst:17
+msgid "Installing the app"
+msgstr ""
+
+#: ../../support/userguide/index.rst:19
+msgid ""
+"You can download the OppiaMobile app from the Google Play Store at: "
+"https://play.google.com/store/apps/details?id=org.digitalcampus.mobile.learning"
+msgstr ""
+
+#: ../../support/userguide/index.rst:22
+msgid ""
+"When you first open the OppiaMobile app, you will be asked to confirm the"
+" following permissions:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:25
+msgid ""
+"Read phone state and identity - this is to check the internet "
+"connectivity status"
+msgstr ""
+
+#: ../../support/userguide/index.rst:27
+msgid ""
+"Read and modify contents of the SD card - this is to be able to store the"
+" course contents locally on your phone"
+msgstr ""
+
+#: ../../support/userguide/index.rst:34
+msgid ""
+"Please allow the OppiaMobile app access to both of these permissions, "
+"they are required to ensure the app can function correctly."
+msgstr ""
+
+#: ../../support/userguide/index.rst:38
+msgid "Registering or Logging In"
+msgstr ""
+
+#: ../../support/userguide/index.rst:44
+msgid "To use OppiaMobile you will need to either login or register."
+msgstr ""
+
+#: ../../support/userguide/index.rst:46
+msgid ""
+"If you already have an account, or a username/password has been given to "
+"you, then please just press the button to login."
+msgstr ""
+
+#: ../../support/userguide/index.rst:53
+msgid ""
+"If you do not have an account, then please press the register button and "
+"complete the required information to create an account. The exact "
+"information you need to register will depend on the specific "
+"implementation, and the information they require for you to register."
+msgstr ""
+
+#: ../../support/userguide/index.rst:65
+msgid "Installing Courses"
+msgstr ""
+
+#: ../../support/userguide/index.rst:67
+msgid ""
+"After logging in or registering, you will then need to download the "
+"courses to access. When you have no courses installed, you will see this "
+"screen:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:74
+msgid ""
+"Click on the ``manage courses`` button to go through and select the "
+"courses you would like to download. Course are divided into categories, "
+"so you can select the appropriate category:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:82
+msgid ""
+"For example, selecting the ``OpenWASH - Ethiopia`` category, will then "
+"show you the courses available:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:89
+msgid ""
+"You can then download each course separately, by clicking on the download"
+" icon next to each course. Alternatively you can select all the courses "
+"to download from the menu button in the top right of the screen:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:101
+msgid ""
+"Even after you have downloaded some initial courses, you can always get "
+"back to install more. From the main Oppia app page, click on the sidebar "
+"menu:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:108
+msgid "Then select ``Download courses``:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:114
+msgid ""
+"Then you will taken back to the course categories page to select the "
+"courses you would like to download."
+msgstr ""
+
+#: ../../support/userguide/index.rst:119
+msgid "Installing Media"
+msgstr ""
+
+#: ../../support/userguide/index.rst:121
+msgid ""
+"If the courses you have installed also have some media embedded (eg "
+"videos or audio content), you will need to download these separately. On "
+"the Oppia homepage it will give you a notification if there are any "
+"missing media files for the courses you have downloaded:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:130
+msgid ""
+"Click the ``Download`` button and follow the instructions to download any"
+" media files that you do not already have installed."
+msgstr ""
+
+#: ../../support/userguide/index.rst:134
+msgid "Navigating Courses"
+msgstr ""
+
+#: ../../support/userguide/index.rst:136
+msgid ""
+"On the Oppia app homepage, you will see a list of all the courses you "
+"have installed:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:143
+msgid ""
+"Click on a course to enter it and start the activities, each course has "
+"an index of all the sections and activities:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:151
+msgid "When you select an activity, the activty will load:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:157
+msgid ""
+"You can swipe left/right to navigate through all the activities inside "
+"that section."
+msgstr ""
+
+#: ../../support/userguide/index.rst:160
+msgid ""
+"Some courses have a pre-test quiz that you will need to complete before "
+"you can access the full course content."
+msgstr ""
+
+#: ../../support/userguide/index.rst:164
+msgid "Points and Badges"
+msgstr ""
+
+#: ../../support/userguide/index.rst:166
+msgid ""
+"You will earn points and badges for taking part in activities and "
+"completing courses."
+msgstr ""
+
+#: ../../support/userguide/index.rst:169
+msgid ""
+"Points are awarded based on your interaction with the course content, eg "
+"completing an activity or quiz."
+msgstr ""
+
+#: ../../support/userguide/index.rst:172
+msgid ""
+"Badges are awarded when you complete a course, this means completing "
+"every activity, including watching all the course media content and "
+"passing every quiz."
+msgstr ""
+
+#: ../../support/userguide/index.rst:176
+msgid ""
+"You will see the number of points and badges that you have been awarded "
+"in the menu bar."
+msgstr ""
+
+#: ../../support/userguide/index.rst:181
+msgid "Scorecard"
+msgstr ""
+
+#: ../../support/userguide/index.rst:183
+msgid ""
+"There are two scorecard formats in the Oppia app. One shows the progress "
+"overall for all the courses that are installed. This can be accessed from"
+" the bottom menu bar on the app homepage:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:191
+msgid ""
+"The second one shows more detailed scorecard for a particular course. "
+"This can be accessed from the specific course index page and clicking on "
+"the scorecard icon in the menu bar:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:201
+msgid "Changing your preferences"
+msgstr ""
+
+#: ../../support/userguide/index.rst:203
+msgid ""
+"You can change your preferences, for example the default text size, "
+"points notifications etc from the main app settings screen. From the app "
+"homepage:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:210
+msgid "Then select ``Settings``:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:216
+msgid "You can then update the settings you would like to change:"
+msgstr ""
+
+#: ../../support/userguide/index.rst:223
+msgid "Course Updates"
+msgstr ""
+
+#: ../../support/userguide/index.rst:225
+msgid ""
+"When courses that you have installed are updated, for example for "
+"new/updated content, you will be automatically notified in the standard "
+"Android home menu bar, from the notification you can go directly to "
+"download the updated course. Note that you will need to have regular "
+"internet connection to be able to receive these notifications."
+msgstr ""
+
+#: ../../support/userguide/index.rst:231
+msgid ""
+"You can always check manually for course updates, and install additional "
+"courses, by following the instructions above for downloading courses."
+msgstr ""
+
+#: ../../support/userguide/index.rst:235
+msgid "Help, Support and Feedback"
+msgstr ""
+
+#: ../../support/userguide/index.rst:237
+msgid ""
+"In most cases, if you need help or support, then you should first contact"
+" your project coordinator. They will try to help you, and if they are not"
+" sure, they will raise the query with the OppiaMobile developer team."
+msgstr ""
+
+#: ../../support/userguide/index.rst:241
+msgid ""
+"You can also get support directly from the OppiaMobile Community site: "
+"https://community.oppia-mobile.org/"
+msgstr ""
+

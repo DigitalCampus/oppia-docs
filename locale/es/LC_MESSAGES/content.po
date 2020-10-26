@@ -1,0 +1,1716 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Campus
+# This file is distributed under the same license as the OppiaMobile
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OppiaMobile 0.12.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-26 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../content/about.rst:2
+msgid "Adding About/License information"
+msgstr ""
+
+#: ../../content/about.rst:4
+msgid ""
+"If you have some general pages about your course you’d like to include, "
+"but you don’t want these to appear as course activities (such as about, "
+"acknowledgements, license information etc), then you can add these as "
+"page resources in the course summary/intro section of Moodle (‘topic 0′)."
+" Any pages added here will be included in the menu options in OppiaMobile"
+" when the user is viewing your course."
+msgstr ""
+
+#: ../../content/activitytypes.rst:2
+msgid "Activity types supported"
+msgstr ""
+
+#: ../../content/activitytypes.rst:4
+msgid "The only Moodle activity types supported in OppiaMobile are:"
+msgstr ""
+
+#: ../../content/activitytypes.rst:6
+msgid "page resources"
+msgstr ""
+
+#: ../../content/activitytypes.rst:7
+msgid "file resources"
+msgstr ""
+
+#: ../../content/activitytypes.rst:8
+msgid "feedback activities"
+msgstr ""
+
+#: ../../content/activitytypes.rst:9
+msgid "quiz activities"
+msgstr ""
+
+#: ../../content/activitytypes.rst:11
+msgid ""
+"If you add any other Moodle activities or resources types, these will "
+"just be ignored when the course is exported."
+msgstr ""
+
+#: ../../content/adapt/index.rst:2
+msgid "Content Adaptation"
+msgstr ""
+
+#: ../../content/adapt/index.rst:4
+msgid ""
+"These pages describe the process and scripts Digital Campus has used to "
+"adapt content to be optimised for OppiaMobile."
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:2
+msgid "OpenWASH Content Adaptation Process"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:5
+msgid ""
+"\"OpenWASH is a set of innovative learning resources launched in 2016 by "
+"The Open University in partnership with World Vision Ethiopia and UNICEF "
+"through the ONEWASH PLUS programme, funded by UK aid from the UK "
+"Government. OpenWASH supports the Government of Ethiopia’s One WASH "
+"National Programme which aims to radically improve the provision of safe "
+"water and sanitation and bring significant benefits to millions of "
+"people.\" `OpenWASH website "
+"<http://www.open.edu/openlearnworks/OpenWASH>`_"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:11
+msgid ""
+"Digital Campus, supported by `mPowering Frontline Health Workers "
+"<http://mpoweringhealth.org>`_, has adapted these Creative Commons "
+"licensed learning resources to be mobile optimised and run on the "
+"OppiaMobile learning platform. This document describes the adaptation "
+"process."
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:16
+msgid "1. Importing into a local Moodle"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:18
+msgid ""
+"From the OpenLearn site, the resources may be downloaded in a variety of "
+"formats, however for this adaptation process we required the courses in "
+"standard Moodle format, so that we could easily collaborate and "
+"edit/format the course."
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:21
+msgid ""
+"Unfortunately, OpenLearn no longer provides the option to download "
+"courses in Moodle backup format, although it used to. The format most "
+"suitable to us to import was the OUXML format - this is an internal OU "
+"format used for all their courses, so can be then exported for print or "
+"web."
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:25
+msgid ""
+"A script was developed to create a Moodle backup formatted file of all "
+"the XML content, plus images, which could then be restored into a Moodle "
+"server."
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:28
+msgid ""
+"The script and associated documentation can be found on GitHub: "
+"https://github.com/DigitalCampus/OUXMLConverter"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:31
+msgid "2. Review of imported content"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:33
+msgid ""
+"Once the content had been imported into Moodle, a first export to "
+"OppiaMobile was done and the initial quality check performed. The key "
+"areas that we were looking for were:"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:36
+msgid "consistency in style sheet usage"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:37
+msgid "formating of info, definition, in-line question and case study boxes"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:38
+msgid "image importing"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:40
+msgid "As a result of this first check the following updates were made:"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:42
+msgid "activity icons added, where activities/pages did not have a suitable icon"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:43
+msgid "formatting of the end-of-session self-assessment questions"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:44
+msgid "fixes to style sheet formatting where necessary"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:47
+msgid "3. Additional quiz questions"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:49
+msgid ""
+"In the original course content, self-assessment questions (SAQs) are "
+"provided at the end of each study session. Many of these questions are "
+"unsuitable for automatic marking within the OppiaMobile app - as, for "
+"example, they require the student to write longer text or complete a "
+"table of information. These questions have been retained in the mobile "
+"adapted version, but only as HTML pages, rather than as a quiz activity."
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:54
+msgid ""
+"Additional self-assessment quiz questions (in Moodle quiz format) have "
+"been developed and added to each study session. These questions are of a "
+"more basic type than the original SAQs (eg short answer, multichoice) - "
+"however they allow the student to have their responses marked "
+"automatically in the OppiaMobile app."
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:60
+msgid "4. Quality assurance check"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:63
+msgid ""
+"Since these courses had already been very well developed by subject "
+"experts and copy edited, our QA check did not include copy editing or "
+"validating the correctness of the content/information in these courses."
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:66
+msgid ""
+"The courses were exported to OppiaMobile and the content reviewed again "
+"within the OppiaMobile app."
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:68
+msgid ""
+"We also ran the quiz questions through our quiz checker script - which "
+"tests submitting each possible response through our quiz engine to ensure"
+" that the marking and scoring is correct as well as helping with spelling"
+" and grammar checking."
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:72
+msgid "5. Creating non-country specific version"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:74
+msgid ""
+"The final part of the adaptation was to create a non-country specific "
+"version. The original courses have a lot of Ethiopia specific references,"
+" so the idea of removing these is to make it easier to them adapt and re-"
+"use the course in other countries."
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:78
+msgid ""
+"Copies of each course were made and a database scan performed to identify"
+" the pages which include Ethiopia specific references. These pages were "
+"then updated to provide more general references, the references updated "
+"include:"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:81
+msgid "Ethiopia"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:82
+msgid "woreda"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:83
+msgid "kebele"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:84
+msgid "health extension worker"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:85
+msgid "HEW"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:86
+msgid "health development army"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:87
+msgid "HDA"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:88
+msgid "health promotion worker"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:89
+msgid "Addis"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:90
+msgid "Oromo"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:91
+msgid "Oromia"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:92
+msgid "tigray"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:93
+msgid "amhara"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:94
+msgid "health post"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:95
+msgid "MoH"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:96
+msgid "FMoH"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:97
+msgid "Adama"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:98
+msgid "korales"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:99
+msgid "Ministry of Water and Energy"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:100
+msgid "Mekelle University"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:101
+msgid "Bahir Dar"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:102
+msgid "Regional Health Bureau"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:103
+msgid "Ministry of Works and Urban Development"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:104
+msgid "MoWE"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:105
+msgid "MoWUD"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:106
+msgid "MFSH"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:107
+msgid "CLTSH"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:108
+msgid "Town Water Board"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:109
+msgid "Hawassa"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:110
+msgid "Wechale"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:111
+msgid "birr"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:112
+msgid "gondar"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:113
+msgid "Operation and Maintenance Department"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:114
+msgid "Wuha Agar"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:115
+msgid "National Fluorosis Mitigation Project"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:116
+msgid "debo"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:118
+msgid ""
+"The script used to scan the content for these terms can be found here: "
+"https://github.com/DigitalCampus/ou-content-adaptation-"
+"scripts/blob/master/helper/OpenWASH-global-editing-links.php"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:123
+msgid "6. Final QA"
+msgstr ""
+
+#: ../../content/adapt/openwash.rst:125
+msgid ""
+"A final export to OppiaMobile of both the Ethiopia specific and non-"
+"country specific versions, then reviewed again on a mobile device."
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:2
+msgid "Adapting Open University Moodle Content - under development"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:4
+msgid ""
+"This describes the process and scripts Digital Campus has used to adapt "
+"content from the Open University (UK), for example the HEAT and OpenWASH "
+"content."
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:7
+msgid ""
+"This content is already very well structured and edited, however there "
+"are a few areas that need to be updated so the courses display very well "
+"on OppiaMobile."
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:10
+msgid ""
+"In terms of the ordering shown below, items 1 and 2 must be completed "
+"first, and there must always be a final quality assurance check, however "
+"the other items may be completed in any order or in parallel, since they "
+"are not dependent on each other."
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:15
+msgid "1. Import courses to your Moodle server"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:17
+msgid ""
+"Import the Moodle course onto your own Moodle server - you will need to "
+"have full access to the Moodle installation and database for this "
+"adaptation."
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:21
+msgid "2. Apply scripts"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:23
+msgid ""
+"Updating and applying the scripts that we used for the HEAT content "
+"adaptation. These remove OU specific stylesheets and navigation."
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:26
+msgid ""
+"These scripts should be run in exactly this order, confirming succesful "
+"completion and expected results before running the next script. In Moodle"
+" you may need to purge the cache and/or save the course settings."
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:29
+msgid ""
+"The scripts should be run from the command line - there is no user/web "
+"interface - and directly manipulate the Moodle database. They ought to "
+"work for all versions of Moodle v2.4.x - v2.9.x."
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:32
+msgid ""
+"Firstly make a copy of `settings.php` named `local_settings.php` and "
+"update the information for your Moodle instance."
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:34
+msgid ""
+"01-restructure-course.php - the original Moodle courses have all the "
+"activities in a single Moodle topic. This script uses the activity "
+"numbering to determine which section a course will appear in."
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:36
+msgid "02-order-topics.php -"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:37
+msgid "03-clean-course.php -"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:42
+msgid "3. Apply styles"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:44
+msgid ""
+"Apply more general stylesheet, for example for the in-text questions, "
+"notes, warnings - using the same icons etc used for the mobile adapted "
+"HEAT content."
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:47
+msgid "Refer to `helper/cleaning.php`"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:51
+msgid "4. Review of image and table content"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:53
+msgid ""
+"Review of images and tables - to ensure they are resized/styled "
+"appropriately for display on mobile"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:57
+msgid "5. Add activity icons/images"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:59 ../../content/images.rst:22
+msgid "Adding activity icons/images"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:63
+msgid "6. Adapt SAQs into Moodle quiz format"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:65
+msgid ""
+"Adapt SAQs into Moodle quiz format - not all SAQ questions may be able to"
+" be adapted (depends on the complexity and type of question)"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:70
+msgid "7. Quality Assurance and Review"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:72
+msgid ""
+"QA check and review - the QA will focus on the layout/consistency of "
+"stylesheets/images/tables etc, but will not look at the actual content, "
+"spelling/grammar etc (as assume has already been very well reviewed for "
+"these aspects)"
+msgstr ""
+
+#: ../../content/adapt/ou_moodle.rst:77
+msgid "Appendix - Additional Helper Scripts"
+msgstr ""
+
+#: ../../content/author.rst:2
+msgid "Creating your course in Moodle"
+msgstr ""
+
+#: ../../content/author.rst:4
+msgid ""
+"If we have set up a course area for you on our Moodle server, then here "
+"are some basic instructions to help get you started. If you would like to"
+" request us to set up an area in Moodle for you to test out your course "
+"in OppiaMobile please `contact us <mailto:alex@digital-campus.org>`_."
+msgstr ""
+
+#: ../../content/author.rst:9
+msgid ""
+"You should have received by email your username, password and link to "
+"your course area."
+msgstr ""
+
+#: ../../content/author.rst:12
+msgid ""
+"When you log into your course area you should see some example pages - "
+"these are there to help get you started and demonstrate some of the "
+"features available. You can either update or remove these if you don't "
+"need them."
+msgstr ""
+
+#: ../../content/author.rst:16
+msgid ""
+"When you're on the course homepage press the 'turn editing on' button in "
+"the top right then you get the options to add/edit activities/resources "
+"etc - for media essentially you'll need to just to create \"page "
+"resources\"."
+msgstr ""
+
+#: ../../content/author.rst:20
+msgid ""
+"For information about specific aspects of course creation for "
+"OppiaMobile, see:"
+msgstr ""
+
+#: ../../content/author.rst:36
+msgid ""
+"If you'd like to see an example of how we structured and set up the "
+"Antenatal Care course you can see this at: https://moodle.digital-"
+"campus.org/course/view.php?id=166"
+msgstr ""
+
+#: ../../content/author.rst:40
+msgid ""
+"Once you have some content etc that you'd like to test on your phone, "
+"press the 'Export to Oppia Package' button in the right hand column. At "
+"the end of the export output page, if it's all exported successfully, "
+"there will be a link to download the course .zip package. So you can "
+"download this and copy it to the "
+"``/<storage_setting>/Android/data/org.digitalcampus.mobile.learning/files/download``"
+" directory. The storage_setting path will depend on where you have the "
+"app storage location set to."
+msgstr ""
+
+#: ../../content/author.rst:48
+msgid ""
+"Then when you start up the OppiaMobile app on your phone it will "
+"automatically install the course and you can see how it all looks on your"
+" phone/tablet."
+msgstr ""
+
+#: ../../content/author.rst:51
+msgid ""
+"Once you're happy with how it all looks on your phone, you can upload the"
+" course to our server (http://demo.oppia-mobile.org - same "
+"username/password that you use for the OppiaMobile client app) and it'll "
+"be available for anyone to download."
+msgstr ""
+
+#: ../../content/author.rst:57
+msgid ""
+"Information on :ref:`how to include stylesheets and javascript<styles>` "
+"in your course"
+msgstr ""
+
+#: ../../content/author.rst:60
+msgid ""
+"If you have any queries, comments or suggestions on how to improve these "
+"instructions, the course authoring process or any other aspect of "
+"OppiaMobile, please post them in the `OppiaMobile Community site "
+"<https://community.oppia-mobile.org/>`_"
+msgstr ""
+
+#: ../../content/feedback.rst:2
+msgid "Adding feedback"
+msgstr ""
+
+#: ../../content/feedback.rst:4
+msgid ""
+"You can use the standard Moodle feedback activity to create feedback "
+"questions in Oppia."
+msgstr ""
+
+#: ../../content/feedback.rst:7
+msgid "The feedback question types supported are:"
+msgstr ""
+
+#: ../../content/feedback.rst:9 ../../content/feedback.rst:16
+msgid "multichoice"
+msgstr ""
+
+#: ../../content/feedback.rst:10
+msgid "info"
+msgstr ""
+
+#: ../../content/feedback.rst:11
+msgid "label"
+msgstr ""
+
+#: ../../content/feedback.rst:12
+msgid "textarea"
+msgstr ""
+
+#: ../../content/feedback.rst:13
+msgid "multichoicerated"
+msgstr ""
+
+#: ../../content/feedback.rst:14
+msgid "numeric"
+msgstr ""
+
+#: ../../content/feedback.rst:15
+msgid "textfield"
+msgstr ""
+
+#: ../../content/feedback.rst:18
+msgid ""
+"In the Oppia app the feedback questions use the same question types and "
+"format as the quiz content, except without the scoring and marking."
+msgstr ""
+
+#: ../../content/guidelines.rst:2
+msgid "General guidelines for course content"
+msgstr ""
+
+#: ../../content/guidelines.rst:6
+msgid ""
+"If you are copying and pasting content over from a Word or PDF document, "
+"you may find that extra (unnecessary) styling is also copied over into "
+"the HTML editor field in Moodle. To remove this use the 'clear "
+"formatting' option in the Moodle editor."
+msgstr ""
+
+#: ../../content/guidelines.rst:10
+msgid ""
+"These are some general rules of thumb that we have found useful when "
+"developing courses so they ‘look good’ on the mobile device, although "
+"clearly much depends on the screen size of the devices your learners are "
+"using:"
+msgstr ""
+
+#: ../../content/guidelines.rst:13
+msgid "Number of sections/topics per course module: up to 10 sections/topics."
+msgstr ""
+
+#: ../../content/guidelines.rst:14
+msgid ""
+"Activity titles: we’ve found that about 4-6 words max will work best when"
+" displayed on the mobile."
+msgstr ""
+
+#: ../../content/guidelines.rst:16
+msgid ""
+"Number of activities per section/topic: up to 10 activities. There is no "
+"requirement for a particular order of activity types."
+msgstr ""
+
+#: ../../content/guidelines.rst:18
+msgid ""
+"Course/Activity icons: although there are generic icons for each activity"
+" type, your course will look more attractive if you can add custom "
+"icons/images for each activity."
+msgstr ""
+
+#: ../../content/guidelines.rst:21
+msgid ""
+"Length of page content: as a rough guide approx 200-250 words is the most"
+" that will fit on each page, otherwise the user may need to do a lot of "
+"scrolling."
+msgstr ""
+
+#: ../../content/guidelines.rst:23
+msgid ""
+"Images: try to keep the filesize of images down as far as possible, "
+"although the course/activity icons are automatically resized on export, "
+"other images contained within the activities are not. Best to keep an "
+"image files below about 400px wide."
+msgstr ""
+
+#: ../../content/guidelines.rst:27
+msgid ""
+"Media content: long videos may be uncomfortable to view on a small "
+"screen, we suggest keeping videos quite short (less than 3-5 mins). "
+"Consider splitting you videos into different parts if you really need to "
+"include long video content. As with images, try to keep the video "
+"filesize as low as possible, users are unlikely to need very hi-res "
+"versions of videos if they are viewing on a 4″ screen. We use Handbrake "
+"to convert our videos, using the ‘Android’ preset – this always gives a "
+"good balance between video quality and the filesize."
+msgstr ""
+
+#: ../../content/guidelines.rst:35
+msgid ""
+"File resources: we discourage including long pdf files or presentation "
+"type files for 2 main reasons, (1) it can be hard to read long "
+"pdfs/presentations on smaller screens and (2) users may need to have "
+"specific apps installed to open these types of files."
+msgstr ""
+
+#: ../../content/images.rst:2
+msgid "Using images in your course"
+msgstr ""
+
+#: ../../content/images.rst:5
+msgid "Adding course icon/image"
+msgstr ""
+
+#: ../../content/images.rst:7
+msgid ""
+"Go to your course settings page in Moodle and upload an image into the "
+"course summary field – this image will then be used as your OppiaMobile "
+"module image/icon. If you upload more than one image into this field, "
+"then the first one will be used."
+msgstr ""
+
+#: ../../content/images.rst:13
+msgid "Embedded images"
+msgstr ""
+
+#: ../../content/images.rst:15
+msgid ""
+"Any images you embed into Moodle page resources will also be exported. To"
+" ensure they will display well on the mobile device without horizontal "
+"scrolling, it is best to keep the maximum width of any uploaded images to"
+" be around 250px. This also assists in keeping the course module filesize"
+" down and makes it easier for users to download your course."
+msgstr ""
+
+#: ../../content/images.rst:24
+msgid ""
+"You can add a custom image/icon for each activity. For page resources go "
+"to edit your page and upload your image/icon in the description field. "
+"For quiz activities, go to edit your quiz settings and upload you "
+"image/icon into the introduction field. All images will be automatically "
+"resized on export, so you don’t need to worry about figuring out the "
+"exact image dimensions/size. If you don’t specify a custom icon/image for"
+" your activity, but your activity includes an embedded image in the "
+"content, then this embedded image will be used as the icon. If there are "
+"no embedded images and no custom icon, then a generic icon will appear "
+"for your activity."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:2
+msgid "Publishing your Moodle Course to Oppia"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:4
+msgid ""
+"When you have completed :doc:`author`, or at least, are ready to test "
+"your course in the OppiaMobile app, then you will need to publish your "
+"course to the OppiaMobile server."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:8
+msgid "From the OppiaMobile Export Block in your Moodle course:"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:10
+msgid ""
+"Select the ``connection`` you would like to use (see below: "
+":ref:`export_server_connections_explained`)."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:12
+msgid "Select the ``stylesheet`` you would like to use."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:13
+msgid "Press the ``Export to Oppia Package`` button."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:14
+msgid ""
+"On the next page, you will see some options for quizzes and general "
+"course settings (see below: :ref:`export_options_explained`)"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:16
+msgid "After selecting/entering the options, press on ``continue`` button"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:17
+msgid ""
+"You will then see the results of the export and an option to either "
+"download or publish the course (see below: "
+":ref:`export_download_or_publish`)"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:24
+msgid "Server Connections - Explained"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:26
+msgid ""
+"There is not a 1-1 connection between a particular Moodle course and an "
+"OppiaMobile server. A Moodle course could be published to several "
+"OppiaMobile servers, and conversely, an OppiaMobile server could host "
+"courses from different Moodle servers."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:31
+msgid ""
+"So when you export a course from Moodle to OppiaMobile, you need to "
+"specify which OppiaMobile server you want to export to."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:34
+msgid ""
+"If you do not see the OppiaMobile server you'd like to export to, then "
+"you'll need to ``Add a new server connection``, providing:"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:37
+msgid "Server name - this is just your reference"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:38
+msgid "The url to the OppiaMobile server"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:44
+msgid "OppiaMobile Export Options - Explained"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:47
+msgid "Quizzes"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:49
+msgid ""
+"If your course has quizzes, then you will see a table of the quizzes with"
+" some options to select:"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:52
+msgid ""
+"**No random questions** - if you don't want all the questions to show to "
+"the user then select the number of questions that should be shown. They "
+"will appear in a random order, so don't use this if certain questions "
+"depend on information from previous questions or info."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:56
+msgid ""
+"**Show feedback** - when (if ever) should feedback about the users "
+"response # be shown."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:58
+msgid ""
+"**Allow try-again?** - should the user be shown the option to try the "
+"quiz again straight after completing the quiz."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:60
+msgid ""
+"**Pass Threshold (%)** - what's the threshold (in percent) for the user "
+"to pass this quiz."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:62
+msgid "**Availability** - when is the user allowed to access this quiz."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:63
+msgid ""
+"**Max number of attempts** - how many attempts can a user have at this "
+"quiz."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:67
+msgid ""
+"If the quiz is a pre-test, then only the **No random questions** option "
+"will be used, all other options will be ignored. The user will not "
+"receive any feedback for pre-test questions, there is no pass threshold "
+"and the user can only attempt the quiz once."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:73
+msgid "Course Priority"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:75
+msgid ""
+"To help specify the order in which courses should appear when users go to"
+" download courses in the given tag/category. And also when the course is "
+"displayed in the app main menu listing. For example, if you would like "
+"your courses to display in a particular order in which users should "
+"complete them."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:80
+msgid "Otherwise courses will display in alphabetical order in the app."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:83
+msgid "Course Tags"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:85
+msgid ""
+"You must specify at least one tag for your course, these are used as the "
+"categories in the app. If no tags are given then users will not be able "
+"to find your course in the app course downloads."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:90
+msgid "Course default language"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:92
+msgid ""
+"The `ISO-639 code <https://en.wikipedia.org/wiki/ISO_639>`_ that should "
+"be used as the default language for the course content when displayed to "
+"users."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:96
+msgid ""
+"In general you do not need to change this from the default ``en`` if your"
+" course has been set up correctly for multilingual content (see: "
+":doc:`translations`)"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:100
+msgid "Course Sequencing"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:102
+msgid ""
+"By default, this is set to ``none`` so a user will be able to jump around"
+" the course activities however they would like (with the exception of "
+"having completed the pre-test)."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:106
+msgid ""
+"To prevent users 'jumping' around in this way, you can force users to "
+"complete the course content either by section/topic (select ``Sequencing "
+"within a section``) or though the whole course (select ``Sequencing "
+"through whole course``)."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:112
+msgid ""
+"If your course includes quizzes, and you select ``Sequencing within a "
+"section`` or ``Sequencing through whole course``, users must get at least"
+" the quiz pass threshold to be able to progress to the next activity."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:119
+msgid "Download or Publish? - Explained"
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:121
+msgid ""
+"In general, downloading the course is for when you would like to test the"
+" course on your own device first, before making available to users. So "
+"you can download the OppiaMobile .zip formatted package and install "
+"directly on your own device to check the course."
+msgstr ""
+
+#: ../../content/publish_to_oppia.rst:126
+msgid ""
+"If you ``publish`` the course, then it will be live for any users of your"
+" app."
+msgstr ""
+
+#: ../../content/quizzes.rst:2
+msgid "Adding quizzes"
+msgstr ""
+
+#: ../../content/quizzes.rst:4
+msgid ""
+"Add all your questions as standard Moodle quiz questions and they will be"
+" exported to run as quizzes on the mobile device. Note that only "
+"questions which can be marked automatically can be exported, so any essay"
+" questions will not be exported as these require manual marking."
+msgstr ""
+
+#: ../../content/quizzes.rst:9
+msgid "Essentially the question types supported are:"
+msgstr ""
+
+#: ../../content/quizzes.rst:11
+msgid ""
+"any question supported by the `Moodle GIFT format "
+"<http://docs.moodle.org/28/en/GIFT_format>`_ (with the exception of "
+"essay) can be exported to OppiaMobile"
+msgstr ""
+
+#: ../../content/quizzes.rst:13
+msgid "Drag and drop questions are also supported"
+msgstr ""
+
+#: ../../content/quizzes.rst:17
+msgid "Randomising questions"
+msgstr ""
+
+#: ../../content/quizzes.rst:19
+msgid ""
+"Often you won't want users to see the same questions in the same order "
+"every time they attempt a particular quiz. With Moodle and Oppia, you can"
+" set up a group of questions and specify how many of these questions will"
+" be randomly selected each time a user attempts a quiz. To do this:"
+msgstr ""
+
+#: ../../content/quizzes.rst:24
+msgid ""
+"In your quiz in Moodle, add all of the questions you want the randomised "
+"selection to be from"
+msgstr ""
+
+#: ../../content/quizzes.rst:26
+msgid ""
+"When you export to Oppia, you can select the number of questions that "
+"will be randomly selected each time the user attempts the quiz (see "
+":ref:`export_options_explained`)"
+msgstr ""
+
+#: ../../content/quizzes.rst:31
+msgid "Creating pre-tests"
+msgstr ""
+
+#: ../../content/quizzes.rst:33
+msgid ""
+"For creating a pre-test that users must complete in the Oppia app before "
+"they can access the course content, create your quiz in the 'Topic 0' "
+"section of your Moodle course (i.e. before any other topics/sections)."
+msgstr ""
+
+#: ../../content/style/index.rst:4
+msgid "Using stylesheets and javascript in your course"
+msgstr ""
+
+#: ../../content/style/index.rst:6
+msgid ""
+"The Moodle oppia export block comes by default with a stylesheet and "
+"javascript file that will be applied to any courses you export - so the "
+"stylesheet, javascript and related resources (images etc) will get "
+"exported to the course package too."
+msgstr ""
+
+#: ../../content/style/index.rst:11
+msgid ""
+"You can see an example of the standard stylesheet and javascript in use "
+"on our Moodle server at: https://moodle.digital-"
+"campus.org/mod/page/view.php?id=20628"
+msgstr ""
+
+#: ../../content/style/index.rst:15
+msgid "Creating your own style"
+msgstr ""
+
+#: ../../content/style/index.rst:16
+msgid ""
+"To add a new style (or adapt the existing one), create an new css file in"
+" the <block>/styles directory, along with a new directory for the "
+"resources (see the current folder structure)."
+msgstr ""
+
+#: ../../content/testing.rst:4
+msgid "Testing your course on your mobile"
+msgstr ""
+
+#: ../../content/testing.rst:6
+msgid ""
+"If you would like to test out your course on your mobile but without "
+"publishing it and making it available for learners, you can directly "
+"install the course on your mobile (also know as 'sideloading'). Once you "
+"have edited your course content, export and download the OppiaMobile "
+"package (from the Moodle block in your course)."
+msgstr ""
+
+#: ../../content/testing.rst:12
+msgid ""
+"Then copy this zip file directly onto your phone SD card. Copy it into "
+"the:"
+msgstr ""
+
+#: ../../content/testing.rst:14
+msgid "``/sdcard/Android/data/data/org.digitalcampus.mobile.learning/files/download``"
+msgstr ""
+
+#: ../../content/testing.rst:16
+msgid "directory (there is no need to unzip the file) on your phone."
+msgstr ""
+
+#: ../../content/testing.rst:18
+msgid "The exact path may differ depending on:"
+msgstr ""
+
+#: ../../content/testing.rst:20
+msgid ""
+"what your sdcard is actually called on your device, or whether the app is"
+" set to use internal storage instead of the SD card."
+msgstr ""
+
+#: ../../content/testing.rst:22
+msgid ""
+"the package id of your app, ``org.digitalcampus.mobile.learning`` is for "
+"the core version of the Oppia app. Yours will likely be different"
+msgstr ""
+
+#: ../../content/testing.rst:25
+msgid ""
+"When you start up the OppiaMobile app, it will automatically install the "
+"course for you to test how it looks and feels on a mobile device."
+msgstr ""
+
+#: ../../content/translations.rst:2
+msgid "Multilingual Interface and Content in the OppiaMobile App"
+msgstr ""
+
+#: ../../content/translations.rst:4
+msgid ""
+"For translating OppiaMobile, there are two separate areas to consider, "
+"the app interface and the course content."
+msgstr ""
+
+#: ../../content/translations.rst:8
+msgid "App Interface"
+msgstr ""
+
+#: ../../content/translations.rst:10
+msgid ""
+"The language that the OppiaMobile app interface appears in (e.g. the "
+"buttons, menu items etc), is determined by translation files directly "
+"included and compiled into the app. Which language file is used is "
+"determined by the language that the whole phone interface is set to. This"
+" will default to English if the phone is set to a language that Oppia "
+"does not have a language file for."
+msgstr ""
+
+#: ../../content/translations.rst:16
+msgid "To add a new interface language:"
+msgstr ""
+
+#: ../../content/translations.rst:18
+msgid ""
+"Make copy of ``strings.xml`` from https://github.com/DigitalCampus/oppia-"
+"mobile-android/blob/master/res/values/strings.xml"
+msgstr ""
+
+#: ../../content/translations.rst:20
+msgid ""
+"Translate the English text (just the value, not the string name "
+"attribute)."
+msgstr ""
+
+#: ../../content/translations.rst:21
+msgid ""
+"Create a new directory in the ``res`` directory called ``values-XX`` - "
+"where XX is the language code for the translation"
+msgstr ""
+
+#: ../../content/translations.rst:23
+msgid "Copy the new ``strings.xml`` file into this new directory"
+msgstr ""
+
+#: ../../content/translations.rst:28
+msgid "Course Content"
+msgstr ""
+
+#: ../../content/translations.rst:30
+msgid ""
+"Providing translations of course content is completely separate from the "
+"application interface. This means that users can select which language "
+"they would like to view the course content in, but without needing to "
+"change the phone interface language."
+msgstr ""
+
+#: ../../content/translations.rst:35
+msgid ""
+"When the app is first installed, the course language setting will default"
+" to the phone settings language. If a course isn't provided in the phone "
+"setting language, then it will default to the first language the course "
+"is provided in."
+msgstr ""
+
+#: ../../content/translations.rst:39
+msgid ""
+"To create a course in multiple languages, when you are writing the "
+"course, just use the usual Moodle method for providing multilingual "
+"courses. You can find more information about this at: "
+"http://docs.moodle.org/en/Multi_language_content"
+msgstr ""
+
+#: ../../content/translations.rst:43
+msgid ""
+"When the course is exported to OppiaMobile, it will then allow users to "
+"switch between languages in the OppiaMobile app."
+msgstr ""
+
+#: ../../content/updating.rst:2
+msgid "Updating Content"
+msgstr ""
+
+#: ../../content/updating.rst:5
+msgid ""
+"Whilst a course for an Oppia implementation is being developed, and "
+"before the app in launched, course content can be updated and published "
+"to the server as often as is necessary."
+msgstr ""
+
+#: ../../content/updating.rst:9
+msgid ""
+"However, once a course has been launched, and is being used by learners, "
+"publishing updates should be well planned and coordinated. Firstly to "
+"reduce the burden and potential confusion to users for having a lot of "
+"small, regular updates and secondly, to ensure a good review can be made "
+"of the content before it is made live for learners."
+msgstr ""
+
+#: ../../content/updating.rst:15
+msgid ""
+"There are different options for updating course content, depending on the"
+" version of the block you are using:"
+msgstr ""
+
+#: ../../content/updating.rst:18
+msgid ""
+"If you are using the Oppia Export Block below v1.1.1 (so the version "
+"number is not shown in the bottom of the block), please refer to: :doc"
+":`updating-old-block`"
+msgstr ""
+
+#: ../../content/updating.rst:21
+msgid ""
+"If you are using the Oppia Export Block v1.1.1 or above (the version "
+"number is shown at the bottom of the block), pease refer to: :doc"
+":`updating-new-block`"
+msgstr ""
+
+#: ../../content/updating.rst:26
+msgid "What happens to learner progress when a course is updated?"
+msgstr ""
+
+#: ../../content/updating.rst:28
+msgid ""
+"When a course is updated, any activities that have been changed (in any "
+"way, from a minor typo, to a rewrite), the old version of the activity is"
+" essentially 'detached' from the new version of the course. Although note"
+" that if option B above is used for updating, then all activities will be"
+" seen as new."
+msgstr ""
+
+#: ../../content/updating.rst:33
+msgid ""
+"Any deleted activities are also just detached, and any new activities are"
+" just added. The tracker and quiz scores etc are retained."
+msgstr ""
+
+#: ../../content/updating.rst:36
+msgid ""
+"From a user perspective on their device, when they download the new "
+"version:"
+msgstr ""
+
+#: ../../content/updating.rst:38
+msgid ""
+"if they haven't yet completed the old version of the activity, there's no"
+" real difference to them"
+msgstr ""
+
+#: ../../content/updating.rst:40
+msgid ""
+"if they completed the old version of the activity, but not completed the "
+"course, the updated version of the activity will now show as no longer "
+"completed"
+msgstr ""
+
+#: ../../content/updating.rst:43
+msgid ""
+"if they have already completed the course and got the badge, then they "
+"will keep the badge, but the updated version of the activity will now "
+"show as no longer completed"
+msgstr ""
+
+#: ../../content/updating-new-block.rst:2
+msgid "Updating Content using Oppia Export Block v1.1.1 and above"
+msgstr ""
+
+#: ../../content/updating-new-block.rst:4
+msgid ""
+"Starting with Oppia Export Block v1.1.1, you can now specify if the "
+"course is a draft/testing version or a live version when you start the "
+"process of exporting from the block."
+msgstr ""
+
+#: ../../content/updating-new-block.rst:8
+msgid ""
+"If draft/test is selected the course shortname will automatically have "
+"\"-draft\" appended to it and be pushed as a draft course to the Oppia "
+"server."
+msgstr ""
+
+#: ../../content/updating-new-block.rst:11
+msgid ""
+"In this way, you're able to push an updated draft/test version of a "
+"course that is already live to users, without overwriting the currently "
+"live version of the course."
+msgstr ""
+
+#: ../../content/updating-new-block.rst:15
+msgid ""
+"Once you are happy with all the updates, you can publish as a live course"
+" and then it will update the live version on the Oppia server, and get "
+"pushed out to users."
+msgstr ""
+
+#: ../../content/updating-old-block.rst:2
+msgid "Updating Content using Oppia Export Block below v1.1.1"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:5
+msgid ""
+"if you are using block version v1.1.1 or above, please refer to: :doc"
+":`updating-new-block`"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:8
+msgid ""
+"For updating a course once it has been made live, there are 3 potential "
+"options, each with their own pros/cons and considerations:"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:12
+msgid "Option A: Edit in-place in Moodle"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:14
+msgid ""
+"You can just edit the original version of the course directly in Moodle, "
+"then:"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:16
+msgid "Export the course via the Oppia export block"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:17
+msgid "Do not publish the course to the Oppia server, even as a draft version"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:18
+msgid ""
+"Instead, directly download the course zip file, and 'sideload' this onto "
+"your device (see: :ref:`sideloadcontent`)"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:23
+#: ../../content/updating-old-block.rst:67
+msgid "Pros"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:25
+msgid ""
+"This will preserve any user progress for unchanged activities when the "
+"course is finally made live."
+msgstr ""
+
+#: ../../content/updating-old-block.rst:27
+msgid ""
+"Reviewers/Testers for the course do not need to be given staff/admin "
+"permissions on the Oppia server."
+msgstr ""
+
+#: ../../content/updating-old-block.rst:31
+#: ../../content/updating-old-block.rst:74
+msgid "Cons"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:33
+msgid ""
+"The course zip files need to be shared 'manually' to those who will be "
+"reviewing/testing."
+msgstr ""
+
+#: ../../content/updating-old-block.rst:35
+msgid ""
+"If any urgent changes are needed to the content, before the final version"
+" is complete, this will not be possible without pushing out the "
+"unfinished version of the course."
+msgstr ""
+
+#: ../../content/updating-old-block.rst:40
+msgid "Considerations"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:42
+msgid ""
+"In this option, publishing the course as a draft version will remove the "
+"option for learners to download the original/currently live version of "
+"the course."
+msgstr ""
+
+#: ../../content/updating-old-block.rst:48
+msgid "Option B: Clone the course in Moodle"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:50
+msgid "The process for this option would be:"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:52
+msgid ""
+"Create a copy of the course in Moodle (with a new course shortname, eg "
+"'course-v2')"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:54
+msgid "Edit the new version of the course"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:55
+msgid "Export and publish this new version as a draft to the Oppia server"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:56
+msgid ""
+"Reviewers/Testers (with staff or admin permissions) will be able to "
+"directly download the new version into their Oppia app (without the new "
+"for 'sideloading'). Although the sideloading option is still a "
+"possibility if you don't want to give all the reviewers staff/admin "
+"permissions on the server"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:61
+msgid ""
+"Once the new version is ready, update the shortname of the old version, "
+"eg 'course-v1', then update the shortname of the new version to be the "
+"original"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:63
+msgid "The course can then be published live via the Oppia export block"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:69
+msgid "Interim/urgent updates can be made to the original version of the course."
+msgstr ""
+
+#: ../../content/updating-old-block.rst:70
+msgid ""
+"No need to distribute the course zip file manually and ask "
+"reviewers/testers to sideload"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:76
+msgid ""
+"When published live, all activities will appear to the user as new "
+"activities, even those that haven't been updated (since the id numbers in"
+" Moodle will have changed)"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:79
+msgid "Reviewers and testers need to have staff/admin permissions"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:83
+msgid "Option C: Edit in place and republish live (NOT recommended)"
+msgstr ""
+
+#: ../../content/updating-old-block.rst:85
+msgid ""
+"Of course, you can just make edits to the current version of the course "
+"and republish live directly."
+msgstr ""
+
+#: ../../content/updating-old-block.rst:88
+msgid ""
+"If the edits are very minor (eg correcting typos/mistakes etc), and so "
+"don't need a full review/test, then likely this will be no problem."
+msgstr ""
+
+#: ../../content/updating-old-block.rst:91
+msgid ""
+"If the course has more substantial updates, that need review and testing "
+"first, then this approach is not recommended."
+msgstr ""
+
+#: ../../content/video_embed.rst:2
+msgid "Using Media Content in OppiaMobile Courses"
+msgstr ""
+
+#: ../../content/video_embed.rst:4
+msgid ""
+"When a user installs a course containing media content (audio/video), the"
+" actual media aren't included in the course download content. The reason "
+"for this is that media files tend to be very large and users on slow "
+"connections are unlikely to be able to download large media files."
+msgstr ""
+
+#: ../../content/video_embed.rst:9
+msgid ""
+"If a course contains media files that aren't available on the users "
+"phone, on the app homepage a message will appear that some media content "
+"is missing."
+msgstr ""
+
+#: ../../content/video_embed.rst:13
+msgid "Optimize your media"
+msgstr ""
+
+#: ../../content/video_embed.rst:15
+msgid ""
+"Users viewing videos on a 4 or 5 inch screen generally don't need really "
+"high quality as you may want to use if projecting the video. At Digital "
+"Campus, we usually convert videos into .m4v format using Handbrake "
+"(https://handbrake.fr/ - an open source tool and works on most platforms)"
+msgstr ""
+
+#: ../../content/video_embed.rst:21
+msgid "How to embed media files in OppiaMobile courses"
+msgstr ""
+
+#: ../../content/video_embed.rst:23
+msgid ""
+"The method you can use to embed media in your course depends on the "
+"version of the Moodle Oppia Export Block that you are using."
+msgstr ""
+
+#: ../../content/video_embed.rst:27
+msgid "Oppia Export Block below  v1.2.0"
+msgstr ""
+
+#: ../../content/video_embed.rst:29
+msgid ""
+"Upload the converted media to the OppiaMobile server (under the menu "
+"Upload -> Media), this will then provide the embed code to put directly "
+"in the page content in Moodle."
+msgstr ""
+
+#: ../../content/video_embed.rst:33
+msgid "Oppia Export Block v1.2.0 and above"
+msgstr ""
+
+#: ../../content/video_embed.rst:35
+msgid ""
+"On the page content you are editing, use the upload media button in the "
+"Moodle page text editor:"
+msgstr ""
+
+#: ../../content/video_embed.rst:40
+msgid ""
+"From the pop-up window, select the 'Video' tab, then click the 'Browse "
+"repositories' button:"
+msgstr ""
+
+#: ../../content/video_embed.rst:45
+msgid "Then select 'Upload a file':"
+msgstr ""
+
+#: ../../content/video_embed.rst:49
+msgid "Choose the file to upload and click 'Upload this file'"
+msgstr ""
+
+#: ../../content/video_embed.rst:51
+msgid ""
+"To add a ``poster/thumbnail`` image to your video (this is the image that"
+" users will see in the Oppia app and will click on to start the video), "
+"select 'Display Options' and upload a poster/thumbnail of the video:"
+msgstr ""
+
+#: ../../content/video_embed.rst:57
+msgid "Then click on the 'Insert Media' button"
+msgstr ""
+
+#: ../../content/video_embed.rst:59
+msgid ""
+"The export process will automatically handle uploading the media to the "
+"Oppia server"
+msgstr ""
+
+#: ../../content/video_embed.rst:64
+msgid ""
+"If you don't add a ``poster/thumbnail`` when you upload the video, on "
+"exporting to Oppia you will see a warning message and in the app just a "
+"text link to 'Play video' will appear, rather than an image."
+msgstr ""
+
+#: ../../content/video_embed.rst:69
+msgid "How can users get the media files"
+msgstr ""
+
+#: ../../content/video_embed.rst:71
+msgid "There are two options for getting the media content onto users phones:"
+msgstr ""
+
+#: ../../content/video_embed.rst:73
+msgid ""
+"Download the media files directly onto the users SD card. This is most "
+"likely the best option for projects which are providing phones to users "
+"as the video files can be pre-loaded"
+msgstr ""
+
+#: ../../content/video_embed.rst:76
+msgid ""
+"Download via the app. When the app flags up that a video file is missing,"
+" then the user can download directly to their phone. This is only likely "
+"to be feasible to users who are connected to wifi. So by default users "
+"will only be able to download video files directly if they are connected "
+"to a wifi network. This can be overridden in the app settings to allow "
+"downloading of video files by allowing downloading using cellular "
+"network."
+msgstr ""
+
+#: ../../content/video_embed.rst:85
+msgid "Manually creating the embed code (deprecated from v1.2.0 onwards)"
+msgstr ""
+
+#: ../../content/video_embed.rst:87
+msgid "Should you really want to, you can create the media embed code by hand:"
+msgstr ""
+
+#: ../../content/video_embed.rst:89
+msgid ""
+"Generate the md5 checksum for your media. All operating systems will "
+"allow you to generate an md5 checksum of a file. The md5 is essentially a"
+" unique code to identify a file and it's contents. We use this for the "
+"media, so when a user download the media on their phone the app can "
+"verify they have the complete media (and no broken/partial downloads) and"
+" the correct media."
+msgstr ""
+
+#: ../../content/video_embed.rst:94
+msgid ""
+"Now you have md5 and the file uploaded to a server you can embed your "
+"media into your page on Moodle using the following code:"
+msgstr ""
+
+#: ../../content/video_embed.rst:103
+msgid ""
+"Just update the filename, download_url and digest (md5) to match your "
+"video file details."
+msgstr ""
+
+#: ../../content/video_embed.rst:105
+msgid ""
+"You can replace the ``IMAGE/TEXT HERE`` with either some text or a "
+"screenshot of you video. When your course is exported from Moodle, the "
+"export script will use the supplied information to ensure the user "
+"downloads the correct video."
+msgstr ""
+
+#: ../../content/video_embed.rst:109
+msgid ""
+"You optionally supply a filesize (in bytes) and length (in seconds) as "
+"follows:"
+msgstr ""
+
+#: ../../content/video_embed.rst:120
+msgid ""
+"Adding a filesize will inform the user how large the file is before they "
+"try to download and the length will be used to determine whether a user "
+"has watched the whole video (or not)."
+msgstr ""
+

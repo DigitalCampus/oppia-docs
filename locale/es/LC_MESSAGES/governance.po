@@ -1,0 +1,311 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Digital Campus
+# This file is distributed under the same license as the OppiaMobile
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OppiaMobile 0.12.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-26 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: ../../governance/model.rst:2
+msgid "Governance"
+msgstr ""
+
+#: ../../governance/model.rst:5
+msgid "This document is a work in progress."
+msgstr ""
+
+#: ../../governance/model.rst:9
+msgid "Introduction"
+msgstr ""
+
+#: ../../governance/model.rst:11
+msgid ""
+"OppiaMobile is an open source mobile learning platform specifically "
+"designed for delivering learning content, multimedia and quizzes in low-"
+"broadband settings and primarily used for health worker training."
+msgstr ""
+
+#: ../../governance/model.rst:15
+msgid ""
+"Our goals in setting up the governance structures of OppiaMobile are to "
+"ensure that:"
+msgstr ""
+
+#: ../../governance/model.rst:18
+msgid ""
+"There is a defined process that helps people participate in decisions "
+"regarding the OppiaMobile community and platform. It should be clear who "
+"is responsible for any given decision, and how others might contribute to"
+" the outcome."
+msgstr ""
+
+#: ../../governance/model.rst:22
+msgid ""
+"Decisions regarding the OppiaMobile platform and community are taken in "
+"an accountable, fair and transparent fashion."
+msgstr ""
+
+#: ../../governance/model.rst:24
+msgid ""
+"Necessary decisions are actually taken, even when there is no clear "
+"consensus among the community. There is a single path for the appeal or "
+"escalation of a decision when needed."
+msgstr ""
+
+#: ../../governance/model.rst:29
+msgid "OppiaMobile Community Board"
+msgstr ""
+
+#: ../../governance/model.rst:31
+msgid "The community board is responsible for:"
+msgstr ""
+
+#: ../../governance/model.rst:33
+msgid ""
+"Ensuring OppiaMobile meets the needs and demands of its end-users and "
+"implementers"
+msgstr ""
+
+#: ../../governance/model.rst:35
+msgid ""
+"Support funding for core Oppia - eg contributing to funding applications "
+"etc"
+msgstr ""
+
+#: ../../governance/model.rst:36
+msgid ""
+"Overseeing support provided for implementers and end-users (eg "
+"documentation is up to date)"
+msgstr ""
+
+#: ../../governance/model.rst:40 ../../governance/model.rst:56
+msgid "Current Members"
+msgstr ""
+
+#: ../../governance/model.rst:45
+msgid "OppiaMobile Technical Board"
+msgstr ""
+
+#: ../../governance/model.rst:47
+msgid "The technical board is responsible for:"
+msgstr ""
+
+#: ../../governance/model.rst:49
+msgid "Providing strategic direction for OppiaMobile technical developments"
+msgstr ""
+
+#: ../../governance/model.rst:50
+msgid "Overseeing the approval process for new technical developments"
+msgstr ""
+
+#: ../../governance/model.rst:51
+msgid "Prioritising technical developments"
+msgstr ""
+
+#: ../../governance/model.rst:52
+msgid ""
+"Growing and supporting the technical development community for "
+"OppiaMobile (eg by ensuring appropriate technical documentation etc is "
+"kept up to date)"
+msgstr ""
+
+#: ../../governance/model.rst:59
+msgid "Working Groups"
+msgstr ""
+
+#: ../../governance/model.rst:61
+msgid ""
+"Specific developments may not fall neatly into being the responsibility "
+"for Community or Technical Boards, instead requiring input and consensus "
+"from across the two boards. In this case temporary working groups would "
+"be created, drawing on members from both boards, and perhaps external "
+"experts. These working groups would work in the same way as the permanent"
+" boards, but temporary in nature for the lifetime of the development."
+msgstr ""
+
+#: ../../governance/model.rst:69
+msgid "Current WGs and Members"
+msgstr ""
+
+#: ../../governance/model.rst:74
+msgid "Appointments and Removals"
+msgstr ""
+
+#: ../../governance/model.rst:76
+msgid ""
+"New appointments to either the Community/Technical Boards or Working "
+"Groups will be made by being proposed and seconded by existing members, "
+"with a simple majority voting system."
+msgstr ""
+
+#: ../../governance/model.rst:80
+msgid ""
+"All members of the Community or Technical Boards need to provide "
+"meaningful input. If a board member has not provided meaningful input for"
+" over a year, they will automatically be removed as board members. "
+"Similarly, with any working groups, members need to provide meaningful "
+"input. If a working group member has not provided meaningful input for "
+"over 6 months, they will automatically be removed from the working group."
+msgstr ""
+
+#: ../../governance/model.rst:89
+msgid "SABDFL"
+msgstr ""
+
+#: ../../governance/model.rst:91
+msgid ""
+"This is not a democracy, it's a meritocracy. We try to operate more on "
+"consensus than on votes, seeking agreement from the people who will have "
+"to do the work. Alex Little, as self-appointed benevolent dictator for "
+"life (SABDFL), plays the happily undemocratic role as founding developer "
+"of OppiaMobile."
+msgstr ""
+
+#: ../../governance/model.rst:96
+msgid ""
+"He also has a casting vote on the boards and working groups, should it "
+"come to a vote. This capacity is not used lightly."
+msgstr ""
+
+#: ../../governance/model.rst:99
+msgid ""
+"The community functions best when it can reach broad consensus about a "
+"way forward. However, it is not uncommon in the open-source world for "
+"there to be multiple good arguments, no clear consensus, and for open "
+"questions to divide communities rather than enrich them. The debate "
+"absorbs the energy that might otherwise have gone towards the creation of"
+" a solution. In many cases, there is no one 'right' answer, and what is "
+"needed is a decision more than a debate. The SABDFL acts to provide clear"
+" leadership on difficult issues, and set the pace for the project."
+msgstr ""
+
+#: ../../governance/prioritisation.rst:2
+msgid "Tech Dev Prioritisation Process"
+msgstr ""
+
+#: ../../governance/prioritisation.rst:5
+msgid ""
+"Core OppiaMobile development takes place as a 2-week sprint per month, so"
+" the issues addressed need to be prioritised for the upcoming sprint."
+msgstr ""
+
+#: ../../governance/prioritisation.rst:8
+msgid ""
+"Any developments, fixes, features etc must first be entered as issues in "
+"the relevant GitHub issue list. Issues entered should be tagged at least "
+"with a high/medium/low priority and whether it is a bug or enhancement. "
+"Any issues submitted will be reviewed for the tags to ensure the tags are"
+" correct and appropriate."
+msgstr ""
+
+#: ../../governance/prioritisation.rst:14
+msgid ""
+"For a given sprint the open issues will be prioritised on the following "
+"basis (highest priority to lowest):"
+msgstr ""
+
+#: ../../governance/prioritisation.rst:17
+msgid "High priority bugs"
+msgstr ""
+
+#: ../../governance/prioritisation.rst:18
+msgid "Outstanding automated tests that need to be added for recent code updates"
+msgstr ""
+
+#: ../../governance/prioritisation.rst:19
+msgid "Code updates to ensure the code base passes the SonarQube analysis"
+msgstr ""
+
+#: ../../governance/prioritisation.rst:20
+msgid "Outstanding documentation for any recent code updates"
+msgstr ""
+
+#: ../../governance/prioritisation.rst:21
+msgid "Other open issues"
+msgstr ""
+
+#: ../../governance/prioritisation.rst:23
+msgid ""
+"Item 1 is clearly the most important, since high priority bugs will be "
+"those that directly affect the running and implementation of OppiaMobile."
+msgstr ""
+
+#: ../../governance/prioritisation.rst:26
+msgid ""
+"Items 2, 3 and 4 should eventually be addressed as part and parcel of any"
+" feature/code updates - i.e. when code is updated (whether it is a new "
+"feature, or an improvement/bug fix on an existing feature), the automated"
+" tests and documentation should be included as part of the code update."
+msgstr ""
+
+#: ../../governance/prioritisation.rst:31
+msgid "Item 5 is the area of prioritisation this document mainly focuses on."
+msgstr ""
+
+#: ../../governance/prioritisation.rst:33
+msgid ""
+"Once items 1-4 have been scheduled and time estimated in the upcoming "
+"sprint, we will then know the remaining developer time available for item"
+" 5."
+msgstr ""
+
+#: ../../governance/prioritisation.rst:36
+msgid ""
+"Note that these sprints are for the core Digital Campus OppiaMobile "
+"developer team, other teams/developers may wish to work on specific "
+"features developments that are relevant to them."
+msgstr ""
+
+#: ../../governance/prioritisation.rst:40
+msgid ""
+"For each sprint, the tasks will be added in the ‘queued for development’ "
+"column in the general development Github project. The core OppiaMobile "
+"developer team will make an initial suggestion on the tasks that will be "
+"included for item 5, based on discussions and information from the "
+"developer and community governance boards."
+msgstr ""
+
+#: ../../governance/prioritisation.rst:46
+msgid ""
+"The suggested tasks for the sprint will then be shared with the developer"
+" governance board for their input, feedback and approval. In the "
+"interests of time, board members who do not provide input/feedback within"
+" the given timeframe, will be assumed to approve suggested task list."
+msgstr ""
+
+#: ../../governance/prioritisation.rst:51
+msgid ""
+"Should the time estimate be incorrect (eg the scheduled tasks take "
+"shorter/longer time than expected)…."
+msgstr ""
+
+#: ../../governance/prioritisation.rst:54
+msgid "For a monthly sprint process:"
+msgstr ""
+
+#: ../../governance/prioritisation.rst:56
+msgid "Week 1 - input/feedback/approval from the developer governance board"
+msgstr ""
+
+#: ../../governance/prioritisation.rst:57
+msgid "Weeks 2 & 3 - code sprint takes place"
+msgstr ""
+
+#: ../../governance/prioritisation.rst:58
+msgid ""
+"Week 4 - review and integration of the code developed, next suggested "
+"sprint tasks are added, and the monthly cycle restarts."
+msgstr ""
+
