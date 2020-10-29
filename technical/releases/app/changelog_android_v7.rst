@@ -2,6 +2,14 @@ OppiaMobile Android App Change Log v7.x
 =========================================
 
 
+.. _appv82:
+
+v82 (7.1.6) - not yet released - due 1 Dec 2020
+-----------------------------------------------
+
+Issue list:
+
+
 .. _appv81:
 
 v81 (7.1.5) - not yet released - due 1 Nov 2020
@@ -18,6 +26,7 @@ Issue list:
 * OPPIA-416 Weblink/intent - allow using wildcards
 * OPPIA-435 Add tests for CourseActivity class
 * OPPIA-428 Possibility to login/register when opening the app via Intent/Link
+* OPPIA-235 Complete BadgesUITest
 * Additional automated tests
 
 .. _appv80:

@@ -2,9 +2,25 @@ OppiaMobile Moodle Block Change Log
 =====================================
 
 
+.. _blockv1.2.2:
+
+v1.2.2 - not yet released
+------------------------------------
+
+
+
+
+.. _blockv1.2.1:
+
+v1.2.1 - beta version only
+------------------------------------
+
+* OPPIA-434 Change the content that the md5 digest is based on
+
+
 .. _blockv1.2.0:
 
-v1.2.0 - not yet released
+v1.2.0 - alpha version only
 ------------------------------------
 
 * OPPIA-286 Initial development for extracting Moodle embedded media from page
