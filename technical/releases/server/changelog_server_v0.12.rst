@@ -14,7 +14,7 @@ v0.12.12 -  not yet released
 
 Issue list:
 
-
+* OPPIA-271 Class based views for integrations
 
 .. _serverv0.12.11:
 
