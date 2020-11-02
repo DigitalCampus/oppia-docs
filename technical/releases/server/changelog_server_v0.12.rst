@@ -15,6 +15,9 @@ v0.12.12 -  not yet released
 Issue list:
 
 * OPPIA-271 Class based views for integrations
+* OPPIA-43 Define constants at module level
+* OPPIA-57 UploadMedia - add option for title, organisation and license
+* OPPIA-270 Class based views for oppia/home
 
 .. _serverv0.12.11:
 

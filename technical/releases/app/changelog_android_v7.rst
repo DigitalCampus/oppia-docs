@@ -12,7 +12,7 @@ Issue list:
 
 .. _appv81:
 
-v81 (7.1.5) - not yet released - due 1 Nov 2020
+v81 (7.1.5) - Released 2 Nov 2020
 -----------------------------------------------
 
 Issue list:
