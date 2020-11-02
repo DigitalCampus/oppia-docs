@@ -51,7 +51,7 @@ v1.1.3 - Released 25 Oct 2020
 v1.1.2 - Released 20 Oct 2020
 ------------------------------------
 
-* OPPIA-459 Course icon fixes
+* OPPIA-459 Course and activity icon fixes
 
 
 .. _blockv1.1.1:
