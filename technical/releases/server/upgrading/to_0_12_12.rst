@@ -20,3 +20,11 @@ Update static files
 #. Run: ``(env)$ python manage.py collectstatic``
 
 
+Update summaries
+--------------------
+
+The new Daily Active Users report will only start recording data once the server
+has been updated. If you need to generate the data for all previous dates, then 
+run ``(env)$ python manage.py update_summaries --fromstart``, but it should be 
+noted that this can take a very long time to generate if you have a lot of
+tracker records.

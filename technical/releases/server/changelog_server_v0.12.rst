@@ -19,6 +19,7 @@ Issue list:
 * OPPIA-57 UploadMedia - add option for title, organisation and license
 * OPPIA-270 Class based views for oppia/home
 * OPPIA-467 Report for unique no users, filterable by any customfield definition
+* OPPIA-471 Add report for daily active users (initial version)
 
 .. _serverv0.12.11:
 

@@ -9,6 +9,9 @@ v82 (7.1.6) - not yet released - due 1 Dec 2020
 
 Issue list:
 
+* OPPIA-436 Add/create sql test data for testing the app with
+* OPPIA-106 Refactor "widget" classes
+* OPPIA-219 In FileUtils use try-with-resources
 
 .. _appv81:
 
