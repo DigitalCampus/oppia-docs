@@ -2,8 +2,7 @@ Launching OppiaMobile from other applications
 ==========================================================
 
 
-	
-In order to allow other applications to launch specific activities in the
+In order to allow other applications to launch specific courses and activities in the
 OppiaMobile app, this can be done by using a standard weblink. 
 
 The main use-cases for this functionality are:
@@ -14,14 +13,29 @@ The main use-cases for this functionality are:
   activity
 
 Using a link, rather than an Android intent, helps to direct the user to the 
-activity online if the app is not installed.
+activity online if the app is not installed, though an Android intent can also
+be used (for example if additional data needs to be passed from the opening app)
 
 The links used should be in the following format:
 
-https://demo.oppia-mobile.org/view?digest=XXXXXXXXX
+* To go directly to a specific activity:
+  ``https://demo.oppia-mobile.org/view?digest=<digestUUID>``
+  The digest is a unique identifier for the specific activity in OppiaMobile - 
+  these are available when viewing the course structure in the Oppia server.
 
-The digest is a unique identifier for the specific activity in OppiaMobile - 
-these can be found in the module.xml of the course zip package.
+* To go directly to a specific course:
+  ``https://demo.oppia-mobile.org/view?course=<shortname>``
+  The shortname is the shortname of the course as defined in Moodle.
+ 
+Notes:
+
+* for different implementations, you'll need to use the specific domain name for
+  your Oppia server
+* if linking to a specifc activity, and this activity is then changes/updated,
+  this will generate a new UUID, so you will need to update your links 
+  
+Overview/Example of the process from user perspective
+--------------------------------------------------------
 
 Here is an example of a link appearing in a text message (of course this link
 could also be in other apps):

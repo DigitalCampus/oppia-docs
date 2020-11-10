@@ -38,15 +38,20 @@ Currently this should be done during the course export process in Moodle.
 Change the ownership of a course
 -----------------------------------
 
-When a course is first published, the user publishing the course is the owner of this course, and only they can re-publish the course.
-If a different user needs to publish the course, then the course ownership will need to be changed.
+.. note::
+	This is deprecated (as of server version 0.12.11) and should no longer be
+	necessary to use this process. You can now assign multiple managers to
+	courses (see: :ref:`permission-user-add-republish`)
+
+When a course is first published, the user publishing the course is the owner of
+this course, and only they can re-publish the course. If a different user needs
+to publish the course, then the course ownership will need to be changed.
 
 #. From the menu bar, select 'Admin' > 'Django Admin'
 #. Select 'Courses' under the 'Oppia' section
 #. Browse or search for the course and select it
 #. Change the `user` to the new owner
 #. Click save
-
 
 
 Publish a draft course
@@ -80,7 +85,7 @@ Archive a course
 
 #. From the menu bar, select 'Admin' > 'Django Admin'
 #. Select 'Courses' under the 'Oppia' section
-#. Browse or search for the course and select it
+#. Browse or search for the course and click on its link to edit it 
 #. Tick the 'is archived' checkbox
 #. Click save
 
@@ -98,6 +103,6 @@ Delete a course
 
 #. From the menu bar, select 'Admin' > 'Django Admin'
 #. Select 'Courses' under the 'Oppia' section
-#. Browse or search for the course and select it
+#. Browse or search for the course and click on its link to edit it 
 #. In the bottom left, click on 'Delete'
 #. You will be asked to confirm deletion of the course
