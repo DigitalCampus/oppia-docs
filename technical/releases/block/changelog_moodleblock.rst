@@ -7,8 +7,13 @@ OppiaMobile Moodle Block Change Log
 v1.2.2 - not yet released
 ------------------------------------
 
+.. warning::
+	Version 1.2.x and above of the block requires you to be using Oppia server
+	version 0.12.12 or above
 
-
+* OPPIA-437 New export block not including media length
+* OPPIA-442 Not picking up course status for title display
+* OPPIA-443 Video embed file doesn't pick up a new version
 
 .. _blockv1.2.1:
 

@@ -20,6 +20,12 @@ Issue list:
 * OPPIA-270 Class based views for oppia/home
 * OPPIA-467 Report for unique no users, filterable by any customfield definition
 * OPPIA-471 Add report for daily active users (initial version)
+* OPPIA-437 New export block not including media length (update fix)
+* OPPIA-472 Add report for monthly active users (initial version)
+* OPPIA-473 add report for total and average time spent
+* OPPIA-484 Add option to show only live courses
+* OPPIA-266 Class based views for profile/user
+
 
 .. _serverv0.12.11:
 
