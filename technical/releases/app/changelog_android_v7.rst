@@ -12,6 +12,7 @@ Issue list:
 * OPPIA-436 Add/create sql test data for testing the app with
 * OPPIA-106 Refactor "widget" classes
 * OPPIA-219 In FileUtils use try-with-resources
+* OPPIA-463 OnUpButton pressed - go back to app homepage
 
 .. _appv81:
 
