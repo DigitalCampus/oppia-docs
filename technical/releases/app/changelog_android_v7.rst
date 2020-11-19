@@ -13,6 +13,9 @@ Issue list:
 * OPPIA-106 Refactor "widget" classes
 * OPPIA-219 In FileUtils use try-with-resources
 * OPPIA-463 OnUpButton pressed - go back to app homepage
+* OPPIA-456 Add the stepped registration form to the core Oppia
+* OPPIA-465 On the edit profile page, the email is required, even though the
+  registration form defines it as optional
 
 .. _appv81:
 
