@@ -16,6 +16,8 @@ Issue list:
 * OPPIA-456 Add the stepped registration form to the core Oppia
 * OPPIA-465 On the edit profile page, the email is required, even though the
   registration form defines it as optional
+* OPPIA-452 On course index page show if there is missing media and option to
+  download all
 
 .. _appv81:
 

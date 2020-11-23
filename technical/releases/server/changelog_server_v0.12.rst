@@ -25,6 +25,7 @@ Issue list:
 * OPPIA-473 add report for total and average time spent
 * OPPIA-484 Add option to show only live courses
 * OPPIA-266 Class based views for profile/user
+* OPPIA-422 Add mocks for testing ip2location and cartodbupdate commands
 
 
 .. _serverv0.12.11:
