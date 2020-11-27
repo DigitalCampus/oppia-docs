@@ -2,9 +2,22 @@ OppiaMobile Server Change Log
 ================================
 
 
+.. _serverv0.12.13:
+
+v0.12.13 -  not yet released
+----------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_13
+
+Issue list:
+
+
 .. _serverv0.12.12:
 
-v0.12.12 -  not yet released
+v0.12.12 -  Released 27 Nov 2020
 ----------------------------------
 
 .. toctree::
@@ -26,6 +39,8 @@ Issue list:
 * OPPIA-484 Add option to show only live courses
 * OPPIA-266 Class based views for profile/user
 * OPPIA-422 Add mocks for testing ip2location and cartodbupdate commands
+* OPPIA-194 Testing warning about native datetimes received when timezone
+  support is active
 
 
 .. _serverv0.12.11:
