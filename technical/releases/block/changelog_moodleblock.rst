@@ -2,9 +2,16 @@ OppiaMobile Moodle Block Change Log
 =====================================
 
 
+.. _blockv1.2.3:
+
+v1.2.3 - not yet released
+------------------------------------
+
+
+
 .. _blockv1.2.2:
 
-v1.2.2 - not yet released
+v1.2.2 - Released 27 Nov 2020
 ------------------------------------
 
 .. warning::
