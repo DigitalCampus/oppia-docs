@@ -17,6 +17,7 @@ permissions (see :doc:`../permissions/server`).
    
    users
    courses
+   gamification
    cohorts
    activity
    

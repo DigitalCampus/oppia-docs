@@ -7,6 +7,7 @@ OppiaMobile Moodle Block Change Log
 v1.2.3 - not yet released
 ------------------------------------
 
+* OPPIA-162 Allow deleting of server connections
 
 
 .. _blockv1.2.2:

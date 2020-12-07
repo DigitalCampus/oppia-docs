@@ -8,6 +8,8 @@ v83 (7.1.7) - not yet released
 
 Issue list:
 
+* OPPIA-482 P2P transfer of larger courses doesn't complete
+* OPPIA-483 Update SonarCloud to run on java 11
 
 
 .. _appv82:

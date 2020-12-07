@@ -14,6 +14,8 @@ v0.12.13 -  not yet released
 
 Issue list:
 
+* OPPIA-496 Add option for giving start/end dates for reports
+* OPPIA-497 add report for search terms used
 
 .. _serverv0.12.12:
 

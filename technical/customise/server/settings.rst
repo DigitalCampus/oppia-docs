@@ -120,6 +120,11 @@ currently just hides the badges from display on the mobile app.
 BADGE_AWARDING_METHOD
 ------------------------
 
+.. note::
+   This is deprecated from server version 0.12.13 onwards. To change the badge
+   award method this can now be done in the Oppia admin pages, see: 
+   :doc:`../../../implementers/dashboard/gamification`
+   
 Defines the method that is used for awarding a badge. This may be set to one of:
 
 * ``BADGE_AWARD_METHOD_ALL_ACTIVITIES`` (default) - all activities in the course must be completed, and all quizzes passed

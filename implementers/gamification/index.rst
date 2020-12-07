@@ -1,5 +1,5 @@
-Points and Badges
-====================
+Gamification - Points and Badges
+==================================
 
 OppiaMobile awards points and badges to users based on their usage of the app and content.
 
@@ -42,36 +42,13 @@ By default, points are awarded as follows:
 The points system is designed to encourage users to return to the courses regularly and engage in 
 the activities.
 
-Changing the Global/Default Points
-------------------------------------
-
-You can edit the global/default points by:
-
-#. Go to the Django Admin pages
-#. Go to the `Gamification` > `Default Gamification Events`
-#. Select the event to change the points for and save
-
-
-Customising Course and Activity Level Points
-----------------------------------------------
-
-To customise the points for a particular course and its activities:
-
-#. Go to the courses list in the Oppia server dashboard
-#. Click on the `gamification` icon for the course to update (the icon on the
-   far right of the row)
-#. Edit the course level points and/or the points for a specific activity, then
-   press save
+To update the points see :doc:`../dashboard/gamification`
    
-.. note::
-   The updated points will not be applied on the users devices until they
-   download the updated version of the course onto their device.
 
 Badges and Completing Courses
 ------------------------------
 
-Every activity has the concept of 'completedness' and to be awarded a badge the
-user must complete every activity in the course. The definitions of activities
+Every activity has the concept of 'completedness'. The definitions of activities
 being completed of each activity type are given below:
 
 * quiz - a quiz is completed if the user has obtained at least the pass
@@ -89,19 +66,26 @@ being completed of each activity type are given below:
 * feedback - the user needs to answer all the questions
 * file - the user simply needs to have opened the file
 
-To change the criteria for assessing completedness of the activities, the
-getActivityCompleted() function for the relevant activity widget class in the
-app code will need to be updated.
 
+Course completed badge options
+---------------------------------
+
+There are 4 options for the method to award a course completed badge:
+
+* ``all_activities`` (default) - All activities must be completed, including 
+  all quizzes passed and all media viewed
+* ``all_quizzes`` - All quizzes need to be completed and passed
+* ``final_quiz`` - Only the final quiz needs to be completed and passed
+* ``all_activities_plus_percent`` - All quizzes need to be completed and passed,
+  and a percentage (default is 80%) of all other activities completed. 
+  This percentage is configurable in the settings.
+
+
+To update the badge award method, or to change the percentage for the 
+``all_activities_plus_percent`` method see :doc:`../dashboard/gamification`
 
 .. note::
    The badge awarding is performed by the :ref:`Oppia cron task <installcron>`,
    so for badges to be awarded, please ensure that the cron task is set up to 
-   run regularly.
-
-.. note::
-    The Points shown in the bottom bar are the total points users have earned 
-    (even if they have logged in on many devices). This points view might not
-    match with the total points shown in the Points section which shows the
-    list of activities and points on the local device. 
+   run regularly. 
 
