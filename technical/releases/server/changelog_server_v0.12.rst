@@ -2,9 +2,22 @@ OppiaMobile Server Change Log
 ================================
 
 
+.. _serverv0.12.14:
+
+v0.12.14 -  not yet released
+----------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_14
+
+Issue list:
+
+
 .. _serverv0.12.13:
 
-v0.12.13 -  not yet released
+v0.12.13 -  Released 21 Dec 2020
 ----------------------------------
 
 .. toctree::
@@ -16,6 +29,7 @@ Issue list:
 
 * OPPIA-496 Add option for giving start/end dates for reports
 * OPPIA-497 add report for search terms used
+* OPPIA-502 Additional badge awarding criteria option
 
 .. _serverv0.12.12:
 

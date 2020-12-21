@@ -10,6 +10,15 @@ Issue list:
 
 * OPPIA-482 P2P transfer of larger courses doesn't complete
 * OPPIA-483 Update SonarCloud to run on java 11
+* OPPIA-498 Make + sign clickable
+* OPPIA-499 Proper wording of activities in Points activity list
+* OPPIA-464 Update gradle and libraries
+* OPPIA-477 Better notifications when there had been errors downloading media
+  files
+* OPPIA-466 Solve storage location issues
+* OPPIA-251 Quiz - add tests for baseline quizzes
+* OPPIA-253 Quiz add tests for max no attempts
+* OPPIA-501 Deleting courses doesn't delete media files
 
 
 .. _appv82:
