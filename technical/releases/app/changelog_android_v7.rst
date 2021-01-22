@@ -1,9 +1,18 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+.. _appv84:
+
+v84 (7.1.8) - not yet released
+-----------------------------------------------
+
+Issue list:
+
+* OPPIA-494 Clean AndroidStudio project structure view
+
 .. _appv83:
 
-v83 (7.1.7) - not yet released
+v83 (7.1.7) - Released 22 Dec 2020
 -----------------------------------------------
 
 Issue list:

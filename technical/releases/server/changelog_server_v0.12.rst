@@ -14,6 +14,7 @@ v0.12.14 -  not yet released
 
 Issue list:
 
+* OPPIA-489 Update to use current approach for loading google charts
 
 .. _serverv0.12.13:
 
