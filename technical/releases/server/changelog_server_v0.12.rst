@@ -19,7 +19,7 @@ Issue list:
   the course
 * OPPIA-269 Class based views for oppia/course
 * OPPIA-268 Class based views for oppia/cohort
-* OPPIA-505 Provide course completiong badge criteria in server info
+* OPPIA-505 Provide course completion badge criteria in server info
 
 .. _serverv0.12.13:
 
