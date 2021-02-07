@@ -6,7 +6,7 @@ OppiaMobile Moodle Block Change Log
 v1.2.4 -not yet released
 ------------------------------------
 
-
+* OPPIA-453 Allow feedback questions to be optional
 
 .. _blockv1.2.3:
 
@@ -15,7 +15,7 @@ v1.2.3 - Released 23 Dec 2020
 
 * OPPIA-162 Allow deleting of server connections
 * Allow quiz pass threshold to be set to 0%
-
+* HOTFIX (2 Feb 2021) for video embedding
 
 .. _blockv1.2.2:
 

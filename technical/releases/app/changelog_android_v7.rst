@@ -9,6 +9,9 @@ v84 (7.1.8) - not yet released
 Issue list:
 
 * OPPIA-494 Clean AndroidStudio project structure view
+* OPPIA-519 Points/gamification not disabled
+* OPPIA-518 Cached login data not tied to the specific server
+
 
 .. _appv83:
 

@@ -15,6 +15,11 @@ v0.12.14 -  not yet released
 Issue list:
 
 * OPPIA-489 Update to use current approach for loading google charts
+* OPPIA-22 No need to show quiz table and quiz info if there are no quizzes in
+  the course
+* OPPIA-269 Class based views for oppia/course
+* OPPIA-268 Class based views for oppia/cohort
+* OPPIA-505 Provide course completiong badge criteria in server info
 
 .. _serverv0.12.13:
 
@@ -29,7 +34,7 @@ v0.12.13 -  Released 21 Dec 2020
 Issue list:
 
 * OPPIA-496 Add option for giving start/end dates for reports
-* OPPIA-497 add report for search terms used
+* OPPIA-497 Add report for search terms used
 * OPPIA-502 Additional badge awarding criteria option
 
 .. _serverv0.12.12:
