@@ -20,6 +20,8 @@ Issue list:
 * OPPIA-269 Class based views for oppia/course
 * OPPIA-268 Class based views for oppia/cohort
 * OPPIA-505 Provide course completion badge criteria in server info
+* OPPIA-289 API endpoint for getting the course structure
+* OPPIA-401 API endpoint to get summary of users course progress
 
 .. _serverv0.12.13:
 

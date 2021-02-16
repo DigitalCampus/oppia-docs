@@ -77,7 +77,7 @@ There are 4 options for the method to award a course completed badge:
 * ``all_quizzes`` - All quizzes need to be completed and passed
 * ``final_quiz`` - Only the final quiz needs to be completed and passed
 * ``all_activities_plus_percent`` - All quizzes need to be completed and passed,
-  and a percentage (default is 80%) of all other activities completed. 
+  and a percentage (default is 80%) of all other (non-quiz) activities completed. 
   This percentage is configurable in the settings.
 
 

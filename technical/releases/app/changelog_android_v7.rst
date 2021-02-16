@@ -11,6 +11,15 @@ Issue list:
 * OPPIA-494 Clean AndroidStudio project structure view
 * OPPIA-519 Points/gamification not disabled
 * OPPIA-518 Cached login data not tied to the specific server
+* OPPIA-506 Inform users of quiz pass threshold
+* OPPIA-453 Allow feedback questions to be optional 
+* OPPIA-526 Improve display of points in Points overview
+* OPPIA-509 Logout text changed
+* OPPIA-505 Display badge awarding criteria
+* OPPIA-217 Add notification for course install failure on bluetooth transfer
+* OPPIA-500 Quiz attempts for pre-tests are counted different in different
+  places
+* OPPIA-525 Quiz attempts discrepancy
 
 
 .. _appv83:
