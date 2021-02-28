@@ -14,7 +14,7 @@ Embedded images
 
 Any images you embed into Moodle page resources will also be exported. To ensure 
 they will display well on the mobile device without horizontal scrolling, it is 
-best to keep the maximum width of any uploaded images to be around 250px. This 
+best to keep the maximum width of any uploaded images to be around 400px. This 
 also assists in keeping the course module filesize down and makes it easier for 
 users to download your course.
 

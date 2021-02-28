@@ -20,6 +20,8 @@ Issue list:
 * OPPIA-500 Quiz attempts for pre-tests are counted different in different
   places
 * OPPIA-525 Quiz attempts discrepancy
+* OPPIA-531 Spaces in media filename mean that the video cannot be downloaded
+* OPPIA-554 Not saving email address
 
 
 .. _appv83:
