@@ -1,9 +1,18 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+
+.. _appv85:
+
+v85 (7.1.9) - not yet released
+-----------------------------------------------
+
+Issue list:
+
+
 .. _appv84:
 
-v84 (7.1.8) - not yet released
+v84 (7.1.8) - released 1 Mar 2021
 -----------------------------------------------
 
 Issue list:
@@ -22,6 +31,7 @@ Issue list:
 * OPPIA-525 Quiz attempts discrepancy
 * OPPIA-531 Spaces in media filename mean that the video cannot be downloaded
 * OPPIA-554 Not saving email address
+* OPPIA-530 Files resource naming can cause the app to fail to download a course
 
 
 .. _appv83:

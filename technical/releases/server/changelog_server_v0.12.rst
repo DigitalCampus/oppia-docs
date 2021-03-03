@@ -2,9 +2,23 @@ OppiaMobile Server Change Log
 ================================
 
 
+.. _serverv0.12.15:
+
+v0.12.15 -  not yet released
+----------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_15
+
+Issue list:
+
+* OPPIA-31 Rename 'tags' to be 'categories' to match app and block
+
 .. _serverv0.12.14:
 
-v0.12.14 -  not yet released
+v0.12.14 - released 1 Mar 2021
 ----------------------------------
 
 .. toctree::
