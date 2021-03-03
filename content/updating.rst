@@ -60,6 +60,8 @@ notified about updates), but without impacting your actual users.
 How are users notified about course updates?
 ---------------------------------------------
 
+[we are working on ways to improve the course notification process]
+
 When a course is updated and published live, users will be notified on their
 phone for courses that they already have installed (when they have an internet
 connection available on their device). 
@@ -70,7 +72,9 @@ Users will not be notified about:
 * new courses
 * courses that are no longer live 
 
-Note that we are working on ways to improve the course notification process.
+Note that users are not forced to update courses, it is their decision when to
+update a course (e.g. when they have access to wifi, or good mobile internet 
+connection)
 
 How to deal with courses that are no longer live
 ----------------------------------------------------
