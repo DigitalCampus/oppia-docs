@@ -78,7 +78,11 @@ User Guide
    :maxdepth: 2
    
    support/userguide/index
-
+   
+.. toctree::
+   :maxdepth: 1
+   
+   support/datause
 
 Training & Support
 -------------------
