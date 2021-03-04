@@ -26,10 +26,22 @@ Once you have created your account on AWS:
 	results if you have selected the 'EU (Ireland)' zone
 
 Once your instance is up and running you will be able to assign a static IP, 
-access via your web browser and log into the server using SSH. It is beyond the 
-scope of this guide to give the full information about how to connect and 
-configure your AWS account instances.
+access via your web browser and log into the server using the IP address. 
 
+It is beyond the scope of this guide to give the full information about how to
+connect and configure your AWS account instances.
+
+You can point your domain name
+
+Access via SSH
+-----------------
+
+It is strongly recommended that you only allow access to your Oppia server using
+SSH (HTTPS). Certbot is already installed on the server, so you can
+use this to set up free SSH certificates. For more info see: 
+`<https://certbot.eff.org/lets-encrypt/ubuntubionic-apache>`_ (start from step 7)
+
+ 
 Passwords
 ----------
 When you install and launch your instance it is set up with a default set of 
@@ -49,7 +61,7 @@ usernames/passwords:
 
 Directories and location of files
 ---------------------------------
-All the required files are stored in the /home/oppiamobile directory, which has 
+All the required files are stored in the /home/oppia/ directory, which has 
 the following structure:
 
 * django-oppia (dir): the OppiaMobile server application files
@@ -91,7 +103,7 @@ The current version of the instance is running:
 * Mysql 5.7
 * Django 2.2.10
 * TastyPie 0.14.2
-* OppiaServer 0.12.10
+* OppiaServer 0.12.14
 
 
 Email configuration

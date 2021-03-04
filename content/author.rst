@@ -9,9 +9,8 @@ set up an area in Moodle for you to test out your course in OppiaMobile please
 You should have received by email your username, password and link to your 
 course area.
 
-When you log into your course area you should see some example pages - these are 
-there to help get you started and demonstrate some of the features available. 
-You can either update or remove these if you don't need them.
+If you're creating a course on your own Moodle server, it is likely best to use
+the "Topics" format for your course.
 
 When you're on the course homepage press the 'turn editing on' button in the top
 right then you get the options to add/edit activities/resources etc - for media 
