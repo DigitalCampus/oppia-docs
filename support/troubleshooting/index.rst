@@ -6,5 +6,6 @@ Troubleshooting an Oppia Implementation
 
    app
    server
+   block
    translations
    debug
