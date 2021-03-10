@@ -7,6 +7,14 @@ v1.2.4 -not yet released
 ------------------------------------
 
 * OPPIA-453 Allow feedback questions to be optional
+* OPPIA-538 How to handle courses with multiple (identical) activities that have
+  same digest
+* OPPIA-150 Remove check to see the server/block version for the type of quiz
+  export
+* OPPIA-550 Feedback activities get exported as new activities on every export
+* OPPIA-551: Solved issue that only loaded the first embedded video in a page
+  activity
+* OPPIA-530 Replace filesystem and URI unsafe characters for resource files
 
 .. _blockv1.2.3:
 
