@@ -9,6 +9,9 @@ v85 (7.1.9) - not yet released
 
 Issue list:
 
+* OPPIA-548 On changing server setting, user is logged out
+* OPPIA-141 Matching questions - text not wrapping
+
 
 .. _appv84:
 
