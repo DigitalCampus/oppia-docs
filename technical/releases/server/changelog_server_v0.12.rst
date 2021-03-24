@@ -15,7 +15,9 @@ v0.12.15 -  not yet released
 Issue list:
 
 * OPPIA-31 Rename 'tags' to be 'categories' to match app and block
-* OPPIA-571 Upgrade django-ses package
+* OPPIA-571 Upgrade Django, Pillow and django-ses packages
+* OPPIA-343 Explore feedback answers
+
 
 .. _serverv0.12.14:
 

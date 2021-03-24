@@ -11,6 +11,9 @@ Issue list:
 
 * OPPIA-548 On changing server setting, user is logged out
 * OPPIA-141 Matching questions - text not wrapping
+* OPPIA-549 Remove metadata that requires the read phone state permission
+* OPPIA-90 TransactionTooLargeException when performing search with large result
+  set
 
 
 .. _appv84:
