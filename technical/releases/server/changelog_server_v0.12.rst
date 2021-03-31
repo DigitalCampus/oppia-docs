@@ -2,9 +2,24 @@ OppiaMobile Server Change Log
 ================================
 
 
+.. _serverv0.12.16:
+
+v0.12.16 -  not yet released
+----------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_16
+
+Issue list:
+
+* OPPIA-587 API endpoint for username reminder
+* OPPIA-584 Improved password reset process
+
 .. _serverv0.12.15:
 
-v0.12.15 -  not yet released
+v0.12.15 -  Released 26 Mar 2021
 ----------------------------------
 
 .. toctree::

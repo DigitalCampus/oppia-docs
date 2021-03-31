@@ -1,6 +1,20 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+.. _appv86:
+
+7.1.10 - not yet released
+-----------------------------------------------
+
+.. note::
+   For this version of the app, you will need to be running server v0.12.16 or
+   above for the password reset, username reminder, account deletion and data
+   download features to work correctly.
+ 
+Issue list:
+
+* OPPIA-584 Improved password reset process
+
 
 .. _appv85:
 
@@ -14,6 +28,7 @@ Issue list:
 * OPPIA-549 Remove metadata that requires the read phone state permission
 * OPPIA-90 TransactionTooLargeException when performing search with large result
   set
+* OPPIA-570 Clicking on scorecard from home page may crash app
 
 
 .. _appv84:
