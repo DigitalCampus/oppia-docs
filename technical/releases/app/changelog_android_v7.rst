@@ -3,7 +3,7 @@ OppiaMobile Android App Change Log v7.x
 
 .. _appv86:
 
-7.1.10 - not yet released
+v86 (7.2.0) - not yet released
 -----------------------------------------------
 
 .. note::
@@ -18,7 +18,7 @@ Issue list:
 
 .. _appv85:
 
-v85 (7.1.9) - not yet released
+v85 (7.1.9) - Released 1 Apr 2021
 -----------------------------------------------
 
 Issue list:
@@ -29,6 +29,7 @@ Issue list:
 * OPPIA-90 TransactionTooLargeException when performing search with large result
   set
 * OPPIA-570 Clicking on scorecard from home page may crash app
+* OPPIA-107 Refactoring of AsyncTask 
 
 
 .. _appv84:
