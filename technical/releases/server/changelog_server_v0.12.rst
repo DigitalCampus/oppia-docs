@@ -14,8 +14,10 @@ v0.12.16 -  not yet released
 
 Issue list:
 
+* Update to Django 2.2.20
 * OPPIA-587 API endpoint for username reminder
 * OPPIA-584 Improved password reset process
+* OPPIA-560 API endpoint to delete account
 
 .. _serverv0.12.15:
 
