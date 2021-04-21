@@ -14,6 +14,11 @@ v86 (7.2.0) - not yet released
 Issue list:
 
 * OPPIA-584 Improved password reset process
+* OPPIA-577 Create local app setting to determine when course updates were last
+  checked
+* OPPIA-578 Turn off nagging course update notifications
+* OPPIA-603 Turn off couple of handled exception email reports
+* Fix UserNotFound expection when user not logged in
 
 
 .. _appv85:

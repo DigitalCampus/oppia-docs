@@ -8,4 +8,5 @@ Managing an OppiaMobile Implementation
    upgrade
    management-commands
    utilities
+   backup
    

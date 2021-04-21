@@ -15,9 +15,11 @@ v0.12.16 -  not yet released
 Issue list:
 
 * Update to Django 2.2.20
+* Automatically clear expired sessions as part of oppiacron task
 * OPPIA-587 API endpoint for username reminder
 * OPPIA-584 Improved password reset process
 * OPPIA-560 API endpoint to delete account
+* OPPIA-557 Add report on inactive users
 
 .. _serverv0.12.15:
 
