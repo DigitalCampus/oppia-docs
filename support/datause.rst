@@ -31,7 +31,7 @@ The data above is collected to:
 * Provide a personalised experience in the app, monitor what percentage of course
   activities you have completed and passed; in order to award points and badges
 * Determine the countries users are accesing from (using the IP address)
-* Implementating organisations will often use anonymised or summary data to help
+* Implementing organisations will often use anonymised or summary data to help
   analyse, monitor and evaluate the effectiveness of the training courses
   provided. In this instance exactly how your data is used will depend on the
   implementing organisation.
