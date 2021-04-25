@@ -19,6 +19,14 @@ Issue list:
 * OPPIA-578 Turn off nagging course update notifications
 * OPPIA-603 Turn off couple of handled exception email reports
 * Fix UserNotFound expection when user not logged in
+* OPPIA-560 Add a privacy section to the app drawer menu
+* OPPIA-561 Add opt in/out for the bug tracking and external analytics
+* OPPIA-565 Allow users to delete their account from within the app
+* OPPIA-579 Show notification when a new course is published
+* OPPIA-580 Course deletion information
+* OPPIA-581 Course update notification
+* OPPIA-588 Create abstract class for bug reporting system
+* OPPIA-585 Option to get reminder of username
 
 
 .. _appv85:
