@@ -13,3 +13,4 @@ instructions.
    aws
    server
    block
+   server-size

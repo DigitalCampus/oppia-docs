@@ -1,6 +1,16 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+
+.. _appv87:
+
+v87 (7.2.1) - not yet released
+-----------------------------------------------
+
+Issue list:
+
+
+
 .. _appv86:
 
 v86 (7.2.0) - not yet released
@@ -27,6 +37,11 @@ Issue list:
 * OPPIA-581 Course update notification
 * OPPIA-588 Create abstract class for bug reporting system
 * OPPIA-585 Option to get reminder of username
+* OPPIA-238 Quiz tests for matching questions
+* OPPIA-593 Server change when logged in does not require admin pswd any more
+* OPPIA-613 User APIkey after server change doesn't get invalidated
+* OPPIA-562 Add option to download your data, from the app
+
 
 
 .. _appv85:

@@ -14,6 +14,8 @@ v0.12.17 - not yet released
 
 Issue list:
 
+* OPPIA-596 Add report for daily course downloads
+
 
 
 .. _serverv0.12.16:

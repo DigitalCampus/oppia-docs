@@ -2,11 +2,18 @@ OppiaMobile Moodle Block Change Log
 =====================================
 
 
-.. _blockv1.2.5:
+.. _blockv1.2.6:
 
-v1.2.5 - not yet released
+v1.2.6 - not yet released
 ------------------------------------
 
+
+.. _blockv1.2.5:
+
+v1.2.5 - Released 29 Apr 2021
+------------------------------------
+
+* OPPIA-552 Page with video export doesn't pick up the video poster image
 
 .. _blockv1.2.4:
 
