@@ -348,3 +348,22 @@ each step the following values:
   identifiers (they are self explanatory): ``username``, ``email``, 
   ``password``, ``passwordagain``, ``first_name``, ``last_name``, ``job_title``,
   ``organisation``, ``phoneno``.
+
+
+Mandatory fields
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To be able to easily configured the registration form, you can also use the
+``custom_fields.json`` file to define which of the profile fields (the fields 
+that are included by default in the app implementation) are mandatory. 
+
+This is done using a property named ``required_fields``, that it's an array with
+the field's identifiers. The possible values to add are: ``email``, ``phoneno``,
+``job_title`` and ``organisation``.
+
+So, for example, if you'd want to configure your registration form so the email
+and phone number fields are required, you would add the next definition to the
+JSON file: ::
+
+	"required_fields": ["email", "phoneno"],
+
