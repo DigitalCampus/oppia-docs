@@ -98,12 +98,13 @@ Environment information
 -----------------------
 The current version of the instance is running:
 
+* OppiaServer 0.12.16
 * Ubuntu 18.04 LTS Server
 * Apache 2.4
 * Mysql 5.7
-* Django 2.2.10
+* Django 2.2.20
 * TastyPie 0.14.2
-* OppiaServer 0.12.14
+
 
 
 Email configuration
