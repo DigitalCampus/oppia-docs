@@ -13,7 +13,7 @@ Issue list:
 
 .. _appv86:
 
-v86 (7.2.0) - not yet released
+v86 (7.2.0) - released 30 Apr 2021
 -----------------------------------------------
 
 .. note::
