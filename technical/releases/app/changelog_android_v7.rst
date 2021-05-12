@@ -9,6 +9,9 @@ v87 (7.2.1) - not yet released
 
 Issue list:
 
+* OPPIA-604 NullPointerException on TagSelectActivity
+* OPPIA-616 Improve "reset password" and "remember username" end flow
+* OPPIA-626 Crash after login/logout if crash reporting is not enabled
 
 
 .. _appv86:

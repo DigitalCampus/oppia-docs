@@ -25,8 +25,13 @@ To consider
    
 #. There will be peaks and troughs in usage levels
 
-   
-   
+   Likely you will have peaks and troughs, for example if new or updated courses
+   are released. However these might always been reflected in the course
+   activity stats/graphs on the Oppia dashboard. For example, if you release 
+   several new courses, each with a lot of video content, then the server will 
+   experience quite a lot of load as the users download this content, even if 
+   they haven't been using substantially yet. 
+    
 #. Do you have many courses and a lot of video content that users will be
    downloading?
 
@@ -45,6 +50,10 @@ To consider
  
 #. Will you roll out gradually, perhaps to different areas/regions at different
    times?
+   
+   If you are rolling out gradually, then you are less likely to experience high 
+   peaks and troughs in the usage, as you might if rolled out nationally on one 
+   day.
 
 Example case
 -------------------
@@ -69,10 +78,13 @@ We use 2 types of server monitoring:
 AWS server monitoring 
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+You can use AWS CloudWatch (https://aws.amazon.com/cloudwatch/) to set up many 
+different types of monitoring, there are 2 main ones that we use:
 
-AWS CloudWatch:
-Status alert checks
-CPU over 70%
+* Status alert checks - so if 2 status checks fail within 5mins, an alert email
+  is sent
+* CPU over 70% - so if the CPU usage is over 70% for 5mins, again an email alert
+  is sent
 
 
 Updown.io website monitoring
@@ -85,7 +97,9 @@ running, the AWS monitoring would not pick up on this.
 Using a physical server
 ------------------------
 
-
+If you are using a physical server (or virtual server on your own hardware), 
+then your IT admin team should be able to advise on what types of monitoring 
+tools they already use, and can set up appropriately for you
 
 Resizing an AWS instance
 ----------------------------
