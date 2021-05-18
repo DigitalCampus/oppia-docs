@@ -53,6 +53,7 @@ Configuring your own version of the app
    	:maxdepth: 1
    	
    	configure 
+   	buganalytics
    	settings
    	theme
    	preloading

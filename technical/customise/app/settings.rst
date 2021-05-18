@@ -83,7 +83,6 @@ included by default in the tracker logs:
 * ``METADATA_INCLUDE_WIFI_ON`` (boolean): Include in the tracker metadata if the device is currently connected to a WiFi network
 * ``METADATA_INCLUDE_NETWORK_CONNECTED`` (boolean): Include in the tracker if the device has internet access
 * ``METADATA_INCLUDE_BATTERY_LEVEL`` (boolean): Include in the tracker the device battery level
-* ``METADATA_INCLUDE_GPS`` (boolean): Include in the tracker the GPS location of the device
 
 
 Gamification

@@ -35,8 +35,7 @@ Default:
 	    'SIM_SERIAL': True,
 	    'WIFI_ON': True,
 	    'NETWORK_CONNECTED': True,
-	    'BATTERY_LEVEL': True,
-	    'GPS': False,
+	    'BATTERY_LEVEL': True
 	}
 
 The defines the metadata info that is sent back from the app.
