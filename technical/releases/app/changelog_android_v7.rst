@@ -12,6 +12,7 @@ Issue list:
 * OPPIA-604 NullPointerException on TagSelectActivity
 * OPPIA-616 Improve "reset password" and "remember username" end flow
 * OPPIA-626 Crash after login/logout if crash reporting is not enabled
+* OPPIA-614 User ViewBinding instead of findViewById
 
 
 .. _appv86:
