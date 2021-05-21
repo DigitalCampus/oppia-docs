@@ -17,6 +17,7 @@ Issue list:
 * OPPIA-596 Add report for daily course downloads
 * OPPIA-622 Initial work for certificates
 * OPPIA-638 Pick up email prefix from the app_name
+* OPPIA-640 Upgrade required library imports
 
 
 

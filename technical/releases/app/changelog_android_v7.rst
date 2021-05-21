@@ -13,6 +13,10 @@ Issue list:
 * OPPIA-616 Improve "reset password" and "remember username" end flow
 * OPPIA-626 Crash after login/logout if crash reporting is not enabled
 * OPPIA-614 User ViewBinding instead of findViewById
+* OPPIA-636 Check if online, for download data and delete account
+* OPPIA-620 Add option for no bug tracking/analytics
+* OPPIA-597 Fix issue with Ethiopian alphabet used in username (and other 
+  non-latin scripts)
 
 
 .. _appv86:
