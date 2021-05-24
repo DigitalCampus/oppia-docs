@@ -18,6 +18,8 @@ Issue list:
 * OPPIA-622 Initial work for certificates
 * OPPIA-638 Pick up email prefix from the app_name
 * OPPIA-640 Upgrade required library imports
+* OPPIA-591 Allow access to download older versions of quiz and feedback
+  responses
 
 
 
