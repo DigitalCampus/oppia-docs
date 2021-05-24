@@ -1,10 +1,18 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+.. _appv88:
+
+v88 (7.2.2) - not yet released
+-----------------------------------------------
+
+Issue list:
 
 .. _appv87:
 
-v87 (7.2.1) - not yet released
+
+
+v87 (7.2.1) - released 24 May 2021
 -----------------------------------------------
 
 Issue list:
@@ -17,6 +25,9 @@ Issue list:
 * OPPIA-620 Add option for no bug tracking/analytics
 * OPPIA-597 Fix issue with Ethiopian alphabet used in username (and other 
   non-latin scripts)
+* OPPIA-612 Move analytics preferences to after registration and on per user 
+  basis
+* OPPIA-623 Option to download certificates from within the app
 
 
 .. _appv86:
