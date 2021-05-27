@@ -1,0 +1,21 @@
+Upgrading to OppiaMobile Server v0.12.18
+=========================================
+
+Update packages
+----------------------------
+#. Run: ``(env)$ pip install -r requirements.txt``
+
+
+Update database 
+-----------------
+
+#. Run: ``(env)$ python manage.py migrate``
+
+
+Update static files
+--------------------
+
+#. Run: ``(env)$ python manage.py compilescss`` - don't worry about the 
+   unclosed files warning messages
+#. Run: ``(env)$ python manage.py collectstatic``
+

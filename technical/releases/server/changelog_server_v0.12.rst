@@ -10,7 +10,7 @@ v0.12.17 - not yet released
 .. toctree::
    :maxdepth: 1
 
-   upgrading/to_0_12_17
+   upgrading/to_0_12_18
 
 Issue list:
 
