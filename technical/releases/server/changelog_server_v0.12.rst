@@ -2,15 +2,29 @@ OppiaMobile Server Change Log
 ================================
 
 
-.. _serverv0.12.17:
+.. _serverv0.12.18:
 
-v0.12.17 - not yet released
+v0.12.18 - not yet released
 ----------------------------------
 
 .. toctree::
    :maxdepth: 1
 
    upgrading/to_0_12_18
+
+Issue list:
+
+.. _serverv0.12.17:
+
+
+
+v0.12.17 - Released 26 May 2021
+----------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_17
 
 Issue list:
 
