@@ -28,6 +28,7 @@ Issue list:
 * OPPIA-612 Move analytics preferences to after registration and on per user 
   basis
 * OPPIA-623 Option to download certificates from within the app
+* OPPIA-657 Fix issue with tablet layout
 
 
 .. _appv86:
