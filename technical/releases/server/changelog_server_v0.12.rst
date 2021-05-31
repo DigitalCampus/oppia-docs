@@ -14,6 +14,12 @@ v0.12.18 - not yet released
 
 Issue list:
 
+* OPPIA-634 Detect if certificate is portrait or landscape - and check correct
+  size
+* OPPIA-664 Management command to clean media/courses dir
+
+
+
 .. _serverv0.12.17:
 
 

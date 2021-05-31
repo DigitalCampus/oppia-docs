@@ -10,7 +10,7 @@ Issue list:
 
 .. _appv87:
 
-
+* OPPIA-647 Remove jCenter() from build.gradle (is deprecated)
 
 v87 (7.2.1) - released 24 May 2021
 -----------------------------------------------
