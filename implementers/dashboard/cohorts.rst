@@ -37,7 +37,7 @@ Add/remove a teacher from a cohort
 #. In the teachers field, add or remove the relevant username
 #. Click 'Save'
 
-Delete a new cohort
+Delete a cohort
 ----------------------
 
 #. From the menu bar, select 'Admin' > 'Django Admin'

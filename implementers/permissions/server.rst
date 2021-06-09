@@ -6,13 +6,16 @@ on the default Django users system and others based on extra permissions the use
 has been specifically given.
 
 * Admin User - this is the standard Django superuser 
-  (https://docs.djangoproject.com/en/2.2/topics/auth/default/ - a typical user 
-  with this role would be a system/server administrator
+  (https://docs.djangoproject.com/en/2.2/topics/auth/default/) - a typical user 
+  with this role would be a system/server administrator. Admin users are able to
+  add/edit/delete any data directly from the Oppia Django Admin pages.
 * Staff - this is the standard Django staff user 
   (https://docs.djangoproject.com/en/2.2/topics/auth/default/) - a typical user 
   would be a project manager/officer, college or ministry staff, essentially 
   users who need to access all the data/reports within the server, but not 
   necessarily responsible for the technical maintenance or server level admin.
+  Staff users do not have any permissions to add/edit/delete data in the Oppia
+  Django Admin pages.
 * Teachers/Students - in Django permissions terms, both teachers and students 
   are standard users. The only difference between them is that a teacher has 
   been assigned the teacher status to a particular cohort of students. A cohort 

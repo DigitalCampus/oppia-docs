@@ -7,6 +7,7 @@ OppiaMobile Moodle Block Change Log
 v1.2.7 - not yet released
 ------------------------------------
 
+* OPPIA-154 Remove code related to export2print
 
 .. _blockv1.2.6:
 

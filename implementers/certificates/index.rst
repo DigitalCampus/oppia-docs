@@ -1,13 +1,8 @@
 Setting up Certificates
 ==========================
-
-.. note::
-	Setting up certificates is a work in progress. These docs will be updated as
-	we get feedback on this very initial version.
-	
 	
 The Oppia server can automatically generate pdf certificates, which users can
-then download to save/print.
+then download to save/print, and can be automatically be emailed to users.
 
 How to create certificates for courses
 -----------------------------------------
@@ -62,8 +57,22 @@ users will retain the certificate at the point in time they were awarded it.
 How do users get their certificates?
 ---------------------------------------
 
-Currently users can download their certificates from the Oppia server, on their
-badges page. But we plan to make the downloadable from the app too.
+Users can get their certificates from:
 
+* Downloading in the Oppia app (from the badges screen)
+* Downloading from the Oppia server
+* As an attachment via email. Note that for certificates to be emailed, the 
+  `OPPIA_EMAIL_CERTIFICATES` setting to be `True`, plus the user needs to have a
+  valid email address
 
+Certificate validation
+-------------------------
+
+You can optionally add a verification code to the certificate, in the form of a
+URL link or QR core (for example to allow supervisors or managers to check the 
+certificate is valid).
+
+When validation is enabled on the certificate template, the URL or QR code will
+link to the Oppia server to show if the certificate is valid or not. Note that a
+user account is not required to validate a certificate.
 	

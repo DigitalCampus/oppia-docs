@@ -67,6 +67,7 @@ Implementers Guide
    implementers/permissions/index
    implementers/gamification/index
    implementers/certificates/index
+   implementers/cohorts/index
    implementers/integration/index
    implementers/viz/index
    implementers/offline/index
