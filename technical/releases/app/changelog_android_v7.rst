@@ -11,6 +11,8 @@ Issue list:
 .. _appv87:
 
 * OPPIA-647 Remove jCenter() from build.gradle (is deprecated)
+* OPPIA-643 Implement course completion criteria in app
+
 
 v87 (7.2.1) - released 24 May 2021
 -----------------------------------------------

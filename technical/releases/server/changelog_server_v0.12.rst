@@ -14,12 +14,13 @@ v0.12.18 - not yet released
 
 Issue list:
 
-* Update to Django 2.2.21
+* Update to Django 2.2.24
 * OPPIA-634 Detect if certificate is portrait or landscape - and check correct
   size
 * OPPIA-664 Management command to clean media/courses dir
 * OPPIA-629 Be able to verify a certificate
 * OPPIA-630 Add option to email certificate
+* OPPIA-628 Extra tests for certificates
 
 
 
