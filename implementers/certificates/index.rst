@@ -42,6 +42,13 @@ How to create certificates for courses
    certificate template. The certificates will start getting generated very
    shortly, and will include creation of certificates for users who had
    previously completed the course.
+   
+Notes and Comments
+-------------------
+
+* If you find the course name is too long to automatically be printed on the 
+  certificate, you can pre-input the course title on the certificate image
+  template and untick the "include_course_title" on the certficiate template.
 
 How are certificates awarded?
 -------------------------------
