@@ -12,6 +12,7 @@ Issue list:
 
 * OPPIA-647 Remove jCenter() from build.gradle (is deprecated)
 * OPPIA-643 Implement course completion criteria in app
+* OPPIA-592 Finalize refactorizing Payload objects
 
 
 v87 (7.2.1) - released 24 May 2021
