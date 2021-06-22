@@ -1,19 +1,30 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
-.. _appv88:
+.. _appv89:
 
-v88 (7.2.2) - not yet released
+v89 (7.3.0) - not yet released
 -----------------------------------------------
 
 Issue list:
 
-.. _appv87:
+
+.. _appv88:
+
+v88 (7.2.2) - released 22 Jun 2021
+-----------------------------------------------
+
+Issue list:
+
 
 * OPPIA-647 Remove jCenter() from build.gradle (is deprecated)
 * OPPIA-643 Implement course completion criteria in app
 * OPPIA-592 Finalize refactorizing Payload objects
+* OPPIA-651 Speed up retrieval of the leaderboard
+* OPPIA-644 Set up course reminder notifications
+* OPPIA-645 Allow users to set day/time of course reminder notifications
 
+.. _appv87:
 
 v87 (7.2.1) - released 24 May 2021
 -----------------------------------------------

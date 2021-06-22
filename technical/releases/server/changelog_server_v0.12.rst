@@ -1,10 +1,21 @@
 OppiaMobile Server Change Log
 ================================
 
+.. _serverv0.12.19:
+
+v0.12.19 - not yet released
+----------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_19
+
+Issue list:
 
 .. _serverv0.12.18:
 
-v0.12.18 - not yet released
+v0.12.18 - Released 22 Jun 2021
 ----------------------------------
 
 .. toctree::
@@ -21,6 +32,7 @@ Issue list:
 * OPPIA-629 Be able to verify a certificate
 * OPPIA-630 Add option to email certificate
 * OPPIA-628 Extra tests for certificates
+* OPPIA-651 Speed up retrieval of the leaderboard
 
 
 
