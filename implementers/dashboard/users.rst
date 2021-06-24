@@ -59,6 +59,8 @@ Reset user password
 #. Browse or search for the user and select
 #. Under the password field, follow the link and instructions to reset the password
 
+.. _permission-user-admin:
+
 Add/remove admin access permission
 ------------------------------------
 
@@ -72,6 +74,9 @@ Add/remove admin access permission
 #. Browse or search for the user and select
 #. Tick/untick the 'superuser status' checkbox
 #. Click on the save button (bottom right)
+
+
+.. _permission-user-staff:
 
 Add/remove staff access permission
 -----------------------------------

@@ -7,6 +7,7 @@ This documentation details the permissions for the various components of OppiaMo
 .. toctree::
    :maxdepth: 1
    
+   quickstart
    publishing
    app
    server

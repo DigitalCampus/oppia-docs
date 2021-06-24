@@ -64,6 +64,7 @@ Implementers Guide
    :maxdepth: 1
 
    implementers/dashboard/index
+   implementers/permissions/quickstart
    implementers/permissions/index
    implementers/gamification/index
    implementers/certificates/index
