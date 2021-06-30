@@ -22,6 +22,9 @@ v0.12.18 - Released 22 Jun 2021
    :maxdepth: 1
 
    upgrading/to_0_12_18
+   
+.. note::
+   The oppiacron task should be run as an admin/sudo user
 
 Issue list:
 

@@ -309,7 +309,7 @@ These can be run as a single cron task. We recommend putting this file in your
 	python django-oppia/manage.py update_summaries
 
 	
-Edit your ``crontab`` to run this script regularly - at least once per hour.
+Edit the sudo users ``crontab`` to run this script regularly - at least once per hour.
 
 13. Contribute!
 ----------------
