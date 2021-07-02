@@ -11,7 +11,18 @@ v0.12.19 - not yet released
 
    upgrading/to_0_12_19
 
+.. note::
+   For the downloading of time spent in courses (#OPPIA-702), the 
+   update_summaries command will need to be run from the start - see the 
+   upgrading notes
+   
 Issue list:
+
+* OPPIA-679 Add option to specify the display name for a certificate
+* OPPIA-700 On bulk user upload, add option to include custom registration form
+  fields
+* OPPIA-693 Add option to regenerate a certificate for a user
+* OPPIA-702 Export/accessing time-tracking data
 
 .. _serverv0.12.18:
 
@@ -40,8 +51,6 @@ Issue list:
 
 
 .. _serverv0.12.17:
-
-
 
 v0.12.17 - Released 26 May 2021
 ----------------------------------

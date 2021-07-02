@@ -1,13 +1,19 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv1.2.8:
+
+v1.2.8 - not yet released
+------------------------------------
 
 .. _blockv1.2.7:
 
-v1.2.7 - not yet released
+v1.2.7 - Released 1 July 2021
 ------------------------------------
 
 * OPPIA-154 Remove code related to export2print
+* OPPIA-713 New course style for Extension Essential app
+* OPPIA-670 Review SonarCloud Lint issues
 
 .. _blockv1.2.6:
 

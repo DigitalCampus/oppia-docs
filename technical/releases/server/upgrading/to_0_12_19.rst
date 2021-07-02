@@ -19,3 +19,12 @@ Update static files
    unclosed files warning messages
 #. Run: ``(env)$ python manage.py collectstatic``
 
+Run update_summaries from start
+---------------------------------
+
+#. Run the update summaries command from start: 
+   ``(env)$ python manage.py update_summaries --fromstart``
+#. This might take a long time (hours) for large implementations, but is 
+   required to make sure the data for daily active users is correct and broken
+   down by course
+
