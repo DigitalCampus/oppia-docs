@@ -1,5 +1,5 @@
-OppiaMobile Server Change Log
-================================
+OppiaMobile Server Change Log for v0.11.x
+==========================================
 
 
 
@@ -121,19 +121,3 @@ Issue list:
 * 592: Move to Django 1.11.20 on v0.11.0 branch & master - https://github.com/DigitalCampus/django-oppia/issues/592
 * 570: Make sure use of COURSE_UPLOAD_DIR always uses os.path.join() - https://github.com/DigitalCampus/django-oppia/issues/570
 
-Previous Versions
-------------------
-
-.. toctree::
-   :maxdepth: 2
-   
-   changelog_server_v0.10
-   changelog_server_v0.9
-   changelog_server_v0.8
-   changelog_server_v0.7
-   changelog_server_v0.6
-   changelog_server_v0.5
-   changelog_server_v0.4
-   changelog_server_v0.3
-   changelog_server_v0.2
-   changelog_server_v0.1

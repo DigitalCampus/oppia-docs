@@ -12,9 +12,12 @@ v0.12.19 - not yet released
    upgrading/to_0_12_19
 
 .. note::
-   For the downloading of time spent in courses (#OPPIA-702), the 
-   update_summaries command will need to be run from the start - see the 
-   upgrading notes
+   *  For the downloading of time spent in courses (#OPPIA-702), the 
+      update_summaries command will need to be run from the start - see the 
+      upgrading notes
+   *  The option to upload media within the dashboard interface, and use the 
+      media_embed_code for adding media in Moodle has been removed. All media 
+      files should be directly embedded in Moodle.
    
 Issue list:
 
@@ -571,7 +574,7 @@ Previous Versions
 ------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    changelog_server_v0.11
    changelog_server_v0.10
