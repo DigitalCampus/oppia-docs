@@ -6,8 +6,15 @@ OppiaMobile Android App Change Log v7.x
 v89 (7.3.0) - not yet released
 -----------------------------------------------
 
+.. note::
+   There are changes in the theme and styling in this release, if you have a 
+   custom theme for your app, then you should review it carefully after merging 
+   this release in.
+ 
 Issue list:
 
+* OPPIA-725 Images and styles don't display in course content on Android 11
+* OPPIA-676 Improve changing the theme colours/icon
 
 .. _appv88:
 

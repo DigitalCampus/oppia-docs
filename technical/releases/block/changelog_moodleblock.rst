@@ -6,6 +6,9 @@ OppiaMobile Moodle Block Change Log
 v1.2.8 - not yet released
 ------------------------------------
 
+* OPPIA-671 Export block tag/categories can get extra '-' added
+
+ 
 .. _blockv1.2.7:
 
 v1.2.7 - Released 1 July 2021

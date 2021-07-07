@@ -26,6 +26,9 @@ Issue list:
   fields
 * OPPIA-693 Add option to regenerate a certificate for a user
 * OPPIA-702 Export/accessing time-tracking data
+* OPPIA-487 Deprecate media embed helper
+* OPPIA-58 Option to register server
+* OPPIA-708 Add tests for serverregistation update management task
 
 .. _serverv0.12.18:
 
