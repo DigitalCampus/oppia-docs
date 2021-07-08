@@ -9,11 +9,10 @@ The feedback question types supported are:
 * multichoice
 * info
 * label
-* textarea
+* textarea 
+* description
 * multichoicerated
 * numeric
-* textfield
-* multichoice
 
 In the Oppia app the feedback questions use the same question types and format
 as the quiz content, except without the scoring and marking.

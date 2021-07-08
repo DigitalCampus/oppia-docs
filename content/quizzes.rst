@@ -1,16 +1,18 @@
 Adding quizzes
 ===============
 
-Add all your questions as standard Moodle quiz questions and they will be 
-exported to run as quizzes on the mobile device. Note that only questions which 
-can be marked automatically can be exported, so any essay questions will not be 
-exported as these require manual marking. 
+Add your questions as standard Moodle quiz questions and they will be 
+exported to run as quizzes on the mobile device.
 
-Essentially the question types supported are:
+The question types supported are:
 
-* any question supported by the `Moodle GIFT format <http://docs.moodle.org/28/en/GIFT_format>`_ (with the 
-  exception of essay) can be exported to OppiaMobile
-* Drag and drop questions are also supported
+* Description
+* Mulitple choice/select
+* True/False
+* Matching
+* Short Answer
+* Numerical
+
 
 
 Randomising questions
@@ -33,3 +35,20 @@ Creating pre-tests
 For creating a pre-test that users must complete in the Oppia app before they
 can access the course content, create your quiz in the 'Topic 0' section of 
 your Moodle course (i.e. before any other topics/sections).
+
+Giving Quiz Question feedback
+-------------------------------
+
+When you export a course to Oppia, you have the option to specify when question
+feedback will appear in the app. The options are:
+
+* After each question and end of quiz
+* At the end of the quiz (default)
+* Don't show feedback
+
+The Oppia app uses the specific feedback for individual question responses (not
+the general feedback), so for quizzes that are part of final assessment 
+activities, you might want to be careful about what feedback text you provide, 
+and when it is shown.
+
+
