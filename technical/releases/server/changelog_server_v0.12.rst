@@ -29,6 +29,9 @@ Issue list:
 * OPPIA-487 Deprecate media embed helper
 * OPPIA-58 Option to register server
 * OPPIA-708 Add tests for serverregistation update management task
+* OPPIA-680 User profile gives page not found when linking through to an
+  archived course
+* OPPIA-14 Don't save search tracker if query is blank
 
 .. _serverv0.12.18:
 

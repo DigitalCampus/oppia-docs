@@ -42,8 +42,8 @@ for publishing a new course.
 
 * If the course being updated is one that the content creator had already 
   published, then they don't need any extra permissions.
-* If the course being update is one that someone has previously published, the 
-  content creator will need specific permission to publish this course (see: 
+* If the course being updated is one that someone else has previously published,
+  the content creator will need specific permission to publish this course (see: 
   :ref:`permission-user-add-republish`)
 
 
