@@ -7,6 +7,7 @@ v1.2.8 - not yet released
 ------------------------------------
 
 * OPPIA-671 Export block tag/categories can get extra '-' added
+* OPPIA-727 Update version of jquery used in block
 
  
 .. _blockv1.2.7:
