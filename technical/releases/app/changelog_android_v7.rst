@@ -15,6 +15,8 @@ Issue list:
 
 * OPPIA-725 Images and styles don't display in course content on Android 11
 * OPPIA-676 Improve changing the theme colours/icon
+* OPPIA-722 Retake quiz option not working
+* OPPIA-723 Course quiz attempts screen not getting populated
 
 .. _appv88:
 

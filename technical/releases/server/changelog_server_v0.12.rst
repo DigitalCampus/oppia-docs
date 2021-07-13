@@ -32,6 +32,15 @@ Issue list:
 * OPPIA-680 User profile gives page not found when linking through to an
   archived course
 * OPPIA-14 Don't save search tracker if query is blank
+* OPPIA-517 On time spent graphs update y-axis to use H:M:S format
+* OPPIA-705 Quiz result rounding
+* OPPIA-703 Cohort leaderboard doesn't link through to users
+* OPPIA-706 Get unauthorised message if teacher user clicks on Cohorts in 
+  breadcrumb trail
+* OPPIA-406 Server dashboard access log - check all pages covered
+* OPPIA-719 Cover the Cohort pages by the dashboard accessed logs
+* OPPIA-406 Server dashboard access log - check all pages covered
+
 
 .. _serverv0.12.18:
 
