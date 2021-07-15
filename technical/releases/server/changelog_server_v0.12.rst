@@ -1,9 +1,24 @@
 OppiaMobile Server Change Log
 ================================
 
+
+.. _serverv0.12.20:
+
+v0.12.20 - not yet released
+----------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   upgrading/to_0_12_20
+
+   
+Issue list:
+
+
 .. _serverv0.12.19:
 
-v0.12.19 - not yet released
+v0.12.19 - Released 15 July 2021
 ----------------------------------
 
 .. toctree::
@@ -39,7 +54,6 @@ Issue list:
   breadcrumb trail
 * OPPIA-406 Server dashboard access log - check all pages covered
 * OPPIA-719 Cover the Cohort pages by the dashboard accessed logs
-* OPPIA-406 Server dashboard access log - check all pages covered
 
 
 .. _serverv0.12.18:
