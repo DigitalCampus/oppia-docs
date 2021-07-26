@@ -4,8 +4,8 @@ OppiaMobile Server Change Log
 
 .. _serverv0.12.20:
 
-v0.12.20 - not yet released
-----------------------------------
+v0.12.20 - not yet released - expected 30 Sept 2021
+------------------------------------------------------
 
 .. toctree::
    :maxdepth: 1
@@ -15,6 +15,8 @@ v0.12.20 - not yet released
    
 Issue list:
 
+* OPPIA-738 Split up update_summaries to different methods
+* OPPIA-690 Add category to SettingProperties
 
 .. _serverv0.12.19:
 
@@ -54,6 +56,7 @@ Issue list:
   breadcrumb trail
 * OPPIA-406 Server dashboard access log - check all pages covered
 * OPPIA-719 Cover the Cohort pages by the dashboard accessed logs
+* HOTFIX for update_summaries with timezone
 
 
 .. _serverv0.12.18:

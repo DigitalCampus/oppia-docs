@@ -1,9 +1,27 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+
+.. _appv90:
+
+v90 (7.3.1) - not yet released - expected 30 Sept 2021
+-------------------------------------------------------
+
+ 
+Issue list:
+
+* OPPIA-733 Failing tests for androidTestFiles.UI.AdminProtectedUITest
+* OPPIA-732 Failing test : androidTestFiles.FetchServerInfoTest > 
+  fetchServerInfo_noConnection
+* OPPIA-685 Tablet layout - Settings (on oppia-666-initial-tablet-layout
+  branch)
+* OPPIA-688 Tablet layout - Course index (on oppia-666-initial-tablet-layout
+  branch)
+
+
 .. _appv89:
 
-v89 (7.3.0) - not yet released
+v89 (7.3.0) - Released 15 Jul 2021 
 -----------------------------------------------
 
 .. note::
@@ -17,6 +35,8 @@ Issue list:
 * OPPIA-676 Improve changing the theme colours/icon
 * OPPIA-722 Retake quiz option not working
 * OPPIA-723 Course quiz attempts screen not getting populated
+* OPPIA-731 Add option to admin restrict changing server or accessing advanced
+  settings
 
 .. _appv88:
 
