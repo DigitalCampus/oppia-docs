@@ -23,11 +23,6 @@ Issue list:
 v0.12.19 - Released 15 July 2021
 ----------------------------------
 
-.. toctree::
-   :maxdepth: 1
-
-   upgrading/to_0_12_19
-
 .. note::
    *  For the downloading of time spent in courses (#OPPIA-702), the 
       update_summaries command will need to be run from the start - see the 
@@ -35,7 +30,13 @@ v0.12.19 - Released 15 July 2021
    *  The option to upload media within the dashboard interface, and use the 
       media_embed_code for adding media in Moodle has been removed. All media 
       files should be directly embedded in Moodle.
+   * Check permissions for the certificates folder (see full release notes)
    
+.. toctree::
+   :maxdepth: 2
+
+   upgrading/to_0_12_19
+
 Issue list:
 
 * OPPIA-679 Add option to specify the display name for a certificate

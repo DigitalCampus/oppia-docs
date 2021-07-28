@@ -27,4 +27,9 @@ Run update_summaries from start
 #. This might take a long time (hours) for large implementations, but is 
    required to make sure the data for daily active users is correct and broken
    down by course
+   
+Check permissions for certificate folders
+-------------------------------------------
 
+#. Check that the <oppia>/media/certificate and <oppia>/media/certificates
+   folders are read and writeable by the www-data user
