@@ -17,6 +17,8 @@ Issue list:
 
 * OPPIA-738 Split up update_summaries to different methods
 * OPPIA-690 Add category to SettingProperties
+* OPPIA-761 Download course can fail if there are very old quiz trackers
+* OPPIA-760 Django admin viewing QuizAttemptResponses takes very long time
 
 .. _serverv0.12.19:
 

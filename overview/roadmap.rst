@@ -7,6 +7,7 @@ Short term
 -------------
 
 * Implementing certificates
+* Allowing registration of Oppia servers
 * Refactoring
 
 Medium term 
@@ -14,7 +15,6 @@ Medium term
 
 * Implementing the OpenBadges (https://openbadges.org/)
 * Improved integrations with xAPI and data collection/patient management apps
-* Allowing registration of Oppia servers
 * Move to use Django Rest Framework (server)
 * Move to use RoomDB (app)
 
