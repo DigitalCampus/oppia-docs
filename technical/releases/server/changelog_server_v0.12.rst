@@ -19,6 +19,11 @@ Issue list:
 * OPPIA-690 Add category to SettingProperties
 * OPPIA-761 Download course can fail if there are very old quiz trackers
 * OPPIA-760 Django admin viewing QuizAttemptResponses takes very long time
+* OPPIA-711 Management command to remove unused certificate pdfs
+* OPPIA-768 Shouldn't regenerate certificate if name is None
+* OPPIA-772 Certificate generation issue
+* Update Pillow library to 8.3.2
+
 
 .. _serverv0.12.19:
 
