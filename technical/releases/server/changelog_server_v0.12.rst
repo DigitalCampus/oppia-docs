@@ -25,6 +25,7 @@ Issue list:
 * Update Pillow library to 8.3.2
 
 
+
 .. _serverv0.12.19:
 
 v0.12.19 - Released 15 July 2021

@@ -17,7 +17,9 @@ Issue list:
   branch)
 * OPPIA-688 Tablet layout - Course index (on oppia-666-initial-tablet-layout
   branch)
-
+* OPPIA-728 Check the changes to file storage access/permissions in Android 11
+* OPPIA-756 Add option to retake quiz from Scorecard > Quizzes
+* OPPIA-774 Improve theming for dark background colour
 
 .. _appv89:
 
