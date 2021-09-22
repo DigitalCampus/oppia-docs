@@ -23,6 +23,8 @@ Issue list:
 * OPPIA-768 Shouldn't regenerate certificate if name is None
 * OPPIA-772 Certificate generation issue
 * Update Pillow library to 8.3.2
+* OPPIA-751 Teachers and normal users get 403 unauthorized when going to 
+  courses page
 
 
 

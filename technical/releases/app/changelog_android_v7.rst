@@ -20,7 +20,12 @@ Issue list:
 * OPPIA-728 Check the changes to file storage access/permissions in Android 11
 * OPPIA-756 Add option to retake quiz from Scorecard > Quizzes
 * OPPIA-774 Improve theming for dark background colour
-
+* OPPIA-777 Hide language change option if there is only one language
+* OPPIA-726 Refactor to use android:paddingStart instead of paddingLeft etc
+* OPPIA-786 Additional configuration option for video completion criteria 
+  (GAMIFICATION_MEDIA_SHOULD_REACH_END)
+  
+  
 .. _appv89:
 
 v89 (7.3.0) - Released 15 Jul 2021 
