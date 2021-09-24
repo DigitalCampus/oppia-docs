@@ -2,12 +2,21 @@ OppiaMobile Moodle Block Change Log
 =====================================
 
 
-.. _blockv1.2.9:
 
-v1.2.9 - not yet released
+.. _blockv1.3.0:
+
+v1.3.0 - not yet released
 ------------------------------------
 
 
+
+
+.. _blockv1.2.9:
+
+v1.2.9 - Released 24 Sept 2021
+------------------------------------
+
+* OPPIA-769 Error in block when debug output is enabled
 
 .. _blockv1.2.8:
 
