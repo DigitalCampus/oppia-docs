@@ -19,7 +19,9 @@ List of configurable values
 
 General settings
 ^^^^^^^^^^^^^^^^^
-
+* ``ANALYTICS_LIBRARY`` (string): Defines the analytics/bug report library to use. If left empty or not present, no analytics will be tracked. Currently, Oppia supports two possible values (uppercase): ``MINT`` for **Splunk Mint**, ``COUNTLY`` for **Countly**.  
+* ``COUNTLY_APP_KEY`` (string): the Countly API key to use for the bug/analytics reports
+* ``COUNTLY_SERVER_URL`` (string): the URL for the Countly server instance to use for the bug/analytics reports
 * ``MINT_API_KEY`` (string): the Splunk Mint API key to use for the crash reports
 * ``OPPIA_SERVER_DEFAULT`` (string): the initial Oppia server URL. By default, the demo server ``https://demo.oppia-mobile.org/``
 * ``OPPIA_SERVER_HOST`` (string): the server hostname, for the intent filter functionality (to be able to open links from external apps directly in the app). For example, if our server is ``https://demo.oppia-mobile.org/`` this config should be set to ``demo.oppia-mobile.org``
@@ -85,7 +87,7 @@ included by default in the tracker logs:
 * ``METADATA_INCLUDE_BATTERY_LEVEL`` (boolean): Include in the tracker the device battery level
 
 
-Gamification
+Gamification / Activity completion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * ``GAMIFICATION_MEDIA_CRITERIA`` (string): the criteria that should be used for determining if a media activity has been completed and how to award points. Possible values:
@@ -93,6 +95,16 @@ Gamification
     - ``intervals``: Only mark the video as completed if it was watched for its full length. Points are awarded in intervals based in the percentage of video watched.
 
 * ``GAMIFICATION_DEFAULT_MEDIA_THRESHOLD`` (int): if ``GAMIFICATION_MEDIA_CRITERIA`` is ``threshold``, then the minimum percent to consider if completed. ``80`` by default
+
+* ``GAMIFICATION_MEDIA_SHOULD_REACH_END`` (boolean): Additionally to the specific criteria set to determine the activity media completion, the media playing must reach its end to consider it completed. By default, false.
+
+* ``PAGE_COMPLETED_METHOD`` (string): the criteria that should be used for determining if a page activity has been completed based in the the time the user spent on it. Possible values:
+    - ``TIME_SPENT``: Completed if the user stays in the activity longer than a fixed amount of time (defined in the ``PAGE_COMPLETED_TIME_SPENT`` setting, in seconds)
+    - ``WPM``: The time the user has to stay in the activity is based on the activity's wordcount and the defined average reading speed.
+
+* ``PAGE_COMPLETED_TIME_SPENT`` (int): Number of seconds the user has to stay in the activity to mark it as completed.
+
+* ``PAGE_COMPLETED_WPM`` (int): WPM (words per minute) reading speed to calculate the time the user should spend in each activity for the WPM completion method. 
 
 * ``GAMIFICATION_POINTS_ANIMATION`` (int): Defines the animation type if the previous setting ``Show gamification events`` is enabled. These are the different types of animation (default is number 3):
 	1. Simple animation (circle rotation)
