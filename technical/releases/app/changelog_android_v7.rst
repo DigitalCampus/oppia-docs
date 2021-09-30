@@ -34,6 +34,7 @@ Issue list:
 * OPPIA-726 Refactor to use android:paddingStart instead of paddingLeft etc
 * OPPIA-786 Additional configuration option for video completion criteria 
   (GAMIFICATION_MEDIA_SHOULD_REACH_END)
+* OPPIA-785 Allow page read time criteria to be configurable
   
   
 .. _appv89:

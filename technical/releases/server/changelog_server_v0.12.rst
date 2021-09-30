@@ -15,6 +15,7 @@ v0.12.21 - not yet released
    
 Issue list:
 
+* OPPIA-808 UserNotFound error on exporting trackers
 
 
 .. _serverv0.12.20:
