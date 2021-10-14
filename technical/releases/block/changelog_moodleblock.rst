@@ -8,7 +8,7 @@ OppiaMobile Moodle Block Change Log
 v1.2.10 - not yet released
 ------------------------------------
 
-
+* OPPIA-758 Too aggressive replacement of video file content
 
 
 

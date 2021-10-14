@@ -9,6 +9,7 @@ v91 (7.3.2) - not yet released
 
  
 Issue list:
+* OPPIA-797 Gradle upgrade from 4.x to 7.x
 
 
 

@@ -16,6 +16,8 @@ v0.12.21 - not yet released
 Issue list:
 
 * OPPIA-808 UserNotFound error on exporting trackers
+* OPPIA-788 Add server setting to determine if users should be able to edit 
+  their profile
 
 
 .. _serverv0.12.20:
