@@ -18,6 +18,8 @@ Issue list:
 * OPPIA-808 UserNotFound error on exporting trackers
 * OPPIA-788 Add server setting to determine if users should be able to edit 
   their profile
+* OPPIA-753 Spaces in media filenames can't be played
+* OPPIA-803 Monthly active users graph seems awry
 
 
 .. _serverv0.12.20:

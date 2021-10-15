@@ -9,6 +9,9 @@ v1.2.10 - not yet released
 ------------------------------------
 
 * OPPIA-758 Too aggressive replacement of video file content
+* OPPIA-794 Fix issue with non-ascii characters in image filenames
+* OPPIA-763 Allow HTML layout in quiz/feedback questions and responses and quiz
+  feedback
 
 
 

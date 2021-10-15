@@ -9,9 +9,12 @@ v91 (7.3.2) - not yet released
 
  
 Issue list:
+
 * OPPIA-797 Gradle upgrade from 4.x to 7.x
-
-
+* OPPIA-715 Add option to edit password and/or full profile
+* OPPIA-822 Complete Indicator not working for quiz when threshold is 0
+* OPPIA-763 Allow HTML layout in quiz/feedback questions and responses and quiz
+  feedback
 
 .. _appv90:
 
