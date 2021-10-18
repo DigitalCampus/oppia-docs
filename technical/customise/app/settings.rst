@@ -65,6 +65,9 @@ Main menu configurations
 * ``MENU_ALLOW_LOGOUT`` (boolean): show the "Logout" option in the main menu
 * ``MENU_ALLOW_DOWNLOAD`` (boolean): show the "Download" option in the main menu
 * ``MENU_ALLOW_LANGUAGE`` (boolean): show the "Language" option in the main menu
+* ``MENU_ALLOW_EDIT_PROFILE`` (boolean): show the "Edit profile" option in the main menu
+* ``MENU_ALLOW_CHANGE_PASSWORD`` (boolean): show the "Change password" option in the main menu
+* ``MENU_ALLOW_LANGUAGE`` (boolean): show the "Language" option in the main menu
 * ``DOWNLOAD_COURSES_DISPLAY`` (int): max number of courses installed in which the "download more courses" button still appears in the main activity. By default, just one.
 
 

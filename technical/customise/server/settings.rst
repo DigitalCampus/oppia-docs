@@ -6,24 +6,24 @@ Some settings need to be updated in the code and some can be configured in the
 Oppia database.
 
 
-Code settings
----------------
+Code settings (settings_secret.py)
+------------------------------------
 
 To edit these settings you will need to edit your 
 ``/oppiamobile/settings_secret.py`` file, and
 for them to take effect you will need to restart your web server.
  
  
-COURSE_UPLOAD_DIR
-~~~~~~~~~~~~~~~~~~
+``COURSE_UPLOAD_DIR``
+
 
 Default `ROOT_DIR +'/upload'`
 
 This is the path to where uploaded course will be saved.
 
 
-OPPIA_METADATA
-~~~~~~~~~~~~~~~~~~
+``OPPIA_METADATA``
+
 
 Default:
 
@@ -38,72 +38,45 @@ Default:
 	    'BATTERY_LEVEL': True
 	}
 
-The defines the metadata info that is sent back from the app.
+The defines the metadata info that is sent back from the app (included in each 
+activity tracker response)
 
 
-BADGE_AWARDING_METHOD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``BADGE_AWARDING_METHOD``
 
 .. note::
    This is deprecated from server version 0.12.13 onwards. To change the badge
    award method this can now be done in the Oppia admin pages, see: 
    :doc:`../../../implementers/dashboard/gamification`
-   
-Defines the method that is used for awarding a badge. This may be set to one of:
-
-* ``BADGE_AWARD_METHOD_ALL_ACTIVITIES`` (default) - all activities in the course must be completed, and all quizzes passed
-* ``BADGE_AWARD_METHOD_FINAL_QUIZ`` - only need to pass the final quiz
-* ``BADGE_AWARD_METHOD_ALL_QUIZZES`` - all the quizzes in the course must be passed
 
 
-OPPIA_VIDEO_FILE_TYPES
-~~~~~~~~~~~~~~~~~~~~~~~
+``OPPIA_VIDEO_FILE_TYPES``
+
 
 Default: ``("video/m4v", "video/mp4", "video/3gp", "video/3gpp")``
 
 List of the video file MIME types that will be accepted for upload to the server.
 
-OPPIA_AUDIO_FILE_TYPES
-~~~~~~~~~~~~~~~~~~~~~~~
+``OPPIA_AUDIO_FILE_TYPES``
 
 Default: ``("audio/mpeg", "audio/amr", "audio/mp3")``
 
 List of the audio file MIME types that will be accepted for upload to the server.
 
-OPPIA_MEDIA_IMAGE_FILE_TYPES
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Default: ``("image/png", "image/jpeg")``
-
-List of the media image file MIME types that will be accepted for upload to the server.
-
-
-API_LIMIT_PER_PAGE
-~~~~~~~~~~~~~~~~~~~~~~~
+``API_LIMIT_PER_PAGE``
 
 Default: ``0``
 
 Defines how many results will be returned per page in the API. When set to 0, all results will be returned.
 
 
-SCREENSHOT_GENERATOR_PROGRAM
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default: ``ffmpeg``
-
-
-SCREENSHOT_GENERATOR_PROGRAM_PARAMS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default:``"-i %s -r 0.02 -s %dx%d -f image2 %s/frame-%%03d.png"``
-
-MEDIA_PROCESSOR_PROGRAM
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``MEDIA_PROCESSOR_PROGRAM``
 
 Default: ``"ffprobe"``
 
-MEDIA_PROCESSOR_PROGRAM_PARAMS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``MEDIA_PROCESSOR_PROGRAM_PARAMS``
+
 
 Default: ``""``
 
@@ -112,139 +85,90 @@ Default: ``""``
 Database configurable settings
 --------------------------------------
 
-OPPIA_ALLOW_SELF_REGISTRATION
+The following settings can be edited in the Django Admin pages (under 
+``Settings > Settings``). The settings are divided into categories.
+
+Analytics category
+~~~~~~~~~~~~~~~~~~~
+
+* ``OPPIA_GOOGLE_ANALYTICS_CODE`` (string, default: None) - Google Analytics 
+  code, if enabled
+* ``OPPIA_GOOGLE_ANALYTICS_DOMAIN`` (string, default: None) - Google Analytics 
+  domain name, if enabled
+* ``OPPIA_GOOGLE_ANALYTICS_ENABLED`` (bool, default: False) - 	Whether or not 
+  Google Analytics is enabled
+
+App category
+~~~~~~~~~~~~~~~~~~~
+
+* ``OPPIA_ANDROID_ON_GOOGLE_PLAY`` (bool, default: False) - Whether or not this 
+  Oppia server has a specific app available on the Google Play Store
+* ``OPPIA_ANDROID_PACKAGEID`` (string, default: 
+  org.digitalcampus.mobile.learning) - The java package id of the specific app 
+  on the Google Play Store
+
+Certification category
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* ``OPPIA_EMAIL_CERTIFICATES`` (bool, default: False) - Whether or not 
+  certificates should be emailed to users
+
+Gamification category
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* ``OPPIA_BADGES_ENABLED`` (bool, default: True) - Whether or not badges are 
+  enabled for this Oppia implementation
+* ``OPPIA_BADGES_PERCENT_COMPLETED`` (int, default: 80) - If the badging is set 
+  to all quizzes plus a percentage of all other activities, what will that 
+  percentage be
+* ``OPPIA_POINTS_ENABLED`` (bool, default: True) - Whether or not points are 
+  enabled for this Oppia implementation
+  
+  
+Server Registration category
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* ``OPPIA_SERVER_REGISTERED`` (bool, default: False) - Whether or not this 
+  server is registered with https://implementations.oppia-mobile.org
+  
+All the other server registration settings are best edited directly from the 
+main Oppia dashboard from <your-oppia-url>/serverregistration/
+  
+
+System category
+~~~~~~~~~~~~~~~~~~~~~~~
+
+These should not need to be edited (unless you are very sure), as they are 
+internal for the Oppia cron tasks.
+
+System Configuration category
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Default: ``True``
+* ``MAX_UPLOAD_SIZE`` (int, default: 5242880, 5Mb) - The maximum upload size,
+  in bytes, of course files that will be allowed
+* ``OPPIA_ALLOW_PROFILE_EDITING`` (bool, default: True) - Whether or not users 
+  can edit their user profile from the server dashboard. Note that even if this
+  is set to False, users will still be able to edit their password.
+* ``OPPIA_ALLOW_SELF_REGISTRATION`` (bool, default: True) - Whether or not this
+  Oppia server allows users to self register
+* ``OPPIA_DATA_RETENTION_YEARS`` (int, default: 7) - The number of years for 
+  users data to be kept. Any users who have not logged in and not had any 
+  tracker activity in this number of years will be removed from Oppia, along 
+  with their activity data. Note that this removal will not happen 
+  automatically, it needs the ``data_retention`` management command to be run 
+  manually from the command line on the server
+* ``OPPIA_HOSTNAME`` (string, default: None) - Domain/hostname for this Oppia 
+  server
+* ``OPPIA_SHOW_GRAVATARS`` (bool, default: True) - Whether or not to use 
+  Gravatars for users' profile pictures
 
-This settings determines whether users are able to self register (i.e. anyone 
-can create an account) on the server. Set this to ``False`` to prevent just 
-anyone registering on your server - you will need to create their accounts 
-yourself instead using the standard Django user management.
+Visualisations category
+~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
-OPPIA_SHOW_GRAVATARS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default: ``True``
-
-Determines if a users gravatar will appear next to their name (in the 
-leaderboard/activity reports etc)
-
-
-OPPIA_STAFF_ONLY_UPLOAD
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default: ``True``
-
-This setting determines whether only users with the Django is_staff status are 
-allowed to upload new courses. When this setting is ``True``, only users with 
-the is_staff status are able to upload courses. If this setting is set to 
-``False``, any registered user on the server is able to upload courses.
-
-You can also give upload permissions to individual users (whatever their staff 
-status) by setting the can_upload option to true in their user profile.
-
-
-OPPIA_POINTS_ENABLED
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default: ``True``
-
-This setting determines whether the points system is enabled for this server. It 
-currently just hides the points from display on the mobile app.
-
-
-OPPIA_STAFF_EARN_POINTS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default: ``False``
-
-Determines if users with the is_staff permission will earn points or not. This 
-setting is ignored if ``OPPIA_POINTS_ENABLED`` is ``False``.
-
-
-OPPIA_COURSE_OWNERS_EARN_POINTS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default: ``False``
-
-Determines if the user who uploaded the course will earn points or not for 
-activity within this course. This setting is ignored if ``OPPIA_POINTS_ENABLED``
-is ``False``.
-
-
-OPPIA_TEACHERS_EARN_POINTS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default: ``False``
-
-Determines if teachers on the course will earn points or not for activity within
-this course. This setting is ignored if ``OPPIA_POINTS_ENABLED`` is ``False``.
-
-
-OPPIA_BADGES_ENABLED
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default: ``True``
-
-This setting determines whether the badges system is enabled for this server. It 
-currently just hides the badges from display on the mobile app.
-
-
-OPPIA_GOOGLE_ANALYTICS_ENABLED
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default: ``True``
-
-Whether or not to turn on Google Analytics tracking for your Oppia server.
-
-OPPIA_GOOGLE_ANALYTICS_CODE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Your Google Analytics tracking code - only used if ``OPPIA_GOOGLE_ANALYTICS_CODE``
-is set to ``True``.
-
-OPPIA_GOOGLE_ANALYTICS_DOMAIN
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Your Google Analytics domain name - only used if ``OPPIA_GOOGLE_ANALYTICS_CODE`` is 
-set to ``True``.
-
-
-OPPIA_MAX_UPLOAD_SIZE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default: ``5242880`` (5Mb)
-
-This is the maximum file course file size that can be uploaded (in bytes). This
-is to prevent users uploading very large files - for example if they haven't 
-appropriately resized images, or included video or other media files. Large 
-course upload files may cause issues for end users (particularly those with slow
-internet connections) when trying to install the course on their phone.
-
-If you define a `MAX_UPLOAD_SIZE` property in the SettingProperties table (under the Django admin),
-that value will take precedence from the one defined in the ``settings_secret.py`` file
-
-
-
-
-
-OPPIA_ANDROID_PACKAGEID
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default:  ``'org.digitalcampus.mobile.learning'``
-
-Package ID for linking to the Google Play Store
-
-OPPIA_ANDROID_ON_GOOGLE_PLAY
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Default: ``True`` 
-
-If the app is not on Google Play, we rely on the core version for store links
-
-
-
+* ``OPPIA_CARTODB_ACCOUNT`` (string, default: None) - Username for the CartoDB 
+  account
+* ``OPPIA_CARTODB_KEY`` (string, default: None) - CartoDB account API key
+* ``OPPIA_IPSTACK_APIKEY`` (string, default: None) - IPStack API key
+* ``OPPIA_MAP_VISUALISATION_ENABLED`` (bool, default: False) - Whether or not 
+  the map visualization is enabled for this Oppia implementation
 
