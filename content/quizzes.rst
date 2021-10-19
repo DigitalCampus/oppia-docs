@@ -51,4 +51,12 @@ the general feedback), so for quizzes that are part of final assessment
 activities, you might want to be careful about what feedback text you provide, 
 and when it is shown.
 
+HTML Formatting
+-----------------
 
+With app version 7.3.2 and above, you can use HTML formatting in your quiz 
+questions, quiz responses and question feedback. The following HTML tags are
+supported:
+
+p, ul, li, div, span, strong, b, em, cite, dfn, i, big, small, font, blockquote,
+tt, a, u, del, s, strike, sup, sub, h1, h2, h3, h4, h5, h6, br

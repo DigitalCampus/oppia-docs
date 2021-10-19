@@ -21,6 +21,7 @@ described below:
    
    app/running-tests
    app/adding-tests
+   app/notifications
    server
    block
    

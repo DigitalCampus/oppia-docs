@@ -31,6 +31,8 @@ General settings
 * ``START_COURSEINDEX_COLLAPSED`` (boolean): show the course index with each section collapsed. False by default.
 * ``SHOW_COURSE_DESCRIPTION`` (boolean): show the course index description in courses list. False by default.
 
+.. _admin_settings:
+
 Local admin settings (all false by default)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -55,6 +57,8 @@ A situation may arise where the admin password set in the currently installed ve
 overriden by a new known one. Setting this value to the current version code number of the app will set the ``ADMIN_PROTECT_INITIAL_PASSWORD`` as
 the current admin password the first time the app is initialized (as with the initial password, it can be changed later in the settings screen again).
 
+.. _menu_settings:
+
 Main menu configurations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -70,6 +74,7 @@ Main menu configurations
 * ``MENU_ALLOW_LANGUAGE`` (boolean): show the "Language" option in the main menu
 * ``DOWNLOAD_COURSES_DISPLAY`` (int): max number of courses installed in which the "download more courses" button still appears in the main activity. By default, just one.
 
+.. _metadata_settings:
 
 Metadata collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -89,6 +94,7 @@ included by default in the tracker logs:
 * ``METADATA_INCLUDE_NETWORK_CONNECTED`` (boolean): Include in the tracker if the device has internet access
 * ``METADATA_INCLUDE_BATTERY_LEVEL`` (boolean): Include in the tracker the device battery level
 
+.. _gamification_settings:
 
 Gamification / Activity completion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -115,3 +121,10 @@ Gamification / Activity completion
 	3. Full animation with sound
 
 * ``DURATION_GAMIFICATION_POINTS_VIEW`` in seconds (int): Duration of the points awarded text after the configured animation (if any). ``2 seconds`` by default
+
+.. _notification_settings:
+
+Notifications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To be completed

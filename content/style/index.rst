@@ -8,8 +8,8 @@ file that will be applied to any courses you export - so the stylesheet,
 javascript and related resources (images etc) will get exported to the course 
 package too.
 
-You can see an example of the standard stylesheet and javascript in use on our 
-Moodle server at: https://moodle.digital-campus.org/mod/page/view.php?id=20628 
+You can see examples of the ``default.css`` stylesheet and javascript at 
+:ref:`styles-default`
 
 Creating your own style
 ------------------------

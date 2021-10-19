@@ -9,13 +9,11 @@ From the OppiaMobile Export Block in your Moodle course:
 
 #. Select the ``connection`` you would like to use (see below: 
    :ref:`export_server_connections_explained`).
-#. Select the ``stylesheet`` you would like to use.
+#. Select the ``Course design`` you would like to use.
+#. Select the ``Course status``, either ``Draft/testing`` or ``Live``
 #. Press the ``Export to Oppia Package`` button.
 #. On the next page, you will see some options for quizzes and general course 
    settings (see below: :ref:`export_options_explained`)
-#. After selecting/entering the options, press on ``continue`` button
-#. You will then see the results of the export and an option to either download
-   or publish the course (see below: :ref:`export_download_or_publish`)
 
 
 .. _export_server_connections_explained:
@@ -79,12 +77,12 @@ courses to display in a particular order in which users should complete them.
 
 Otherwise courses will display in alphabetical order in the app.
 
-Course Tags
-~~~~~~~~~~~~~
+Course Categories
+~~~~~~~~~~~~~~~~~~~
 
-You must specify at least one tag for your course, these are used as the 
-categories in the app. If no tags are given then users will not be able to find 
-your course in the app course downloads.
+You must specify at least one category for your course, these are used as the 
+categories in the app. If no categories are given then users will not be able to
+find your course in the app course downloads.
 
 Course default language
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -113,16 +111,16 @@ course``).
    section`` or ``Sequencing through whole course``, users must get at least 
    the quiz pass threshold to be able to progress to the next activity.
 
-.. _export_download_or_publish:
+Quiz Question Formatting
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Download or Publish? - Explained
-----------------------------------------
+If your quiz content contains HTML tags for formatting of quiz questions, 
+response options and question feedback, then select this option. Otherwise all 
+the HTML formatting will be stripped from the quiz question, response options 
+and question feedback.
 
-In general, downloading the course is for when you would like to test the 
-course on your own device first, before making available to users. So you can 
-download the OppiaMobile .zip formatted package and install directly on your 
-own device to check the course.
-
-If you ``publish`` the course, then it will be live for any users of your app.
-
+.. note::
+   The display of formatted HTML is only supported in version 7.3.2 or higher 
+   of the Oppia app. If you tick this option and users have a version below 
+   this, then they will see the HTML tags displayed in the quiz, i.e. <b>Question</b> instead of **Question**.
  
