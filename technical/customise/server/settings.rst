@@ -107,6 +107,8 @@ App category
   org.digitalcampus.mobile.learning) - The java package id of the specific app 
   on the Google Play Store
 
+.. _certification-settings:
+
 Certification category
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -140,6 +142,8 @@ System category
 
 These should not need to be edited (unless you are very sure), as they are 
 internal for the Oppia cron tasks.
+
+.. _system-config-settings:
 
 System Configuration category
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
