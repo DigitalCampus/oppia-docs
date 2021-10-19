@@ -24,9 +24,25 @@ Adding activity icons/images
 You can add a custom image/icon for each activity. For page resources go to edit 
 your page and upload your image/icon in the description field. For quiz 
 activities, go to edit your quiz settings and upload you image/icon into the 
-introduction field. All images will be automatically resized on export, so you 
-don’t need to worry about figuring out the exact image dimensions/size. If you 
-don’t specify a custom icon/image for your activity, but your activity includes 
-an embedded image in the content, then this embedded image will be used as the 
-icon. If there are no embedded images and no custom icon, then a generic icon 
-will appear for your activity.
+introduction field. 
+
+On export you can specify the size and dimensions of these images for how they 
+will appear in the app. The default is 135px wide x 90px height, but of course 
+you can change to match the dimensions of your image (eg if you want to use 
+square icons)
+
+If you don’t specify a custom icon/image for your activity, but your activity 
+includes an embedded image in the content, then this embedded image will be used
+as the icon. If there are no embedded images and no custom icon, then a generic 
+icon will appear for your activity.
+
+Adding topic icons/images
+-----------------------------
+
+You can add a custom image/icon for each topic. To add a topic icon, edit the 
+topic and upload the icon into the Summary field.
+
+On export you can specify the size and dimensions of these images for how they 
+will appear in the app. The default is 256px wide x 256px height, but of course 
+you can change to match the dimensions of your image (eg if you want to use 
+square icons)

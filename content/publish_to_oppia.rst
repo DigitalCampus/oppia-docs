@@ -124,3 +124,10 @@ and question feedback.
    of the Oppia app. If you tick this option and users have a version below 
    this, then they will see the HTML tags displayed in the quiz, i.e. <b>Question</b> instead of **Question**.
  
+Thumbnail icon sizes
+~~~~~~~~~~~~~~~~~~~~~~
+
+Used to specify the size and dimensions of the icon images that appear in the 
+app for activities and topics. By default these will be set to 256x256px for 
+topic icons and 135x90px for activity icons, but these defaults can be changed 
+in the main block settings.

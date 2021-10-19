@@ -15,6 +15,7 @@ Issue list:
 * OPPIA-822 Complete Indicator not working for quiz when threshold is 0
 * OPPIA-763 Allow HTML layout in quiz/feedback questions and responses and quiz
   feedback
+* OPPIA-812 Protect settings security section with admin password
 
 .. _appv90:
 

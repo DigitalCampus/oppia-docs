@@ -12,6 +12,7 @@ v1.2.10 - not yet released
 * OPPIA-794 Fix issue with non-ascii characters in image filenames
 * OPPIA-763 Allow HTML layout in quiz/feedback questions and responses and quiz
   feedback
+* OPPIA-783 Allow adding topic icons/images
 
 
 
