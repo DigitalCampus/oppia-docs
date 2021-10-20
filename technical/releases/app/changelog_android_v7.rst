@@ -7,6 +7,10 @@ OppiaMobile Android App Change Log v7.x
 v91 (7.3.2) - not yet released
 -------------------------------------------------------
 
+.. note::
+	if the default course reminder options are changed in the custom.properties,
+	a Build > Clean might need to be done in Android Studio as for some reason, 
+	these can get cached by the gradle build.
  
 Issue list:
 
@@ -16,6 +20,9 @@ Issue list:
 * OPPIA-763 Allow HTML layout in quiz/feedback questions and responses and quiz
   feedback
 * OPPIA-812 Protect settings security section with admin password
+* OPPIA-783 Allow adding topic icons/images 
+* OPPIA-781 Course reminder notifications, allow daily and setting defaults in 
+  the app properties file
 
 .. _appv90:
 

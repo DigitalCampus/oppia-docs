@@ -60,3 +60,15 @@ To create the drawable for the app icon, you can rely on the Image Asset Studio 
 the necessary images in its density-specific folder. To use it, just select right-click in the `res` folder of your project 
 and select **New** > **Image Asset**. It will help you to create a Material design style icon based on your own 
 image, and to generate the drawable in all the needed resolutions.
+
+Theme/Colours
+---------------
+
+The colours used in your app can be updated in the ``theme.xml`` and 
+``colors.xml`` files.
+
+Course activity and topic/section icon sizes
+---------------------------------------------
+
+You can adjust the activity and topic/section icon sizes by changing the 
+``course_index_section_icon_size`` property in ``theme.xml``.

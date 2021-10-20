@@ -166,6 +166,8 @@ Course Reminder Notifications
 * ``DEFAULT_REMINDER_INTERVAL`` (string): how often notifications should be shown, possible values:
     - ``WEEKLY`` 
     - ``DAILY``
-* ``DEFAULT_REMINDER_TIME`` (24hr time): the time of day the notification should be shown
-* ``DEFAULT_REMINDER_DAYS`` (string): the specific days the notifications should be shown, accepts a single value for weekly reminder intervals, and multiple values for daily reminders.
-  To be completed
+* ``DEFAULT_REMINDER_TIME`` (24hr time): the time of day the notification should
+  be shown
+* ``DEFAULT_REMINDER_DAYS`` (int, list of ints): the specific days the 
+  notifications should be shown, accepts a single value for weekly reminder 
+  intervals, and multiple values for daily reminders.
