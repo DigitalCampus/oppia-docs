@@ -32,7 +32,8 @@ notification to appear:
 #. Then you can set the reminder time to be a few minutes in the future to check
    that it appears as expected
    
-.. note:
+.. note::
+
    These notifications might get shown a few minutes after the set time, eg if 
    set to 11:00, the notification might actually appear at 11:04. This is 
    because Android might process the notification slightly later if there are 
