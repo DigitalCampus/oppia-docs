@@ -20,6 +20,7 @@ Issue list:
   their profile
 * OPPIA-753 Spaces in media filenames can't be played
 * OPPIA-803 Monthly active users graph seems awry
+* OPPIA-835 Remove some deprecated code for media embed helper
 
 
 .. _serverv0.12.20:
