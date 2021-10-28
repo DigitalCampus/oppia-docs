@@ -49,6 +49,8 @@ General settings
   section collapsed. False by default.
 * ``SHOW_COURSE_DESCRIPTION`` (boolean): show the course index description in 
   courses list. False by default.
+* ``DELETE_ACCOUNT_ENABLED`` (boolean): show the button to completely delete 
+  account under the "Privacy and your data" section. True by default.
 
 .. _admin_settings:
 
