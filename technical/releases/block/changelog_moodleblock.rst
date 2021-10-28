@@ -1,11 +1,14 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv1.2.11:
 
+v1.2.11 - not yet released
+------------------------------------
 
 .. _blockv1.2.10:
 
-v1.2.10 - not yet released
+v1.2.10 - Released 29 Oct 2021
 ------------------------------------
 
 * OPPIA-758 Too aggressive replacement of video file content
@@ -13,7 +16,6 @@ v1.2.10 - not yet released
 * OPPIA-763 Allow HTML layout in quiz/feedback questions and responses and quiz
   feedback
 * OPPIA-783 Allow adding topic icons/images
-
 
 
 .. _blockv1.2.9:
