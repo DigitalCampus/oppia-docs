@@ -33,6 +33,7 @@ Issue list:
   the app properties file
 * OPPIA-813 Video completion not working as expected
 * OPPIA-226 Github actions fixes and improvements
+* OPPIA-848 Build/config property for allowing delete account
 
 
 .. _appv90:
