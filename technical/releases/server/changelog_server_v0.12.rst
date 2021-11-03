@@ -15,6 +15,9 @@ v0.12.22 - not yet released
    
 Issue list:
 
+* OPPIA-809 TypeError at /course/42/exports/trackers/ - update defusedxml library
+* OPPIA-858 Add "backfill_api_keys" to the regular cron script
+* OPPIA-836 Add tests for clean_certificates command
 
 .. _serverv0.12.21:
 
