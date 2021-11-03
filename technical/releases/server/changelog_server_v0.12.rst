@@ -7,8 +7,11 @@ OppiaMobile Server Change Log
 v0.12.22 - not yet released
 ------------------------------------------------------
 
+.. note::
+   See the full release notes for configuring automated error emails.
+
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_22
 
@@ -18,6 +21,7 @@ Issue list:
 * OPPIA-809 TypeError at /course/42/exports/trackers/ - update defusedxml library
 * OPPIA-858 Add "backfill_api_keys" to the regular cron script
 * OPPIA-836 Add tests for clean_certificates command
+* OPPIA-868 Set up automated error emails
 
 .. _serverv0.12.21:
 

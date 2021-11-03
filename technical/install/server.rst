@@ -273,6 +273,8 @@ between users devices and the server.
 You can use `LetsEncrypt <https://letsencrypt.org/>`_ to set up free SSL 
 certificates.
 
+.. _manualinstall-email:
+
 11. Configure email (recommended)
 ------------------------------------
 
@@ -296,9 +298,7 @@ general maintenance (eg clearing old user sessions and temporary files), and the
 other to generate the cached data for displaying the dashboard data.
 
 These can be run as a single cron task. We recommend putting this file in your
-``/home/oppia/`` directory.
-
-``oppia-cron.sh``::
+``/home/oppia/`` directory. ``oppia-cron.sh``::
  
 	#!/bin/bash
 

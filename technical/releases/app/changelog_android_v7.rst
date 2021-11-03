@@ -9,6 +9,8 @@ v92 (7.3.3) - not yet released
 
 Issue list:
 
+* OPPIA-778 Change text size in course
+
 
 .. _appv91:
 

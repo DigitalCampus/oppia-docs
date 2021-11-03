@@ -11,6 +11,16 @@ Update database
 
 #. Run: ``(env)$ python manage.py migrate``
 
+Configure automated error emails
+----------------------------------
+
+For receiving the automated error emails (#OPPIA-868), you'll need to ensure
+that in your ``settings_secret.py``:
+
+*  your site is in ``Debug = False`` mode (i.e. a production server) 
+*  you have email sending configured (see: :ref:`manualinstall-email`)
+*  a valid email address to send the error emails to, eg 
+   ``ADMINS = [('admin name', 'admin@email.org')]``
 
 Update static files
 --------------------
