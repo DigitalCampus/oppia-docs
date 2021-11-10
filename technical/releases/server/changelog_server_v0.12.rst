@@ -22,6 +22,9 @@ Issue list:
 * OPPIA-858 Add "backfill_api_keys" to the regular cron script
 * OPPIA-836 Add tests for clean_certificates command
 * OPPIA-868 Set up automated error emails
+* OPPIA-855 Allow advanced search on custom fields
+* OPPIA-859 Exporting users with custom profile fields
+* OPPIA-857 Allow adding of new user with all custom fields
 
 .. _serverv0.12.21:
 
