@@ -3,8 +3,10 @@ OppiaMobile Moodle Block Change Log
 
 .. _blockv1.2.11:
 
-v1.2.11 - not yet released
+v1.2.11 - Released 14 Nov 2021
 ------------------------------------
+
+* OPPIA-891 Fix for maxattempts not being saved correctly
 
 .. _blockv1.2.10:
 

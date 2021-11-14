@@ -11,6 +11,9 @@ Issue list:
 
 * OPPIA-778 Change text size in course
 * OPPIA-849 Continuing to next section on quiz completion
+* OPPIA-851 Quiz scores not matching
+* OPPIA-830 Some quiz responses get marked as incorrect, when they contain UTF8
+  encoded characters
 
 
 .. _appv91:
