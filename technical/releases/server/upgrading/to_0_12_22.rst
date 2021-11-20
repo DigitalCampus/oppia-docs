@@ -22,6 +22,15 @@ that in your ``settings_secret.py``:
 *  a valid email address to send the error emails to, eg 
    ``ADMINS = [('admin name', 'admin@email.org')]``
 
+Run update_summaries from start
+---------------------------------
+
+#. Run the update summaries command from start: 
+   ``(env)$ python manage.py update_summaries --fromstart``
+#. This might take a long time (hours) for large implementations, but is 
+   required to make sure the data for daily active users is correct and broken
+   down by course
+   
 Update static files
 --------------------
 

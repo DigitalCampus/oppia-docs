@@ -8,7 +8,10 @@ v0.12.22 - not yet released
 ------------------------------------------------------
 
 .. note::
-   See the full release notes for configuring automated error emails.
+   *  See the full release notes for configuring automated error emails.
+   *  For the Server dashboard always shows all media always completed (#OPPIA-903), the 
+      update_summaries command will need to be run from the start - see the 
+      upgrading notes
 
 .. toctree::
    :maxdepth: 2
@@ -25,6 +28,10 @@ Issue list:
 * OPPIA-855 Allow advanced search on custom fields
 * OPPIA-859 Exporting users with custom profile fields
 * OPPIA-857 Allow adding of new user with all custom fields
+* OPPIA-766 Number of media files to download shows as incorrect
+* OPPIA-903 Server dashboard always shows all media always completed
+* OPPIA-897 User images on leaderboard
+
 
 .. _serverv0.12.21:
 

@@ -7,13 +7,20 @@ OppiaMobile Android App Change Log v7.x
 v92 (7.3.3) - not yet released
 -------------------------------------------------------
 
-Issue list:
+Issue list (7.3.3 - 15 Nov 2021):
 
 * OPPIA-778 Change text size in course
 * OPPIA-849 Continuing to next section on quiz completion
 * OPPIA-851 Quiz scores not matching
 * OPPIA-830 Some quiz responses get marked as incorrect, when they contain UTF8
   encoded characters
+* OPPIA-850 Incorrect layout of some quiz attempts
+* OPPIA-891 Fix max number of attempts
+
+Issue list (7.3.3b):
+
+* OPPIA-841 Add properties option to be able to turn off gamification 
+  notifications by default
 
 
 .. _appv91:
