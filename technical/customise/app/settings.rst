@@ -85,6 +85,16 @@ actions are controlled by the admin password.
   admin password
 * ``ADMIN_PROTECT_ACTIVITY_EXPORT`` (boolean): protect exporting activity by 
   admin password
+* ``ADMIN_PROTECT_NOTIFICATIONS`` (boolean): protect disable notifications by admin password
+  (not protected to enable)
+* ``ADMIN_PROTECT_ENABLE_REMINDER_NOTIFICATIONS`` (boolean): protect disable reminder notifications
+  by admin password (not protected to enable)
+* ``ADMIN_PROTECT_REMINDER_INTERVAL`` (boolean): protect reminder interval
+  by admin password
+* ``ADMIN_PROTECT_REMINDER_DAYS`` (boolean): protect reminder days
+  by admin password
+* ``ADMIN_PROTECT_REMINDER_TIME`` (boolean): protect reminder time
+  by admin password
 * ``ADMIN_PROTECT_INITIAL_PASSWORD`` (boolean): the admin password to set 
   initially (it can be changed later in the settings screen). If it is set,
   then the admin protection will be enabled from the start by this password.
