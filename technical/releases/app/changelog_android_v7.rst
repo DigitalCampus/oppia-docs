@@ -21,7 +21,9 @@ Issue list (7.3.3b):
 
 * OPPIA-841 Add properties option to be able to turn off gamification 
   notifications by default
-
+* OPPIA-817 Prevent users from editing the notification settings (Build setting)
+* OPPIA-801 Send back the course version in trackers
+* OPIIA-899 Mismatch on version number display
 
 .. _appv91:
 
