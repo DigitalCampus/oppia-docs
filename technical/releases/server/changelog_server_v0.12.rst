@@ -31,6 +31,7 @@ Issue list:
 * OPPIA-766 Number of media files to download shows as incorrect
 * OPPIA-903 Server dashboard always shows all media always completed
 * OPPIA-897 User images on leaderboard
+* OPPIA-877 Paginate AV listing page
 
 
 .. _serverv0.12.21:
