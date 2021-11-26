@@ -12,6 +12,8 @@ v0.12.22 - not yet released
    *  For the Server dashboard always shows all media always completed (#OPPIA-903), the 
       update_summaries command will need to be run from the start - see the 
       upgrading notes
+   *  In this release, a field was added to record the `course_version` of the 
+      course in each tracker, see the upgrading notes to populate the current values
 
 .. toctree::
    :maxdepth: 2
@@ -32,7 +34,8 @@ Issue list:
 * OPPIA-903 Server dashboard always shows all media always completed
 * OPPIA-897 User images on leaderboard
 * OPPIA-877 Paginate AV listing page
-
+* OPPIA-807: Fix MultipleObjectsReturned error for quizzes in course reports view
+* OPPIA-802: Record the course version in the Tracker table
 
 .. _serverv0.12.21:
 
