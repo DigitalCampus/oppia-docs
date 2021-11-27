@@ -4,7 +4,7 @@ OppiaMobile Server Change Log
 
 .. _serverv0.12.22:
 
-v0.12.22 - not yet released
+v0.12.22 - Released 27 Nov 2021
 ------------------------------------------------------
 
 .. note::
