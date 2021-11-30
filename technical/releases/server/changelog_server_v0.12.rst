@@ -1,10 +1,25 @@
 OppiaMobile Server Change Log
 ================================
 
+.. _serverv0.12.23:
+
+v0.12.23 - not yet released
+------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   upgrading/to_0_12_23
+
+   
+Issue list:
+
+* OPPIA-908 - Add report for missing media
+
 
 .. _serverv0.12.22:
 
-v0.12.22 - not yet released
+v0.12.22 - Released 26 Nov 2021
 ------------------------------------------------------
 
 .. note::
