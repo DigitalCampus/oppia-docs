@@ -14,11 +14,8 @@ Issue list:
 
 .. _appv92:
 
-<<<<<<< HEAD
-v92 (7.3.3) - Released 26 Nov 2021
-=======
+
 v92 (7.3.3) - Released 27 Nov 2021
->>>>>>> branch 'master' of git@github.com:DigitalCampus/oppia-docs.git
 -------------------------------------------------------
 
 * OPPIA-778 Change text size in course
