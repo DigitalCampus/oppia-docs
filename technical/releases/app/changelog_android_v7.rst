@@ -18,6 +18,8 @@ Issue list:
 v92 (7.3.3) - Released 27 Nov 2021
 -------------------------------------------------------
 
+Issue list:
+
 * OPPIA-778 Change text size in course
 * OPPIA-849 Continuing to next section on quiz completion
 * OPPIA-851 Quiz scores not matching

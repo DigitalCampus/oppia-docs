@@ -38,8 +38,7 @@ Run update_summaries from start
 #. Run the update summaries command from start: 
    ``(env)$ python manage.py update_summaries --fromstart``
 #. This might take a long time (hours) for large implementations, but is 
-   required to make sure the data for daily active users is correct and broken
-   down by course
+   required to make sure the data for the no media completed is stored correctly
    
 Update static files
 --------------------

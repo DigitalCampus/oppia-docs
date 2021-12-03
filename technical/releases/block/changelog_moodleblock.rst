@@ -1,6 +1,16 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+
+
+.. _blockv1.2.12:
+
+v1.2.12 - not yet released
+------------------------------------
+
+* OPPIA-902 and OPPIA-933 Restrict access to quizzes with password
+
+
 .. _blockv1.2.11:
 
 v1.2.11 - Released 14 Nov 2021
