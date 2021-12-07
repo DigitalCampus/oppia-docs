@@ -30,7 +30,7 @@ you started:
 Getting Started
 ---------------
 * Set up your development environment
-* Create a fork of the `oppia-mobile-android` repository in GitHub
+* Create a fork of the `oppia-mobile-android <https://github.com/DigitalCampus/oppia-mobile-android>`_ repository in GitHub
 * Clone your new GitHub repository to your machine
 * Create a project in Android Studio connected to this repository
 * Ensure that you are able to compile and run (either on your physical Android 
@@ -56,7 +56,7 @@ Configuring your own version of the app
    	buganalytics
    	settings
    	theme
-   	preloading
+   	preloading-content
 
 
 

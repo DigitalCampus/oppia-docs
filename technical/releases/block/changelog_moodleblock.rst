@@ -9,6 +9,7 @@ v1.2.12 - not yet released
 ------------------------------------
 
 * OPPIA-902 and OPPIA-933 Restrict access to quizzes with password
+* OPPIA-927 Course sequencing setting not retained on re-export
 
 
 .. _blockv1.2.11:

@@ -15,3 +15,4 @@ OppiaMobile Technical Documentation
    testing/index
    integration/index
    data-structure/index
+   app/index

@@ -12,7 +12,7 @@ Update database
 #. Run: ``(env)$ python manage.py migrate``
 
 Populates the course_version field in the tracker model
---------------------------------
+-------------------------------------------------------------
 
 In this release, a field was added to record the `course_version` of the 
 course in each tracker. The current saved trackers don't have that value

@@ -15,6 +15,8 @@ v0.12.23 - not yet released
 Issue list:
 
 * OPPIA-908 - Add report for missing media
+* Minor changes to fields shown on django admin list pages
+* OPPIA-925 Error with course feedback exports
 
 
 .. _serverv0.12.22:
