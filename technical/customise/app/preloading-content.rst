@@ -34,6 +34,10 @@ courses, then follow these steps:
 * To subsequently distribute an updated version of the app (with new versions of
   the courses), then you will need to add another code block (with new version 
   number) to trigger the automatic installation of the updated/new courses.
-  
- Media
- ------------
+ 
+ 
+Media
+------------
+ 
+ If you would like to distribute your app with some mdeia preinstalled, then 
+ follow these steps:

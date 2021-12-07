@@ -57,6 +57,7 @@ Configuring your own version of the app
    	settings
    	theme
    	preloading-content
+   	preloading-users
 
 
 
