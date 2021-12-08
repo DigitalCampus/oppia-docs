@@ -66,6 +66,7 @@ Implementers Guide
    implementers/dashboard/index
    implementers/permissions/quickstart
    implementers/permissions/index
+   implementers/device-setup/sideloading
    implementers/gamification/index
    implementers/certificates/index
    implementers/cohorts/index
