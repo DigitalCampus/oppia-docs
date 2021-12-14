@@ -1,4 +1,4 @@
-Upgrading to OppiaMobile Server v0.12.22
+Upgrading to OppiaMobile Server v0.12.23
 =========================================
 
 Update packages

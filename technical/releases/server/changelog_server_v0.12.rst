@@ -1,9 +1,24 @@
 OppiaMobile Server Change Log
 ================================
 
+
+.. _serverv0.12.24:
+
+v0.12.24 - not yet released - due end Jan 2022
+------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   upgrading/to_0_12_24
+
+   
+Issue list:
+
+
 .. _serverv0.12.23:
 
-v0.12.23 - not yet released
+v0.12.23 - not yet released - due end Dec 2021
 ------------------------------------------------------
 
 .. toctree::
@@ -17,6 +32,7 @@ Issue list:
 * OPPIA-908 - Add report for missing media
 * Minor changes to fields shown on django admin list pages
 * OPPIA-925 Error with course feedback exports
+* OPPIA-876 On update_summaries add extra info on progress
 
 
 .. _serverv0.12.22:

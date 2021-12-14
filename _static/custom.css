@@ -5,13 +5,14 @@
     background-color: #74B042;
 }
 a{
-    color: #9bc540;
+    color: #029440;
 }
 a:visited{
     color:#029440;
 }
 a:hover{
     color:#9aca3c;
+    text-decoration: underline;
 }
 .wy-nav-top a, .wy-nav-top a:visited{ color:#fff; }
 .wy-side-nav-search>div.version{

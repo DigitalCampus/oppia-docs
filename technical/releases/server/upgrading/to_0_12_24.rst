@@ -1,0 +1,65 @@
+Upgrading to OppiaMobile Server v0.12.24
+=========================================
+
+Update packages
+----------------------------
+#. Run: ``(env)$ pip install -r requirements.txt``
+
+Update server connection setting for MySQL
+----------------------------------------------
+
+For fixing OPPIA-862 (https://oppia.atlassian.net/browse/OPPIA-862 - Error 
+uploading activity log files when they contain emojis), the MySQL database
+connection settings in your ``settings_secret.py`` file should be updated to use
+the correct default collation.
+
+Add the OPTIONS -> charset to your database connection, as follows::
+
+	DATABASES = {
+	    'default': {
+	        'ENGINE': 'django.db.backends.mysql',
+	        'NAME': 'DATABASE_NAME',
+	        'USER': 'DATABASE_USER',
+	        'PASSWORD': 'DATABASE_PASSWORD',
+	        'OPTIONS': {
+	             'charset': 'utf8mb4' 
+	            }
+	    }
+	}
+
+Setting this charset option ensures that the database connection uses utf8mb4 
+which support emojis etc), vs the default setting of utf8 (which doesn't support
+emojis).
+
+When running the tests, using MySQL you can add extra parameters to this to
+ensure the test database uses the correct chatset and collation, as follows::
+
+	DATABASES = {
+	    'default': {
+	        'ENGINE': 'django.db.backends.mysql',
+	        'NAME': 'DATABASE_NAME',
+	        'USER': 'DATABASE_USER',
+	        'PASSWORD': 'DATABASE_PASSWORD',
+	        'OPTIONS': {
+	            'charset': 'utf8mb4' 
+	            },
+	        'TEST': {
+	            'CHARSET': "utf8mb4",
+	            'COLLATION': "utf8mb4_unicode_ci",
+        		}
+	    }
+	}
+
+Update database 
+-----------------
+
+#. Run: ``(env)$ python manage.py migrate``
+
+   
+Update static files
+--------------------
+
+#. Run: ``(env)$ python manage.py compilescss`` - don't worry about the 
+   unclosed files warning messages
+#. Run: ``(env)$ python manage.py collectstatic``
+
