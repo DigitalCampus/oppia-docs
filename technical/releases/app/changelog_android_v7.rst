@@ -7,10 +7,17 @@ OppiaMobile Android App Change Log v7.x
 v93 (7.3.4) - not yet released
 -------------------------------------------------------
 
+7.3.4a - released 14 Dec 2021
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Issue list:
 
+* OPPIA-950 Tracker stats not getting updated after submitting to server
 
+7.3.4b - not yet released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Issue list:
 
 .. _appv92:
 
