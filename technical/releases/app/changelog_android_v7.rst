@@ -4,20 +4,24 @@ OppiaMobile Android App Change Log v7.x
 
 .. _appv93:
 
-v93 (7.3.4) - not yet released
+v94 (7.3.4) - not yet released
 -------------------------------------------------------
 
-7.3.4a - released 14 Dec 2021
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7.3.4a (v93) - released 14 Dec 2021
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue list:
 
 * OPPIA-950 Tracker stats not getting updated after submitting to server
 
-7.3.4b - not yet released
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+7.3.4b (v94) - not yet released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue list:
+
+* OPPIA-878 Quizzes - for partially correct answers show orange "!"
+
+
 
 .. _appv92:
 
