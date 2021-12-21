@@ -2,9 +2,9 @@ OppiaMobile Android App Change Log v7.x
 =========================================
 
 
-.. _appv93:
+.. _appv94:
 
-v94 (7.3.4) - not yet released
+v93/94 (7.3.4a/b) - not yet released
 -------------------------------------------------------
 
 7.3.4a (v93) - released 14 Dec 2021
@@ -20,6 +20,9 @@ Issue list:
 Issue list:
 
 * OPPIA-878 Quizzes - for partially correct answers show orange "!"
+* OPPIA-492 Refactor deprecated class ActivityTestRule
+* OPPIA-917 Review BuildChecksOppiaCore
+* OPPIA-902 Restrict access to quizzes with password
 
 
 
