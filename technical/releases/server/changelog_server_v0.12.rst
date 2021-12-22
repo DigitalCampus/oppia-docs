@@ -33,6 +33,7 @@ Issue list:
 * Minor changes to fields shown on django admin list pages
 * OPPIA-925 Error with course feedback exports
 * OPPIA-876 On update_summaries add extra info on progress
+* OPPIA-968 Fix for incorrectly updating user profile data to be blank
 
 
 .. _serverv0.12.22:
