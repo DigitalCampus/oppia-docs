@@ -60,3 +60,18 @@ supported:
 
 p, ul, li, div, span, strong, b, em, cite, dfn, i, big, small, font, blockquote,
 tt, a, u, del, s, strike, sup, sub, h1, h2, h3, h4, h5, h6, br
+
+Pass Threshold
+----------------
+
+
+Limiting number of attempts
+----------------------------
+
+
+Password protecting quizzes
+----------------------------
+
+
+Notes on some quiz configurations
+-----------------------------------
