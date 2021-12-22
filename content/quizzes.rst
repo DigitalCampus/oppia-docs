@@ -4,7 +4,9 @@ Adding quizzes
 Add your questions as standard Moodle quiz questions and they will be 
 exported to run as quizzes on the mobile device.
 
-The question types supported are:
+
+Question types supported
+----------------------------
 
 * Description
 * Multichoice (only one valid option)
@@ -63,10 +65,15 @@ are shown:
 Quiz password protection
 ------------------------
 
-The Oppia moodle block offers the possibility of protect the access of a quiz with a password.
+The Oppia moodle block offers the possibility of protect the access of a quiz 
+with a password.
 
-If any password is set for a particular quiz, the app will prompt an text box when pressing the "Take this quiz" button.
-Only if the correct password is introduced, the user can access this quiz.
+A password can be set in the Moodle quiz settings, under the 
+``Extra restrictions on attempts`` section.
+
+If any password is set for a particular quiz, the app will prompt an text box
+when pressing the "Take this quiz" button. Only if the correct password is 
+introduced, the user can access this quiz.
 
 
 HTML Formatting
@@ -82,14 +89,23 @@ tt, a, u, del, s, strike, sup, sub, h1, h2, h3, h4, h5, h6, br
 Pass Threshold
 ----------------
 
+On export from the Oppia block you can set the pass threshold for each quiz 
+(from 0-100%, default is 80%). The pass threshold determines the mark a user 
+must achieve to have the quiz being considered completed/passed.
+
 
 Limiting number of attempts
 ----------------------------
 
-
-Password protecting quizzes
-----------------------------
+On export from the Oppia block you can set the maximum number of attempts a user
+can have at a quiz (1-10 or unlimited, default is unlimited).
 
 
 Notes on some quiz configurations
 -----------------------------------
+
+#. If a quiz has the max no attempts set, and has a pass threshold higher than 0,
+   then if a learner uses up all their attempts, but still hasn't passed the 
+   quiz, then there's no way for them to complete/pass the course.
+#. In the instance above, this can be made worse if the course sequencing is set,
+   as then there's also no way for a user to access the rest of the topic/course.
