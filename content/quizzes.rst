@@ -7,7 +7,8 @@ exported to run as quizzes on the mobile device.
 The question types supported are:
 
 * Description
-* Mulitple choice/select
+* Multichoice (only one valid option)
+* Multiselect (one or more valid options)
 * True/False
 * Matching
 * Short Answer
@@ -50,6 +51,23 @@ The Oppia app uses the specific feedback for individual question responses (not
 the general feedback), so for quizzes that are part of final assessment 
 activities, you might want to be careful about what feedback text you provide, 
 and when it is shown.
+
+In the feedback view, depending on the user correct/incorrect responses different icons
+are shown:
+
+* Correct answer: green tick (✓)
+* Incorrect answer: red cross (❌)
+* Partially correct answer: orange exclamation (!).
+  Only for multiselect, matching and numerical question types
+
+Quiz password protection
+------------------------
+
+The Oppia moodle block offers the possibility of protect the access of a quiz with a password.
+
+If any password is set for a particular quiz, the app will prompt an text box when pressing the "Take this quiz" button.
+Only if the correct password is introduced, the user can access this quiz.
+
 
 HTML Formatting
 -----------------
