@@ -51,13 +51,10 @@ options to select:
    user then select the number of questions that should be shown. They will 
    appear in a random order, so don't use this if certain questions depend on 
    information from previous questions or info. 
-#. **Show feedback** - when (if ever) should feedback about the users response #
+#. **Show feedback** - when (if ever) should feedback about the users response 
    be shown.
-#. **Allow try-again?** - should the user be shown the option to try the quiz 
-   again straight after completing the quiz.
 #. **Pass Threshold (%)** - what's the threshold (in percent) for the user to 
    pass this quiz.
-#. **Availability** - when is the user allowed to access this quiz.
 #. **Max number of attempts** - how many attempts can a user have at this quiz.
 
 
