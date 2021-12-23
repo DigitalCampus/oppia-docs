@@ -4,6 +4,8 @@ Adding quizzes
 Add your questions as standard Moodle quiz questions and they will be 
 exported to run as quizzes on the mobile device.
 
+.. contents::
+	:depth: 2
 
 Question types supported
 ----------------------------
