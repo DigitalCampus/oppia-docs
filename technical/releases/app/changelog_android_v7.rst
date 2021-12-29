@@ -23,6 +23,7 @@ Issue list:
 * OPPIA-492 Refactor deprecated class ActivityTestRule
 * OPPIA-917 Review BuildChecksOppiaCore
 * OPPIA-902 Restrict access to quizzes with password
+* OPPIA-896 Advanced option to download all data from phone
 
 
 
