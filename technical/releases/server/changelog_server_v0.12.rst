@@ -18,7 +18,7 @@ Issue list:
 
 .. _serverv0.12.23:
 
-v0.12.23 - not yet released - due end Dec 2021
+v0.12.23 - Released 31 Dec 2021
 ------------------------------------------------------
 
 .. toctree::
