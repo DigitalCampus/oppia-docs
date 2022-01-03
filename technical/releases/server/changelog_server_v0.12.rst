@@ -15,10 +15,11 @@ v0.12.24 - not yet released - due end Jan 2022
    
 Issue list:
 
+* OPPIA-978 - Update Django to 2.2.25
 
 .. _serverv0.12.23:
 
-v0.12.23 - not yet released - due end Dec 2021
+v0.12.23 - Released 30 Dec 2021
 ------------------------------------------------------
 
 .. toctree::

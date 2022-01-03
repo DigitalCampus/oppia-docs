@@ -3,8 +3,8 @@ OppiaMobile Android App Change Log v7.x
 
 .. _appv95:
 
-v95 (7.3.5) - not yet released
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+v95 (7.3.5) - not yet released - due end Jan 2022
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue list:
 
