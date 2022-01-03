@@ -15,11 +15,13 @@ v0.12.24 - not yet released - due end Jan 2022
    
 Issue list:
 
-* OPPIA-978 - Update Django to 2.2.25
+* OPPIA-978 Update Django to 2.2.25
+* OPPIA-980 Fix rel=noopener issue from sonarcloud
 
 .. _serverv0.12.23:
 
 v0.12.23 - Released 31 Dec 2021
+------------------------------------------------------
 
 .. toctree::
    :maxdepth: 2

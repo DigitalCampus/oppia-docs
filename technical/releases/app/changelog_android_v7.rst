@@ -8,6 +8,8 @@ v95 (7.3.5) - not yet released - due end Jan 2022
 
 Issue list:
 
+* OPPIA-845 Download media via cell network settings
+
 
 .. _appv94:
 
