@@ -18,17 +18,17 @@ The "Export users" functionality of the server creates a file with the needed
 format, but it can also be created manually. The fields that can be defined
 in this file are:
 
- * `username`: Required. If a user with this username already existed in the
- app, because a normal login was done, his information will get updated with
- the data included in the file (password included, so be careful!).
- * `password`: Required. The password must be set in plain text. Once the
- file is preloaded, the password will be saved encrypted in the local database.
- * `apikey`: Required. The API Key of the user to be able to make authenticated
- requests to the server. It can be obtained from the user profile, or using
- the "Export users" functionality.
- * `email`: Optional.
- * `first_name`: Optional. 
- * `last_name`: Optional. 
+* ``username``: Required. If a user with this username already existed in the
+  app, because a normal login was done, his information will get updated with
+  the data included in the file (password included, so be careful!).
+* ``password``: Required. The password must be set in plain text. Once the
+  file is preloaded, the password will be saved encrypted in the local database.
+* ``apikey``: Required. The API Key of the user to be able to make authenticated
+  requests to the server. It can be obtained from the user profile, or using
+  the "Export users" functionality.
+* ``email``: Optional.
+* ``first_name``: Optional. 
+* ``last_name``: Optional. 
 
 You must use this specific identifiers in the header line of the CSV. Any other
 fields included will be ignored.

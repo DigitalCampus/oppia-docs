@@ -19,8 +19,7 @@ Issue list:
 
 .. _serverv0.12.23:
 
-v0.12.23 - Released 30 Dec 2021
-------------------------------------------------------
+v0.12.23 - Released 31 Dec 2021
 
 .. toctree::
    :maxdepth: 2
