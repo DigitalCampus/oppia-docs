@@ -9,6 +9,9 @@ v95 (7.3.5) - not yet released - due end Jan 2022
 Issue list:
 
 * OPPIA-845 Download media via cell network settings
+* OPPIA-936 Update the app course list cache as soon as the user goes to
+  download courses
+* OPPIA-742 Add option to flush cached courses listing
 
 
 .. _appv94:
