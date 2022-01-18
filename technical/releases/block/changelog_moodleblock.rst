@@ -6,6 +6,10 @@ OppiaMobile Moodle Block Change Log
 v1.2.13 - not yet released
 ------------------------------------
 
+* OPPIA-900 and OPPIA-945 Add option to prevent display of right/wrong answers 
+  at end of quiz 
+* OPPIA-833 Split out styles/javascript between core/custom for course styles
+
 
 .. _blockv1.2.12:
 

@@ -17,6 +17,9 @@ Issue list:
 
 * OPPIA-978 Update Django to 2.2.26
 * OPPIA-980 Fix rel=noopener issue from sonarcloud
+* OPPIA-937 On bulk user upload do not reset existing users passwords
+* OPPIA-940 On bulk user upload add option to only update data, not overwrite
+* OPPIA-886 Uploading user data ignores first column
 
 .. _serverv0.12.23:
 
