@@ -41,6 +41,44 @@ For creating a pre-test that users must complete in the Oppia app before they
 can access the course content, create your quiz in the 'Topic 0' section of 
 your Moodle course (i.e. before any other topics/sections).
 
+
+Showing correct/incorrect answers
+-------------------------------------
+
+As of block version (:ref:`blockv1.2.13`) and app version (:ref:`appv95`) you can define whether users are shown
+if they got particular questions right or wrong.
+
+You can define this on 2 levels, if they see the right/wrong answers immediately
+after completing the quiz, and also if they can see the right/wrong answers in 
+the quiz attempt review part of the app.
+
+So, there are 4 combinations for how this is displayed in the Oppia app:
+
+#. Show right/wrong answers immediately after the quiz has been attempted and show 
+   right/wrong answers when the user reviews their quiz attempts.
+#. Show right/wrong answers immediately after the quiz has been attempted but do not show 
+   right/wrong answers when the user reviews their quiz attempts.
+#. Do not show right/wrong answers immediately after the quiz has been attempted but do show 
+   right/wrong answers when the user reviews their quiz attempts.
+#. Do not show right/wrong answers immediately after the quiz has been attempted and do not show 
+   right/wrong answers when the user reviews their quiz attempts.
+
+To set this up in Moodle, you will need to tick/untick the following options in 
+the Moodle quiz settings:
+
+.. image:: images/quiz-right-wrong.png
+
+Tick/Untick the `whether correct` under `Immediately after the attempt` to decide
+whether to show the right/wrong answers straight after the user has taken the 
+quiz in Oppia app
+
+Tick/Untick the `whether correct` under `Later while the quiz is still open` to decide
+whether to show the right/wrong answers when the user reviews their quiz attempts in Oppia app
+
+When these have been ticked/unticked in Moodle, these will get updated on the 
+next export to the Oppia app.
+
+
 Giving Quiz Question feedback
 -------------------------------
 

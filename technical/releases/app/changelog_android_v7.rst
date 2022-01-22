@@ -12,6 +12,8 @@ Issue list:
 * OPPIA-936 Update the app course list cache as soon as the user goes to
   download courses
 * OPPIA-742 Add option to flush cached courses listing
+* OPPIA-900 Add option to prevent display of right/wrong answers at end of quiz
+* OPPIA-819 Required registration fields can get hidden by the keyboard
 
 
 .. _appv94:
