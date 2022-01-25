@@ -20,6 +20,10 @@ Issue list:
 * OPPIA-937 On bulk user upload do not reset existing users passwords
 * OPPIA-940 On bulk user upload add option to only update data, not overwrite
 * OPPIA-886 Uploading user data ignores first column
+* OPPIA-1019 On course upload, update quiz props (in server and XML) regardless
+  of digest changes
+* OPPIA-862 Error uploading activity log files when they contain emojis
+* OPPIA-867 Activitylog upload table should record all uploads
 
 .. _serverv0.12.23:
 

@@ -14,6 +14,8 @@ Issue list:
 * OPPIA-742 Add option to flush cached courses listing
 * OPPIA-900 Add option to prevent display of right/wrong answers at end of quiz
 * OPPIA-819 Required registration fields can get hidden by the keyboard
+* OPPIA-1019 Video files showing as to download when they have been removed 
+  from the course
 
 
 .. _appv94:

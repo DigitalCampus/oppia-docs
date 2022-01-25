@@ -32,7 +32,7 @@ which support emojis etc), vs the default setting of utf8 (which doesn't support
 emojis).
 
 When running the tests, using MySQL you can add extra parameters to this to
-ensure the test database uses the correct chatset and collation, as follows::
+ensure the test database uses the correct charset and collation, as follows::
 
 	DATABASES = {
 	    'default': {
