@@ -14,7 +14,7 @@ The main path for these tests is ``src/test/java``. It is mandatory for this typ
 
 .. code-block:: text
 
-   testImplementation 'junit:junit:4.12'
+   testImplementation 'androidx.test.ext:junit:{version}'
  
 The tests methods that we create must have the tag ``@Test`` right before the method declaration, and must end with an **assertion** to check whether the test passes or not. For example:
  
@@ -22,9 +22,8 @@ The tests methods that we create must have the tag ``@Test`` right before the me
 
    @Test
    public void Storage_correctDownloadPath(){
-	      …
-
-	      assertTrue(downloadPath.isCorrect());
+        …
+        assertTrue(downloadPath.isCorrect());
    }
  
 
@@ -59,18 +58,32 @@ To create and run this test, first we need to install the **Android Support Repo
  
 .. code-block:: XML
 
-    androidTestImplementation 'com.android.support:support-annotations:24.0.0'
-    androidTestImplementation 'com.android.support.test:runner:0.5'
-    androidTestImplementation 'com.android.support.test:rules:0.5'
+    androidTestImplementation 'androidx.annotation:annotation:{version}'
+    androidTestImplementation 'androidx.test:runner:{version}'
+    androidTestImplementation 'androidx.test:rules:{version}'
+    androidTestImplementation 'androidx.test.ext:junit:{version}'
+    androidTestImplementation 'androidx.test.uiautomator:uiautomator:{version}'
+    androidTestUtil 'androidx.test:orchestrator:{version}'
 
-In addition, we need to add the default test instrumentation runner to use JUnit 4 test classes:
+In addition, we need to add the default test instrumentation runner to use JUnit 4 test classes, and its parameters:
 
 .. code-block:: XML
  
  android {
      defaultConfig {
-         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunnerArguments clearPackageData: 'true'
+        testInstrumentationRunnerArguments coverage: 'true'
+        testInstrumentationRunnerArguments coverageFilePath: '/sdcard/coverage/'
      }
+    ...
+
+    testOptions {
+        execution 'ANDROIDX_TEST_ORCHESTRATOR'
+        unitTests.returnDefaultValues = true
+        unitTests.includeAndroidResources = true
+        animationsDisabled = true
+    }
  }
 
 When we create a test class, there are some things we have to pay attention.
@@ -99,32 +112,18 @@ To use the Espresso library, we need to make sure to follow the same steps descr
 
 .. code-block:: XML
  
- androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.1'
-
-.. note::
- It is recommended to turn off the animations on your test device (*Settings --> Developing Options*), as they might cause         unexpected results or may lead your test to fail.
- 
-
-There are some things we need to take into account:
-
-* We need to specify at the beginning of the class the activity that will be tested. This is done with the **@Rule** tag and with a ``ActivityTestRule`` object:
+ androidTestImplementation 'androidx.test.espresso:espresso-core:{version}'
 
 
- .. code-block:: java
-
-  @Rule
-  public ActivityTestRule<OppiaMobileActivity> oppiaMobileActivityTestRule = 
-                                                            new ActivityTestRule<>(OppiaMobileActivity.class);
- 
 
 * The *Espresso* nomenclature is based on three aspects. First we need to **find the view** we want to test. Next, we have to **perform an action** over that view. And finally, we need to **inspect the result**. This is done as follows:
 
  .. code-block:: java
 
-	  onView(withId(R.id.login_btn))		        //Find the view 
-	          .perform(click());		            //Perform an action 
-	  onView(withText(R.string.error_no_username))	//Find the view
-		      .check(matches(isDisplayed()));       //Inspect the result
+    onView(withId(R.id.login_btn))		        //Find the view
+        .perform(click());		            //Perform an action
+    onView(withText(R.string.error_no_username))	//Find the view
+        .check(matches(isDisplayed()));       //Inspect the result
 
 Mock Web Server
 -----------------
@@ -146,16 +145,16 @@ After that, we are able to create MockWebServer objects. For example:
 
 .. code-block:: text
  
-	 MockWebServer mockServer = new MockWebServer();
+    MockWebServer mockServer = new MockWebServer();
 	
-	 String filename = “responses/response_201_login.json”; //Premade response
+    String filename = “responses/response_201_login.json”; //Premade response
+
+    mockServer.enqueue(new MockResponse()
+        .setResponseCode(201)
+        .setBody(getStringFromFile(InstrumentationRegistry
+            .getInstrumentation().getContext(), filename)));
 	
-	 mockServer.enqueue(new MockResponse()
-		    .setResponseCode(201)
-	     	.setBody(getStringFromFile(InstrumentationRegistry.getContext(),
-				                              filename)));
-	
-	 mockServer.start(); 
+    mockServer.start();
 
 
 On the other hand, we need to configure our app to communicate correctly with this mock web server. To achieve that, *OppiaMobile* uses the class ``MockApiEndpoint``, whose method ``getFullURL()`` will give us the correct path on which the mock web server is listening.
