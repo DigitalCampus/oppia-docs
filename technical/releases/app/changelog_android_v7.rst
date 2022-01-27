@@ -1,9 +1,19 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+
+.. _appv96:
+
+v96 (7.3.6) - not yet released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Issue list:
+
+
+
 .. _appv95:
 
-v95 (7.3.5) - not yet released - due end Jan 2022
+v95 (7.3.5) - released 27 Jan 2022
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue list:
@@ -16,6 +26,9 @@ Issue list:
 * OPPIA-819 Required registration fields can get hidden by the keyboard
 * OPPIA-1019 Video files showing as to download when they have been removed 
   from the course
+* OPPIA-916 Check tests which depend on some elements visibility
+* OPPIA-953 Reliable running of app automated tests
+* OPPIA-662 SonarCloud analysis - get working again
 
 
 .. _appv94:

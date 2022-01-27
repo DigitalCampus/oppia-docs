@@ -1,6 +1,13 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+
+.. _blockv1.3.0:
+
+v1.3.0 - not yet released
+------------------------------------
+
+
 .. _blockv1.2.13:
 
 v1.2.13 - not yet released
