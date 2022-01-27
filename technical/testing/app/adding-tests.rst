@@ -180,15 +180,15 @@ The ``TemporaryFolder`` object must be created using the ``@Rule`` tag.
 Considerations to create consistent tests
 -----------------------------------------
 
-- When testing screens with ViewPager, if we swith page with smooth scroll, sometimes the test try to handle next event before the transition finishes, so it fails. The quik solution is to add a wait time in the test just after page transition event: Thread.sleep(200) -200ms is enought-. Other solution would be to add an Idling resource but it is not compatible with ViewPager and we'd need to replace with ViewPager2 and its adapter.
+- | When testing screens with ViewPager, if we swith page with smooth scroll, sometimes the test try to handle next event before the transition finishes, so it fails. The quik solution is to add a wait time in the test just after page transition event: Thread.sleep(200) -200ms is enought-. Other solution would be to add an Idling resource but it is not compatible with ViewPager and we'd need to replace with ViewPager2 and its adapter.
 
 - | Espresso waits until AsyncTasks finish if there is a UI change at the end (onPostExecute). If we need to test the result after a AsyncTask wihout UI change (i.e. only saves data), we need to add a wait time. In slow devices, this could take more than a second so Thread.sleep(3000) should be enought.
 
-- To test properties which configure UI elements, first add tests to check desired element visibility in UIChecksPropsBased, and then we have to mock the property value in the rest of the tests it is involved. If the property is no mockeable (it is not included in the Settings so it has no preference associated), just exit the test (i.e. we cannot test anything related with Settings if MENU_ALLOW_SETTINGS is disabled)
+- | To test properties which configure UI elements, first add tests to check desired element visibility in UIChecksPropsBased, and then we have to mock the property value in the rest of the tests it is involved. If the property is no mockeable (it is not included in the Settings so it has no preference associated), just exit the test (i.e. we cannot test anything related with Settings if MENU_ALLOW_SETTINGS is disabled)
 
-- Remember to to close soft keyboard after typing text if we need to click any button (keyboard could hide UI elements and make the test fail as they are not clickable). I.e.: onView(withId(R.id.edit_email)).perform(typeText("any@email.com"), closeSoftKeyboard());
+- | Remember to to close soft keyboard after typing text if we need to click any button (keyboard could hide UI elements and make the test fail as they are not clickable). I.e.: onView(withId(R.id.edit_email)).perform(typeText("any@email.com"), closeSoftKeyboard());
 
-- If inside a Activity/Fragment there is a repository object with any async process in it, and a ProgressDialog (or similar) is created while the process finishes, there is risk of not closing the ProgressDialog if the repository method (which contains the async process) is mocked and test will fail as there is a not expected view at top. The solution would be to move the code with creates the ProgessDialog inside the repository method or ensure we call the "onComplete" method mocking it in the test with doAnswer(invocationOnMock -> ....)
+- | If inside a Activity/Fragment there is a repository object with any async process in it, and a ProgressDialog (or similar) is created while the process finishes, there is risk of not closing the ProgressDialog if the repository method (which contains the async process) is mocked and test will fail as there is a not expected view at top. The solution would be to move the code with creates the ProgessDialog inside the repository method or ensure we call the "onComplete" method mocking it in the test with doAnswer(invocationOnMock -> ....)
 
 
 **DEVICE CONFIGURATION BEFORE RUNNING THE TEST:**
