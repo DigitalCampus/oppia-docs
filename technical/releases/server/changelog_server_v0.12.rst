@@ -2,9 +2,22 @@ OppiaMobile Server Change Log
 ================================
 
 
+.. _serverv0.12.25:
+
+v0.12.25 - not yet released 
+------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   upgrading/to_0_12_25
+
+   
+Issue list:
+
 .. _serverv0.12.24:
 
-v0.12.24 - not yet released - due end Jan 2022
+v0.12.24 - released 29 Jan 2022
 ------------------------------------------------------
 
 .. toctree::
@@ -24,6 +37,7 @@ Issue list:
   of digest changes
 * OPPIA-862 Error uploading activity log files when they contain emojis
 * OPPIA-867 Activitylog upload table should record all uploads
+* OPPIA-935 User search doesn't work if there are required custom profile fields
 
 .. _serverv0.12.23:
 
