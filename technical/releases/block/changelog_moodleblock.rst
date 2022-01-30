@@ -10,7 +10,7 @@ v1.3.0 - not yet released
 
 .. _blockv1.2.13:
 
-v1.2.13 - not yet released
+v1.2.13 - released 30 Jan 2022
 ------------------------------------
 
 * OPPIA-900 and OPPIA-945 Add option to prevent display of right/wrong answers 
