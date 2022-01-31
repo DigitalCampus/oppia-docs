@@ -12,40 +12,42 @@ etc).
 CourseInfoTask
 --------------------------
 
-Purpose:
+*Purpose*: to get the updated list of new, updated and deleted courses
 
-Trigger/s to run:
+*Trigger/s to run*: Runs couple of times a day in the background, can also be 
+run manually from the advanced settings (flush course cache)
 
 
 ScanMediaTask
 -----------------
 
-Purpose:
+*Purpose*: to check if the user has all the course media on their device
 
-Trigger/s to run:
+*Trigger/s to run*: Runs when opening the app on the app homepage, and on the 
+course index pages
 
 
 SubmitQuizAttemptsTask
 ----------------------------
 
-Purpose:
+*Purpose*: to send unsubmitted quiz attempts to server
 
-Trigger/s to run:
+*Trigger/s to run*: runs automatically every 6 hours
 
 
 SubmitTrackerMultipleTask
 -----------------------------
 
-Purpose:
+*Purpose*: to send unsubmitted activity logs to server
 
-Trigger/s to run:
+*Trigger/s to run*: runs automatically every 6 hours
 
 
 UpdateLeaderboardFromServerTask
 -----------------------------------
 
-Purpose:
+*Purpose*: to update the leaderboard
 
-Trigger/s to run:
+*Trigger/s to run*: when the leaderboard is opened
 
 
