@@ -7,6 +7,8 @@ OppiaMobile Moodle Block Change Log
 v1.3.0 - not yet released
 ------------------------------------
 
+* OPPIA-938/1009 Allow adding of password to lock a topic
+* OPPIA-938/955 Update the XSD to validate the generated module.xml file
 
 .. _blockv1.2.13:
 

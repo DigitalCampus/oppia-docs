@@ -15,6 +15,9 @@ v0.12.25 - not yet released
    
 Issue list:
 
+* OPPIA-1005 Data loss for field "phone_number"
+* OPPIA-938/955 Update course XML schema to reflect latest changes
+
 .. _serverv0.12.24:
 
 v0.12.24 - released 29 Jan 2022
