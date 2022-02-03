@@ -45,7 +45,7 @@ your Moodle course (i.e. before any other topics/sections).
 Showing correct/incorrect answers
 -------------------------------------
 
-As of block version (:ref:`blockv1.2.13`) and app version (:ref:`appv95`) you can define whether users are shown
+As of :ref:`block version 1.2.13<blockv1.2.13>` and :ref:`app version 7.3.5<appv95>` you can define whether users are shown
 if they got particular questions right or wrong.
 
 You can define this on 2 levels, if they see the right/wrong answers immediately

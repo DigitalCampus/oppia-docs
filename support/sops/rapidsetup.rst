@@ -49,7 +49,7 @@ Deployment to users
 -------------------------
 
 * For quickest deployment, the users can be pregistered in the app, and the
-  content pre-loaded, although this is not possibel for users who might be
+  content pre-loaded, although this is not possible for users who might be
   remotely installing the app themselves 
 * Adapt or re-use the :ref:`introtraining`
 

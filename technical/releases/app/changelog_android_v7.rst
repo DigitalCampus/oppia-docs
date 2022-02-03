@@ -9,7 +9,7 @@ v96 (7.3.6) - not yet released
 
 Issue list:
 
-
+* OPPIA-975 Refine error logging
 
 .. _appv95:
 

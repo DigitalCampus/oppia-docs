@@ -26,16 +26,13 @@ For information about specific aspects of course creation for OppiaMobile, see:
    images
    quizzes
    video_embed
+   topic_locking
    custom_styles
    feedback
    translations
    about
    testing
-   publish_to_oppia
-
-If you'd like to see an example of how we structured and set up the Antenatal 
-Care course you can see this at: 
-https://moodle.digital-campus.org/course/view.php?id=166 
+   publish_to_oppia 
 
 Once you have some content etc that you'd like to test on your phone, press the 
 'Export to Oppia Package' button in the right hand column. At the end of the 
