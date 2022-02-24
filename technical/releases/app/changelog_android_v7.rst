@@ -9,10 +9,7 @@ v96 (7.3.6) - not yet released
 
 Issue list:
 
-* OPPIA-956 Password protect topics
 * OPPIA-975 Refine error logging
-* OPPIA-1007 Additional tests for media downloads
-* OPPIA-1054 Additional fixes for test reliability 
 
 .. _appv95:
 
