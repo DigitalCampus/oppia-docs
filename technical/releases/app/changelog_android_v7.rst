@@ -10,6 +10,12 @@ v96 (7.3.6) - not yet released
 Issue list:
 
 * OPPIA-975 Refine error logging
+* OPPIA-993 Registration disruption results in starting again
+* OPPIA-1021 Create property for displaying REGISTER button
+* OPPIA-1007 Fix issue with download course media activity crashing if many
+  media
+* OPPIA-938/956 Lock topics with password
+* OPPIA-1057 Submit quiz attempts in activitylog screen
 
 .. _appv95:
 

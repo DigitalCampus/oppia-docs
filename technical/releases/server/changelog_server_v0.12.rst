@@ -18,6 +18,9 @@ Issue list:
 * OPPIA-1005 Data loss for field "phone_number"
 * OPPIA-938/955 Update course XML schema to reflect latest changes
 * OPPIA-1061 Update django to 2.2.27
+* OPPIA-1068 Update google analytics js script
+* OPPIA-1065 Completed activities is displaying incorrectly in usercoursesummary
+
 
 .. _serverv0.12.24:
 

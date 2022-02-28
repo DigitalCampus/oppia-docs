@@ -1,10 +1,14 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv1.3.1:
+
+v1.3.1 - not yet released
+------------------------------------
 
 .. _blockv1.3.0:
 
-v1.3.0 - not yet released
+v1.3.0 - released 28 Feb 2022
 ------------------------------------
 
 * OPPIA-938/1009 Allow adding of password to lock a topic
