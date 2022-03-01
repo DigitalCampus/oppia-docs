@@ -4,7 +4,7 @@ OppiaMobile Server Change Log for v0.12.x
 
 .. _serverv0.12.25:
 
-v0.12.25 - not yet released 
+v0.12.25 - released 1 Mar 2022 
 ------------------------------------------------------
 
 .. toctree::
@@ -20,6 +20,7 @@ Issue list:
 * OPPIA-1061 Update django to 2.2.27
 * OPPIA-1068 Update google analytics js script
 * OPPIA-1065 Completed activities is displaying incorrectly in usercoursesummary
+* OPPIA-960 Fix issue with media download file
 
 
 .. _serverv0.12.24:

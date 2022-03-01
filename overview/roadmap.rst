@@ -1,19 +1,18 @@
 OppiaMobile Development Roadmap
 =================================
 
-Last updated: May 2021
+Last updated: Feb 2022
 
-Short term
--------------
+Short term (6-12 months)
+--------------------------
 
-* Implementing certificates
-* Allowing registration of Oppia servers
-* Refactoring
+* Implementing the OpenBadges (https://openbadges.org/)
+* Dashboard enhancements
+
 
 Medium term 
 -------------
 
-* Implementing the OpenBadges (https://openbadges.org/)
 * Improved integrations with xAPI and data collection/patient management apps
 * Move to use Django Rest Framework (server)
 * Move to use RoomDB (app)
