@@ -28,18 +28,14 @@ configuration changes to make:
 #. Run ``mod_wsgi-express module-config`` and copy the 2 generated lines into 
    your apache site config file
 
-
-
 Update packages
 ----------------------------
 #. Run: ``(env)$ pip install -r requirements.txt``
-
 
 Update database 
 -----------------
 
 #. Run: ``(env)$ python manage.py migrate``
-
    
 Update static files
 --------------------
@@ -47,3 +43,11 @@ Update static files
 #. Run: ``(env)$ python manage.py compilescss`` - don't worry about the 
    unclosed files warning messages
 #. Run: ``(env)$ python manage.py collectstatic``
+
+
+Run update_summaries from start
+---------------------------------
+
+#. Run the update summaries command from start: 
+   ``(env)$ python manage.py update_summaries --fromstart``
+#. This might take a long time (hours) for large implementations

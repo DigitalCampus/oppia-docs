@@ -7,6 +7,11 @@ OppiaMobile Server Change Log for v0.13.x
 v0.13.0 - not yet released 
 ------------------------------------------------------
 
+
+.. note::
+   This release moves to using Python 3.8, so you will need to follow the
+   upgrade instructions below.
+	
 .. toctree::
    :maxdepth: 2
 
@@ -15,7 +20,7 @@ v0.13.0 - not yet released
    
 Issue list:
 
-* Update to use Python 3.8
+* OPPIA-1000 Update to use Python 3.8
 
 Previous Versions
 ------------------

@@ -2,9 +2,16 @@ OppiaMobile Android App Change Log v7.x
 =========================================
 
 
+.. _appv97:
+
+v97 (7.3.7) - not yet released
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Issue list:
+
 .. _appv96:
 
-v96 (7.3.6) - not yet released
+v96 (7.3.6) - released 2 Mar 2022
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Issue list:
@@ -16,6 +23,7 @@ Issue list:
   media
 * OPPIA-938/956 Lock topics with password
 * OPPIA-1057 Submit quiz attempts in activitylog screen
+* OPPIA-1010 Tests for password locking
 
 .. _appv95:
 
