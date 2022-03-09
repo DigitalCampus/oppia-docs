@@ -5,7 +5,7 @@ Set up/configure Python 3.8
 ----------------------------
 
 If you are already using Ubuntu 20.04 or above, then the default Python is 
-already set to being 3.8, and there are no changes to make.
+already set to being 3.8, and then you only need to update the apache config.
 
 If you are using an earlier version of Ubuntu you will first need to install 
 Python 3.8 and then configure, using these instructions:
@@ -26,7 +26,8 @@ configuration changes to make:
 #. ``sudo apt install apache2-dev``
 #. ``pip install mod_wsgi`` (when virtualenv is enabled)
 #. Run ``mod_wsgi-express module-config`` and copy the 2 generated lines into 
-   your apache site config file
+   your apache site config file. Note that ``WSGIPythonHome`` needs to be
+   before the VirtualHost tag.
 
 Update packages
 ----------------------------

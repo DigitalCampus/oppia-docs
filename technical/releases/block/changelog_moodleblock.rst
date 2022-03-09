@@ -6,6 +6,8 @@ OppiaMobile Moodle Block Change Log
 v1.3.1 - not yet released
 ------------------------------------
 
+* OPPIA-865/1012 Add skip logic for feedback activities
+
 .. _blockv1.3.0:
 
 v1.3.0 - released 28 Feb 2022
