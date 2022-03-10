@@ -10,12 +10,13 @@ v1.3.1 - not yet released
 
 .. _blockv1.3.0:
 
-v1.3.0 - released 28 Feb 2022
-------------------------------------
+v1.3.0 - released 28 Feb 2022 (updated 8 Mar 2022)
+---------------------------------------------------
 
 * OPPIA-938/1009 Allow adding of password to lock a topic
 * OPPIA-938/955 Update the XSD to validate the generated module.xml file
 * OPPIA-880 Include Moodle quiz and question id nos when exporting data
+* OPPIA-1085 Fix quiz feedback setting
 
 .. _blockv1.2.13:
 
