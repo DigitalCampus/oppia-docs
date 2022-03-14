@@ -24,7 +24,7 @@ Issue list:
 * OPPIA-1058 Fix for time taken data report
 * OPPIA-973 Add django-storages as server required package
 * OPPIA-1074 Add tests for regenerate_course_structure command
-* OPPIA-1001 Update Pillow library to 9.0.0 and mysqlclient==2.1.0
+* OPPIA-1001 Update Pillow library to 9.0.1 and mysqlclient==2.1.0
 * OPPIA-1006 Add automated create/update date fields on profile models
 
 Previous Versions

@@ -9,6 +9,10 @@ v97 (7.3.7) - not yet released
 
 Issue list:
 
+* OPPIA-1031 Update Gradle and build libraries
+* OPPIA-865 Add skip logic for feedback activities
+* OPPIA-1045 Remove commented code
+
 .. _appv96:
 
 v96 (7.3.6) - released 2 Mar 2022
