@@ -26,6 +26,8 @@ Issue list:
 * OPPIA-1074 Add tests for regenerate_course_structure command
 * OPPIA-1001 Update Pillow library to 9.0.1 and mysqlclient==2.1.0
 * OPPIA-1006 Add automated create/update date fields on profile models
+* OPPIA-800 Update the summary_usercoursesummary to record progress in old and
+  current versions of the course
 
 Previous Versions
 ------------------

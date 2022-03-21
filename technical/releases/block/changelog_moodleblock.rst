@@ -7,6 +7,7 @@ v1.3.1 - not yet released
 ------------------------------------
 
 * OPPIA-865/1012 Add skip logic for feedback activities
+* OPPIA-1004 Update for Moodle 4 compatibility
 
 .. _blockv1.3.0:
 

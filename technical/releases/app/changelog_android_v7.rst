@@ -12,6 +12,7 @@ Issue list:
 * OPPIA-1031 Update Gradle and build libraries
 * OPPIA-865 Add skip logic for feedback activities
 * OPPIA-1045 Remove commented code
+* OPPIA-1042 Replace string literals
 
 .. _appv96:
 
