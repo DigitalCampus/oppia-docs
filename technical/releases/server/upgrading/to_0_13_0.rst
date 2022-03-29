@@ -12,7 +12,9 @@ Python 3.8 and then configure, using these instructions:
 
 #. Install Python 3.8 on your system - example instructions here: 
    https://linuxize.com/post/how-to-install-python-3-8-on-ubuntu-18-04/
-#. Remove the the current virtual environment for your Oppia server
+#. Remove the current virtual environment for your Oppia server
+#. Install python3.8-dev ``sudo apt install python3.8-dev`` - note that it's 
+   important to install this before the new virtualenv is created
 #. Recreate the virtual environment, using ``virtualenv -p /usr/bin/python3.8 env``
 #. Enable the virtual environment and install all the packages:
 
@@ -46,7 +48,7 @@ Update static files
 #. Run: ``(env)$ python manage.py collectstatic``
 
 
-Run update_summaries from start
+Run update_summaries --fromstart
 ---------------------------------
 
 #. Run the update summaries command from start: 
