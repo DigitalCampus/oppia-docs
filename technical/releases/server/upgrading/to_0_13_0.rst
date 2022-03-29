@@ -10,7 +10,7 @@ already set to being 3.8, and then you only need to update the apache config.
 If you are using an earlier version of Ubuntu you will first need to install 
 Python 3.8 and then configure, using these instructions:
 
-#. Install Python 3.8 on you system - example instructions here: 
+#. Install Python 3.8 on your system - example instructions here: 
    https://linuxize.com/post/how-to-install-python-3-8-on-ubuntu-18-04/
 #. Remove the the current virtual environment for your Oppia server
 #. Recreate the virtual environment, using ``virtualenv -p /usr/bin/python3.8 env``
