@@ -13,6 +13,11 @@ Issue list:
 * OPPIA-865 Add skip logic for feedback activities
 * OPPIA-1045 Remove commented code
 * OPPIA-1042 Replace string literals
+* OPPIA-952 Add message on app homepage if connected to staging server
+* OPPIA-1044 Thread.sleep should not be used, replaced with awaitility library
+* OPPIA-1086 Download media doesn't show select all option
+* OPPIA-1129 Skip toast message tests for API Level 30+
+* OPPIA-1037 Update test for build config options
 
 .. _appv96:
 
