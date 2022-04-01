@@ -67,6 +67,25 @@ regularly (eg generate_certificates) and also awards badges.
 ------------------------------------------------
 **Removes any duplicate trackers based on UUID**
 
+[quiz] ``backfill_moodle_ids`` (manual)
+-----------------------------------------
+**Backfills Moodle quiz and question ids into the Oppia database**.
+
+As of :ref:`block version 1.3.0<blockv1.3.0>` Moodle quiz and question are
+automatically exported to be included as quiz and question properties in the
+Oppia database.
+
+However, course that were exported prior to this version of the block being
+installed will not then have the Moodle quiz and question ids included in the
+Oppia database. If these id number are needed for courses that were published
+previously, then you can use this management command as follows:
+
+#. Export the course again from Moodle, but no need to publish to Oppia (if the
+   course is otherwise unchanged), just download the generated course zip file
+#. Extract the module.xml file from the course zip file, and place in a folder
+   on the Oppia server
+#. Run this management command: ``python manage.py backfill_moodle_ids <path>/module.xml`` 
+
 [quiz] ``cleanup_quizzes`` (manual)
 --------------------------------------
 **Cleans up old quizzes and questions that are not relevant anymore**.
