@@ -50,6 +50,7 @@ user accounts and activity from the database if the user hasn't logged in or had
 any activity in the last X years. The default no years is 7, but can be changed
 in the :ref:`system-config-settings` .
 
+
 [oppia] ``generate_certificates`` (auto or manual)
 ----------------------------------------------------
 **Creates pdf certificates for users who have completed courses**. It will also 
@@ -58,14 +59,33 @@ email certificates to users if this has been enabled
 certificates (eg if the template has changed), or for a specific user (eg if 
 their name was spelled incorrectly).
 
+
 [oppia] ``oppiacron`` (auto)
 --------------------------------------
 **Core oppia cron task**. Runs the other management commands that need to be run 
 regularly (eg generate_certificates) and also awards badges.
 
+
+[oppia] ``populate_courseversion`` (manual)
+------------------------------------------------
+**Populates the course_version field in the tracker model based on the current 
+course activities**
+As of :ref:`server version 0.12.22<serverv0.12.22>` the course version will 
+automatically be recorded, this script is to backfill the course versions for 
+activities submitted before the server was upgraded to this version.
+
+
+[oppia] ``regenerate_course_structure`` (manual)
+------------------------------------------------
+**Regenerates the course structure from the course upload file XML**
+Only necessary to use if it looks like the course activities have got out of
+sync.
+
+
 [oppia] ``remove_duplicate_trackers`` (manual)
 ------------------------------------------------
 **Removes any duplicate trackers based on UUID**
+
 
 [quiz] ``backfill_moodle_ids`` (manual)
 -----------------------------------------
