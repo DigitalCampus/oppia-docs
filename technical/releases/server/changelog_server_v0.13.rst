@@ -15,6 +15,7 @@ v0.13.1 - not yet released
    
 Issue list:
 
+* OPPIA-1141 Update Python/PIP packages
 
 .. _serverv0.13.0:
 

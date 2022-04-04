@@ -79,10 +79,6 @@ Download course package
 Archive a course
 -----------------
 
-.. note::
-	Archived courses are no longer available for anyone to download, though users with 
-	the course installed in their Oppia app will still be able to use the course as normal.
-
 #. From the menu bar, select 'Admin' > 'Django Admin'
 #. Select 'Courses' under the 'Oppia' section
 #. Browse or search for the course and click on its link to edit it 
@@ -93,14 +89,9 @@ Delete a course
 -----------------
 
 .. warning::
-	Deleting a course will remove all its activity logs, learner progress and quiz scores. If 
-	you just want to make a course unavailable for download, then use 'Archive a course' instead.
+	Deleting a course will remove all its activity logs, learner progress and
+	quiz scores. Most likely archiving a course is more appropriate
 	
-.. note::
-	Deleted courses will (obviously) no longer be available for download. Though users with the 
-	course installed in their Oppia app will still be able to use the course, however no points, 
-	activity, quiz scores will be recorded by the server.
-
 #. From the menu bar, select 'Admin' > 'Django Admin'
 #. Select 'Courses' under the 'Oppia' section
 #. Browse or search for the course and click on its link to edit it 

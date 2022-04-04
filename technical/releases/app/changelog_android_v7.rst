@@ -8,6 +8,8 @@ v98 (7.3.8) - not yet released
 
 Issue list:
 
+* OPPIA-1143 Update DbHelper method unlockedsectionsCount
+
 .. _appv97:
 
 v97 (7.3.7) - Released 31 Mar 2022
@@ -63,16 +65,6 @@ Issue list:
 
 .. _appv94:
 
-v93/94 (7.3.4a/b) - released 29 Dec 2021
--------------------------------------------------------
-
-7.3.4a (v93) - released 14 Dec 2021
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Issue list:
-
-* OPPIA-950 Tracker stats not getting updated after submitting to server
-
 7.3.4b (v94) - released 29 Dec 2021
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -84,9 +76,14 @@ Issue list:
 * OPPIA-902 Restrict access to quizzes with password
 * OPPIA-896 Advanced option to download all data from phone
 
+7.3.4a (v93) - released 14 Dec 2021
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Issue list:
+
+* OPPIA-950 Tracker stats not getting updated after submitting to server
 
 .. _appv92:
-
 
 v92 (7.3.3) - Released 27 Nov 2021
 -------------------------------------------------------
