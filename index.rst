@@ -63,9 +63,11 @@ Implementers Guide
 .. toctree::
    :maxdepth: 1
 
+   implementers/index
    implementers/dashboard/index
    implementers/permissions/quickstart
    implementers/permissions/index
+   implementers/courses/statuses
    implementers/device-setup/sideloading
    implementers/gamification/index
    implementers/certificates/index
