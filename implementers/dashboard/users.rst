@@ -46,13 +46,15 @@ Block a user account
 #. Untick the 'active' checkbox
 #. Click on the save button (bottom right)
 
-You can unblock a user account in a similar way - just tick the 'active' checkbox instead.
+You can unblock a user account in a similar way - just tick the 'active' 
+checkbox instead.
 
 Reset user password
 -----------------------
 
 .. note::
-    There is no way to find out what the original password was, as the passwords are stored in an encrypted format.
+    There is no way to find out what the original password was, as the passwords
+    are stored in an encrypted format.
     
 #. From the menu bar, select 'Admin' > 'Django Admin'
 #. Select 'Users' under the 'Authentication and Authorization' section
@@ -65,9 +67,10 @@ Add/remove admin access permission
 ------------------------------------
 
 .. warning::
-	Admin accounts have permissions to add, edit and delete any or all of the data stored, 
-	as well as create other Admin user accounts. Admin permissions should only be given to 
-	users who really need it, and consider giving staff status instead.
+	Admin accounts have permissions to add, edit and delete any or all of the
+	data stored, as well as create other Admin user accounts. Admin permissions
+	should only be given to users who really need it, and consider giving staff
+	status instead.
 	
 #. From the menu bar, select 'Admin' > 'Django Admin'
 #. Select 'Users' under the 'Authentication and Authorization' section
@@ -144,3 +147,27 @@ Remove permission to republish a course
 #. Browse/Search to find the user and course you'd like to remove the permission
    for and select this row, so you see the entry edit field
 #. Click on the delete button (bottom left) and confirm
+
+.. _permission-user-exclude-reporting:
+
+Exclude a user from reporting analytics
+---------------------------------------------
+
+.. note::
+    The exclusion (or re-inclusion) of a users activity only takes effect on
+    the activity records that arrive at the server after this flag has been
+    changed. I.e. it is not automatically applied retrospectively.
+    To apply changes retrospectively, the 
+    :ref:`update_summaries --fromstart <management_command_update_summaries>`
+    command must be run.
+
+#. From the menu bar, select 'Admin' > 'Django Admin'
+#. Select 'User profiles' from the 'Profile' section
+#. Browse/Search to find the user you'd like to exclude, and click on their 
+   username, so you see the record edit form
+#. Tick the 'Exclude from reporting' checkbox then save
+
+Similarly, to re-include a user, untick this checkbox and save.
+
+
+    

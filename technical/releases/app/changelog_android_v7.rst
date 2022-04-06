@@ -9,6 +9,9 @@ v98 (7.3.8) - not yet released
 Issue list:
 
 * OPPIA-1143 Update DbHelper method unlockedsectionsCount
+* OPPIA-1084 Show Feedback progress text in not required questions
+* OPPIA-988 Add helper text on Username / Password registration fields
+
 
 .. _appv97:
 

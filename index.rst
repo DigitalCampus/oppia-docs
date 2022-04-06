@@ -75,7 +75,8 @@ Implementers Guide
    implementers/integration/index
    implementers/viz/index
    implementers/offline/index
-   implementers/evaluation/index
+   implementers/user-testing/index
+   implementers/analytics/index
    
 User Guide
 --------------------------

@@ -16,6 +16,7 @@ v0.13.1 - not yet released
 Issue list:
 
 * OPPIA-1141 Update Python/PIP packages
+* OPPIA-1120 Option to flag non-target users
 
 .. _serverv0.13.0:
 

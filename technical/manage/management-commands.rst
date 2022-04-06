@@ -129,12 +129,15 @@ given quiz
 **Updates the server registration information** if the Oppia server is 
 registered with https://implementations.oppia-mobile.org   
  
+
+.. _management_command_update_summaries:
+
 [summary] ``update_summaries`` (auto)
 --------------------------------------
 
 **Updates course and points summary/cache tables**. Usually this is run 
 automatically, but can also be run manually if a full cache rebuild needs to be 
-done.
+done (using the additional parameter '--fromstart').
 
 [viz] ``cartodb_update`` (auto or manual)
 --------------------------------------------

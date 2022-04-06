@@ -15,4 +15,5 @@ OppiaMobile Implementers Guide
    integration/index
    viz/index
    offline/index
-   evaluation/index
+   user-testing/index
+   analytics/index

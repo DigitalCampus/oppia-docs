@@ -22,6 +22,13 @@ Issue list:
 * OPPIA-1144 Upgrade to Django 3.2
 * OPPIA-1146 Replace django.utils.translation.ugettext_lazy() with
   django.utils.translation.gettext_lazy()
+* OPPIA-1153 Anonymization command, use string type for password
+* OPPIA-1152 Replace "ifequal" template tag
+* OPPIA-1147 Replace django.conf.urls.url() with django.urls.re_path()
+* OPPIA-1148 Replace request.is_ajax() as is deprecated
+* OPPIA-1150 Replace Signal(providing_args)
+
+
 
 Previous Versions
 ------------------

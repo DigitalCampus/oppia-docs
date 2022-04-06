@@ -1,4 +1,4 @@
-Evaluation and User Testing
+User Testing
 ==============================
 
 .. toctree::
