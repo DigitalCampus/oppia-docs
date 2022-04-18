@@ -27,6 +27,7 @@ Issue list:
 * OPPIA-1147 Replace django.conf.urls.url() with django.urls.re_path()
 * OPPIA-1148 Replace request.is_ajax() as is deprecated
 * OPPIA-1150 Replace Signal(providing_args)
+* OPPIA-1158 Remove unused function parameters
 
 
 

@@ -11,6 +11,9 @@ Issue list:
 * OPPIA-1143 Update DbHelper method unlockedsectionsCount
 * OPPIA-1084 Show Feedback progress text in not required questions
 * OPPIA-988 Add helper text on Username / Password registration fields
+* OPPIA-1089 Replace Random with SecureRandom
+* OPPIA-995 The compulsory field asterix is sometimes red, sometimes green
+  (should always be red)
 
 
 .. _appv97:
