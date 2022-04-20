@@ -35,12 +35,6 @@ Archived
 
 No users will be able to download this in the app (including Admin/staff users)
 
-Archived
-----------
-
-*Designed for courses which are no longer in use.*
-
-No users will be able to download this in the app (including Admin/staff users)
 
 Deleted
 ---------
