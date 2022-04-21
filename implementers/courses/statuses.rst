@@ -93,5 +93,8 @@ f. Changing the gamification is a change in the course, requiring an update to
    disabled 
 g. Since assumes that the course has previously been live, so users could have
    activity in this
-
+h. Users will not be able to access the quizzes or feedback, but they will be
+   able to review their previous attempts/responses
+i. Since the quizzes and feedback aren't accessible they won't create any new 
+   activity logs/trackers for these
    

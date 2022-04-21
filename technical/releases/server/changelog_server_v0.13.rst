@@ -18,6 +18,7 @@ Issue list:
 * OPPIA-1141 Update Python/PIP packages
 * OPPIA-1120 Option to flag non-target users
 * OPPIA-1112 Allow settings config for cron not running warning
+* OPPIA-1071 New course status - unavailable for new install/download
 
 .. _serverv0.13.0:
 
