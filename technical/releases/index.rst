@@ -12,7 +12,7 @@ OppiaMobile Server (Django)
 .. toctree::
    :maxdepth: 2
    
-   server/changelog_server_v0.13
+   server/changelog_server_v0.14
 
 
 OppiaMobile Client App (Android)
@@ -23,10 +23,12 @@ OppiaMobile Client App (Android)
    
    app/changelog_android_v7
    
+
 OppiaMobile export block for Moodle
 ------------------------------------- 
 
 .. toctree::
    :maxdepth: 2
    
-   block/changelog_moodleblock
+   block/changelog_block_current
+ 
