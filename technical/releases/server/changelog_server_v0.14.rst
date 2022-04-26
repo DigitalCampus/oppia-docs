@@ -28,6 +28,8 @@ Issue list:
 * OPPIA-1148 Replace request.is_ajax() as is deprecated
 * OPPIA-1150 Replace Signal(providing_args)
 * OPPIA-1158 Remove unused function parameters
+* OPPIA-1135 In summary tables in django admin - make view only, prevent
+  adding/editing/deletion of rows
 
 
 

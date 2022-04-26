@@ -15,10 +15,15 @@ v0.13.1 - not yet released
    
 Issue list:
 
+* Update to Django 2.2.28
 * OPPIA-1141 Update Python/PIP packages
 * OPPIA-1120 Option to flag non-target users
 * OPPIA-1112 Allow settings config for cron not running warning
 * OPPIA-1071 New course status - unavailable for new install/download
+* OPPIA-709 GitHub workflows - able to read/write files for tests
+* OPPIA-1124 Update summary tables to enable filtering by user profile fields
+* OPPIA-1164 Update quiz summary calculations 
+* OPPIA-1186 Fix "expected failing" tests when needing ffmpeg
 
 .. _serverv0.13.0:
 

@@ -9,6 +9,7 @@ v1.3.2 - not yet released
 
 * OPPIA-1087 In JSON object, feedback activity description is filled with
   "pre-test"
+* OPPIA-1184 Ignore page breaks in Moodle feedback activities
 
 .. _blockv1.3.1:
 
