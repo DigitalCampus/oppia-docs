@@ -7,6 +7,13 @@ OppiaMobile Server Change Log for v0.13.x
 v0.13.1 - not yet released 
 ------------------------------------------------------
 	
+.. note::
+   The new course status is not backwards-compatible with previous versions of
+   the app (:ref:`v7.3.7<appv97>` and below), so best to avoid actually using
+   this new course status until your users have :ref:`app v7.3.8<appv98>` (or
+   above). If courses are given the new course status, but users have older
+   versions of the app, the course may show as being available to download.
+   
 .. toctree::
    :maxdepth: 2
 
