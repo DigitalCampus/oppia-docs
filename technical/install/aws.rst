@@ -16,7 +16,7 @@ Once you have created your account on AWS:
 * Go into your instances page
 * Select 'launch instance'
 * Select 'Community AMIs'
-* Search for 'oppia' and you should see the most recent version of the 
+* Search for 'oppiamobile' and you should see the most recent version of the 
   OppiaMobile AMI listed
 * Launch your new instance - you can alter the instance configuration (security 
   groups etc) during the rest of the launch instance process.
@@ -29,9 +29,12 @@ Once your instance is up and running you will be able to assign a static IP,
 access via your web browser and log into the server using the IP address. 
 
 It is beyond the scope of this guide to give the full information about how to
-connect and configure your AWS account instances.
+connect and configure your AWS account instances, but in your AWS security
+group, you'll need to open up access for both HTTP and HTTPS.
 
-You can point your domain name
+You can point your domain name to the IP address, and edit the Apache config
+file: ``/etc/apache2/sites-available/oppia.conf`` to specify your domain name
+on the line ``ServerName localhost.oppia``.
 
 Access via SSH
 -----------------
@@ -98,13 +101,10 @@ Environment information
 -----------------------
 The current version of the instance is running:
 
-* OppiaServer 0.12.25
+* OppiaServer 0.13.0
 * Ubuntu 20.04 LTS Server
 * Apache 2.4
 * Mysql 8.0
-* Django 2.2.27
-* TastyPie 0.14.2
-
 
 
 Email configuration
