@@ -11,7 +11,7 @@ Issue list:
 
 .. _appv98:
 
-v98 (7.3.8) - Released 27 Apr 2022
+v98 (7.3.8) - Released 3 May 2022
 -------------------------------------------------------
 
 Issue list:
@@ -23,6 +23,8 @@ Issue list:
 * OPPIA-995 The compulsory field asterix is sometimes red, sometimes green
   (should always be red)
 * OPPIA-1072 Update for new course status (new_download_only)
+* OPPIA-1189 Lock topics password height cut off / text update
+* OPPIA-1192 Fix for skip logic branching
 
 
 .. _appv97:
