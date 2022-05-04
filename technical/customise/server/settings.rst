@@ -155,6 +155,8 @@ System Configuration category
   is set to False, users will still be able to edit their password.
 * ``OPPIA_ALLOW_SELF_REGISTRATION`` (bool, default: True) - Whether or not this
   Oppia server allows users to self register
+* ``OPPIA_CRON_WARNING_HOURS`` (int, default: 24) - Number of hours since last
+  cron warning threshold
 * ``OPPIA_DATA_RETENTION_YEARS`` (int, default: 7) - The number of years for 
   users data to be kept. Any users who have not logged in and not had any 
   tracker activity in this number of years will be removed from Oppia, along 

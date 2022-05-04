@@ -8,3 +8,4 @@ Customising the Server
    
    settings
    configure
+   views
