@@ -30,6 +30,7 @@ Issue list:
 * OPPIA-1158 Remove unused function parameters
 * OPPIA-1135 In summary tables in django admin - make view only, prevent
   adding/editing/deletion of rows
+* OPPIA-1125 Initial database views
 
 
 

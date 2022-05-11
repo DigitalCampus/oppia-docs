@@ -35,6 +35,12 @@ connected to your Oppia user account), and also needs some understanding of the
 :doc:`database structure </technical/data-structure/index>` to extract 
 meaningful and correct data/reports directly from the database.
 
+.. toctree::
+   :maxdepth: 2
+   
+   summary
+   views
+
 Users included in the visualisations and reports
 --------------------------------------------------
 
@@ -44,7 +50,8 @@ graphs.
 As of :ref:`server version 0.13.1<serverv0.13.1>`, specific users can be
 flagged to be excluded from some reports and visualisations, for example test
 users, project managers etc. If flagged these users will be excluded from the
-following (the ones based on data from the CourseDailyStats table):
+following (the ones based on data from the :ref:`summary_coursedailystats`
+table):
 
 * Homepage activity graph
 * Course homepage activity graph
