@@ -31,6 +31,8 @@ Issue list:
 * OPPIA-1135 In summary tables in django admin - make view only, prevent
   adding/editing/deletion of rows
 * OPPIA-1125 Initial database views
+* OPPIA-1165 Simplify how course status is represented
+* OPPIA-1167 New read-only status
 
 
 

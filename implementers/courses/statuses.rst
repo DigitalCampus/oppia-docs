@@ -27,6 +27,14 @@ New downloads disabled
 Users who already have the course installed can continue to use the course as
 normal, however new users will not be able to download the course.
 
+Read only
+-----------------------
+
+*Designed so users can only view course content*
+
+Users who already have the course installed can continue to use it, although
+they will not be able to access/view any of the quiz or feedback activities.
+New users will not be able to download the course.
 
 Archived
 ----------
