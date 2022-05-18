@@ -16,28 +16,25 @@ If you would like to distribute your app with some courses preinstalled, for
 example if you have a lot of phones you would like set up with the same set of 
 courses, then follow these steps:
 
+* Download the course form the Oppia server dashboard (from the specific Oppia
+  server the app will be connecting to)
 * Place the course zip file(s) in the ``assets/www/preload/courses/`` directory
-* Add the following lines to the ``doInBackground`` method of 
-  ``org.digitalcampus.oppia.task.UpgradeManagerTask``::
+  (just the unextracted zip file) 
+* When the app is installed and run, the courses will be automatically
+  installed.
 
-		if(!prefs.getBoolean("upgradeVXXX",false)){
-			Editor editor = prefs.edit();
-			editor.putBoolean("upgradeVXXX", true);
-			editor.commit();
-			publishProgress("Upgraded to vXXX");
-			payload.setResult(true);
-		}
-
-  where ``XXX`` is the new version number. The first time the app is installed 
-  and run, the courses will be automatically installed.
-  
-* To subsequently distribute an updated version of the app (with new versions of
-  the courses), then you will need to add another code block (with new version 
-  number) to trigger the automatic installation of the updated/new courses.
  
  
 Media
 ------------
  
- If you would like to distribute your app with some mdeia preinstalled, then 
+ If you would like to distribute your app with some media preinstalled, then 
  follow these steps:
+ 
+* Place the media file(s) in the ``assets/www/preload/media/`` directory
+* When the app is installed and run, the media will be automatically moved to
+  the correct directory.
+  
+From the Oppia server dashboard, you can download a zip file of all the media
+needed for a specific course, this ensures you have all the media for the
+course, with the correct file names and correct version of the media.
