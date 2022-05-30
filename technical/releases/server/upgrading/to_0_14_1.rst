@@ -1,4 +1,4 @@
-Upgrading to OppiaMobile Server v0.14.0
+Upgrading to OppiaMobile Server v0.14.1
 =========================================
 
 All commands to be run when the Python virtual environment is active.

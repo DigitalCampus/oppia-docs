@@ -121,9 +121,13 @@ To enable sending email you will need to:
   file to configure sending email
   
 Your ``settings_secret.py`` file should have a block of code like this (just 
-add in your access key and secret access key)::
+add in your email, access key and secret access key)::
 
 	# Email setup
+	SERVER_EMAIL = '<admin@my-oppia-server.org>'
+	EMAIL_SUBJECT_PREFIX = '[OppiaMobile]: '
+	EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+	
 	EMAIL_HOST = 'email-smtp.eu-west-1.amazonaws.com'
 	EMAIL_PORT = 587
 	EMAIL_HOST_USER = '<IAM Access User>'
