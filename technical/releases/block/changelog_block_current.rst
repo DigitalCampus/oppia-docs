@@ -2,10 +2,21 @@ OppiaMobile Moodle Block Change Log
 =====================================
 
 
+.. _blockv1.3.4:
+
+v1.3.4 - not yet released
+------------------------------------
+
+
+
 .. _blockv1.3.3:
 
-v1.3.3 - not yet released
+v1.3.3 - released 30 May 2022
 ------------------------------------
+
+* OPPIA-1202 Fix issue with multi-lang section titles
+* OPPIA-1208 Decode utf-8 chars before parsing with libxml to avoid encoding
+  issues
 
 .. _blockv1.3.2:
 

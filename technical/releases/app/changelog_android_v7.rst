@@ -8,6 +8,16 @@ v99 (7.3.9) - not yet released
 
 Issue list:
 
+* OPPIA-1165 Simplify how course status is represented
+* OPPIA-1173 Add icons in app for the course status
+* OPPIA-1202 Fix issue with multi-lang section titles
+* OPPIA-1209 Same language listed twice
+* OPPIA-1206 Changing language in specific activity takes users back to first
+  activity in the topic
+* OPPIA-1212 Download tracker duplicated
+* OPPIA-1166 Media missing event being tracked incorrectly
+
+
 
 .. _appv98:
 

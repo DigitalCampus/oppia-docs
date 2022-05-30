@@ -33,7 +33,11 @@ Issue list:
 * OPPIA-1125 Initial database views
 * OPPIA-1165 Simplify how course status is represented
 * OPPIA-1167 New read-only status
-
+* OPPIA-1162 Show course link if user can_view_course_activity 
+* OPPIA-1166 Media missing event being tracked incorrectly
+* OPPIA-1199 Fixes from Sonarcloud analysis
+* OPPIA-1173 Add status icons
+* OPPIA-1212 Download tracker duplicated
 
 
 Previous Versions
