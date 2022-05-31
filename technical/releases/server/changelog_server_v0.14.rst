@@ -15,6 +15,8 @@ v0.14.1 - not yet released
    
 Issue list:
 
+* Update library package versions for Pillow, openpyxl and xmltodict
+
 .. _serverv0.14.0:
 
 v0.14.0 - released 30 May 2022
