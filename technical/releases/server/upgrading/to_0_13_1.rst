@@ -1,6 +1,10 @@
 Upgrading to OppiaMobile Server v0.13.1
 =========================================
 
+All commands to be run when the Python virtual environment is active. If you
+are skipping a release when upgrading (eg jumping from 0.12.0 to 0.14.0), check
+there are no additional upgrade steps needed in the releases you are skipping.
+
 Update packages
 ----------------------------
 #. Run: ``(env)$ pip install -r requirements.txt``
