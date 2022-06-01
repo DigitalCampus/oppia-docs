@@ -95,6 +95,8 @@ Question with inline form input
 
 This is similar to the previous question type, but it includes an input that requires to be filled by the user to reveal the feedback to the question. The answer introduced by the user is not evaluated for a correct value, the only check is that it is not empty.
 
+For app version ``v7.3.10`` and later, this input values are saved under the ``"data"`` field of the activity tracker.
+
 HTML::
 
 	<div class="box question">
@@ -119,4 +121,3 @@ Display
 .. image:: images/style-inline-question-open.jpg
 	:width: 400 px
 
-For app version v7.3.10 and later, this input values are saved under the ``"data"`` field of the activity tracker.
