@@ -7,7 +7,7 @@ OppiaMobile Moodle Block Change Log
 v1.3.4 - not yet released
 ------------------------------------
 
-
+* OPPIA-832 Additional inline question type - for authors to require an input field before feedback/answer is revealed
 
 .. _blockv1.3.3:
 

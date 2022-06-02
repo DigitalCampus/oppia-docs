@@ -1,7 +1,7 @@
 OppiaMobile Development Roadmap
 =================================
 
-Last reviewed: May 2022
+Last reviewed: June 2022
 
 Short term (6-12 months)
 --------------------------
@@ -18,6 +18,7 @@ Medium term
 * Improved integrations with xAPI and data collection/patient management apps
 * Move to use Django Rest Framework (server)
 * Move to use RoomDB (app)
+* Tablet specific layout
 
 Long term
 ------------

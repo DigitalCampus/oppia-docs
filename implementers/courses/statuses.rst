@@ -106,3 +106,20 @@ h. Users will not be able to access the quizzes or feedback, but they will be
 i. Since the quizzes and feedback aren't accessible they won't create any new 
    activity logs/trackers for these
    
+Restrictions on statuses when republishing from Moodle Block
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Moodle Oppia Export Block only allows courses to be pushed in either draft or live status, and so if a course has
+been marked on the Oppia server as having (eg) read-only status, you will be prevented from re-publishing from the
+Moodle Oppia Export Block. The combination of what status you can re-publish vs what status the course has on the server
+is as follows:
+
+
+The rationale for this is that new-download-disabled, read-only and archive statuses are for course that have previously
+been live but are no longer being updated. For read-only and new-download-disabled, new users will not be able to
+install these and archived course will get marked as to be removed from users devices.
+
+Courses which have a status which is not draft or live, have been explicitly marked as such on the server, so should not
+be updated from Moodle. If these course really do need to be updated and republished, then the status on the server
+should be moved back to draft or live first.
+   

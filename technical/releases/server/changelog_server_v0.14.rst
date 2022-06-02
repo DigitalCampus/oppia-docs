@@ -16,6 +16,7 @@ v0.14.1 - not yet released
 Issue list:
 
 * Update library package versions for Pillow, openpyxl and xmltodict
+* OPPIA-1174 Prevent re-publishing of course depending on status
 
 .. _serverv0.14.0:
 
