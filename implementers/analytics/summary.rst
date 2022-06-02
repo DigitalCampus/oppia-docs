@@ -26,6 +26,8 @@ Columns:
 
 Used for:
 
+* Reports for course activity, downloads and searches
+* Dashboard graphs for homepage and courses
 	
 .. _summary_dailyactiveuser:
 
@@ -46,6 +48,8 @@ Columns:
 
 Used for:
 
+* Reports for active/inactive users and time spent
+
 .. _summary_dailyactiveusers:
 		
 summary_dailyactiveusers
@@ -62,10 +66,12 @@ Columns:
 
 Used for:
 
+* Reports for active/inactive users and time spent
+
 .. _summary_usercoursedailysummary:
 
-summary_usercoursedailysummary
---------------------------------
+summary_usercoursedailysummary 
+---------------------------------
 
 Summary of activity and time spent by day, user, course and activity type
 
@@ -82,6 +88,7 @@ Columns:
 * *user_id* - id number of the user
 
 Used for:
+
 
 .. _summary_usercoursesummary:
 			
@@ -118,11 +125,23 @@ Columns:
 
 Used for:
 
+* Throughout the dashboard for graphs and showing users progress in courses
+* Reports for course completion rates
+
 .. _summary_userpointssummary:
 		
 summary_userpointssummary
 --------------------------
 
+Total points and badges achieved by user
+
 Columns:
 
+* *id* - unique identifier for row in table
+* *points* - total number of points awarded to the user
+* *badges* - total number of badges awarded to the user
+* *user_id* - id number of the user
+
 Used for:
+
+* Leaderboards
