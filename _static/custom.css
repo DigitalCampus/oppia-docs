@@ -61,13 +61,15 @@ a.icon-home{
 /*
  for status functionality table
 */
-table.status {
+table.status,
+table.status-publish {
 	table-layout: fixed;
 	width: 100%;
 	margin-bottom: 20px;
 }
 
-table.statuskey {
+table.statuskey,
+table.status-publish  {
 	table-layout: auto;
 	margin-bottom: 20px;
 }
@@ -90,7 +92,8 @@ table.status tr td:first-child::before
 }
 
 table.status td,
-table.statuskey td  {
+table.statuskey td,
+table.status-publish td {
     border-style: solid;
     border-width: 1px;
     border-color: #AAAAAA;
@@ -98,7 +101,8 @@ table.statuskey td  {
 }
 
 
-table.status th {
+table.status th,
+table.status-publish th {
 	background-color: #ddd;
     text-align: center;
     border-style: solid;
@@ -107,10 +111,13 @@ table.status th {
     padding: 5px;
 }
 
-table.status .statuses {
+table.status .statuses,
+table.status-publish .statuses {
 	width: 60%;
 } 
-table.status th.narrow {
+
+table.status th.narrow,
+table.status-publish th.narrow {
 	width: 12%;
 }
 
@@ -120,21 +127,25 @@ table.status .itemnumber {
 }
 
 table.status td.enabled,
-table.statuskey td.enabled {
+table.statuskey td.enabled,
+table.status-publish td.enabled {
     background-color: #90ee90;
 }
 
 table.status td.disabled,
-table.statuskey td.disabled {
+table.statuskey td.disabled,
+table.status-publish td.disabled{
     background-color: #ff6666;
 }
 
 table.status td.notapplicable,
-table.statuskey td.notapplicable {
+table.statuskey td.notapplicable,
+table.status-publish td.notapplicable {
     background-color: #bbb;
 }
 
 table.status td.pending-decision,
-table.statuskey td.pending-decision {
+table.statuskey td.pending-decision,
+table.status-publish td.pending  {
     background-color: #ff0;
 }
