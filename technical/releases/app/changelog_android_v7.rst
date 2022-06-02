@@ -1,9 +1,18 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+.. _appv100:
+
+v100 (7.3.10) - not yet released
+-------------------------------------------------------
+
+Issue list:
+
+
+
 .. _appv99:
 
-v99 (7.3.9) - not yet released
+v99 (7.3.9) - released 1 Jun 2022
 -------------------------------------------------------
 
 Issue list:
@@ -16,7 +25,8 @@ Issue list:
   activity in the topic
 * OPPIA-1212 Download tracker duplicated
 * OPPIA-1166 Media missing event being tracked incorrectly
-
+* OPPIA-1206 Changing language in specific activity takes users back to first activity in the topic
+* OPPIA-1210 Retain position in quiz/feedback when changing language halfway through
 
 
 .. _appv98:

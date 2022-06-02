@@ -34,6 +34,9 @@ selected each time a user attempts a quiz. To do this:
   be randomly selected each time the user attempts the quiz (see 
   :ref:`export_options_explained`)
 
+
+.. _content-quiz-pretest:
+
 Creating pre-tests
 --------------------
 
