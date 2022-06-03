@@ -8,6 +8,10 @@ v100 (7.3.10) - not yet released
 
 Issue list:
 
+* OPPIA-1214 Update gradle to 7.2.0 and check for other library updates
+* OPPIA-1134 Add Java 8 api compatibility
+* OPPIA-1196 Remove logging of some UserNotFoundExceptions to analytics logs
+* OPPIA-832 Save response from inline input
 
 
 .. _appv99:

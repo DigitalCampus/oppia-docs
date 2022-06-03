@@ -8,6 +8,7 @@ Short term (6-12 months)
 
 * Improvements to cohort/group functionality
 * Improve multi-lingual capabilities
+* Improved options for course activity updates
 * Implementing the OpenBadges (https://openbadges.org/)
 * Dashboard enhancements - improved analytics and for connecting to external analytics tools
 * Improved and expand course activity options
