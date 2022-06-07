@@ -22,9 +22,9 @@ By default, the Moodle block gives you a base style to extend from. To add a new
 basic theme where you just want to modify the colors to your brand, create a new
 SCSS file in the ``<block>/styles/themes`` directory with the name of your
 theme. In this SCSS file, you just need to define the color palette for your
-theme (you can copy the ``default.scss`` to view the current definitions):
+theme (you can copy the ``default.scss`` to view the current definitions)::
 
-::
+
 	$primary-color: #77A240;
 	$primary-color-dark: #597725;
 	$secondary-color: #a5c727;
