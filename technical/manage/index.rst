@@ -9,4 +9,4 @@ Managing an OppiaMobile Implementation
    management-commands
    utilities
    backup
-   
+   upgrade-os
