@@ -12,6 +12,7 @@ Issue list:
 * OPPIA-1134 Add Java 8 api compatibility
 * OPPIA-1196 Remove logging of some UserNotFoundExceptions to analytics logs
 * OPPIA-832 Save response from inline input
+* OPPIA-1243 Issue with videos not playing
 
 
 .. _appv99:
