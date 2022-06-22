@@ -13,7 +13,10 @@ Issue list:
 * OPPIA-1196 Remove logging of some UserNotFoundExceptions to analytics logs
 * OPPIA-832 Save response from inline input
 * OPPIA-1243 Issue with videos not playing
-
+* OPPIA-1244 Fix for draft course not appearing in app
+* OPPIA-1223 Course category shows in the count badge only the number of live courses
+* Add API matrix for Github actions
+* OPPIA-1195 Update feedback skip logic
 
 .. _appv99:
 

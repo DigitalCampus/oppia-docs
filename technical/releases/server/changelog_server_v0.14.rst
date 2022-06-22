@@ -17,6 +17,8 @@ Issue list:
 
 * Update library package versions for Pillow, openpyxl and xmltodict
 * OPPIA-1174 Prevent re-publishing of course depending on status
+* OPPIA-1250 Fix for course category API listing
+* OPPIA-1251 Fix CleanUpQuizzesTest
 
 .. _serverv0.14.0:
 

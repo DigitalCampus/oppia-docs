@@ -21,3 +21,14 @@ Update static files
    unclosed files warning messages
 #. Run: ``(env)$ python manage.py collectstatic``
 
+Check backup user permissions
+-------------------------------
+
+If you are using a specific MySQL user for regular database backups, you will need to ensure this backup user has the 
+``SHOW VIEW`` permission, otherwise the backup could fail.
+
+To add the permissions, log into the MySQL command line as root user and run the following (adjusting database and user
+name as appropriate):
+
+``grant SHOW VIEW on *.oppia to 'backup'@'localhost';``
+
