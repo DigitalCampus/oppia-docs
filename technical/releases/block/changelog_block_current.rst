@@ -1,10 +1,14 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv1.3.5:
+
+v1.3.5 - not yet released
+------------------------------------
 
 .. _blockv1.3.4:
 
-v1.3.4 - not yet released
+v1.3.4 - released 28 June 2022
 ------------------------------------
 
 * OPPIA-832 Additional inline question type - for authors to require an input field before feedback/answer is revealed

@@ -19,6 +19,7 @@ Issue list:
 * OPPIA-1174 Prevent re-publishing of course depending on status
 * OPPIA-1250 Fix for course category API listing
 * OPPIA-1251 Fix CleanUpQuizzesTest
+* OPPIA-1176 Refactor use of DailyCourseUser and DailyCourseUsers tables/models
 
 .. _serverv0.14.0:
 

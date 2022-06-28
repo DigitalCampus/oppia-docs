@@ -53,4 +53,4 @@ Run update_summaries --fromstart
 
 #. Run the update summaries command from start: 
    ``(env)$ python manage.py update_summaries --fromstart``
-#. This might take a long time (hours) for large implementations
+#. This might take a long time (hours) for large implementations, see :doc:`/technical/manage/update-summaries`

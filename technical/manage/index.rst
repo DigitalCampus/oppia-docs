@@ -10,3 +10,4 @@ Managing an OppiaMobile Implementation
    utilities
    backup
    upgrade-os
+   update-summaries
