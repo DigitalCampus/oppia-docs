@@ -28,45 +28,7 @@ Used for:
 
 * Reports for course activity, downloads and searches
 * Dashboard graphs for homepage and courses
-	
-.. _summary_dailyactiveuser:
 
-summary_dailyactiveuser
---------------------------
-
-Summary of which user was active on which days, and how much time per day they spent in each course.
-
-Columns:
-
-* *id* - unique identifier for row in table
-* *type* - can be either tracker or submitted, based on whether the attempted_date (tracker) or submitted_date
-  (submitted) is used from the tracker table
-* *dau_id* - id number (unique identifier) from summary_dailyactiveusers table
-* *user_id* - id number of the user 
-* *course_id* - id number of the course
-* *time_spent* - total time spent, in seconds
-
-Used for:
-
-* Reports for active/inactive users and time spent
-
-.. _summary_dailyactiveusers:
-		
-summary_dailyactiveusers
---------------------------
-
-Summary of total activities by day
-
-Columns:
-
-* *id* - unique identifier for row in table
-* *day* - day/month/year
-* *total_submitted_date* - total number of activities attempted based on the submitted date
-* *total_tracker_date* - total number of activities attempted based on the tracker date
-
-Used for:
-
-* Reports for active/inactive users and time spent
 
 .. _summary_usercoursedailysummary:
 
@@ -89,6 +51,7 @@ Columns:
 
 Used for:
 
+* Reports for active/inactive users and time spent
 
 .. _summary_usercoursesummary:
 			
