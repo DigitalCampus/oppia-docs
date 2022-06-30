@@ -1,10 +1,23 @@
 OppiaMobile Server Change Log for v0.14.x
 =============================================
 
+.. _serverv0.14.2:
+
+v0.14.2 - not yet released
+------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   upgrading/to_0_14_2
+
+   
+Issue list:
+
 
 .. _serverv0.14.1:
 
-v0.14.1 - not yet released
+v0.14.1 - released 30 Jun 2022
 ------------------------------------------------------
 
 .. toctree::
@@ -20,6 +33,8 @@ Issue list:
 * OPPIA-1250 Fix for course category API listing
 * OPPIA-1251 Fix CleanUpQuizzesTest
 * OPPIA-1176 Refactor use of DailyCourseUser and DailyCourseUsers tables/models
+* OPPIA-1253 Cron fails if type column in Tracker table is None/Null
+* OPPIA-907 Create backup store of unrecognised tracker/quiz data
 
 .. _serverv0.14.0:
 

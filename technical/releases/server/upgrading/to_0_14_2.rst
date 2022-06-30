@@ -1,4 +1,4 @@
-Upgrading to OppiaMobile Server v0.14.1
+Upgrading to OppiaMobile Server v0.14.2
 =========================================
 
 All commands to be run when the Python virtual environment is active. If you
@@ -20,12 +20,3 @@ Update static files
 #. Run: ``(env)$ python manage.py compilescss`` - don't worry about the 
    unclosed files warning messages
 #. Run: ``(env)$ python manage.py collectstatic``
-
-Run update_summaries --fromstart
----------------------------------
-
-This isn't strictly necessary for this release, but since a couple of the summary tables have been removed, it's likely
-to be useful to run this anyway. Running this is now much faster than in previous releases
-
-#. Run the update summaries command from start: ``(env)$ python manage.py update_summaries --fromstart``
-#. This might take a long time (hours) for large implementations, see :doc:`/technical/manage/update-summaries`
