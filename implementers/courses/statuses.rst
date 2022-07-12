@@ -65,6 +65,22 @@ course (due to change in status, eg live to archived), they will no longer be
 able to access the course in the app, they will get a message that it should be
 deleted from their app.
 
+Changing availability of statuses
+-----------------------------------
+
+In some cases you might not want to have all the statuses available on a particular server, for example, not having the 
+draft status available on a production server. 
+
+You can edit the statuses available on a server by editing the `OPPIA_AVAILABLE_COURSE_STATUSES` list in your 
+`settings_secret.py` file. Copy this list from the `settings_base.py` if it's not already in your `settings_secret.py`
+file, and then edit there.
+
+The changes will take effect after you restart your webserver.
+
+.. note::
+	If you are removing a status, first check that no course already uses this status, if this status is in use by
+	courses, then first either change the status of these courses or delete the course.
+
 Status functionalities
 -------------------------
 

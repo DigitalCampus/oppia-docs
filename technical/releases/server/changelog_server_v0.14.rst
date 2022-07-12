@@ -14,6 +14,7 @@ v0.14.2 - not yet released
    
 Issue list:
 
+* Update Django to 3.2.14
 
 .. _serverv0.14.1:
 
