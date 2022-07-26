@@ -72,6 +72,7 @@ Implementers Guide
    implementers/gamification/index
    implementers/certificates/index
    implementers/cohorts/index
+   implementers/cohorts/restrictedcourses
    implementers/integration/index
    implementers/viz/index
    implementers/offline/index
