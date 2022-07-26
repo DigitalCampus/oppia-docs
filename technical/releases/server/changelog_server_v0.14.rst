@@ -15,6 +15,11 @@ v0.14.2 - not yet released
 Issue list:
 
 * Update Django to 3.2.14
+* OPPIA-1121 Enhance cohort capability to make a specific course accessible to only certain user group
+* OPPIA-1175 Allow statuses available to be configurable on the server
+* OPPIA-1151 Remove sass_processor default_app_config
+
+
 
 .. _serverv0.14.1:
 

@@ -9,6 +9,8 @@ v101 (7.3.11) - not yet released
 
 Issue list:
 
+* OPPIA-1259 Fix crash in tablet layouts with the new status badge
+* OPPIA-1121 Enhance cohort capability to make a specific course accessible to only certain user group
 
 
 .. _appv100:
