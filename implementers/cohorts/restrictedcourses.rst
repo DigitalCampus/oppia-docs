@@ -1,5 +1,5 @@
 Restricting course access to specific cohorts
-===========================================
+===============================================
 
 Cohorts can be used to restrict access to some courses to a specific set of
 users. To use this functionality, an admin or a staff user has to do the
@@ -15,7 +15,7 @@ users. This applies both to the app and the server dashboard.
 
 
 How course restrictions affect app functionalities
-------------------------------------------
+-----------------------------------------------------
 
 The most obvious functionality for courses with restricted access from within
 the app is that new learners that don't belong to the course's cohort do not

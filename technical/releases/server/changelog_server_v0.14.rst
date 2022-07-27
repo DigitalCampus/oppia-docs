@@ -1,9 +1,24 @@
 OppiaMobile Server Change Log for v0.14.x
 =============================================
 
+
+.. _serverv0.14.3:
+
+v0.14.3 - not yet released
+------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   upgrading/to_0_14_3
+
+   
+Issue list:
+
+
 .. _serverv0.14.2:
 
-v0.14.2 - not yet released
+v0.14.2 - released 27 Jul 2022
 ------------------------------------------------------
 
 .. toctree::
@@ -14,7 +29,7 @@ v0.14.2 - not yet released
    
 Issue list:
 
-* Update Django to 3.2.14
+* Update Django to 3.2.14 and external libraries
 * OPPIA-1121 Enhance cohort capability to make a specific course accessible to only certain user group
 * OPPIA-1175 Allow statuses available to be configurable on the server
 * OPPIA-1151 Remove sass_processor default_app_config
