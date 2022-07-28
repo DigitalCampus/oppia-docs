@@ -33,7 +33,8 @@ Issue list:
 * OPPIA-1121 Enhance cohort capability to make a specific course accessible to only certain user group
 * OPPIA-1175 Allow statuses available to be configurable on the server
 * OPPIA-1151 Remove sass_processor default_app_config
-
+* OPPIA-1258 Course is published even if the status validation fails
+* OPPIA-1261 Can't save cohort if dates not entered
 
 
 .. _serverv0.14.1:
