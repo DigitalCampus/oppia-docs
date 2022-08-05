@@ -15,6 +15,8 @@ v0.14.3 - not yet released
    
 Issue list:
 
+* OPPIA-1149 Fix UnorderedObjectListWarning warnings
+* OPPIA-959 Fix media download count display
 
 .. _serverv0.14.2:
 
