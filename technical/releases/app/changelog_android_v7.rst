@@ -9,6 +9,10 @@ v102 (7.3.12) - not yet released
 
 Issue list:
 
+* OPPIA-1217 Update OPPIA_SERVER_DOMAIN property in oppia-default.properties file
+* OPPIA-1263 Change flush course cache to be flush app cache
+* OPPIA-1198 Convert commonly repeated strings to constants
+
 .. _appv101:
 
 v101 (7.3.11) - released 27 Jul 2022
