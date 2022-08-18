@@ -15,8 +15,10 @@ v0.14.3 - not yet released
    
 Issue list:
 
+* Update to Django 3.2.15
 * OPPIA-1149 Fix UnorderedObjectListWarning warnings
 * OPPIA-959 Fix media download count display
+* OPPIA-1264 Fix test failure on upload course with Github workflow actions
 
 .. _serverv0.14.2:
 
