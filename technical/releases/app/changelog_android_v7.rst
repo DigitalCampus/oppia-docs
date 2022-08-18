@@ -11,7 +11,6 @@ Issue list:
 
 * OPPIA-1217 Update OPPIA_SERVER_DOMAIN property in oppia-default.properties file
 * OPPIA-1263 Change flush course cache to be flush app cache
-* OPPIA-1198 Convert commonly repeated strings to constants
 
 .. _appv101:
 

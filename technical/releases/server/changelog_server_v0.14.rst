@@ -19,6 +19,7 @@ Issue list:
 * OPPIA-1149 Fix UnorderedObjectListWarning warnings
 * OPPIA-959 Fix media download count display
 * OPPIA-1264 Fix test failure on upload course with Github workflow actions
+* OPPIA-1198 Convert commonly repeated strings to constants
 
 .. _serverv0.14.2:
 
