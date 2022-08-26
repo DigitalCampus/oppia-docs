@@ -47,7 +47,7 @@ Delete a cohort
 #. You will be asked to confirm deletion of the cohort
 
 Add/remove custom criteria
--------------------
+-----------------------------
 
 #. From the menu bar, select 'Cohorts'
 #. Select the option 'Criteria based'

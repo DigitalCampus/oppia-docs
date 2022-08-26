@@ -25,13 +25,24 @@ Example Use Cases
 How to create/manage cohorts
 ------------------------------
 
-Cohorts can be created from the Oppia server dashboard (select `cohorts` in the
-side menu), however only admin and staff users are able to create cohorts.
+Cohorts can be created from the Oppia server dashboard (select `cohorts` in the side menu), however only admin and staff
+users are able to create cohorts.
 
 .. toctree::
    :maxdepth: 2
    
    /implementers/dashboard/cohorts
+   
+Cohorts based on user profile fields
+-------------------------------------
+
+You can set up criteria to add users automatically to a particular cohort, instead of needing to add manually
+one-by-one, see:  
+
+.. toctree::
+   :maxdepth: 2
+   
+   custom_criteria
 
 
 What can teacher view
