@@ -1,16 +1,23 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+.. _appv103:
+
+v103 (7.3.13) - not yet released
+-------------------------------------------------------
+
+Issue list:
 
 .. _appv102:
 
-v102 (7.3.12) - not yet released
+v102 (7.3.12) - released 31 Aug 2022
 -------------------------------------------------------
 
 Issue list:
 
 * OPPIA-1217 Update OPPIA_SERVER_DOMAIN property in oppia-default.properties file
 * OPPIA-1263 Change flush course cache to be flush app cache
+* OPPIA-1193 Update for theme colour consistency
 
 .. _appv101:
 

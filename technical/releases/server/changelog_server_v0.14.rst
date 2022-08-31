@@ -2,9 +2,23 @@ OppiaMobile Server Change Log for v0.14.x
 =============================================
 
 
+.. _serverv0.14.4:
+
+v0.14.4 - not yet released
+------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   upgrading/to_0_14_4
+
+   
+Issue list:
+
+
 .. _serverv0.14.3:
 
-v0.14.3 - not yet released
+v0.14.3 - released 31 Aug 2022
 ------------------------------------------------------
 
 .. toctree::
@@ -20,6 +34,8 @@ Issue list:
 * OPPIA-959 Fix media download count display
 * OPPIA-1264 Fix test failure on upload course with Github workflow actions
 * OPPIA-1198 Convert commonly repeated strings to constants
+* OPPIA-1161 Add tests for av.views.download_media_file
+* OPPIA-1194 Show all dates on daily course activity report
 
 .. _serverv0.14.2:
 
