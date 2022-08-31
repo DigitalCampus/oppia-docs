@@ -49,8 +49,9 @@ Delete a cohort
 Add/remove custom criteria
 -----------------------------
 
-#. From the menu bar, select 'Cohorts'
-#. Select the option 'Criteria based'
+#. From the menu bar, select 'Cohorts'.
+#. Make sure there is at least one custom user field defined. The custom cohort criteria only applies to custom user fields.
+#. Select the option 'Criteria based'.
 #. Click on 'Add cohort criteria' button. A new panel should appear.
 #. Now, for both students and teachers, you may select a custom user profile field and add a value for it.
 #. For adding extra criteria, click on the 'Add criteria' button that is near the last criteria added.

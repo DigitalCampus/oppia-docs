@@ -9,6 +9,11 @@ In some situations, you might want to create a cohort that depends on some custo
 In order to add or remove custom criteria in a cohort, an admin or a staff user can do it from the cohorts
 page in the dashboard or directly in the admin panel.
 
+.. note::
+    For the custom criteria panel to appear in the Django dashboard, there needs to be at least one custom
+    user field specified. See: :doc:`Adding extra registration form fields </technical/customise/customfields>`.
+
+
 The information required for creating a cohort criteria is:
 
 * The **cohort** to which this criteria applies.
