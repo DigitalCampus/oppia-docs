@@ -36,6 +36,7 @@ Issue list:
 * OPPIA-1198 Convert commonly repeated strings to constants
 * OPPIA-1161 Add tests for av.views.download_media_file
 * OPPIA-1194 Show all dates on daily course activity report
+* OPPIA-1083 Generate cohorts based on user profile filters/criteria
 
 .. _serverv0.14.2:
 
