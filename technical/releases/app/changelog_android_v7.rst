@@ -10,6 +10,14 @@ Issue list:
 
 .. _appv102:
 
+v102 (7.3.12) - Fix release 10 Sept 2022
+-------------------------------------------------------
+
+Issue list:
+
+* OPPIA-1280 Error logging in / downloading courses  - cohorts field not
+  returned from older server versions
+
 v102 (7.3.12) - released 31 Aug 2022
 -------------------------------------------------------
 
