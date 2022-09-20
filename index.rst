@@ -56,6 +56,7 @@ Content Creation Guide
    content/style/index
    content/adapt/index
    content/updating
+   content/preserve_activity_identifiers
 
 Implementers Guide
 --------------------------

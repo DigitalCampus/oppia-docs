@@ -8,6 +8,8 @@ v103 (7.3.13) - not yet released
 
 Issue list:
 
+* OPPIA-1093 Update Gradle and remove deprecation warnings for Gradle 8
+
 .. _appv102:
 
 v102 (7.3.12) - Fix release 10 Sept 2022

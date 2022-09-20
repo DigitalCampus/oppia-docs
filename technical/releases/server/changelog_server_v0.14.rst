@@ -15,6 +15,9 @@ v0.14.4 - not yet released
    
 Issue list:
 
+* Update library package versions
+* OPPIA-1255 Solved Github action failing when it includes a migration
+
 
 .. _serverv0.14.3:
 

@@ -6,6 +6,20 @@ OppiaMobile Moodle Block Change Log
 v1.3.5 - not yet released
 ------------------------------------
 
+.. note::
+   If you have a lot of courses that have been exported to Oppia, the upgrade process in Moodle may take some time, due
+   to backfilling of activity identifiers as part of issue OPPIA-1267 
+
+* OPPIA-1274 Change location of output folder
+* OPPIA-1277 Allow use of non-latin script in course shortname
+* OPPIA-1287 Fix regex in multichoice (rated) questions
+* OPPIA-1265 Option to preserve activity identifiers:
+
+   * OPPIA-1266 Create new table for storing current activity MD5s
+   * OPPIA-1267 Create script for baseline MD5s
+   * OPPIA-1272 New export step to allow selection of preserving ids/MD5
+   * OPPIA-1273 Update MD5s in block table (only on publishing to Oppia server)
+
 .. _blockv1.3.4:
 
 v1.3.4 - released 28 June 2022
