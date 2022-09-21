@@ -34,3 +34,16 @@ value`` fields on the feedback question.
    before adding skip logic to your feedback activities you should ensure that
    all users will have app v7.3.7 or above.
 
+Restricting number of submissions
+----------------------------------
+
+Courses published using :ref:`block version 1.3.4<blockv1.3.4>` or earlier will always allow multiple attempts at any
+feedback activities.
+
+From :ref:`block version 1.3.5<blockv1.3.5>` onwards, you can use the "allow multiple submissions" setting in the Moodle
+feedback activity to allow or prevent multiple submissions. 
+
+.. note::
+   After updating to :ref:`block version 1.3.5<blockv1.3.5>` or above, if the course was previously published to Oppia,
+   and you want to retain the option for allowing multiple submissions, you will need to set this in Moodle before
+   republishing the course, since Moodle's default is to only allow a single submission.

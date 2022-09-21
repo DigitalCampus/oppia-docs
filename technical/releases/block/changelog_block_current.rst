@@ -3,12 +3,14 @@ OppiaMobile Moodle Block Change Log
 
 .. _blockv1.3.5:
 
-v1.3.5 - not yet released
-------------------------------------
+v1.3.5 - not yet released (due end Sept 2022)
+------------------------------------------------
 
 .. note::
-   If you have a lot of courses that have been exported to Oppia, the upgrade process in Moodle may take some time, due
-   to backfilling of activity identifiers as part of issue OPPIA-1267 
+   * If you have a lot of courses that have been exported to Oppia, the upgrade process in Moodle may take some time,
+     several minutes, due to backfilling of activity identifiers as part of issue OPPIA-1267.
+   * For restricting feedback activities to single response (OPPIA-762), if you want to allow multiple submissions,
+     then you will need to edit the feedback settings, as the default in Moodle is to restrict to single response.
 
 * OPPIA-1274 Change location of output folder
 * OPPIA-1277 Allow use of non-latin script in course shortname
