@@ -9,6 +9,7 @@ v103 (7.3.13) - not yet released
 Issue list:
 
 * OPPIA-1093 Update Gradle and remove deprecation warnings for Gradle 8
+* OPPIA-762 In feedback activity allow just a single attempt
 
 .. _appv102:
 

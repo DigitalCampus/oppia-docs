@@ -14,40 +14,52 @@ to be flagged manually since it's not possible for Oppia to know how significant
 should be classed as a new version of an activity, or just a minor update to and existing one.
 
 Where an activity has been updated, as part of the export process you'll be given the option to retain the previous
-identifier. 
-
-Criteria
-----------
-
-The criteria used for whether you have the option to retain the previous identifier is specific to the activity type:
+identifier. Although in some cases changes will not allow you to retain the previous identifier. The basis for whether
+or not you have the retain identifier option is specific to the activity type:
 
 Page/URL/File activities
-^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
+Option given to retain identifier when:
+
 * Any change in the activity title, description or content
 
 Quiz activities
-^^^^^^^^^^^^^^^^
-Change the quiz settings
+-----------------
+
+Option given to retain identifier when:
+
+* Changing the quiz settings (eg pass threshold, no attempts, password)
+* Changing question text, scoring, responses
+
+No option to retain the identfier will be given when:
+
+* Changing the number of questions
 
 Feedback activities
-^^^^^^^^^^^^^^^^^^^
+----------------------
 
+Option given to retain identifier when:
 
-Example cases
--------------
+* Changing the feedback settings (eg no attempts, password)
+* Changing question text, responses
+* Changing the skip logic
 
-Example Cases A - where you might want to retain the old identifier:
+No option to retain the identfier will be given when:
 
-* Fixing minor typo
-* New translation of an activity
-* Reordering of quiz/feedback questions
+* Changing the number of questions
 
-Example Cases B - where you will not be given the option to retain the old identifer:
+General Notes
+-----------------
 
-* Change in the number of questions in quiz or feedback activity
+* The previous activity identifier is the one that has been pushed to the Oppia server, so it is specific to the
+  combination of the Oppia server it has been published with and the status it was published with.
+  
 
-Example Cases C - where you would be given the option to retain, but in most cases you should not retain the previous
-identifier:
+Notes for Quiz and Feedback activities
+-----------------------------------------
+
+There are several cases where you will be given the option to retain, but in most cases you should not retain the
+previous identifier:
 
 * changes in the learning content, where users do need to be aware that the information in the content is different to
   the previous version
@@ -57,7 +69,7 @@ identifier:
 * changing the scoring for a question
 
 The comparison of previous vs updated activity content identifiers doesn't take into account what these changes
-specifically are, only that there has been a change. In the example cases C, retaining the previous identifier could
+specifically are, only that there has been a change. In these cases retaining the previous identifier could
 result in:
 
 * Odd results when reviewing quiz responses, for example responses from an old question matching to the new question,
@@ -69,10 +81,6 @@ result in:
 
 
   
-Notes
-------
 
-* The previous activity identifier is the one that has been pushed to the Oppia server, so it is specific to the
-  combination of the Oppia server it has been published with and the status it was published with.
 
 

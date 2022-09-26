@@ -15,6 +15,7 @@ v1.3.5 - not yet released (due end Sept 2022)
 * OPPIA-1274 Change location of output folder
 * OPPIA-1277 Allow use of non-latin script in course shortname
 * OPPIA-1287 Fix regex in multichoice (rated) questions
+* OPPIA-762 In feedback activity allow just a single attempt
 * OPPIA-1265 Option to preserve activity identifiers:
 
    * OPPIA-1266 Create new table for storing current activity MD5s
