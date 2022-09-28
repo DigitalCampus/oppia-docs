@@ -17,7 +17,7 @@ Where an activity has been updated, as part of the export process you'll be give
 identifier. Although in some cases changes will not allow you to retain the previous identifier. The basis for whether
 or not you have the retain identifier option is specific to the activity type:
 
-Page/URL/File activities
+Page activities
 ---------------------------
 Option given to retain identifier when:
 
@@ -31,7 +31,7 @@ Option given to retain identifier when:
 * Changing the quiz settings (eg pass threshold, no attempts, password)
 * Changing question text, scoring, responses
 
-No option to retain the identfier will be given when:
+New identifier will be created and no option to retain the identfier will be given when:
 
 * Changing the number of questions
 
@@ -44,9 +44,28 @@ Option given to retain identifier when:
 * Changing question text, responses
 * Changing the skip logic
 
-No option to retain the identfier will be given when:
+New identifier will be created and no option to retain the identfier will be given when:
 
 * Changing the number of questions
+
+File/Resource activities
+-------------------------
+
+Option given to retain identifier when:
+
+* Changing the file, either renaming the file, or changing the file content
+
+Identifier is retained even if the title/description is changed
+
+
+URL activities
+---------------
+
+Option given to retain identifier when:
+
+* Changing the URL
+
+Identifier is retained even if the title/description is changed
 
 General Notes
 -----------------

@@ -10,6 +10,7 @@ Issue list:
 
 * OPPIA-1093 Update Gradle and remove deprecation warnings for Gradle 8
 * OPPIA-762 In feedback activity allow just a single attempt
+* OPPIA-1256 Better error message if disk is full when installing course
 
 .. _appv102:
 
