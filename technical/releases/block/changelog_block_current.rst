@@ -1,16 +1,38 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
-.. _blockv1.3.5:
+.. _blockv1.3.6:
 
-v1.3.5 - not yet released (due end Sept 2022)
+v1.3.6 - not yet released
 ------------------------------------------------
 
-.. note::
-   * If you have a lot of courses that have been exported to Oppia, the upgrade process in Moodle may take some time,
-     several minutes, due to backfilling of activity identifiers as part of issue OPPIA-1267.
-   * For restricting feedback activities to single response (OPPIA-762), if you want to allow multiple submissions,
-     then you will need to edit the feedback settings, as the default in Moodle is to restrict to single response.
+
+.. _blockv1.3.5:
+
+v1.3.5 - released 30 Sept 2022
+------------------------------------------------
+
+Upgrade notes
+^^^^^^^^^^^^^
+For the option to preserve identifiers (OPPIA-1265), you will need to run the script:
+
+``php ./migrations/20220929_migrate_script.php`` (from the oppia_mobile_export directory, on the command line)
+
+The script currently outputs raw HTML, but you don't need to do anything with this HTML, but it you want to save/review
+you can pipe the output to a file, eg ``php ./migrations/20220929_migrate_script.php > /path/to/file/output.html``
+
+This prefills the data with the current course activity versions, so on the next course publishing you will get the
+option to preserve the identifiers for the activities you have changed. You only need to run this script once, running
+the script again will reset the activity identfier logs. 
+
+If the script is not run, the only difference is that the first time you publish the course after updating ths block to
+this version, you won't get any option to preserve any identifiers, only subsequent time you update and publish the
+course.
+
+For restricting feedback activities to single response (OPPIA-762), if you want to allow multiple submissions, then you
+will need to edit the feedback settings, as the default in Moodle is to restrict to single response.
+
+Issue list:
 
 * OPPIA-1274 Change location of output folder
 * OPPIA-1277 Allow use of non-latin script in course shortname
@@ -22,6 +44,9 @@ v1.3.5 - not yet released (due end Sept 2022)
    * OPPIA-1267 Create script for baseline MD5s
    * OPPIA-1272 New export step to allow selection of preserving ids/MD5
    * OPPIA-1273 Update MD5s in block table (only on publishing to Oppia server)
+   * OPPIA-1294 Changing quiz title then recreates the questions in Oppia
+   * OPPIA-1292 Change in quiz title doesn't give option to preserve identifier
+   * OPPIA-1294 Change text for "no changes detected"
 
 .. _blockv1.3.4:
 

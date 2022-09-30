@@ -2,9 +2,23 @@ OppiaMobile Server Change Log for v0.14.x
 =============================================
 
 
+.. _serverv0.14.5:
+
+v0.14.5 - not yet released
+------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   upgrading/to_0_14_5
+
+   
+Issue list:
+
+
 .. _serverv0.14.4:
 
-v0.14.4 - not yet released
+v0.14.4 - released 30 Sept 2022
 ------------------------------------------------------
 
 .. toctree::
@@ -17,6 +31,8 @@ Issue list:
 
 * Update library package versions
 * OPPIA-1255 Solved Github action failing when it includes a migration
+* OPPIA-1257 Update for Google Analytics
+* OPPIA-1302 Reordering quiz questions creates duplicate quiz-question pairs in the QuizQuestion DB table
 
 
 .. _serverv0.14.3:
