@@ -18,7 +18,7 @@ For the option to preserve identifiers (OPPIA-1265), you will need to run the sc
 
 ``php ./migrations/20220929_migrate_script.php`` (from the oppia_mobile_export directory, on the command line)
 
-The script currently outputs raw HTML, but you don't need to do anything with this HTML, but it you want to save/review
+The script currently outputs raw HTML, but you don't need to do anything with this HTML, but if you want to save/review
 you can pipe the output to a file, eg ``php ./migrations/20220929_migrate_script.php > /path/to/file/output.html``
 
 This prefills the data with the current course activity versions, so on the next course publishing you will get the
