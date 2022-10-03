@@ -1,16 +1,14 @@
 OppiaMobile Development Roadmap
 =================================
 
-Last reviewed: June 2022
+Last reviewed: Oct 2022
 
 Short term (6-12 months)
 --------------------------
 
-* Improvements to cohort/group functionality
 * Improve multi-lingual capabilities
 * Improved options for course activity updates
 * Implementing the OpenBadges (https://openbadges.org/)
-* Dashboard enhancements - improved analytics and for connecting to external analytics tools
 * Improved and expand course activity options
 
 Medium term 
