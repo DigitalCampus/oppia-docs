@@ -6,6 +6,9 @@ OppiaMobile Moodle Block Change Log
 v1.3.6 - not yet released
 ------------------------------------------------
 
+Issue list:
+
+* OPPIA-1278 Retain last selected course design
 
 .. _blockv1.3.5:
 

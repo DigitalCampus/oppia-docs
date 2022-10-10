@@ -56,6 +56,7 @@ Issue list:
 * OPPIA-1161 Add tests for av.views.download_media_file
 * OPPIA-1194 Show all dates on daily course activity report
 * OPPIA-1083 Generate cohorts based on user profile filters/criteria
+* OPPIA-1307 Cohort Creation: Course/Teacher/Student values disappear (HOTFIX 10 Oct 2022)
 
 .. _serverv0.14.2:
 
