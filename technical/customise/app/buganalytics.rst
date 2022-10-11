@@ -27,21 +27,12 @@ To use Count.ly in Oppia all you need to do is add the following to your
 	COUNTLY_SERVER_URL=https://<url-to-your-countly-server>
 	COUNTLY_APP_KEY=<your-countly-app_key>
 
-Splunk Mint
---------------
+Splunk Mint - no longer supported
+----------------------------------
 
-.. note::
-	From the end of Dec 2021, Splunk Mint will no longer be maintained, and is 
-	due to be replaced by a new product from Splunk, although, at the time of 
-	writing, full details of the new product have not been made available. 
-	Therefore it is recommended not to use Splunk Mint for new implementations 
-	of Oppia.
+As of Dec 2021, Splunk Mint is no longer maintained, so is no longer an option for opt-in analytics for the Oppia app 
+(option removed in :ref:`app version 7.3.14<appv104>`)
 	
-To use Splunk Mint in Oppia all you need to do is add the following to your 
-``custom.properties`` file (with the appropriate api key)::
-
-	ANALYTICS_LIBRARY=MINT
-	MINT_API_KEY=<your-api_key>
 
 Adding another plugin/service
 -------------------------------

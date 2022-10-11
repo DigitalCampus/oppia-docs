@@ -23,18 +23,12 @@ List of configurable values
 
 General settings
 ^^^^^^^^^^^^^^^^^
-* ``ANALYTICS_LIBRARY`` (string): Defines the analytics/bug report library to 
-  use. If left empty or not present, no analytics will be tracked. Currently, 
-  Oppia supports two possible values (uppercase): ``MINT`` for **Splunk Mint**,
-  ``COUNTLY`` for **Countly**.  
-* ``COUNTLY_APP_KEY`` (string): the Countly API key to use for the bug/analytics
-  reports
-* ``COUNTLY_SERVER_URL`` (string): the URL for the Countly server instance to 
-  use for the bug/analytics reports
-* ``MINT_API_KEY`` (string): the Splunk Mint API key to use for the crash 
-  reports
-* ``OPPIA_SERVER_DEFAULT`` (string): the initial Oppia server URL. By default, 
-  the demo server ``https://demo.oppia-mobile.org/``
+* ``ANALYTICS_LIBRARY`` (string): Defines the analytics/bug report library to use. If left empty or not present, no 
+  analytics will be tracked. Currently, Oppia supports only (uppercase): ``COUNTLY`` for **Countly**.  
+* ``COUNTLY_APP_KEY`` (string): the Countly API key to use for the bug/analytics reports
+* ``COUNTLY_SERVER_URL`` (string): the URL for the Countly server instance to use for the bug/analytics reports
+* ``OPPIA_SERVER_DEFAULT`` (string): the initial Oppia server URL. By default, the demo server 
+  ``https://demo.oppia-mobile.org/``
 * ``OPPIA_SERVER_HOST`` (string): the server hostname, for the intent filter 
   functionality (to be able to open links from external apps directly in the 
   app). For example, if our server is ``https://demo.oppia-mobile.org/`` this 

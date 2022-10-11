@@ -7,7 +7,13 @@ OppiaMobile Android App Change Log v7.x
 v104 (7.3.14) - not yet released
 -------------------------------------------------------
 
+.. note::
+	If you are using Splunk Mint for the opt-in analytics, you must now move to Count.ly (or no opt-in analytics),
+	Splunk Mint is no longer active, and no crash/analytics will be recorded by their systems anyway
+
 Issue list:
+
+* OPPIA-1309 Remove Splunk Mint library option for analytics (Project entered End of Life)
 
 
 .. _appv103:
