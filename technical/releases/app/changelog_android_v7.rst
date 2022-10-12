@@ -14,6 +14,7 @@ v104 (7.3.14) - not yet released
 Issue list:
 
 * OPPIA-1309 Remove Splunk Mint library option for analytics (Project entered End of Life)
+* OPPIA-1090 Remove or replace usage of e.printStackTrace
 
 
 .. _appv103:
