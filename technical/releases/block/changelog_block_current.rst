@@ -13,11 +13,11 @@ update the digests table based on its contents. This would allow to retain the a
 are currently published in the Oppia server, instead of the digest from the current version of each activity.
 
 For this, you need to download from the OppiaMobile server the courses you want to import the digests from,
-and obtain the course's `module.xml` file. Then, you will need to run the script:
+and obtain the course's ``module.xml`` file. Then, you will need to run the script:
 
-``
+```
 php ./scripts/import_course_digests.php path/to/module.xml
-``
+``` 
 (from the oppia_mobile_export directory, on the command line)
 
 This script will traverse the course XML and try to match the activities to the current ones in Moodle. For
