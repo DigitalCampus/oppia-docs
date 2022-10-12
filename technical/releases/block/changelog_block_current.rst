@@ -6,9 +6,36 @@ OppiaMobile Moodle Block Change Log
 v1.3.6 - not yet released
 ------------------------------------------------
 
+Upgrade notes
+^^^^^^^^^^^^^
+A management script was added to be able to import previously published courses from the block and
+update the digests table based on its contents. This would allow to retain the actual identifiers that
+are currently published in the Oppia server, instead of the digest from the current version of each activity.
+
+For this, you need to download from the OppiaMobile server the courses you want to import the digests from,
+and obtain the course's `module.xml` file. Then, you will need to run the script:
+
+``
+php ./scripts/import_course_digests.php path/to/module.xml
+``
+(from the oppia_mobile_export directory, on the command line)
+
+This script will traverse the course XML and try to match the activities to the current ones in Moodle. For
+quiz activities, if the course was exported after the `v1.3.0` release, the Moodle quiz ID will be use to
+obtain the activity. In the rest of the cases, it will try to match against the activity title.
+It will give a comprehensive report for all the activities, indicating the digest saved, and the previously
+preserved digest (if any).
+
+**Note**: If the course was exported in "draft" mode, a `-draft` suffix is added to its shortname. This is taking
+into account in the script if the course is not found with its complete shortname in Moodle. 
+
+
 Issue list:
 
 * OPPIA-1278 Retain last selected course design
+* OPPIA-1268 Management script for importing existing published course and updating MD5 table
+* Fix issue with section titles and Moodle internal multilang filter
+
 
 .. _blockv1.3.5:
 
@@ -28,7 +55,7 @@ This prefills the data with the current course activity versions, so on the next
 option to preserve the identifiers for the activities you have changed. You only need to run this script once, running
 the script again will reset the activity identfier logs. 
 
-If the script is not run, the only difference is that the first time you publish the course after updating ths block to
+If the script is not run, the only difference is that the first time you publish the course after updating the block to
 this version, you won't get any option to preserve any identifiers, only subsequent time you update and publish the
 course.
 
