@@ -36,6 +36,7 @@ Issue list:
 * OPPIA-55 On publishing & max upload size is exceeded - unclear error message
 * OPPIA-1268 Management script for importing existing published course and updating MD5 table
 * Fix issue with section titles and Moodle internal multilang filter
+* OPPIA-1281 Lock feedback activity with password
 
 
 .. _blockv1.3.5:

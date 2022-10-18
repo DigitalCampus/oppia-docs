@@ -15,6 +15,9 @@ v0.14.5 - not yet released
    
 Issue list:
 
+* Upgrade django-ses version to 3.2.0
+* Minor sonarcloud fixes
+
 
 .. _serverv0.14.4:
 

@@ -15,6 +15,7 @@ Issue list:
 
 * OPPIA-1309 Remove Splunk Mint library option for analytics (Project entered End of Life)
 * OPPIA-1090 Remove or replace usage of e.printStackTrace
+* OPPIA-1281 Lock feedback activity with password
 
 
 .. _appv103:
