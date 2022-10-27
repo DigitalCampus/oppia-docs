@@ -37,12 +37,13 @@ Issue list:
 * OPPIA-1268 Management script for importing existing published course and updating MD5 table
 * Fix issue with section titles and Moodle internal multilang filter
 * OPPIA-1281 Lock feedback activity with password
+* OPPIA-1293 Republishing without any changes always flags with option to preserve identifier
 
 
 .. _blockv1.3.5:
 
-v1.3.5 - released 30 Sept 2022
-------------------------------------------------
+v1.3.5 - released 30 Sept 2022, updated 18 Oct 2022
+-------------------------------------------------------
 
 Upgrade notes
 ^^^^^^^^^^^^^
@@ -70,6 +71,7 @@ Issue list:
 * OPPIA-1277 Allow use of non-latin script in course shortname
 * OPPIA-1287 Fix regex in multichoice (rated) questions
 * OPPIA-762 In feedback activity allow just a single attempt
+* OPPIA-1315 Issue with exporting HTML files
 * OPPIA-1265 Option to preserve activity identifiers:
 
    * OPPIA-1266 Create new table for storing current activity MD5s

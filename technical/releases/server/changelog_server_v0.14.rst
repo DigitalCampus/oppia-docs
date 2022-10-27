@@ -15,7 +15,7 @@ v0.14.5 - not yet released
    
 Issue list:
 
-* Upgrade django-ses version to 3.2.0
+* Upgrade django (to 3.2.16) and other libraries (django-ses, django-sass-processor and reportlab)
 * Minor sonarcloud fixes
 
 
