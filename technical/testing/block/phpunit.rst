@@ -1,4 +1,4 @@
-Testing Oppia Moodle Export Block
+PHPUnit
 =======================================
 
 .. note::
