@@ -23,7 +23,7 @@ described below:
    app/adding-tests
    app/notifications
    server
-   block
+   block/testing-export-block
    
    
 If you have problems or failures when running or creating tests, then please 
