@@ -2,14 +2,22 @@ OppiaMobile Android App Change Log v7.x
 =========================================
 
 
+.. _appv105:
+
+v105 (7.4.0) - not yet released
+-------------------------------------------------------
+
+Issue list:
+
+
 .. _appv104:
 
-v104 (7.3.14) - not yet released
+v104 (7.3.14) - released 31 Oct 2022
 -------------------------------------------------------
 
 .. note::
 	If you are using Splunk Mint for the opt-in analytics, you must now move to Count.ly (or no opt-in analytics),
-	Splunk Mint is no longer active, and no crash/analytics will be recorded by their systems anyway
+	Splunk Mint is no longer active, and no crash/analytics will be recorded by their systems anyway.
 
 Issue list:
 
@@ -17,6 +25,8 @@ Issue list:
 * OPPIA-1090 Remove or replace usage of e.printStackTrace
 * OPPIA-1281 Lock feedback activity with password
 * OPPIA-1127 Reorganise test file structure
+* OPPIA-1104 Option to auto-download user course activity on login, when connection is available
+* OPPIA-1225  Fix unsafe zipping pattern
 
 
 .. _appv103:

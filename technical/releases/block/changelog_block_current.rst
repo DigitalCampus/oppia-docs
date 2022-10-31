@@ -1,9 +1,17 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv1.4.0
+
+v1.4.0 - not yet released
+------------------------------------------------
+
+Issue list:
+
+
 .. _blockv1.3.6:
 
-v1.3.6 - not yet released
+v1.3.6 - released 31 Oct 2022
 ------------------------------------------------
 
 Upgrade notes
@@ -38,6 +46,8 @@ Issue list:
 * Fix issue with section titles and Moodle internal multilang filter
 * OPPIA-1281 Lock feedback activity with password
 * OPPIA-1293 Republishing without any changes always flags with option to preserve identifier
+* OPPIA-1270 Initial setup for automated tests
+* OPPIA-1296 Update text on course publishing report page
 
 
 .. _blockv1.3.5:
