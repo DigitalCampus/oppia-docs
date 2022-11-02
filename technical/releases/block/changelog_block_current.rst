@@ -1,12 +1,20 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
-.. _blockv1.4.0
+.. _blockv1.4.0:
 
 v1.4.0 - not yet released
 ------------------------------------------------
 
+.. note::
+	* Moodle 4 is required.
+	* You may need to update the multilang filter in Moodle after upgrading, see 
+	  https://docs.moodle.org/en/Multi-language_content_filter, check that the multilang filter is enabled, and set to
+	  be applied to "content and headings".
+
 Issue list:
+
+* OPPIA-1306 Upgrade for Moodle 4
 
 
 .. _blockv1.3.6:
