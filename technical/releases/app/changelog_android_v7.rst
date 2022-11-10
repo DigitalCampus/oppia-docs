@@ -9,6 +9,7 @@ v105 (7.4.0) - not yet released
 
 Issue list:
 
+* OPPIA-1318 Invalidate activity icon image cache on course install
 
 .. _appv104:
 

@@ -11,8 +11,10 @@ v0.14.6 - not yet released
 
    upgrading/to_0_14_6
 
-   
 Issue list:
+
+* OPPIA-1331 Prep for upgrading to Django 4
+
 
 .. _serverv0.14.5:
 

@@ -15,6 +15,7 @@ v1.4.0 - not yet released
 Issue list:
 
 * OPPIA-1306 Upgrade for Moodle 4
+* OPPIA-837 Refactor for multi-lang titles during export
 
 
 .. _blockv1.3.6:
