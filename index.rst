@@ -52,7 +52,6 @@ Content Creation Guide
    :maxdepth: 1
 
    content/author
-   content/publish_to_oppia
    content/style/index
    content/adapt/index
    content/updating

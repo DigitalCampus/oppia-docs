@@ -1,4 +1,4 @@
-Preserving Activity Identifiers when Updating Content
+Export Step 5 - Preserving Activity Identifiers when Updating Content
 =======================================================
 
 When activity content is updated a new identifier is generated, as the identifier is the MD5 hash of the activity
