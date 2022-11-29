@@ -14,6 +14,7 @@ v0.14.6 - not yet released
 Issue list:
 
 * OPPIA-1331 Prep for upgrading to Django 4
+* OPPIA-1341 Fix bug in cohort criteria filtering
 
 
 .. _serverv0.14.5:

@@ -16,7 +16,11 @@ Issue list:
 
 * OPPIA-1306 Upgrade for Moodle 4
 * OPPIA-837 Refactor for multi-lang titles during export
-
+* OPPIA-746 Automatically add a 'play' button overlay to video images
+* OPPIA-1344 Course XML not found message on Step 5 of moodle export
+* OPPIA-1289 Cumulative Display for Feedback Activity
+* OPPIA-1342 On Export step 4 use a POST request
+* OPPIA-1344 Course XML not found message on Step 5 of moodle export
 
 .. _blockv1.3.6:
 
