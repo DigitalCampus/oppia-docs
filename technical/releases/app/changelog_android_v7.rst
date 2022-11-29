@@ -9,7 +9,12 @@ v105 (7.4.0) - not yet released
 
 Issue list:
 
+* OPPIA-764 Provide in-app option to select interface language
 * OPPIA-1318 Invalidate activity icon image cache on course install
+* OPPIA-1339 Fix for feedback password protection when there is a label as the first item in the feedback
+* OPPIA-1305 Update gradle and other library updates
+* OPPIA-1289 Cumulative Display for Feedback Activity
+
 
 .. _appv104:
 
