@@ -3,7 +3,7 @@ OppiaMobile Server Change Log for v0.14.x
 
 .. _serverv0.14.6:
 
-v0.14.6 - not yet released
+v0.14.6 - released 30 Nov 2022
 ------------------------------------------------------
 
 .. toctree::
