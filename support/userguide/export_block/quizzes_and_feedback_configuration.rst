@@ -32,6 +32,11 @@ with some options to configure:
 
 Grade Boundaries
 ------------------
+
+.. note::
+   This functionality requires version 1.4.0 or higher of the Moodle Export Block
+   and version v7.4.0 or higher of OppiaMobile App.
+
 Each feedback activity that contains at least one question of type 'Multiple choice (rated)'
 can be configured to display specific completion messages depending on the learner's final score
 for that feedback activity.
