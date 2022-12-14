@@ -4,7 +4,7 @@ OppiaMobile Android App Change Log v7.x
 
 .. _appv105:
 
-v105 (7.4.0) - not yet released
+v105 (7.4.0) - released 30 Nov 2022
 -------------------------------------------------------
 
 Issue list:

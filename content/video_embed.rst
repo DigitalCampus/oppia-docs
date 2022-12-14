@@ -74,7 +74,8 @@ How to embed media files in OppiaMobile courses
 	If you don't add a ``poster/thumbnail`` when you upload the video, on 
 	exporting to Oppia you will see a warning message and in the app just a text
 	link to 'Play video' will appear, rather than an image.
-	
+
+
 How can users get the media files
 ----------------------------------
 

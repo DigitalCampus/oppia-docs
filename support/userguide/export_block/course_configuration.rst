@@ -58,6 +58,27 @@ and question feedback.
    of the Oppia app. If you tick this option and users have a version below
    this, then they will see the HTML tags displayed in the quiz, i.e. <b>Question</b> instead of **Question**.
 
+Play button overlay for media files
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In some cases, you would create a poster/thumbnail image with a "play" icon to
+represent that the image is a video, to make more evident for your users that
+the image can be clicked to play some media content. Instead of adding this
+overlay manually, you can rely on the OppiaMobile export block to handle the
+process for you.
+
+In the first step of the export process, you can check the "Video overlay" option
+to apply the "play" button overlay on top of the poster image for all the
+embedded videos in the course. If a video has a thumbnail image, during the
+export process some additional styling will be apply to the page content, adding
+a button that looks like this:
+
+   .. image:: images/play-button-overlay.png
+
+The styling of the button will apply the same color scheme of the currently
+selected theme (view :ref:`styles`). The background color for the button will
+take ``primary-color`` value as the color to apply.
+
 Thumbnail icon sizes
 ~~~~~~~~~~~~~~~~~~~~~~
 
