@@ -2,6 +2,15 @@ OppiaMobile Android App Change Log v7.x
 =========================================
 
 
+.. _appv106:
+
+v106 (7.4.1) - not yet released
+-------------------------------------------------------
+
+Issue list:
+
+* OPPIA-1348 Add tests for grade boundaries functionallity
+
 .. _appv105:
 
 v105 (7.4.0) - released 30 Nov 2022
