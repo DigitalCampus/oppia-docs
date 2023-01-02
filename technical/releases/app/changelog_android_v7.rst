@@ -10,6 +10,7 @@ v106 (7.4.1) - not yet released
 Issue list:
 
 * OPPIA-1348 Add tests for grade boundaries functionallity
+* OPPIA-1349 Integrate Gradle Managed Devices 
 
 .. _appv105:
 

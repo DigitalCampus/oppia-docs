@@ -1,6 +1,16 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv1.4.1:
+
+v1.4.1 - not yet released
+------------------------------------------------
+
+Issue list:
+
+* OPPIA-1359 Fix missing description field
+* OPPIA-1360 Update Moodle question id properties considering Moodle 4 Question Bank update
+
 .. _blockv1.4.0:
 
 v1.4.0 - released 30 Nov 2022

@@ -14,6 +14,7 @@ v0.14.7 - not yet released
 Issue list:
 
 * OPPIA-1353 Update Python/PIP packages
+* OPPIA-1360 Set correct question id when a question is edited
 
 .. _serverv0.14.6:
 
