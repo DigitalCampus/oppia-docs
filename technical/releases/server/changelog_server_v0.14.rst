@@ -15,6 +15,7 @@ Issue list:
 
 * OPPIA-1353 Update Python/PIP packages
 * OPPIA-1360 Set correct question id when a question is edited
+* OPPIA-1362 Store quiz attempt information in data recovery table when an error happens
 
 .. _serverv0.14.6:
 

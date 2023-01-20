@@ -11,6 +11,7 @@ Issue list:
 
 * OPPIA-1348 Add tests for grade boundaries functionallity
 * OPPIA-1349 Integrate Gradle Managed Devices 
+* OPPIA-1323 Clearer messages when offline and password incorrect
 
 .. _appv105:
 
