@@ -108,7 +108,7 @@ v0.12.21 - Released 29 Oct 2021
 ------------------------------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_21
 
@@ -129,7 +129,7 @@ v0.12.20 - Released 23 Sept 2021
 ------------------------------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_20
 
@@ -197,7 +197,7 @@ v0.12.18 - Released 22 Jun 2021
 ----------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_18
    
@@ -223,7 +223,7 @@ v0.12.17 - Released 26 May 2021
 ----------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_17
 
@@ -244,7 +244,7 @@ v0.12.16 - Released 25 April 2021
 ----------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_16
 
@@ -263,7 +263,7 @@ v0.12.15 -  Released 26 Mar 2021
 ----------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_15
 
@@ -280,7 +280,7 @@ v0.12.14 - released 1 Mar 2021
 ----------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_14
 
@@ -301,7 +301,7 @@ v0.12.13 -  Released 21 Dec 2020
 ----------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_13
 
@@ -317,7 +317,7 @@ v0.12.12 -  Released 27 Nov 2020
 ----------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_12
 
@@ -345,7 +345,7 @@ v0.12.11 - Released 27 Oct 2020
 ----------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_11
 
@@ -365,7 +365,7 @@ v0.12.10 - Released 29 Sept 2020
 --------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_10
 
@@ -383,7 +383,7 @@ v0.12.9 - Released 26 Aug 2020
 --------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_9
 
@@ -401,7 +401,7 @@ v0.12.8 - released 31 July 2020
 --------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_8
 
@@ -420,7 +420,7 @@ v0.12.7 - released 1 July 2020
 --------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_7
 	
@@ -448,7 +448,7 @@ v0.12.6 - released 4 May 2020
 --------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_6
 	
@@ -480,7 +480,7 @@ v0.12.5 - released 18 Mar 2020
 --------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_5
 	
@@ -519,7 +519,7 @@ v0.12.4 - released 29 Jan 2020
 --------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_4
 	
@@ -553,7 +553,7 @@ v0.12.3 - Released 20 Dec 2019
 --------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_3
 	
@@ -613,7 +613,7 @@ v0.12.2 - Released 27 Nov 2019
 --------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_2
 	
@@ -660,7 +660,7 @@ v0.12.1 - Released 15 Oct 2019
 --------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_1
 	
@@ -686,7 +686,7 @@ v0.12.0 - Released 17 Sept 2019
 --------------------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    upgrading/to_0_12_0
 

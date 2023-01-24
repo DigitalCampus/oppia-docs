@@ -1,5 +1,5 @@
 Export Step 2 - Quizzes and Feedback Configuration
-=============================
+==================================================
 
 Quizzes
 ~~~~~~~~

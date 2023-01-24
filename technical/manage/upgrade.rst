@@ -3,15 +3,13 @@
 Upgrading OppiaMobile Server
 =============================
 
-To ensure you get all the latest features, bug fixes and patches, it's 
-important to keep your OppiaMobile server up to date.
+To ensure you get all the latest features, bug fixes and patches, it's important to keep your OppiaMobile server up to
+date.
 
-The upgrade process is described below, with the paths/directories described as 
-OppiaMobile server is set up on the AWS image. If you have installed 
-OppiaMobile server to different location, then amend the paths/directories as 
-required. Or, if you have your own clone of the OppiaMobile server code, 
-you will need to merge the core version into your clone and resolve any 
-conflicts, before updating your server.
+The upgrade process is described below, with the paths/directories described as OppiaMobile server is set up on the AWS
+image. If you have installed  OppiaMobile server to different location, then amend the paths/directories as required.
+Or, if you have your own clone of the OppiaMobile server code, you will need to merge the core version into your clone
+and resolve any conflicts, before updating your server.
 
 Your server must be connected to the internet for the upgrade process.
 
@@ -52,7 +50,27 @@ Copy static files
 
 #. Copy static files with: ``(env)$ python manage.py collectstatic``
 
+Run update_summaries --fromstart
+---------------------------------
+
+This isn't necessary for every release unless specified. But if you are skipping quite a few inbetween releases (e.g.
+from 0.12.2 to 0.13.3), then it's best to run this.
+
+#. Run the update summaries command from start: ``(env)$ python manage.py update_summaries --fromstart``
+#. This might take a long time (hours) for large implementations, see :doc:`/technical/manage/update-summaries`
+
+
 Restart Apache
 ------------------
 
 #. Restart Apache server: ``$ sudo service apache2 restart``
+
+
+Additional Updates
+-------------------
+
+Some releases may have some additional specific upgrade steps. Releases (from 0.12.0 onwards) that have additional
+steps are noted below. 
+
+* v0.12.22
+* v0.12.24

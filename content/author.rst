@@ -32,7 +32,7 @@ For information about specific aspects of course creation for OppiaMobile, see:
    translations
    about
    testing
-   publish_to_oppia 
+   /support/userguide/export_block/publish_to_oppia 
 
 Once you have some content etc that you'd like to test on your phone, press the 
 'Export to Oppia Package' button in the right hand column. At the end of the 

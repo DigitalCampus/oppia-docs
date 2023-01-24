@@ -1,5 +1,5 @@
-Export Step 5 - Preserving Activity Identifiers when Updating Content
-=======================================================
+Preserving Activity Identifiers when Updating Content
+======================================================================
 
 When activity content is updated a new identifier is generated, as the identifier is the MD5 hash of the activity
 content. The rationale for this is so that the specific version of an activity can be identified, and analysis can show
@@ -97,9 +97,3 @@ result in:
   attempt allowed and a threshold of 80%, then user B passes the quiz when the no attempts allowed are changed and the
   threshold reduced to 50%, but the quiz activity identifier has been retained, then users are not being compared
   like-for-like. This will affect the badge and certificate awarding as well as M&E analysis.
-
-
-  
-
-
-

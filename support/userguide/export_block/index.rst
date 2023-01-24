@@ -1,5 +1,5 @@
 Moodle Export Block User Guide
-=============================
+================================
 
 This is a user guide for the Moodle Export Block. In the following pages, you can find the configuration
 options during the export process.
