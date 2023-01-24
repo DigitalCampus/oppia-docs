@@ -26,7 +26,7 @@ as the default language for the course content when displayed to users.
 
 .. note::
    In general you do not need to change this from the default ``en`` if your
-   course has been set up correctly for multilingual content (see: :doc:`translations`)
+   course has been set up correctly for multilingual content (see: :doc:`/content/translations`)
 
 Course Sequencing
 ~~~~~~~~~~~~~~~~~~

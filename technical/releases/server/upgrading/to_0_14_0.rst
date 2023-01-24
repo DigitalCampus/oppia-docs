@@ -1,9 +1,8 @@
 Upgrading to OppiaMobile Server v0.14.0
 =========================================
 
-All commands to be run when the Python virtual environment is active. If you
-are skipping a release when upgrading (eg jumping from 0.12.0 to 0.14.0), check
-there are no additional upgrade steps needed in the releases you are skipping.
+All commands to be run when the Python virtual environment is active. If you are skipping a release when upgrading (eg
+jumping from 0.12.0 to 0.14.0), check there are no additional upgrade steps needed in the releases you are skipping.
 
 Update packages
 ----------------------------
@@ -20,6 +19,8 @@ Update static files
 #. Run: ``(env)$ python manage.py compilescss`` - don't worry about the 
    unclosed files warning messages
 #. Run: ``(env)$ python manage.py collectstatic``
+
+.. _serverv0.14.0_upgrade_extras:
 
 Check backup user permissions
 -------------------------------

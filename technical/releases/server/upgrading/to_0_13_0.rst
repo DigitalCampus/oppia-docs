@@ -1,14 +1,16 @@
 Upgrading to OppiaMobile Server v0.13.0
 =========================================
 
+.. _serverv0.13.0_upgrade_extras:
+
 Set up/configure Python 3.8
 ----------------------------
 
-If you are already using Ubuntu 20.04 or above, then the default Python is 
-already set to being 3.8, and then you only need to update the apache config.
+If you are already using Ubuntu 20.04 or above, then the default Python is already set to being 3.8, and then you only
+need to update the apache config.
 
-If you are using an earlier version of Ubuntu you will first need to install 
-Python 3.8 and then configure, using these instructions:
+If you are using an earlier version of Ubuntu you will first need to install Python 3.8 and then configure, using these
+instructions:
 
 #. Install Python 3.8 on your system - example instructions here: 
    https://linuxize.com/post/how-to-install-python-3-8-on-ubuntu-18-04/
@@ -21,15 +23,13 @@ Python 3.8 and then configure, using these instructions:
    *  ``source env/bin/activate``
    *  ``pip install -r requirements.txt``
 
-If you are using Apache for your webserver, then there are some more 
-configuration changes to make:
+If you are using Apache for your webserver, then there are some more configuration changes to make:
 
 #. ``sudo apt remove libapache2-mod-wsgi-py3``
 #. ``sudo apt install apache2-dev``
 #. ``pip install mod_wsgi`` (when virtualenv is enabled)
-#. Run ``mod_wsgi-express module-config`` and copy the 2 generated lines into 
-   your apache site config file. Note that ``WSGIPythonHome`` needs to be
-   before the VirtualHost tag.
+#. Run ``mod_wsgi-express module-config`` and copy the 2 generated lines into your apache site config file. Note that 
+   ``WSGIPythonHome`` needs to be before the VirtualHost tag.
 
 Update packages
 ----------------------------

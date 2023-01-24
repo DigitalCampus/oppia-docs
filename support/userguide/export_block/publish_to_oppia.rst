@@ -1,9 +1,8 @@
 Publishing your Moodle Course to Oppia
 ========================================
 
-When you have completed :doc:`author`, or at least, are ready to test your 
-course in the OppiaMobile app, then you will need to publish your course to the 
-OppiaMobile server.
+When you have completed :doc:`/content/author`, or at least, are ready to test your course in the OppiaMobile app, then
+you will need to publish your course to the OppiaMobile server.
 
 From the OppiaMobile Export Block in your Moodle course:
 
@@ -12,8 +11,7 @@ From the OppiaMobile Export Block in your Moodle course:
 #. Select the ``Course design`` you would like to use.
 #. Select the ``Course status``, either ``Draft/testing`` or ``Live``
 #. Press the ``Export to Oppia Package`` button.
-#. On the next page, you will see some options for quizzes and general course 
-   settings (see below: :ref:`export_options_explained`)
+#. On the next page, you will see some options for quizzes and general course settings
 
 
 .. _export_server_connections_explained:

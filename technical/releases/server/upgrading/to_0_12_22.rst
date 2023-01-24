@@ -11,6 +11,9 @@ Update database
 
 #. Run: ``(env)$ python manage.py migrate``
 
+
+.. _serverv0.12.22_upgrade_extras1:
+
 Populates the course_version field in the tracker model
 -------------------------------------------------------------
 
@@ -20,6 +23,8 @@ filled, but we can populate it based on the current course activities.
 
 To do it, run the following command:
    ``(env)$ python manage.py populate_courseversion``
+
+.. _serverv0.12.22_upgrade_extras2:
 
 Configure automated error emails
 ----------------------------------

@@ -18,8 +18,6 @@ Question types supported
 * Short Answer
 * Numerical
 
-
-
 Randomising questions
 ----------------------
 
@@ -31,8 +29,7 @@ selected each time a user attempts a quiz. To do this:
 * In your quiz in Moodle, add all of the questions you want the randomised
   selection to be from
 * When you export to Oppia, you can select the number of questions that will
-  be randomly selected each time the user attempts the quiz (see 
-  :ref:`export_options_explained`)
+  be randomly selected each time the user attempts the quiz
 
 
 .. _content-quiz-pretest:

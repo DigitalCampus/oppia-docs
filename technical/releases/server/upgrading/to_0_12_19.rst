@@ -28,6 +28,8 @@ Run update_summaries from start
    required to make sure the data for daily active users is correct and broken
    down by course
    
+.. _serverv0.12.19_upgrade_extras:
+
 Check permissions for certificate folders
 -------------------------------------------
 

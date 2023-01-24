@@ -1,12 +1,13 @@
 Upgrading to OppiaMobile Server v0.12.2
 =========================================
 
+.. _serverv0.12.2_upgrade_extras:
+
 settings_secret.py changes
 -----------------------------
 
-The device admin functionality has been removed, so it is no longer necessary
-to have the ``DEVICE_ADMIN_ENABLED`` and ``GCM_APIKEY`` settings in
-``settings_secret.py``
+The device admin functionality has been removed, so it is no longer necessary to have the ``DEVICE_ADMIN_ENABLED`` and
+``GCM_APIKEY`` settings in ``settings_secret.py``
 
 Update packages
 ----------------------------
@@ -23,8 +24,7 @@ Update database
 Update static files
 --------------------
 
-#. Run: ``(env)$ python manage.py compilescss`` - don't worry about the 
-   unclosed files warning messages
+#. Run: ``(env)$ python manage.py compilescss`` - don't worry about the unclosed files warning messages
 #. Run: ``(env)$ python manage.py collectstatic``
 
 
@@ -32,4 +32,3 @@ Rebuild summary data
 -------------------------
 
 #. Run: ``(env)$ python manage.py update_summaries --fromstart``
-
