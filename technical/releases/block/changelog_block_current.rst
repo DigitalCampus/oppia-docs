@@ -6,10 +6,14 @@ OppiaMobile Moodle Block Change Log
 v1.4.1 - not yet released
 ------------------------------------------------
 
+.. note::
+    * Moodle currently only supports PHP 8.0 (not PHP 8.1)
+    
 Issue list:
 
 * OPPIA-1359 Fix missing description field
 * OPPIA-1360 Update Moodle question id properties considering Moodle 4 Question Bank update
+* OPPIA-847 Error when uploading and media file is included twice in the same course
 
 .. _blockv1.4.0:
 
