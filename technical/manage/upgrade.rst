@@ -72,10 +72,11 @@ Additional Updates
 Some releases may have some additional specific upgrade steps. Releases (from 0.12.0 onwards) that have additional
 steps are noted below. 
 
-* v0.12.2 - :ref:`serverv0.12.2_upgrade_extras`
-* v0.12.3 - :ref:`serverv0.12.3_upgrade_extras`
-* v0.12.19 - :ref:`serverv0.12.19_upgrade_extras`
-* v0.12.22 - :ref:`serverv0.12.22_upgrade_extras1` and :ref:`serverv0.12.22_upgrade_extras2`
-* v0.12.24 - :ref:`serverv0.12.24_upgrade_extras`
-* v0.13.0 - :ref:`serverv0.13.0_upgrade_extras`
-* v0.14.0 - :ref:`serverv0.14.0_upgrade_extras`
+* v0.12.2 - :ref:`serverv0.12.2_upgrade_extras` - can be updated before or after other upgrade steps
+* v0.12.3 - :ref:`serverv0.12.3_upgrade_extras` - can be updated before or after other upgrade steps
+* v0.12.19 - :ref:`serverv0.12.19_upgrade_extras` - can be updated before or after other upgrade steps
+* v0.12.22 - :ref:`serverv0.12.22_upgrade_extras1` and :ref:`serverv0.12.22_upgrade_extras2` - should be updated after
+  other upgrade steps
+* v0.12.24 - :ref:`serverv0.12.24_upgrade_extras` - should be updated before other upgrade steps
+* v0.13.0 - :ref:`serverv0.13.0_upgrade_extras` - should be updated before other upgrade steps
+* v0.14.0 - :ref:`serverv0.14.0_upgrade_extras` - can be updated before or after other upgrade steps
