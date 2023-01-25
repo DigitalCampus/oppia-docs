@@ -15,6 +15,7 @@ Issue list:
 * OPPIA-1359 Fix missing description field
 * OPPIA-1360 Update Moodle question id properties considering Moodle 4 Question Bank update
 * OPPIA-847 Error when uploading and media file is included twice in the same course
+* OPPIA-1365 Add moodle_question_id to feedback activities on export
 
 
 .. _blockv1.4.0:

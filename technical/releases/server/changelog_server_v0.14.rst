@@ -16,6 +16,10 @@ Issue list:
 * OPPIA-1353 Update Python/PIP packages
 * OPPIA-1360 Set correct question id when a question is edited
 * OPPIA-1362 Store quiz attempt information in data recovery table when an error happens
+* OPPIA-1365 Add tests for adding moodle_question_id to feedback questions
+* OPPIA-1391 Close media file after use
+* OPPIA-1392 Display activity for the current day in the oppia dashboard graphs
+
 
 .. _serverv0.14.6:
 
