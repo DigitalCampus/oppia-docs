@@ -24,6 +24,23 @@ Pull the latest updates from the core version
 #. Move to the django-oppia directory: ``$ cd /home/oppiamobile/django-oppia/``
 #. Pull the latest updates: ``$ sudo git pull``
 
+Update to a specific version number
+----------------------------------------------
+
+If you prefer to upgrade to a more recent version, but not necessarily the absolute latest, you can upgrade to a 
+specific version:
+
+#. Move to the django-oppia directory: ``$ cd /home/oppiamobile/django-oppia/``
+#. Checkout the specific version (in this instance 0.14.2): ``$ sudo git checkout v0.14.2-release``
+
+.. note::
+    Each server release is tagged in the format vX.Y.Z-release, so you can specify which version you'd like to upgrade
+    to.
+    
+.. warning::
+    It is strongly advised that you do not try to downgrade as you will likely run into inconsistencies in the database,
+    both data and structure, that can be very difficult to resolve.
+
 Activate the VirtualEnv
 --------------------------
 
