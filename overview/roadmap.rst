@@ -1,26 +1,28 @@
 OppiaMobile Development Roadmap
 =================================
 
-Last reviewed: Oct 2022
+Last reviewed: Jan 2023
 
-Short term (6-12 months)
+Short term 
 --------------------------
 
 * Improve multi-lingual capabilities
-* Improved options for course activity updates
-* Implementing the OpenBadges (https://openbadges.org/)
-* Improved and expand course activity options
+* Improved automated test coverage for app
+* Improved automated test coverage for export block
+* Code refactoring for test practices in app, export block and server
 
 Medium term 
--------------
+-------------------
 
 * Improved integrations with xAPI and data collection/patient management apps
 * Move to use Django Rest Framework (server)
 * Move to use RoomDB (app)
 * Tablet specific layout
+* Improved options for course activity updates
+* Implementing the OpenBadges (https://openbadges.org/)
 
 Long term
-------------
+---------------
 
 * Adaptive learning content and quizzes
 * Include educational games
