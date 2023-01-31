@@ -1,9 +1,17 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv1.4.2:
+
+v1.4.2 - not yet released
+------------------------------------------------
+
+Issue list:
+
+
 .. _blockv1.4.1:
 
-v1.4.1 - not yet released
+v1.4.1 - released 31 Jan 2023
 ------------------------------------------------
 
 .. note::
@@ -16,6 +24,7 @@ Issue list:
 * OPPIA-1360 Update Moodle question id properties considering Moodle 4 Question Bank update
 * OPPIA-847 Error when uploading and media file is included twice in the same course
 * OPPIA-1365 Add moodle_question_id to feedback activities on export
+* OPPIA-1303 Additional automated tests for Moodle Block
 
 
 .. _blockv1.4.0:
