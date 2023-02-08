@@ -35,6 +35,10 @@ Issue list:
 * OPPIA-1391 Close media file after use
 * OPPIA-1392 Display activity for the current day in the oppia dashboard graphs
 
+Hotfixes:
+
+* OPPIA-1414 Fix for downloading media directly from dashboard
+* OPPIA-1416 Fix for saving string (not object)
 
 .. _serverv0.14.6:
 
