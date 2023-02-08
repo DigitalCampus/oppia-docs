@@ -2,9 +2,17 @@ OppiaMobile Android App Change Log v7.x
 =========================================
 
 
+.. _appv107:
+
+v106 (7.4.2) - not yet released
+-------------------------------------------------------
+
+Issue list:
+
+
 .. _appv106:
 
-v106 (7.4.1) - not yet released
+v106 (7.4.1) - released 31 Jan 2023
 -------------------------------------------------------
 
 Issue list:
@@ -12,6 +20,7 @@ Issue list:
 * OPPIA-1348 Add tests for grade boundaries functionallity
 * OPPIA-1349 Integrate Gradle Managed Devices 
 * OPPIA-1323 Clearer messages when offline and password incorrect
+* OPPIA-1054 Follow up to running app tests
 
 .. _appv105:
 

@@ -24,38 +24,38 @@ Local Set Up
 1. Install composer
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: shell
+To install the Behat dependencies will rely on Composer. Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
 
-    curl -sS https://getcomposer.org/installer | php
-    php composer.phar update
+Check the `Composer documentation <https://getcomposer.org/doc/00-intro.md>`_ on how to install and configure it in your development environment.
 
 
-2. Install Behat
+2. Install Behat and Mink extension
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Under the root folder of your Moodle installation, run the following to install Behat:
+
 .. code-block:: shell
 
-    php composer.phar require --dev behat/behat
+    composer require --dev behat/behat
 
 
-3. Install Mink extension
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 `Mink <https://mink.behat.org/en/latest/>`_ is an open source browser controller/emulator for web applications, written in PHP.
 
 .. code-block:: shell
 
-    php composer.phar require --dev behat/mink
-    php composer.phar require --dev behat/mink-extension
-    php composer.phar require --dev behat/mink-goutte-driver
-    php composer.phar require --dev behat/mink-selenium2-driver
+    composer require --dev behat/mink
+    composer require --dev behat/mink-extension
+    composer require --dev behat/mink-goutte-driver
+    composer require --dev behat/mink-selenium2-driver
+    composer require --dev dvdoug/behat-code-coverage
 
-4. Create dataroot folder for Behat
+3. Create dataroot folder for Behat
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create a new dataroot folder for Behat. It is recommended that you create this folder in the same directory as your *moodledata* folder.
 You can name this folder anyway you like, but a recommended name is *moodledata_behat*.
 
 
-5. Update config.php
+4. Update local configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. Open the config.php file located in your moodle root location.
 2. Search for the line :code:`require_once(__DIR__ . '/lib/setup.php');`
@@ -84,14 +84,40 @@ You can name this folder anyway you like, but a recommended name is *moodledata_
         One common way to do this is to use :code:`127.0.0.1` for behat, but :code:`localhost` for standard use.
         Alternatively you can add an additional hostname in your :code:`/etc/hosts` file and use this instead.
 
-6. Initialise Behat
+
+5. Initialise Behat
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Next, we need to initialise the Behat testing environment, and create the tests site. For this, we first are going
+to 
+
+First, you need to clone the :code:`moodle-browser-config` repository in the root folder of your Moodle instalation:
+
+
+After the repository is succesfully downloaded, we need to add it as a requirement in the :code:`config.php` file 
+before the line  :code:`require_once( __DIR__ . '/lib/setup.php')` :
+
+.. code-block:: php
+
+    require_once( __DIR__ . '/moodle-browser-config/init.php');
+
+
+Then, we can run the Behat script to create the test environment and site:
 
 .. code-block:: php
 
     php admin/tool/behat/cli/init.php
 
-7. Add MOODLE_ROOT environment variable
+Be patient, this process can take a while. After it completes succesfully, a message like the following will
+appear:
+
+.. code-block:: shell
+
+    Acceptance tests environment enabled on http://127.0.0.1/moodle, to run the tests use: 
+    vendor/bin/behat --config /var/moodledata_behat/behatrun/behat/behat.yml
+
+
+6. Add MOODLE_ROOT environment variable
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: shell
@@ -99,8 +125,11 @@ You can name this folder anyway you like, but a recommended name is *moodledata_
     export MOODLE_ROOT=<your_moodle_installation>
 
 
-8. Run the oppia_mobile_export block tests
+7. Run the oppia_mobile_export block tests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+### Using Selenium
+
 1. Start a Selenium standalone server
 
     .. code-block:: shell
@@ -113,12 +142,24 @@ You can name this folder anyway you like, but a recommended name is *moodledata_
     .. code-block:: shell
 
         # From the root folder of your moodle installation
-        ./vendor/bin/behat --config <path to moodledata_behat>/behatrun/behat/behat.yml --tags=@block_oppia_mobile_export
+        ./vendor/bin/behat --config blocks/oppia_mobile_export/tests/behat/behat.yml
 
-    .. note::
 
-        The option :code:`--tags=@block_oppia_mobile_export` will run all the *.feature* files that include the tag
-        **@block_oppia_mobile_export**.
+### Using Geckodriver (Firefox)
+
+1. Start the geckodriver server
+
+    .. code-block:: shell
+
+        geckodriver
+
+2. Run the features
+
+    .. code-block:: shell
+
+        # From the root folder of your moodle installation
+        ./vendor/bin/behat --config blocks/oppia_mobile_export/tests/behat/behat.yml --profile=geckodriver
+
 
 Writing new Behat features
 -------------------------------

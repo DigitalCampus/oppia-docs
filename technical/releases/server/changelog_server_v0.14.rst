@@ -16,6 +16,7 @@ Issue list:
 
 * OPPIA-1414 Update Django to 3.1.17
 
+
 .. _serverv0.14.7:
 
 v0.14.7 - released 31 Jan 2023
