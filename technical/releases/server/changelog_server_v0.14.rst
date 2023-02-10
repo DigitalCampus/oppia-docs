@@ -39,6 +39,7 @@ Issue list:
 
 Hotfixes:
 
+* OPPIA-1412 Take into account that more than one quizProps can exist
 * OPPIA-1414 Fix for downloading media directly from dashboard
 * OPPIA-1416 Fix for saving string (not object)
 
