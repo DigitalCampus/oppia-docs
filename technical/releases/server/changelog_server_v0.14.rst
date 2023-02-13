@@ -42,6 +42,7 @@ Hotfixes:
 * OPPIA-1412 Take into account that more than one quizProps can exist
 * OPPIA-1414 Fix for downloading media directly from dashboard
 * OPPIA-1416 Fix for saving string (not object)
+* OPPIA-1422 Create new question if no question exist for a specific moodle_question_id
 
 .. _serverv0.14.6:
 
