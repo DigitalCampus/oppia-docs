@@ -14,7 +14,7 @@ v0.14.8 - not yet released
 
 Issue list:
 
-* OPPIA-1414 Update Django to 3.1.17
+* OPPIA-1414 Update Django to 3.1.18
 * OPPIA-1316 Remove user dropdown selection on cohort participant formset in Django Admin
 
 
