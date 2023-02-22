@@ -50,8 +50,8 @@ for that feedback activity.
 
 Some instructions on how to configure grade boundaries:
 
-#. **Add extra rows using the** |add-row-button| **button.** The new row will be added between
-   the rows where the button is located.
+#. **Add extra rows using the** |add-row-button| **button.** The new row will be added below
+   the row where the button is located.
 #. **Remove rows using the** |remove-row-button| **button.**
 #. **Only the rows containing a message will be saved.** If you don't want to configure
    grade boundaries for a specific feedback activity, make sure all the rows for
@@ -71,6 +71,21 @@ Some instructions on how to configure grade boundaries:
 
    .. note::
       The double curly braces in placeholder names are important
+
+#. You can configure multi-lingual feedback messages by specifying one line per
+   language in the text area, with the following structure:
+
+   ``<language_code>=<feedback_message>``
+
+   For example, if we want to configure a feedback message in English and Spanish, the configuration would look like this:
+
+   .. note::
+        | en=Thank you for your feedback!
+        | es=¡Gracias por tus comentarios!
+
+   The ``language_code`` is a two-letter code that represents the language (e.g., "en" for English, "es" for Spanish). The ``feedback_message`` is the message that will be displayed to the user in the specified language.
+
+   You can omit the ``language_code`` if there is only one language configured.
 
 
 .. |add-row-button| image:: images/add_row_button.png
