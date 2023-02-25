@@ -9,3 +9,4 @@ Troubleshooting an Oppia Implementation
    block
    translations
    debug
+   appdatabase
