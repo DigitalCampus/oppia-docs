@@ -1,12 +1,26 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
-.. _blockv1.4.2:
+.. _blockv1.4.3:
 
-v1.4.2 - not yet released
+v1.4.3 - not yet released
 ------------------------------------------------
 
 Issue list:
+
+
+.. _blockv1.4.2:
+
+v1.4.2 - released 28 Feb 2023
+------------------------------------------------
+
+Issue list:
+
+* OPPIA-1346: Add multi-lingual support for grade boundaries
+* OPPIA-1366: Pass activity digests from previous step so we don't have to process the course again
+* OPPIA-1304: Remove some PHP warnings in code
+* OPPIA-1363: Clean saved password if the field is emptied
+* Hotfix: Increase message field length and limit textarea
 
 
 .. _blockv1.4.1:

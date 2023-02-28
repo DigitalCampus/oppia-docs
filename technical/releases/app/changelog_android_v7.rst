@@ -1,13 +1,26 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+.. _appv108:
 
-.. _appv107:
-
-v106 (7.4.2) - not yet released
+v108 (7.4.3) - not yet released
 -------------------------------------------------------
 
 Issue list:
+
+
+.. _appv107:
+
+v107 (7.4.2) - released 28 Feb 2023
+-------------------------------------------------------
+
+Issue list:
+
+* OPPIA-1410: Round off performance score values and add tests
+* oppia-1364 - Added notification permission
+* Oppia 1324 apikey invalidate
+* oppia-1310 - BuildConfig settings in App class removed
+* OPPIA-1346: Add multi-lingual support for grade boundaries
 
 
 .. _appv106:
