@@ -13,6 +13,8 @@ v0.14.9 - not yet released
 
 Issue list:
 
+* OPPIA-1440 Add flake8 config file to use for the code formatting analysis
+
 
 .. _serverv0.14.8:
 
