@@ -30,7 +30,7 @@ Check the `Composer documentation <https://getcomposer.org/doc/00-intro.md>`_ on
 
 
 2. Install Behat and Mink extension
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Under the root folder of your Moodle installation, run the following to install Behat:
 

@@ -8,6 +8,7 @@ v1.4.3 - not yet released
 
 Issue list:
 
+* OPPIA-1330 Review and update block code style
 
 .. _blockv1.4.2:
 
