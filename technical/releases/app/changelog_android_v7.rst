@@ -8,6 +8,7 @@ v108 (7.4.3) - not yet released
 
 Issue list:
 
+* OPPIA-1439 Take course into account when fetching quiz and feedback attempts
 
 .. _appv107:
 
