@@ -1,9 +1,22 @@
 OppiaMobile Server Change Log for v0.14.x
 =============================================
 
+.. _serverv0.14.10:
+
+v0.14.10 - not yet released
+------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   upgrading/to_0_14_10
+
+Issue list:
+
+
 .. _serverv0.14.9:
 
-v0.14.9 - not yet released
+v0.14.9 - released 31 Mar 2023
 ------------------------------------------------------
 
 .. toctree::
@@ -15,6 +28,7 @@ Issue list:
 
 * OPPIA-1440 Add flake8 config file to use for the code formatting analysis
 * OPPIA-983 Fix cognitive complexity in profile/mixins/ExportAsCSVMixin.py
+* OPPIA-26: Extracted permissions checks to custom decorator and mixin
 
 
 .. _serverv0.14.8:

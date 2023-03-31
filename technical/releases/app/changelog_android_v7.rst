@@ -1,14 +1,23 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+.. _appv109:
+
+v109 (7.4.4) - not yet released
+-------------------------------------------------------
+
+Issue list:
+
+
 .. _appv108:
 
-v108 (7.4.3) - not yet released
+v108 (7.4.3) - released 31 Mar 2023
 -------------------------------------------------------
 
 Issue list:
 
 * OPPIA-1439 Take course into account when fetching quiz and feedback attempts
+* OPPIA-1311 - moved quiz model tests to unit tests
 
 .. _appv107:
 

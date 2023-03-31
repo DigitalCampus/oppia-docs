@@ -1,12 +1,23 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
-.. _blockv1.4.3:
+.. _blockv1.4.4:
 
-v1.4.3 - not yet released
+v1.4.4 - not yet released
 ------------------------------------------------
 
 Issue list:
+
+
+.. _blockv1.4.3:
+
+v1.4.3 - released 31 Mar 2023
+------------------------------------------------
+
+Issue list:
+ * OPPIA-1396: Update CI build workflow.
+ * OPPIA-1426: Updated message when no feedback activities with rated questions exist
+ * OPPIA-1454: Don't ignore server id on grade boundaries db request
 
 * OPPIA-1330 Review and update block code style
 
