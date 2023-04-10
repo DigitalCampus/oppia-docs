@@ -1,0 +1,218 @@
+<table class="status">
+<caption style="display:none">Status functionalities for Oppia server</caption>
+
+<thead>
+<tr>
+	<th rowspan="2" id="status_col_function">Function</th>
+	<th colspan="4" class="statuses" id="status_col_statuses">User type</th>
+</tr>
+
+<tr>
+	<th class="narrow" id="status_col_draft">Admin</th>
+	<th class="narrow" id="status_col_live">Staff</th>
+	<th class="narrow" id="status_col_archived">Teacher</th>
+	<th class="narrow" id="status_col_new_disabled">Student</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td>Login</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+</tr>
+
+<tr>
+	<td>Access Django Admin</td>
+	<td class="enabled"></td>
+	<td class="disabled">[1]</td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>Upload Course</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled">[2]</td>
+	<td class="disabled">[2]</td>
+</tr>
+<tr>
+	<td>Update course categories</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled">[9]</td>
+	<td class="disabled">[9]</td>
+</tr>
+<tr>
+	<td>Update course status (draft/live)</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled">[9]</td>
+	<td class="disabled">[9]</td>
+</tr>
+<tr>
+	<td>Archive course</td>
+	<td class="enabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>Delete course</td>
+	<td class="enabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>Bulk Upload Users</td>
+	<td class="enabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>View Cohorts</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="enabled">[3]</td>
+	<td class="disabled">[4]</td>
+</tr>
+<tr>
+	<td>Add New Cohort</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>Edit Existing Cohort</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>View course list</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="enabled">[5]</td>
+	<td class="enabled">[5]</td>
+</tr>
+<tr>
+	<td>View draft courses</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled">[8]</td>
+	<td class="disabled">[8]</td>
+</tr>
+<tr>
+	<td>View course recent activity</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="enabled">[6]</td>
+	<td class="disabled">[7]</td>
+</tr>
+<tr>
+	<td>View course activity detail</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="enabled">[6]</td>
+	<td class="disabled">[7]</td>
+</tr>
+<tr>
+	<td>Download course activity detail</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>Download quiz responses detail</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>Download feedback responses detail</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>View course quizzes</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="enabled">[6]</td>
+	<td class="disabled">[7]</td>
+</tr>
+<tr>
+	<td>View student activity (all activity)</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="enabled">[6]</td>
+	<td class="disabled">[7]</td>
+</tr>
+<tr>
+	<td>View student activity (for specific course)</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="enabled">[6]</td>
+	<td class="disabled">[7]</td>
+</tr>
+<tr>
+	<td>View student activity (for specific cohort)</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="enabled">[6]</td>
+	<td class="disabled">[7]</td>
+</tr>
+<tr>
+	<td>View server level analytics</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>Upload media files</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>Upload activity logs</td>
+	<td class="enabled"></td>
+	<td class="enabled"></td>
+	<td class="disabled"></td>
+	<td class="disabled"></td>
+</tr>
+<tr>
+	<td>Change password and update user info</td>
+	<td class="enabled">Any user</td>
+	<td class="enabled">Any user</td>
+	<td class="enabled">Own only</td>
+	<td class="enabled">Own only</td>
+</tr>
+<tr>
+	<td>Delete user account</td>
+	<td class="enabled">From Django admin</td>
+	<td class="disabled"></td>
+	<td class="enabled">Own only</td>
+	<td class="enabled">Own only</td>
+</tr>
+<tr>
+	<td>Export user data</td>
+	<td class="enabled">Own only</td>
+	<td class="enabled">Own only</td>
+	<td class="enabled">Own only</td>
+	<td class="enabled">Own only</td>
+</tr>
+
+</tbody>
+</table>

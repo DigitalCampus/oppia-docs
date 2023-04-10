@@ -5,18 +5,18 @@ There are various permissions associated with users in OppiaMobile, some based
 on the default Django users system and others based on extra permissions the user
 has been specifically given.
 
-* Admin User - this is the standard Django superuser 
+* **Admin User** - this is the standard Django superuser 
   (https://docs.djangoproject.com/en/2.2/topics/auth/default/) - a typical user 
   with this role would be a system/server administrator. Admin users are able to
   add/edit/delete any data directly from the Oppia Django Admin pages.
-* Staff - this is the standard Django staff user 
+* **Staff** - this is the standard Django staff user 
   (https://docs.djangoproject.com/en/2.2/topics/auth/default/) - a typical user 
   would be a project manager/officer, college or ministry staff, essentially 
   users who need to access all the data/reports within the server, but not 
   necessarily responsible for the technical maintenance or server level admin.
   Staff users do not have any permissions to add/edit/delete data in the Oppia
   Django Admin pages.
-* Teachers/Students - in Django permissions terms, both teachers and students 
+* **Teachers/Students** - in Django permissions terms, both teachers and students 
   are standard users. The only difference between them is that a teacher has 
   been assigned the teacher status to a particular cohort of students. A cohort 
   is just a group of teachers and students assigned to a particular set of 
@@ -28,79 +28,8 @@ has been specifically given.
 Permissions on the OppiaMobile Server dashboard:
 ------------------------------------------------
 
-+------------------------+---------------+---------------+---------------+---------------+
-| Activity/Action        | Admin User    | Staff         | Teacher       | Student       |
-+========================+===============+===============+===============+===============+
-| Login                  | Yes           | Yes           | Yes           | Yes           |
-+------------------------+---------------+---------------+---------------+---------------+
-| Access Django Admin    | Yes           | No (1)        | No            | No            |
-+------------------------+---------------+---------------+---------------+---------------+
-| Upload Course          | Yes           | Yes           | No (2)        | No (2)        |
-+------------------------+---------------+---------------+---------------+---------------+
-| Update course          | Yes           | Yes           | No (9)        | No (9)        |
-| categories        	 |               |               |               |               |
-+------------------------+---------------+---------------+---------------+---------------+
-| Update course          | Yes           | Yes           | No (9)        | No (9)        |
-| status (draft/live) 	 |               |               |               |               |
-+------------------------+---------------+---------------+---------------+---------------+
-| Archive course         | Yes           | No            | No            | No            |
-+------------------------+---------------+---------------+---------------+---------------+
-| Delete  course         | Yes           | No            | No            | No            |
-+------------------------+---------------+---------------+---------------+---------------+
-| Bulk Upload Users      | Yes           | No            | No            | No            |
-+------------------------+---------------+---------------+---------------+---------------+
-| View Cohorts           | Yes           | Yes           | Yes (3)       | No (4)        |
-+------------------------+---------------+---------------+---------------+---------------+
-| Add New Cohort         | Yes           | Yes           | No            | No            |
-+------------------------+---------------+---------------+---------------+---------------+
-| Edit Existing Cohort   | Yes           | Yes           | No            | No            |
-+------------------------+---------------+---------------+---------------+---------------+
-| View course list       | Yes           | Yes           | Yes (5)       | Yes (5)       |
-+------------------------+---------------+---------------+---------------+---------------+
-| View draft courses     | Yes           | Yes           | No (8)        | No (8)        |
-+------------------------+---------------+---------------+---------------+---------------+
-| View course recent     | Yes           | Yes           | Yes (6)       | No (7)        |
-| activity               |               |               |               |               |
-+------------------------+---------------+---------------+---------------+---------------+
-| View course activity   | Yes           | Yes           | Yes (6)       | No (7)        |
-| detail                 |               |               |               |               |
-+------------------------+---------------+---------------+---------------+---------------+
-| Download course        | Yes           | Yes           | No            | No            |
-| activity detail        |               |               |               |               |
-+------------------------+---------------+---------------+---------------+---------------+
-| Download quiz          | Yes           | Yes           | No            | No            |
-| responses detail       |               |               |               |               |
-+------------------------+---------------+---------------+---------------+---------------+
-| Download feedback      | Yes           | Yes           | No            | No            |
-| responses detail       |               |               |               |               |
-+------------------------+---------------+---------------+---------------+---------------+
-| View course quizzes    | Yes           | Yes           | Yes (6)       | No (7)        |
-+------------------------+---------------+---------------+---------------+---------------+
-| View student activity  | Yes           | Yes           | No (6)        | No (7)        |
-| (all activity)         |               |               |               |               |
-+------------------------+---------------+---------------+---------------+---------------+
-| View student activity  | Yes           | Yes           | Yes (6)       | No (7)        |
-| (for specific course)  |               |               |               |               |
-+------------------------+---------------+---------------+---------------+---------------+
-| View student activity  | Yes           | Yes           | Yes (6)       | No (7)        |
-| (for specific cohort)  |               |               |               |               |
-+------------------------+---------------+---------------+---------------+---------------+
-| View server level      | Yes           | Yes           | No            | No            |
-| analytics              |               |               |               |               |
-+------------------------+---------------+---------------+---------------+---------------+
-| Upload media files     | Yes           | Yes           | No            | No            |
-+------------------------+---------------+---------------+---------------+---------------+
-| Upload activity logs   | Yes           | Yes           | No            | No            |
-+------------------------+---------------+---------------+---------------+---------------+
-| Change password and    | Yes           | Yes           | Yes (own      | Yes (own      |
-| update user info       | (any user)    | (any user)    | only)         | only)         |
-+------------------------+---------------+---------------+---------------+---------------+
-| Delete user account    | Yes (from     | No            | Yes (own      | Yes (own      |
-|                        | admin pages)  |               | only)         | only)         |
-+------------------------+---------------+---------------+---------------+---------------+
-| Export user data       | Yes           | Yes           | Yes (own      | Yes (own      |
-|                        | (own only)    | (own only)    | only)         | only)         |
-+------------------------+---------------+---------------+---------------+---------------+
+.. raw:: html
+   :file: permissions-server-table.html
 
 
 Notes:
