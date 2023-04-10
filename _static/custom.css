@@ -143,6 +143,11 @@ table.statuskey td.notapplicable,
 table.status-publish td.notapplicable {
     background-color: #bbb;
 }
+table.status td.own-only,
+table.statuskey td.own-only,
+table.status-publish td.own-only  {
+    background-color: #78cad2;
+}
 
 table.status td.pending-decision,
 table.statuskey td.pending-decision,

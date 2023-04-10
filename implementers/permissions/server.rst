@@ -51,5 +51,4 @@ Notes:
    course that is currently draft
 9. Any user may be given Course manager permissions to be able to update
    (republish) a course
-
-
+10. There is a settings option to disable profile editing
