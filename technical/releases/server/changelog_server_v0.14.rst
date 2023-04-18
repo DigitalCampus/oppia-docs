@@ -13,6 +13,8 @@ v0.14.10 - not yet released
 
 Issue list:
 
+* OPPIA-1493 Python library updates
+
 
 .. _serverv0.14.9:
 
