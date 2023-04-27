@@ -3,7 +3,7 @@ OppiaMobile Server Change Log for v0.14.x
 
 .. _serverv0.14.10:
 
-v0.14.10 - not yet released
+v0.14.10 - released 27 Apr 2023
 ------------------------------------------------------
 
 .. toctree::
@@ -16,8 +16,9 @@ Issue list:
 * OPPIA-1493 Python library updates
 * OPPIA-4 Consistency of: PermissionDenied, Unauthorised and redirect to login
 * OPPIA-1368 Update user views permissions check using a mixin
-* OPPIA-969/OPPIA-970 Check all fields returned by server login API task, user profile and customfields
+* OPPIA-969/OPPIA-970 Added custom fields in login response and new API endpoint to fetch user data
 * OPPIA-1465 Additional API v2 tests to ensure they check all the returned object properties
+* Flake8 code formatting updates
 
 
 .. _serverv0.14.9:
