@@ -24,15 +24,15 @@ Then copy the generated ``django-oppia/coverage.xml`` file into the
 Then we run the sonar-scanner using::
 
     /sonar-scanner \
-      -Dsonar.projectKey=django_oppia \
-      -Dsonar.organization=alexlittle-github \
+      -Dsonar.projectKey=XXXXXXX \
+      -Dsonar.organization=XXXXXXX \
       -Dsonar.sources=. \
       -Dsonar.host.url=https://sonarcloud.io \
-      -Dsonar.login=<login id> \
+      -Dsonar.login=XXXXXXX \
       -Dsonar.exclusions=docs/_build/**/*,tests/**/*,oppiamobile/settings_secret.py \
       -Dsonar.python.coverage.reportPath=./tests/coverage.xml
 
-If you are running with your own SonarCloud account, you'll need to use a different projectKey and organisation.
+If you are running with your own SonarCloud account, you'll need to use your projectKey, organisation and login.
       
 OppiaMobile Android App
 ------------------------
