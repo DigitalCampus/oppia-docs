@@ -1,14 +1,31 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
-.. _appv109:
+.. _appv110:
 
-v109 (7.4.4) - not yet released
+v110 (7.4.5) - not yet released
 -------------------------------------------------------
 
 Issue list:
 
 * OPPIA-1542 Fix extract_langs function call in tests
+
+
+.. _appv109:
+
+v109 (7.4.4) - released 27 Apr 2023
+-------------------------------------------------------
+
+Issue list:
+
+* OPPIA-1482: Checking media file data exists.
+* OPPIA-1427: Send analysis to sonarcloud
+* OPPIA-969: Update user profile in app when it has been changed on the server
+* OPPIA-1053, OPPIA-1484: Add tests for AsyncTasks
+* OPPIA-1053, OPPIA-1485: Add tests for Activities
+* OPPIA-1053, OPPIA-1486: Added tests to fragments and util classes
+* OPPIA-395: More tests quiz activity
+
 
 .. _appv108:
 

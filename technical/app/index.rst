@@ -5,4 +5,5 @@ OppiaMobile App
    :maxdepth: 1
 
    background-tasks
+   code-coverage
 	 
