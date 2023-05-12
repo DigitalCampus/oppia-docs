@@ -19,5 +19,5 @@ Reference Info
      
    github
    pep8
-   sonarqube
+   sonarcloud
   

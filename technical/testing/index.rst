@@ -8,8 +8,8 @@ For the core components of OppiaMobile, we use the SonarCloud code analysis tool
 to help us measure and improve the maintainability of the code and the automated
 test coverage. The current Sonarcloud analysis reports can be found at:
 
-* Oppia Server: https://sonarcloud.io/dashboard?id=django_oppia
-* Oppia App: https://sonarcloud.io/dashboard?id=org.digitalcampus.mobile.learning
+* Oppia Server: https://sonarcloud.io/project/overview?id=DigitalCampus_django-oppia
+* Oppia App: https://sonarcloud.io/project/overview?id=DigitalCampus_oppia-mobile-android
 * Moodle to Oppia Export Block: https://sonarcloud.io/dashboard?id=DigitalCampus_moodle-block_oppia_mobile_export
 
 The processes for running the existing tests, and also how to add new tests, is 

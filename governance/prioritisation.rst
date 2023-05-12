@@ -16,7 +16,7 @@ For a given sprint the open issues will be prioritised on the following basis
 
 #. High priority bugs
 #. Outstanding automated tests that need to be added for recent code updates
-#. Code updates to ensure the code base passes the SonarQube analysis
+#. Code updates to ensure the code base passes the SonarCloud analysis
 #. Outstanding documentation for any recent code updates
 #. Other open issues
 

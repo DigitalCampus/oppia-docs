@@ -8,6 +8,7 @@ v109 (7.4.4) - not yet released
 
 Issue list:
 
+* OPPIA-1542 Fix extract_langs function call in tests
 
 .. _appv108:
 

@@ -50,7 +50,7 @@ Before making pull request from issue branch to release branch
    can be dealt with in the issue branch
 #. Run Django tests framework and confirm all tests are passing 
    [:doc:`../testing/index`]
-#. Run Sonar test framework [:doc:`./sonarqube`]
+#. Run Sonar test framework [:doc:`./sonarcloud`]
 #. Check code for PEP8 compliance [:doc:`./pep8`]
 #. Add/Update documentation for any new or changed functionality/processes/
    settings

@@ -1,9 +1,8 @@
-SonarQube Set Up
+SonarCloud Set Up
 ==================
 
-There are different ways to set up and use `SonarQube <https://www.sonarqube.org/>`_, 
-it's an enterprise level product for analysing source code to maintain code 
-quality.
+There are different ways to set up and use `SonarCloud <https://www.sonarcloud.io/>`_, it's an enterprise level product
+for analysing source code to maintain code quality.
 
 OppiaMobile Server
 ------------------------
@@ -19,8 +18,7 @@ tool, using::
 	$ coverage run --branch --source=activitylog,api,av,content,gamification,integration,oppia,profile,quiz,reports,summary,viz manage.py test
 	$ coverage xml -i
 	
-Then copy the generated ``django-oppia/coverage.xml`` file into the 
-``django-oppia/tests/`` directory.
+Then copy the generated ``django-oppia/coverage.xml`` file into the ``django-oppia/tests/`` directory.
 
 Then we run the sonar-scanner using::
 
