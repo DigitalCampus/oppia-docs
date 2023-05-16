@@ -26,6 +26,7 @@ For information about specific aspects of course creation for OppiaMobile, see:
    images
    quizzes
    video_embed
+   file-page-embed
    topic_locking
    custom_styles
    feedback
