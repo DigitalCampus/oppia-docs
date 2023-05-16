@@ -14,6 +14,7 @@ v0.14.11 - not yet released
 
 Issue list:
 
+* OPPIA-1543 Add username to quiz & feedback response download file
 
 .. _serverv0.14.10:
 
