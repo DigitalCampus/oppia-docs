@@ -10,6 +10,10 @@ Issue list:
 
 * OPPIA-1430 Fix unused variable issues raised in PHP Mess Detector report
 * OPPIA-1429 Fix Moodle Code Checker errors and warnings
+* OPPIA-1500 Export embedded PDFs in page activities as course resources
+* OPPIA-1517 Check in export process if activity is of unsupported type
+* OPPIA-1534 Error Publishing Course - xml validation failing
+* OPPIA-1542 Fix extract_langs function call in tests
 
 
 .. _blockv1.4.3:
