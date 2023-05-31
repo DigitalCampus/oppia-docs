@@ -3,7 +3,7 @@ OppiaMobile Moodle Block Change Log
 
 .. _blockv1.4.4:
 
-v1.4.4 - not yet released
+v1.4.4 - released 31 May 2023
 ------------------------------------------------
 
 Issue list:

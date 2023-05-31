@@ -3,13 +3,17 @@ OppiaMobile Android App Change Log v7.x
 
 .. _appv110:
 
-v110 (7.4.5) - not yet released
+v110 (7.4.5) - released 31 May 2023
 -------------------------------------------------------
 
 Issue list:
 
+* OPPIA-961 App crashes if SD card is removed
+* OPPIA-1483 Automated course and multimedia side-loading
+* OPPIA-1494 'Retake the Quiz' button should be visible at the end of every Quiz with Unlimited attempts
 * OPPIA-1542 Fix extract_langs function call in tests
-
+* OPPIA-684/OPPIA-1503 Open and display the pdf contents when clicked.
+* OPPIA-1536 Unable to open PDF File in Oppia in newer versions of Android
 
 .. _appv109:
 
