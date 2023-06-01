@@ -2,15 +2,20 @@ Embedding Files in Page Activities
 ========================================
 
 .. note::
-    Embedding files in page activities is only supported for users with :ref:`app version 7.4.5<appv110>` or above. See
-    additional info below for previous app versions.
+    Embedding files in page activities is only supported from :ref:`oppia-export-block verion 1.4.4<blockv1.4.4>` and 
+    for users with :ref:`app version 7.4.5<appv110>` or above. See additional info below for previous app versions.
     
 In addition to adding file activities, you can also embed files (e.g. pdfs) directly in page activities.
 
 How to embed a file
 ----------------------
 
-XXXXXX (TO BE COMPLETED)
+THIS SECTION NEEDS CHECKING
+
+When you are editting a page in Moodle you can use the "manage files" icon on the page content field menu bar to upload
+a file to embed in the page.
+You can then insert the file into the relevant point in the page text you can .... 
+To insert an image to press on to open the file ....
 
 Recommendations
 ------------------
