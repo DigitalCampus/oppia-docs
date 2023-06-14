@@ -7,6 +7,7 @@ OppiaMobile Technical Documentation
    
    dev/index
    install/index
+   manage/supported-platforms
    manage/index
    customise/server/index
    customise/app/index

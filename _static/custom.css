@@ -62,14 +62,16 @@ a.icon-home{
  for status functionality table
 */
 table.status,
-table.status-publish {
+table.status-publish,
+table.version {
 	table-layout: fixed;
 	width: 100%;
 	margin-bottom: 20px;
 }
 
 table.statuskey,
-table.status-publish  {
+table.status-publish,
+table.version   {
 	table-layout: auto;
 	margin-bottom: 20px;
 }
@@ -93,7 +95,8 @@ table.status tr td:first-child::before
 
 table.status td,
 table.statuskey td,
-table.status-publish td {
+table.status-publish td,
+table.version td {
     border-style: solid;
     border-width: 1px;
     border-color: #AAAAAA;
@@ -102,7 +105,8 @@ table.status-publish td {
 
 
 table.status th,
-table.status-publish th {
+table.status-publish th,
+table.version th {
 	background-color: #ddd;
     text-align: center;
     border-style: solid;
@@ -128,19 +132,22 @@ table.status .itemnumber {
 
 table.status td.enabled,
 table.statuskey td.enabled,
-table.status-publish td.enabled {
+table.status-publish td.enabled,
+table.version td.enabled {
     background-color: #90ee90;
 }
 
 table.status td.disabled,
 table.statuskey td.disabled,
-table.status-publish td.disabled{
+table.status-publish td.disabled,
+table.version td.disabled {
     background-color: #ff6666;
 }
 
 table.status td.notapplicable,
 table.statuskey td.notapplicable,
-table.status-publish td.notapplicable {
+table.status-publish td.notapplicable,
+table.version td.notapplicable {
     background-color: #bbb;
 }
 table.status td.own-only,
