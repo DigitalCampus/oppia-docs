@@ -23,12 +23,21 @@ Oppia Server
 .. raw:: html
    :file: python-versions.html
    
-Note that we run Oppia on Ubuntu LTS releases (currently 20.04 and 22.04) with MySQL 8.x, other database systems and
-operating systems that are supported by Django should also function correctly (assuming a supported Python version is
-being used), however you should check yourself.
+Notes:
+
+* We run Oppia on Ubuntu LTS releases (currently 20.04 and 22.04) with MySQL 8.x, other database systems and
+  operating systems that are supported by Django should also function correctly (assuming a supported Python version is
+  being used), however you should check yourself.
+* Upgrading Ubuntu to another version (eg 23.04) might automatically change the default Python version used, so take
+  care before doing significant OS updates.
 
 Moodle - Oppia Export Block
 ----------------------------
 
 .. raw:: html
    :file: moodle-versions.html
+   
+Notes:
+
+* As with the Oppia server, we run Moodle on Ubuntu LTS releases. Updating to another version of Ubuntu may cause the
+  default PHP version to also be updated, so again, take care when doing significant OS updates
