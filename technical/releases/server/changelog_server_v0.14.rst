@@ -4,7 +4,7 @@ OppiaMobile Server Change Log for v0.14.x
 
 .. _serverv0.14.11:
 
-v0.14.11 - not yet released
+v0.14.11 - released 30 Jun 2023
 ------------------------------------------------------
 
 .. toctree::
@@ -17,7 +17,7 @@ Issue list:
 * OPPIA-1543 Add username to quiz & feedback response download file
 * OPPIA-1362 Upgrade to Django 4.2, and updates to other libraries
 * OPPIA-1423 Update to TastyPie 0.14.5
-
+* OPPIA-1575 Add django command for finding the associated course and acitvity for a specific `quiz_id`
 
 .. _serverv0.14.10:
 
