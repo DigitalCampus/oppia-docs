@@ -4,7 +4,7 @@ OppiaMobile Server Change Log for v0.14.x
 
 .. _serverv0.14.11:
 
-v0.14.11 - not yet released
+v0.14.11 - released 30 Jun 2023
 ------------------------------------------------------
 
 .. toctree::
@@ -224,7 +224,7 @@ v0.14.0 - released 30 May 2022
 
 .. note::
    This release moves to using Django 3.2
-	
+    
 .. toctree::
    :maxdepth: 2
 
@@ -273,4 +273,7 @@ Previous Versions
    changelog_server_v0.3
    changelog_server_v0.2
    changelog_server_v0.1
+ 
+
+
  

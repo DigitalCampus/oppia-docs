@@ -12,7 +12,7 @@ OppiaMobile Server (Django)
 .. toctree::
    :maxdepth: 2
    
-   server/changelog_server_v0.14
+   server/changelog_server_v0.15
 
 
 OppiaMobile Client App (Android)
