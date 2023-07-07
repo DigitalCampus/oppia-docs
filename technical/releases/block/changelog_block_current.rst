@@ -1,6 +1,24 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv1.4.5:
+
+v1.4.5 - released 29 Jun 2023
+------------------------------------------------
+
+.. note::
+    When the Moodle upgrade completes, run the following command:
+
+    *php migrations/v1.4.5_migrations.php*
+
+    This will remove duplicate server URLs. Verify that there are no
+    duplicate URLs in the Oppia Export Block server's dropdown.
+
+Issue list:
+
+* OPPIA-1556 Remove and prevent duplicated server urls
+
+
 .. _blockv1.4.4:
 
 v1.4.4 - released 31 May 2023

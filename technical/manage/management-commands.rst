@@ -123,6 +123,13 @@ given quiz
 
 **Removes any duplicate quiz attempts based on instance_id**
 
+[quiz] ``find_course_from_quiz`` (manual)
+------------------------------------------
+
+**Finds the related course a quiz belongs to**.
+This command requires an extra argument specifying the quiz_id. The command then
+will search for the course it belongs to and return the course_id and activity_id
+if found.
 
 [serverregistration] ``update_server_registration`` (auto)
 -----------------------------------------------------------

@@ -157,6 +157,8 @@ Gamification / Activity completion
 
 * ``PAGE_COMPLETED_WPM`` (int): WPM (words per minute) reading speed to calculate the time the user should spend in each activity for the WPM completion method. 
 
+* ``PAGE_COMPLETION_VIEW_FILE`` (boolean): On page activities with embedded files, determine if it is needed that the user opens the file to mark the activity as completed.
+
 * ``GAMIFICATION_POINTS_ANIMATION`` (int): Defines the animation type if the previous setting ``Show gamification events`` is enabled. These are the different types of animation (default is number 3):
 	1. Simple animation (circle rotation)
 	2. Full animation (circle rotation and vertical translation)

@@ -1,6 +1,23 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+
+.. _appv111:
+
+v111 (7.4.6) - released 30 Jun 2023
+------------------------------------------------------
+
+Issue list:
+
+* OPPIA-1463 Update target Android API level to 33
+* OPPIA-1509 Add external resource opening as completion criteria for page activities
+* OPPIA-1561 Allow Unauthenticated Usage of "Offline Import Courses" Feature
+* OPPIA-1565 SD card Error - Oppia Mobile Appication failing to open after instalation
+* OPPIA-1566 Finish all the activitites in the backstack and display the login screen on back button pressed
+* OPPIA-1568 Modified update activity task. now it is launched on each online login
+* OPPIA-1569 "Offline course install" feature: Update unzip logic and update permission handling
+
+
 .. _appv110:
 
 v110 (7.4.5) - released 31 May 2023
@@ -22,13 +39,13 @@ v109 (7.4.4) - released 27 Apr 2023
 
 Issue list:
 
-* OPPIA-1482: Checking media file data exists.
-* OPPIA-1427: Send analysis to sonarcloud
+* OPPIA-1482 Checking media file data exists.
+* OPPIA-1427 Send analysis to sonarcloud
 * OPPIA-969: Update user profile in app when it has been changed on the server
-* OPPIA-1053, OPPIA-1484: Add tests for AsyncTasks
-* OPPIA-1053, OPPIA-1485: Add tests for Activities
-* OPPIA-1053, OPPIA-1486: Added tests to fragments and util classes
-* OPPIA-395: More tests quiz activity
+* OPPIA-1053, OPPIA-1484 Add tests for AsyncTasks
+* OPPIA-1053, OPPIA-1485 Add tests for Activities
+* OPPIA-1053, OPPIA-1486 Added tests to fragments and util classes
+* OPPIA-395 More tests quiz activity
 
 
 .. _appv108:
@@ -39,7 +56,7 @@ v108 (7.4.3) - released 31 Mar 2023
 Issue list:
 
 * OPPIA-1439 Take course into account when fetching quiz and feedback attempts
-* OPPIA-1311 - moved quiz model tests to unit tests
+* OPPIA-1311 Moved quiz model tests to unit tests
 
 .. _appv107:
 
@@ -48,11 +65,11 @@ v107 (7.4.2) - released 28 Feb 2023
 
 Issue list:
 
-* OPPIA-1410: Round off performance score values and add tests
-* oppia-1364 - Added notification permission
+* OPPIA-1410 Round off performance score values and add tests
+* oppia-1364 Added notification permission
 * Oppia 1324 apikey invalidate
-* oppia-1310 - BuildConfig settings in App class removed
-* OPPIA-1346: Add multi-lingual support for grade boundaries
+* oppia-1310 BuildConfig settings in App class removed
+* OPPIA-1346 Add multi-lingual support for grade boundaries
 
 
 .. _appv106:
@@ -97,7 +114,7 @@ Issue list:
 * OPPIA-1281 Lock feedback activity with password
 * OPPIA-1127 Reorganise test file structure
 * OPPIA-1104 Option to auto-download user course activity on login, when connection is available
-* OPPIA-1225  Fix unsafe zipping pattern
+* OPPIA-1225 Fix unsafe zipping pattern
 
 
 .. _appv103:
