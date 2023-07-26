@@ -1,6 +1,16 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+
+.. _blockv1.4.6:
+
+v1.4.6 - not yet released
+------------------------------------------------
+
+Issue list:
+
+# OPPIA-1578 Conflict with function name: resize_image
+
 .. _blockv1.4.5:
 
 v1.4.5 - released 29 Jun 2023
