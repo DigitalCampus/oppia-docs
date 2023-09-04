@@ -16,6 +16,7 @@ v0.15.0 - not yet released
 Issue list:
 
 * OPPIA-1576 Update Django to 4.2.3 and other libraries
+* OPPIA-1580 Update reportlab library to 3.6.13
 
 
 
