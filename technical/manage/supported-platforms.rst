@@ -25,7 +25,7 @@ Oppia Server
    
 Notes:
 
-* We run Oppia on Ubuntu LTS releases (currently 20.04 and 22.04) with MySQL 8.x, other database systems and
+* We run Oppia on Ubuntu LTS releases (currently 22.04) with MySQL 8.x, other database systems and
   operating systems that are supported by Django should also function correctly (assuming a supported Python version is
   being used), however you should check yourself.
 * Upgrading Ubuntu to another version (eg 23.04) might automatically change the default Python version used, so take

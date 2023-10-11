@@ -1,10 +1,20 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+.. _blockv1.4.7:
+
+v1.4.7 - not yet released
+------------------------------------------------
+
+Requires Moodle 4.1 LTS and PHP v8
+
+Issue list:
+
+
 
 .. _blockv1.4.6:
 
-v1.4.6 - not yet released
+v1.4.6 - released 5 Oct 2023
 ------------------------------------------------
 
 Issue list:

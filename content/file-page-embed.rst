@@ -53,7 +53,7 @@ Activity completion
 
 By default, embedding a file in a page activity will then require the user to at least have opened the file for the page
 activity to be considered as having been completed. You can change this default behaviour at app build level, by modifying the property
-`PAGE_COMPLETION_VIEW_FILE` (see :doc:`../technical/customize/app/settings` )
+`PAGE_COMPLETION_VIEW_FILE` (see :doc:`../technical/customise/app/settings` )
 
 On unsupported app versions
 -----------------------------

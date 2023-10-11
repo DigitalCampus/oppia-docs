@@ -22,8 +22,8 @@ re-installing it and the required packages:
 * ``$ sudo rm -r env``
 * ``$ virtualenv env``
 * ``$ source env/bin/activate``
-* ``(env)$ pip install -r ../django-oppia/requirements.py``
+* ``(env)$ pip install -r django-oppia/requirements.py``
 
 You will also need to update the Apache site config for any updated Python version that is used, updating the paths for
-``WSGIDaemonProcess `` and ``LoadModule wsgi_module `` (run ``(env)$ mod_wsgi-express module-config`` to get the
+``WSGIDaemonProcess`` and ``LoadModule wsgi_module`` (run ``mod_wsgi-express module-config`` to get the
 updated wsgi_module path)

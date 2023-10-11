@@ -23,6 +23,9 @@ Issue list:
 v0.15.0 - released 5 Oct 2023
 ------------------------------------------------------
 
+.. note::
+   In this release the recommended operating system and Python versions are now Ubuntu 22.04 LTS and Python 3.10.
+   
 .. toctree::
    :maxdepth: 2
 
