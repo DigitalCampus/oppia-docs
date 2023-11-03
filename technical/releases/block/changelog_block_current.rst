@@ -10,7 +10,7 @@ Requires Moodle 4.1 LTS and PHP v8
 
 Issue list:
 
-
+* OPPIA-1404 Update for Moodle 4.1 LTS
 
 .. _blockv1.4.6:
 

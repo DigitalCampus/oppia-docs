@@ -9,6 +9,10 @@ OppiaMobile Server Change Log for v0.15.x
 v0.15.1 - not yet released
 ------------------------------------------------------
 
+.. note::
+   In this release the API v1 has been removed, API v2 was released in July 2020 (v7.1.1 of the app). Users with an app
+   version below v7.1.1 will need to update to a more recent version.
+   
 .. toctree::
    :maxdepth: 2
 
@@ -16,7 +20,9 @@ v0.15.1 - not yet released
 
 Issue list:
 
-
+* Update Django to 4.2.7 and other libraries
+* OPPIA-1393 Removed API v1
+* OPPIA-1520 Update server github action to use Python 3.10
 
 .. _serverv0.15.0:
 
