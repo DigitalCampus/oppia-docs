@@ -1,9 +1,19 @@
 OppiaMobile Moodle Block Change Log
 =====================================
 
+
+.. _blockv1.4.8:
+
+v1.4.8 - not yet released
+------------------------------------------------
+
+
+Issue list:
+
+
 .. _blockv1.4.7:
 
-v1.4.7 - not yet released
+v1.4.7 - released 13 Dec 2023
 ------------------------------------------------
 
 Requires Moodle 4.1 LTS and PHP v8
@@ -11,6 +21,7 @@ Requires Moodle 4.1 LTS and PHP v8
 Issue list:
 
 * OPPIA-1404 Update for Moodle 4.1 LTS
+* OPPIA-1608 Fix quiz question image exporting
 
 .. _blockv1.4.6:
 
