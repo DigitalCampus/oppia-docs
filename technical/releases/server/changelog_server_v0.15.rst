@@ -2,11 +2,22 @@
 OppiaMobile Server Change Log for v0.15.x
 =============================================
 
+. _serverv0.15.2:
+
+v0.15.2 - not yet released 
+------------------------------------------------------
+   
+.. toctree::
+   :maxdepth: 2
+
+   upgrading/to_0_15_2
+
+Issue list:
 
 
 .. _serverv0.15.1:
 
-v0.15.1 - not yet released
+v0.15.1 - released 14 Dec 2023
 ------------------------------------------------------
 
 .. note::
@@ -23,6 +34,8 @@ Issue list:
 * Update Django to 4.2.7 and other libraries
 * OPPIA-1393 Removed API v1
 * OPPIA-1520 Update server github action to use Python 3.10
+* OPPIA-1585 Fix deprecations for Django 5
+* OPPIA-1609 Fix visibility of app download on homepage
 
 .. _serverv0.15.0:
 
