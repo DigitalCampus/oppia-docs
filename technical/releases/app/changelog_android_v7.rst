@@ -8,6 +8,8 @@ v112 (7.4.7) - not yet released
 
 Issue list:
 
+* OPPIA-1611 Fix lint warnings on drawer_header
+* OPPIA-1612 Update current funder information
 
 .. _appv111:
 
