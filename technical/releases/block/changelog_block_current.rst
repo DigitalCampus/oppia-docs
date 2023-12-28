@@ -10,6 +10,8 @@ v1.4.8 - not yet released
 
 Issue list:
 
+* OPPIA-1552 Record server version when publishing
+
 
 .. _blockv1.4.7:
 
