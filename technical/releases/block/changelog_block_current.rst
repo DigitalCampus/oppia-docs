@@ -11,6 +11,7 @@ v1.4.8 - not yet released
 Issue list:
 
 * OPPIA-1552 Record server version when publishing
+* OPPIA-1613 Fix issue with saving pre-test configurations
 
 
 .. _blockv1.4.7:
