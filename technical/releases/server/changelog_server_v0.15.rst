@@ -15,6 +15,7 @@ v0.15.2 - not yet released
 Issue list:
 
 * OPPIA-1612 Update current funder information
+* Update Pillow library - https://github.com/DigitalCampus/django-oppia/pull/858
 
 .. _serverv0.15.1:
 
