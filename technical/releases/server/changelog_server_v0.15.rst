@@ -18,6 +18,7 @@ Issue list:
 * OPPIA-1612 Update current funder information
 * Update Pillow library - https://github.com/DigitalCampus/django-oppia/pull/858
 * OPPIA-1614 Course flagged for deletion when user is a manager
+* OPPIA-1619 Course publisher unable to download draft courses
 
 .. _serverv0.15.1:
 
