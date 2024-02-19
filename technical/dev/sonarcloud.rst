@@ -1,7 +1,7 @@
 SonarCloud Set Up
 ==================
 
-There are different ways to set up and use `SonarCloud <https://www.sonarcloud.io/>`_, it's an enterprise level product
+There are different ways to set up and use https://www.sonarcloud.io/, it's an enterprise level product
 for analysing source code to maintain code quality.
 
 OppiaMobile Server

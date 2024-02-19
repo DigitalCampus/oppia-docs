@@ -28,7 +28,7 @@ For information about specific aspects of course creation for OppiaMobile, see:
    video_embed
    file-page-embed
    topic_locking
-   custom_styles
+   styles/index
    feedback
    translations
    about

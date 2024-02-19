@@ -1,17 +1,6 @@
-Course Design and Custom Styles
+Default Style
 =================================
 
-You can apply custom design/styles to you course content by creating a specific
-stylesheet for your course (:ref:`styles`).
-
-The styles can either override a default display style (e.g. for H1, H2 etc). 
-Or you can add custom styles, in which case you will need to edit the HTML in 
-the Moodle activity.
-
-.. _styles-default: 
-
-Default Styles provided by ``default.css``
-------------------------------------------
 
 Definition
 ~~~~~~~~~~~

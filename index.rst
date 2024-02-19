@@ -51,8 +51,8 @@ Content Creation Guide
 .. toctree::
    :maxdepth: 1
 
-   content/author
-   content/style/index
+   content/index
+   content/styles/index
    content/adapt/index
    content/updating
    /support/userguide/export_block/preserve_activity_identifiers

@@ -33,5 +33,5 @@ Activities
 Follow up and preparation for next session
 -------------------------------------------------------
 
-* Review full documentation for course development (see: :doc:`../../../content/author`).
+* Review full documentation for course development (see: :doc:`../../../content/index`).
 * Add some more pages to their course and review how it appears in the OppiaMobile app.

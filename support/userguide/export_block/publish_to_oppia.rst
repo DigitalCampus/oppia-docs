@@ -1,8 +1,8 @@
 Publishing your Moodle Course to Oppia
 ========================================
 
-When you have completed :doc:`/content/author`, or at least, are ready to test your course in the OppiaMobile app, then
-you will need to publish your course to the OppiaMobile server.
+When you are ready to test your course in the OppiaMobile app, then you will need to publish your course to the
+OppiaMobile server.
 
 From the OppiaMobile Export Block in your Moodle course:
 

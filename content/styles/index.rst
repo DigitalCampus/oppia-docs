@@ -12,8 +12,12 @@ The block uses SCSS to generate the CSS file, to allow modifications and provide
 a user friendly way to extend the base theme. This all gets compiled in runtime
 into a single CSS file that gets included in the course package. 
 
-You can see examples of the ``default`` stylesheet and javascript at 
-:ref:`styles-default`
+
+.. toctree::
+   :maxdepth: 1
+   
+   default/index
+   noorahealth/index
 
 Creating your own style
 ------------------------
