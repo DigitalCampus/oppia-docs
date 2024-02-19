@@ -8,6 +8,9 @@ v1.4.8 - not yet released
 ------------------------------------------------
 
 
+.. note::
+    Archived themes have been moved to the /styles/archive/ folder
+
 Issue list:
 
 * OPPIA-1552 Record server version when publishing
