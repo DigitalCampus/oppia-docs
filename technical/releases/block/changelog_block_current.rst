@@ -16,6 +16,7 @@ Issue list:
 * OPPIA-1552 Record server version when publishing
 * OPPIA-1613 Fix issue with saving pre-test configurations
 * OPPIA-1620 Archive themes no longer supported by Digital Campus
+* OPPIA-1559 Show standard instructions on multichoice and multiselect questions
 
 
 .. _blockv1.4.7:
