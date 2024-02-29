@@ -199,5 +199,5 @@ Example::
 
 Example output:
 
-.. image:: images/next-lesson-section-1.png
+.. image:: images/next-lesson-section.png
     :width: 200 px  
