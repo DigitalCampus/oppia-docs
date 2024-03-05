@@ -8,8 +8,17 @@ OppiaMobile Moodle Block Change Log
 v1.4.9 - not yet released
 ------------------------------------------------
 
+.. note::
+
+    **Backwards compatibility issue**: The functionality to be able to show
+    questions feedback only after the question is answered is not compatible
+    with Android app v7.4.6 and previous. In previous versions, if a quiz is
+    configured to only show feedback after each question is answered, it will
+    behave as if it was configured to never show feedback.
 
 Issue list:
+
+* OPPIA-1627 Add option to only to display feedback after each question
 
 
 .. _blockv1.4.8:
@@ -18,7 +27,9 @@ v1.4.8 - released 29 Feb 2024
 ------------------------------------------------
 
 
+
 .. note::
+
     Archived themes have been moved to the /styles/archive/ folder
 
 Issue list:
