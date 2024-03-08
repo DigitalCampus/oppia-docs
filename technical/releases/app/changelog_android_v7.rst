@@ -10,6 +10,8 @@ Issue list:
 
 * OPPIA-1611 Fix lint warnings on drawer_header
 * OPPIA-1612 Update current funder information
+* OPPIA-1621 Allow images and rich HTML in quiz question feedback
+* OPPIA-1559 Show standard instructions on multichoice and multiselect questions
 
 .. _appv111:
 
