@@ -1,11 +1,42 @@
 NooraHealth Style
 ====================
 
+
+Permissions
+------------
+
+For editing content in Moodle, you will need and account with teacher permissions - accounts and permissions for this
+need to be requested from Digital Campus.
+
+For publishing and updating courses to the Oppia server, you will need permissions for this (the Noora team have admin
+accounts to enable these permissions), see: :doc:`/implementers/dashboard/users`
+
+
+Terminology
+------------
+
+A 'module' for NooraHealth is equivalent to a 'course' in Moodle.
+A 'lesson' for NooraHealth is equivalent to a 'topic' in Moodle.
+
+Applying the styles
+-----------------------
+
 For this style, the page content in Moodle needs to be edited/updated when using the HTML code view, these styles can't
 be applied only using the WYSIWYG editor view.
 
+To access the HTML code view, first click on the editor icon in the top left:
+
+.. image:: images/moodle-html1.png
+    :width: 400 px
+
+Then click on the code view icon in the bottom right:
+
+.. image:: images/moodle-html2.png
+    :width: 400 px
+
+
 Intro Section
---------------
+~~~~~~~~~~~~~~
 
 Example:: 
 
@@ -28,7 +59,7 @@ Example output:
 
 
 Video Section
---------------
+~~~~~~~~~~~~~~
 
 Example::
 
@@ -45,7 +76,7 @@ Example output:
     
     
 Noor Section
---------------
+~~~~~~~~~~~~~~
 
 Example::
 
@@ -73,7 +104,7 @@ Example output:
     :width: 200 px 
     
 Content Section
-----------------
+~~~~~~~~~~~~~~~~
 
 Example::
 
@@ -117,7 +148,7 @@ Example output:
     :width: 200 px 
 
 Info Section
-----------------
+~~~~~~~~~~~~~~~~
 
 Example::
 
@@ -156,7 +187,7 @@ Example output:
     :width: 200 px 
 
 What we learned Section
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Example::
 
@@ -189,7 +220,7 @@ Example output:
     :width: 200 px 
 
 Next Lesson Section
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Example::
 
@@ -201,3 +232,48 @@ Example output:
 
 .. image:: images/next-lesson-section.png
     :width: 200 px  
+    
+    
+Quizzes and Feedback
+----------------------
+
+The overall style for quizzes is defined directly in the app, so can't be changed within Moodle.
+
+For the feedback responses, you can use the following styles:
+
+For correct response::
+
+    <feedback-result>
+        <feedback-card color="green">
+            <content>
+                <h1 color="green">Success!</h1>
+                <answer>“Giving medical information to patients and families”</answer>
+                <p>The purpose of a CCP session is to provide accurate medical information and skills to take care of the patient.</p>
+            </content>
+        </feedback-card>
+    
+    </feedback-result>
+    
+For incorrect response::
+
+    <feedback-result>
+        <feedback-card color="pink">
+            <content>
+                <h1 color="pink">Oh no!</h1>
+                <p color="pink">The correct answer is:</p>
+                <answer>“Giving medical information to patients and families”</answer>
+                <p>The purpose of a CCP session is to provide accurate medical information and skills to take care of the patient.</p>  
+            </content>
+        </feedback-card>
+    </feedback-result>
+
+For multiple choice questions, where there is only one correct answer, enter the feedback into the feedback field
+corresponding to the response option.
+
+
+For multiple select questions, where there is more than one correct answer, enter the feedback in the 'combined
+feedback' section, either the "For any correct response" or "For any incorrect response" fields. The correct response
+feedback is given to the user if they get the question 100% correct, otherwise they will get the incorrect response
+feedback.
+
+
