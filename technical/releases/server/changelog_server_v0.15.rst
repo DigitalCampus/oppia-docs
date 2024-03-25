@@ -14,7 +14,7 @@ v0.15.2 - not yet released
 
 Issue list:
 
-* Update Django to 4.2.10 and other libraries
+* Update Django to 4.2.11 and other libraries
 * OPPIA-1612 Update current funder information
 * Update Pillow library - https://github.com/DigitalCampus/django-oppia/pull/858
 * OPPIA-1614 Course flagged for deletion when user is a manager
