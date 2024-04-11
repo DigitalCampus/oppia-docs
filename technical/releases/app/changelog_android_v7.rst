@@ -1,9 +1,19 @@
 OppiaMobile Android App Change Log v7.x
 =========================================
 
+
+.. _appv113:
+
+v113 (7.4.8) - not yet released
+------------------------------------------------------
+
+Issue list:
+
+
+
 .. _appv112:
 
-v112 (7.4.7) - not yet released
+v112 (7.4.7) - released 11 Apr 2024
 ------------------------------------------------------
 
 Issue list:
