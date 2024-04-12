@@ -393,6 +393,58 @@ Example output:
     :width: 200 px 
 
 
+Content Card
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Example::
+
+    <info-section>
+        <content>
+            <know-more class="columns">
+                <div>
+                    <item highlighted="">
+                        <img src="ic-master-trainer.png" alt="trainer" width="256" height="378" class="img-fluid atto_image_button_text-bottom">
+                        <modal color="blue">
+                            <card-content>
+                                <img src="m1l3-master0.png" alt="" width="137" height="177" role="presentation" class="img-fluid atto_image_button_middle">
+                                <h1>Who is a Master Trainer?</h1>
+                                A master trainer is a nurse nominated by the facility.
+                                The selected nurse attends the in-person training conducted by the Noora Health training team.
+                                The master trainer learns about conducting a CCP session and how to support the other nurses in the hospital to conduct these sessions.
+                            </card-content>
+                        </modal>
+                    </item>
+                    Master Trainer
+                </div>
+                <div>
+                    <item>
+                        <img src="ic-trainer.png" alt="Trainer" width="256" height="378" class="img-fluid atto_image_button_text-bottom">
+                        <modal color="blue">
+                            <card-content>
+                                <img src="m1l3-trainer0.png" alt="" width="137" height="177" role="presentation" class="img-fluid atto_image_button_middle">
+                                <h1>Who is a CCP Trainer?</h1>
+                                All the nurses, such as you, in the facility attend the online training module and learns how to conduct CCP sessions.
+                                After completing the training, you qualify as a CCP trainers.
+                            </card-content>
+                        </modal>
+                    </item>
+                    Trainer
+                </div>
+            </know-more>
+            <p><span class="lead">Click on each role to know more about them and their roles and responsabilities.</span><small><br>
+                    Click the highlighted button to know more.</small></p>
+        </content>
+    </info-section>
+
+
+Example output:
+
+.. image:: images/content-card-1.png
+    :width: 200 px 
+    
+.. image:: images/content-card-2.png
+    :width: 200 px 
+    
 Quizzes and Feedback
 ----------------------
 
