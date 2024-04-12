@@ -147,6 +147,29 @@ Example output:
 .. image:: images/content-section-2.png
     :width: 200 px 
 
+
+Feedback Section
+~~~~~~~~~~~~~~~~
+
+Example::
+
+    <info-section type="feedback">
+        <content>
+            <p>Over the last couple of months, I have spoken to a few nurses from different parts of the world</p>
+            <p><strong>Here is what they said:</strong></p>
+            <noora-button color="green"><em>“I spend a lot of time talking to patients and their families about how to care take of themselves better.”</em></noora-button><br>
+            <noora-button color="green"><em>“I feel patients and their families respect me because of my uniform and my knowledge.”</em></noora-button><br>
+            <noora-button color="green"><em>“Apart from taking care of patients many times I also provide emotional support to patients and their families”</em>.<br></noora-button><br>
+            <p><strong>Tap on the statement which you agree with the most</strong></p>
+    
+        </content>
+    </info-section>
+
+Example output:
+
+.. image:: images/feedback.png
+    :width: 200 px 
+
 Info Section
 ~~~~~~~~~~~~~~~~
 
@@ -233,7 +256,143 @@ Example output:
 .. image:: images/next-lesson-section.png
     :width: 200 px  
     
+ 
+Index Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Example::
+
+    <index-section>
+        <content>
+            <p>When we talk of the care companion model, it has three parts to it:</p>
+            <item order="1">
+                The Care Companion Program sessions.
+            </item>
+            <item order="2">
+                Mobile Care Companion Service (MCCS)
+            </item>
+            <item order="3">
+                Implementation Support
+            </item>
+        </content>
+    </index-section>
+
+Example output:
+
+.. image:: images/index-section.png
+    :width: 200 px 
+
+
+Chapter Section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Example::
+
+    <chapter-section>
+        <content>
+            <p>Chapter 1:<br><strong>The Care Companion Program (CCP) sessions</strong></p>
+            <img src="M1L1_what_we_learned_1.png" alt="" width="200" height="200" role="presentation" class="img-fluid atto_image_button_text-bottom">
+        </content>
+    </chapter-section>
+
+Example output:
+
+.. image:: images/chapter-section.png
+    :width: 200 px 
+
+Know Mode Slides
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Example::
+
+    <info-section>
+        <slide>
+            <p class="lead">Let us quickly see some of the <strong><span color="pink">impact</span></strong> in different health conditions.</p>
+        </slide>
+        <slide>
+            <p class="lead">
+                <br><br><br><br>Click on each disease area to know about the impact in each of the conditions.
+            </p>
+            <small>Click the highlighted button to know more.</small>
+            <know-more>
+                <item highlighted="">
+                    <span>Cardiac Health</span>
+                    <modal>
+                        <card-content>
+                            For Cardiac Patients, 71% reduction in 30 day post surgical complications.
+                        </card-content>
+                    </modal>
+                </item>
+                <item>
+                    <span> Maternal and Child Health</span>
+                    <modal>
+                        <card-content>
+                            For Maternal and newborns, 56% Reduction in newborn readmissions and 18% reduction in newborn mortality.
+                        </card-content>
+                    </modal>
+                </item>
+                <item>
+                    <span>During Covid</span>
+                    <modal>
+                        <card-content>
+                            During Covid 19, 48% reduction in hospitalization
+                        </card-content>
+                    </modal>
+                </item>
+            </know-more>
+        </slide>
+    </info-section>
+
+Example output:
+
+.. image:: images/know-more-1.png
+    :width: 200 px 
+
+.. image:: images/know-more-2.png
+    :width: 200 px
     
+.. image:: images/know-more-3.png
+    :width: 200 px 
+
+
+Content Image Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Example::
+
+    <content-section color="black">
+        <content>
+            <p class="lead"><strong>Think of places where -</strong></p>
+            <div class="columns">
+                <div>
+                    <img src="m1l3-trainer1.png" alt="CCP Trainers" width="300" height="300" class="img-fluid atto_image_button_text-bottom">
+                    A group of patients can sit.
+                </div>
+                <div>
+                    <img src="CCP%20Places.png" alt="CCP Places" width="300" height="300" class="img-fluid atto_image_button_text-bottom">
+                    You can easily
+                    display the CCP tools
+                </div>
+            </div>
+            <div class="columns">
+                <div>
+                    <img src="hccp-places3.png" alt="CCP Places" width="300" height="300" class="img-fluid atto_image_button_text-bottom">
+                    You can display the posters provided for CCP sessions.
+                </div>
+                <div>
+                    <img src="m1l3-role5.png" alt="CCP Places" width="300" height="300" class="img-fluid atto_image_button_text-bottom">
+                    Gathering patients and family members is convenient
+                </div>
+            </div>
+        </content>
+    </content-section>
+
+Example output:
+
+.. image:: images/image-grid.png
+    :width: 200 px 
+
+
 Quizzes and Feedback
 ----------------------
 
