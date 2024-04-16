@@ -69,6 +69,11 @@ Example::
         </video>
     </video-section>
 
+.. note::
+   *video.png* must be replaced by the full path of the thumbnail image.
+
+   *video.mp4* must be replaced by the full path of the video file.
+
 Example output:
 
 .. image:: images/video-section.png
