@@ -248,6 +248,7 @@ Next Lesson Section
 Example::
 
     <next-lesson-section>
+        <img src="sample_image.png" width="200" height="200" role="presentation" class="img-fluid atto_image_button_text-bottom">
         In the next lesson we will talk about how the <strong>Care Companion program</strong> plays a role in shared caregiving.
     </next-lesson-section>
 
