@@ -461,7 +461,7 @@ Quizzes and Feedback
 
 The overall style for quizzes is defined directly in the app, so can't be changed within Moodle.
 
-For the feedback responses, you can use the following styles:
+For the feedback responses, you have to add the following styles under the "Feedback" field under each Moodle answer (using the HTML code view):
 
 For correct response::
 
@@ -469,7 +469,7 @@ For correct response::
         <feedback-card color="green">
             <content>
                 <h1 color="green">Success!</h1>
-                <answer>“Giving medical information to patients and families”</answer>
+                <answer>"Giving medical information to patients and families"</answer>
                 <p>The purpose of a CCP session is to provide accurate medical information and skills to take care of the patient.</p>
             </content>
         </feedback-card>
@@ -483,7 +483,7 @@ For incorrect response::
             <content>
                 <h1 color="pink">Oh no!</h1>
                 <p color="pink">The correct answer is:</p>
-                <answer>“Giving medical information to patients and families”</answer>
+                <answer>"Giving medical information to patients and families"</answer>
                 <p>The purpose of a CCP session is to provide accurate medical information and skills to take care of the patient.</p>  
             </content>
         </feedback-card>
