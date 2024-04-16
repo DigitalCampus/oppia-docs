@@ -315,7 +315,7 @@ Example::
                 <br><br><br><br>Click on each disease area to know about the impact in each of the conditions.
             </p>
             <small>Click the highlighted button to know more.</small>
-            <know-more>
+            <know-more color="pink">
                 <item highlighted="">
                     <span>Cardiac Health</span>
                     <modal>
@@ -343,6 +343,11 @@ Example::
             </know-more>
         </slide>
     </info-section>
+
+.. note::
+   You can change the color using ``<know-more color="pink">`` and the color of your choice between: pink, blue, orange or green.
+
+   If no color is specified, pink will be used.
 
 Example output:
 
