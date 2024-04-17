@@ -78,6 +78,35 @@ Example output:
 
 .. image:: images/video-section.png
     :width: 200 px
+
+
+Audio Section
+~~~~~~~~~~~~~~
+
+Example::
+
+    <audio-section>
+        <content>
+            <p><strong>Play the audio to hear Roopa’s story.</strong></p>
+
+            <!-- The next line is optional, only when you want to add an image above the audio player -->
+            <img src="audio.png" alt="" width="200" height="200" role="presentation" class="img-fluid atto_image_button_text-bottom">
+
+            <audio controls="true">
+                <source src="audio.mp3">audio.mp3
+            </audio>
+        </content>
+    </audio-section>
+
+.. note::
+   *audio.png* must be replaced by the full path of the image that will display above the audio player.
+
+   *audio.mp3* must be replaced by the full path of the audio file.
+
+Example output:
+
+.. image:: images/audio-section.png
+    :width: 200 px
     
     
 Noor Section
