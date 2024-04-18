@@ -69,9 +69,43 @@ Example::
         </video>
     </video-section>
 
+.. note::
+   *video.png* must be replaced by the full path of the thumbnail image.
+
+   *video.mp4* must be replaced by the full path of the video file.
+
 Example output:
 
 .. image:: images/video-section.png
+    :width: 200 px
+
+
+Audio Section
+~~~~~~~~~~~~~~
+
+Example::
+
+    <audio-section>
+        <content>
+            <p><strong>Play the audio to hear Roopa’s story.</strong></p>
+
+            <!-- The next line is optional, only when you want to add an image above the audio player -->
+            <img src="audio.png" alt="" width="200" height="200" role="presentation" class="img-fluid atto_image_button_text-bottom">
+
+            <audio controls="true">
+                <source src="audio.mp3">audio.mp3
+            </audio>
+        </content>
+    </audio-section>
+
+.. note::
+   *audio.png* must be replaced by the full path of the image that will display above the audio player.
+
+   *audio.mp3* must be replaced by the full path of the audio file.
+
+Example output:
+
+.. image:: images/audio-section.png
     :width: 200 px
     
     
@@ -248,6 +282,7 @@ Next Lesson Section
 Example::
 
     <next-lesson-section>
+        <img src="sample_image.png" width="200" height="200" role="presentation" class="img-fluid atto_image_button_text-bottom">
         In the next lesson we will talk about how the <strong>Care Companion program</strong> plays a role in shared caregiving.
     </next-lesson-section>
 
@@ -314,7 +349,7 @@ Example::
                 <br><br><br><br>Click on each disease area to know about the impact in each of the conditions.
             </p>
             <small>Click the highlighted button to know more.</small>
-            <know-more>
+            <know-more color="pink">
                 <item highlighted="">
                     <span>Cardiac Health</span>
                     <modal>
@@ -342,6 +377,11 @@ Example::
             </know-more>
         </slide>
     </info-section>
+
+.. note::
+   You can change the color using ``<know-more color="pink">`` and the color of your choice between: pink, blue, orange or green.
+
+   If no color is specified, pink will be used.
 
 Example output:
 
@@ -450,7 +490,7 @@ Quizzes and Feedback
 
 The overall style for quizzes is defined directly in the app, so can't be changed within Moodle.
 
-For the feedback responses, you can use the following styles:
+For the feedback responses, you have to add the following styles under the "Feedback" field under each Moodle answer (using the HTML code view):
 
 For correct response::
 
@@ -458,7 +498,7 @@ For correct response::
         <feedback-card color="green">
             <content>
                 <h1 color="green">Success!</h1>
-                <answer>“Giving medical information to patients and families”</answer>
+                <answer>"Giving medical information to patients and families"</answer>
                 <p>The purpose of a CCP session is to provide accurate medical information and skills to take care of the patient.</p>
                 <p>During the CCP session you will not just be sharing information but also interacting with participants to ensure that they understand what you are saying.</p>
                 <p>The patients will be able to use the information when they go home.</p>
