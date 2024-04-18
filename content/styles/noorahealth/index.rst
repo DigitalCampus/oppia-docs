@@ -460,10 +460,16 @@ For correct response::
                 <h1 color="green">Success!</h1>
                 <answer>“Giving medical information to patients and families”</answer>
                 <p>The purpose of a CCP session is to provide accurate medical information and skills to take care of the patient.</p>
+                <p>During the CCP session you will not just be sharing information but also interacting with participants to ensure that they understand what you are saying.</p>
+                <p>The patients will be able to use the information when they go home.</p>
             </content>
         </feedback-card>
-    
     </feedback-result>
+    
+Example output:
+
+.. image:: images/quiz-feedback-correct.png
+    :width: 200 px 
     
 For incorrect response::
 
@@ -472,11 +478,31 @@ For incorrect response::
             <content>
                 <h1 color="pink">Oh no!</h1>
                 <p color="pink">The correct answer is:</p>
-                <answer>“Giving medical information to patients and families”</answer>
-                <p>The purpose of a CCP session is to provide accurate medical information and skills to take care of the patient.</p>  
+                <answer>
+                    <table style="text-align: center;">
+                        <tbody>
+                            <tr>
+                                <td style="text-align: center;"><img src="patient-family.png" alt="" width="111" height="120" role="presentation"></td>
+                                <td style="text-align: center;"><img src="nurse.png" alt="" width="111" height="120" role="presentation"></td>
+                                <td style="text-align: center;"><img src="visual-aids.png" alt="" width="111" height="120" role="presentation"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;">Patients &amp; family members</td>
+                                <td style="text-align: center;">Nurse</td>
+                                <td style="text-align: center;">Visual Aids like Flipcharts</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </answer>
+                <p>A CCP session is conducted by the nurse using visual aids such as flipcharts, models, charts, etc.</p>
+                <p>These visual aids are used to help people relate to the material being taught,<strong> promoting better understanding, and improving retention.</strong></p>
             </content>
         </feedback-card>
-    </feedback-result>
+    
+Example output:
+
+.. image:: images/quiz-feedback-incorrect.png
+    :width: 200 px 
 
 For multiple choice questions, where there is only one correct answer, enter the feedback into the feedback field
 corresponding to the response option.

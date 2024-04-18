@@ -29,6 +29,7 @@ v1.4.9 - released 10 Apr 2024
 
 Issue list:
 
+* Add NooraHealth style package
 * OPPIA-1627 Add option to only to display feedback after each question
 
 
