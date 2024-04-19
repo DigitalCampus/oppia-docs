@@ -570,4 +570,24 @@ feedback' section, either the "For any correct response" or "For any incorrect r
 feedback is given to the user if they get the question 100% correct, otherwise they will get the incorrect response
 feedback.
 
+Activity Time Section
+~~~~~~~~~~~~~~~~
 
+Example::
+
+    <activity-time-section>
+        <content>
+            <img src="activity_time.png" alt="" width="200" height="180" role="presentation" class="img-fluid atto_image_button_text-bottom">
+
+            <h1>Activity Time</h1>
+            <p>Use your knowledge about conducting CCP sessions to find a spot in your department for the session.</p>
+        </content>
+    </activity-time-section>
+
+.. note::
+   Replace *activity_time.png* with the full path of the desired image.
+
+Example output:
+
+.. image:: images/activity-time-section.png
+    :width: 200 px
