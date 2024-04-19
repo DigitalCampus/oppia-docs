@@ -35,6 +35,30 @@ Then click on the code view icon in the bottom right:
     :width: 400 px
 
 
+Text colors
+~~~~~~~~~~~~~~
+You can change the text colors using the *color* attribute in <p> and <span> tags.
+
+Example::
+
+    <p>
+        As a nurse, you are the <span color="pink">main person of contact</span> for patients and families.
+        You go above and beyond your duty for many patients.
+    </p>
+
+Example output:
+
+.. image:: images/span-color-pink.png
+    :width: 300 px
+
+.. note::
+   Use ``<p color="pink">`` to apply the color to the full paragraph.
+   Use ``<span color="pink">`` to apply to color only to the text inside the ``<span>`` tag.
+
+   The colors you can use are: ``pink``, ``blue``, ``orange``, and ``green``.
+
+
+
 Intro Section
 ~~~~~~~~~~~~~~
 
