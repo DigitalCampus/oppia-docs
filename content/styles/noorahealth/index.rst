@@ -241,7 +241,24 @@ Example output:
     :width: 200 px  
     
 .. image:: images/info-section-2.png
-    :width: 200 px 
+    :width: 200 px
+
+.. note::
+   Using ``<info-section type="specify-the-type-here">`` you can get different background variations of the info section. The allowed values are: 1, 2, 3, 4, gallery, and feedback. And the result are the following:
+
+   +-----------------------------------------+-----------------------------------------+-----------------------------------------+
+   | .. figure:: images/info-section-1.png   | .. figure:: images/info-section-3.png   | .. figure:: images/info-section-4.png   |
+   |   :width: 100%                          |   :width: 100%                          |   :width: 100%                          |
+   |                                         |                                         |                                         |
+   |   type="1"                              |   type="2"                              |   type="3"                              |
+   +-----------------------------------------+-----------------------------------------+-----------------------------------------+
+   | .. figure:: images/info-section-5.png   | .. figure:: images/info-section-6.png   | .. figure:: images/info-section-7.png   |
+   |   :width: 100%                          |   :width: 100%                          |   :width: 100%                          |
+   |                                         |                                         |                                         |
+   |   type="4"                              |   type="gallery"                        |   type="feedback"                       |
+   +-----------------------------------------+-----------------------------------------+-----------------------------------------+
+
+
 
 What we learned Section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
