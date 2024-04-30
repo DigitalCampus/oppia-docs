@@ -10,7 +10,7 @@ v1.4.10 - not yet released
 
 Issue list:
 
-
+* OPPIA-1625 Fix issue with quiz digests show as to preserve
 
 
 
