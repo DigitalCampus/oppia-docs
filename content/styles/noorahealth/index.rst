@@ -35,6 +35,30 @@ Then click on the code view icon in the bottom right:
     :width: 400 px
 
 
+Text colors
+~~~~~~~~~~~~~~
+You can change the text colors using the *color* attribute in <p> and <span> tags.
+
+Example::
+
+    <p>
+        As a nurse, you are the <span color="pink">main person of contact</span> for patients and families.
+        You go above and beyond your duty for many patients.
+    </p>
+
+Example output:
+
+.. image:: images/span-color-pink.png
+    :width: 300 px
+
+.. note::
+   Use ``<p color="pink">`` to apply the color to the full paragraph.
+   Use ``<span color="pink">`` to apply to color only to the text inside the ``<span>`` tag.
+
+   The colors you can use are: ``pink``, ``blue``, ``orange``, and ``green``.
+
+
+
 Intro Section
 ~~~~~~~~~~~~~~
 
@@ -241,7 +265,24 @@ Example output:
     :width: 200 px  
     
 .. image:: images/info-section-2.png
-    :width: 200 px 
+    :width: 200 px
+
+.. note::
+   Using ``<info-section type="specify-the-type-here">`` you can get different background variations of the info section. The allowed values are: 1, 2, 3, 4, gallery, and feedback. And the result are the following:
+
+   +-----------------------------------------+-----------------------------------------+-----------------------------------------+
+   | .. figure:: images/info-section-1.png   | .. figure:: images/info-section-3.png   | .. figure:: images/info-section-4.png   |
+   |   :width: 100%                          |   :width: 100%                          |   :width: 100%                          |
+   |                                         |                                         |                                         |
+   |   type="1"                              |   type="2"                              |   type="3"                              |
+   +-----------------------------------------+-----------------------------------------+-----------------------------------------+
+   | .. figure:: images/info-section-5.png   | .. figure:: images/info-section-6.png   | .. figure:: images/info-section-7.png   |
+   |   :width: 100%                          |   :width: 100%                          |   :width: 100%                          |
+   |                                         |                                         |                                         |
+   |   type="4"                              |   type="gallery"                        |   type="feedback"                       |
+   +-----------------------------------------+-----------------------------------------+-----------------------------------------+
+
+
 
 What we learned Section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -553,4 +594,24 @@ feedback' section, either the "For any correct response" or "For any incorrect r
 feedback is given to the user if they get the question 100% correct, otherwise they will get the incorrect response
 feedback.
 
+Activity Time Section
+~~~~~~~~~~~~~~~~
 
+Example::
+
+    <activity-time-section>
+        <content>
+            <img src="activity_time.png" alt="" width="200" height="180" role="presentation" class="img-fluid atto_image_button_text-bottom">
+
+            <h1>Activity Time</h1>
+            <p>Use your knowledge about conducting CCP sessions to find a spot in your department for the session.</p>
+        </content>
+    </activity-time-section>
+
+.. note::
+   Replace *activity_time.png* with the full path of the desired image.
+
+Example output:
+
+.. image:: images/activity-time-section.png
+    :width: 200 px
