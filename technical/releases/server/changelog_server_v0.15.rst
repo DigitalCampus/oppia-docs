@@ -14,6 +14,8 @@ v0.15.3 - not yet released
 
 Issue list:
 
+* Update Django to 4.2.14 and other libraries
+* OPPIA-1643 Include tracker UUID in trackers.xml file
 
 
 . _serverv0.15.2:
