@@ -238,5 +238,3 @@ In most cases, if you need help or support, then you should first contact your
 project coordinator. They will try to help you, and if they are not sure, they
 will raise the query with the OppiaMobile developer team.
 
-You can also get support directly from the OppiaMobile Community site: 
-https://community.oppia-mobile.org/

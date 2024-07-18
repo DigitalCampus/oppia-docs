@@ -1,8 +1,8 @@
 Support and Help
 ==================
 
-The best place to get help and support is to post a message on the 
-`OppiaMobile Community site <https://community.oppia-mobile.org/>`_ 
+The best place for reporting any issues is to post here:
+`OppiaMobile Github Issues <https://github.com/DigitalCampus/oppia-mobile-android/issues/>`_
 
 When posting a message about any difficulties you might be having, the more 
 information you're able to give about the problem and how to recreate it, the 

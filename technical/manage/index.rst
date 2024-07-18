@@ -6,6 +6,7 @@ Managing an OppiaMobile Implementation
    :maxdepth: 1
    
    upgrade
+   external-file-hosting
    management-commands
    utilities
    backup

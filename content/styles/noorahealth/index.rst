@@ -595,7 +595,7 @@ feedback is given to the user if they get the question 100% correct, otherwise t
 feedback.
 
 Activity Time Section
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Example::
 

@@ -24,7 +24,3 @@ Activities
 * Help and support forum
 
 
-Follow up 
------------
-
-* Sign up to `OppiaMobile Community site <https://community.oppia-mobile.org/>`_  

@@ -54,7 +54,3 @@ download.
 .. note::
 	Information on :ref:`how to include stylesheets and javascript<styles>` 
 	in your course
-
-If you have any queries, comments or suggestions on how to improve these
-instructions, the course authoring process or any other aspect of OppiaMobile, 
-please post them in the `OppiaMobile Community site <https://community.oppia-mobile.org/>`_ 

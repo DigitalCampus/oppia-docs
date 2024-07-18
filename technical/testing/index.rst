@@ -24,7 +24,3 @@ described below:
    app/notifications
    server
    block/testing-export-block
-   
-   
-If you have problems or failures when running or creating tests, then please 
-contact us via the `OppiaMobile Community <https://community.oppia-mobile.org/>`_

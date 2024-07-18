@@ -10,6 +10,7 @@ v113 (7.4.8) - not yet released
 Issue list:
 
 * OPPIA-1633 Update audio player for mp3 files
+* OPPIA-1643 Fix for points consistency
 
 .. _appv112:
 

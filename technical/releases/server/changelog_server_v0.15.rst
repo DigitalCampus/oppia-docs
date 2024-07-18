@@ -6,7 +6,11 @@ OppiaMobile Server Change Log for v0.15.x
 
 v0.15.3 - not yet released 
 ------------------------------------------------------
-   
+
+.. note::
+   For OPPIA-1644 (linking to external storage, eg AWS S3), information on how to enable and configure this is
+   here: :doc:`/technical/manage/external-file-hosting`
+
 .. toctree::
    :maxdepth: 2
 
@@ -14,8 +18,11 @@ v0.15.3 - not yet released
 
 Issue list:
 
-* Update Django to 4.2.14 and other libraries
-* OPPIA-1643 Include tracker UUID in trackers.xml file
+* OPPIA-1654 Update Django to 5.0.7 and other libraries
+* OPPIA-1644 Linking to external storage
+* OPPIA-1643 Fix for points consistency
+* OPPIA-1651 Add Docker integration
+* OPPIA-1652 Add Bruno files for api endpoints definitions
 
 
 . _serverv0.15.2:
