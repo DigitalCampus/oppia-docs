@@ -2,13 +2,22 @@ OppiaMobile Android App Change Log v7.x
 =========================================
 
 
-.. _appv113:
+.. _appv114:
 
-v113 (7.4.8) - not yet released
+v114 (7.4.9) - not yet released
 ------------------------------------------------------
 
 Issue list:
 
+
+.. _appv113:
+
+v113 (7.4.8) - released 22 Jul 2024
+------------------------------------------------------
+
+Issue list:
+
+* OPPIA-1653 Update for Android 14 (API 34)
 * OPPIA-1633 Update audio player for mp3 files
 * OPPIA-1643 Fix for points consistency
 
