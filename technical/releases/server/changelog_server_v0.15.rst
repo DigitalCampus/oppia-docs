@@ -18,7 +18,7 @@ v0.15.3 - not yet released
 
 Issue list:
 
-* OPPIA-1654 Update Django to 5.0.7 and other libraries
+* OPPIA-1654 Update Django to 5.0.8 and other libraries
 * OPPIA-1644 Linking to external storage
 * OPPIA-1643 Fix for points consistency
 * OPPIA-1651 Add Docker integration
