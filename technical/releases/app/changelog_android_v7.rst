@@ -9,6 +9,13 @@ v114 (7.4.9) - not yet released
 
 Issue list:
 
+* OPPIA-1610 Update gradle and libraries
+* OPPIA-1666 Update to explicitly confirm privacy policy
+* OPPIA-1647 Allow multiple audio files in single activity
+* OPPIA-1643 Additional fixes for points consistency
+
+
+
 
 .. _appv113:
 

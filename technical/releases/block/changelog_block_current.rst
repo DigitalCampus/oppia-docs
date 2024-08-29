@@ -2,9 +2,18 @@ OppiaMobile Moodle Block Change Log
 =====================================
 
 
+.. _blockv1.4.11:
+
+v1.4.11 - not yet released
+------------------------------------------------
+
+
+Issue list:
+
+
 .. _blockv1.4.10:
 
-v1.4.10 - not yet released
+v1.4.10 - released 28 Aug 2024
 ------------------------------------------------
 
 
@@ -12,6 +21,7 @@ Issue list:
 
 * OPPIA-1625 Fix issue with quiz digests show as to preserve
 * OPPIA-1641 Fix issue with multiple langs not getting exported
+* OPPIA-1647 Allow multiple audio files in single activity
 
 
 

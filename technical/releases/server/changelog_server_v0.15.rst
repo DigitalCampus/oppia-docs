@@ -2,9 +2,23 @@
 OppiaMobile Server Change Log for v0.15.x
 =============================================
 
+. _serverv0.15.4:
+
+v0.15.4 - not yet released
+------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   upgrading/to_0_15_4
+
+Issue list:
+
+
+
 . _serverv0.15.3:
 
-v0.15.3 - not yet released 
+v0.15.3 - released 29 Aug 2024
 ------------------------------------------------------
 
 .. note::
