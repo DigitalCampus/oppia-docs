@@ -76,7 +76,7 @@ On Oppia server
 
 #. For mounting after reboot, add the following to /etc/fstab::
 
-    s3fs#YOUR_BUCKET_NAME /home/oppia/s3 fuse _netdev,allow_other,umask=227,uid=33,gid=33,use_cache=/root/cache 0 0
+    s3fs#YOUR_BUCKET_NAME /home/oppia/s3 fuse _netdev,allow_other,umask=000,uid=33,gid=33,use_cache=/root/cache 0 0
 
 #. Reboot your Oppia server and check that the mounting is working correctly
 
