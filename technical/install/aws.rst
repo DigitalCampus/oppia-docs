@@ -101,7 +101,7 @@ Environment information
 -----------------------
 The current version of the instance is running:
 
-* OppiaServer 0.15.2
+* OppiaServer 0.15.3
 * Ubuntu 22.04 LTS Server
 * Apache 2.4
 * Mysql 8.0
