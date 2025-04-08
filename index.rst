@@ -7,8 +7,8 @@ Welcome to the OppiaMobile documentation
 ==============================================
 
 .. note::
-   From December 2024, Digital Campus will no longer be actively developing/supporting the OppiaMobile platform, as
-   unfortunately we no longer have the funding available to continue its development. The code and documentation will
+   Unfortunately, Digital Campus is no longer actively developing/supporting the OppiaMobile platform, as
+   we don't have the funding available to continue its development. The code and documentation will
    remain available for anyone who would like to continue developing and using OppiaMobile for their own projects.
 
 `OppiaMobile <https://oppia-mobile.org/>`_ is an open source mobile learning platform specifically designed for 
